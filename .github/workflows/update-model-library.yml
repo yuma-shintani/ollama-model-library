@@ -1,0 +1,40 @@
+name: Update Ollama Models
+
+on:
+  schedule:
+    # 毎日午前0時 (UTC) に実行
+    - cron: "0 0 * * *"
+
+  workflow_dispatch: # 手動実行も可能にする
+
+jobs:
+  update-model-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      # リポジトリをクローン
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Node.js をセットアップ
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      # 必要な依存関係をインストール
+      - name: Install dependencies
+        run: npm install
+
+      # スクリプトを実行
+      - name: Run scraper script
+        run: node main.js
+
+      # 変更があればコミット＆プッシュ
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/model.json
+          git diff --quiet && exit 0 || git commit -m "Update model.json for GitHub Pages"
+          git push
