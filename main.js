@@ -1,7 +1,10 @@
 // Define Library
 const axios = require("axios");
 const cheerio = require("cheerio");
+const { NodeHtmlMarkdown } = require("node-html-markdown");
 const fs = require("fs");
+
+const nhm = new NodeHtmlMarkdown();
 
 // Main function to fetch Ollama models
 async function getOllamaModels() {
@@ -19,6 +22,9 @@ async function getOllamaModels() {
     const modelDetails = await getModelDetails(modelName);
     const modelTags = await getModelTags(modelName);
 
+    // Convert README to markdown
+    const readmeMd = nhm.translate(modelDetails.readme);
+
     // Combine model information
     modelData.push({
       name: modelName,
@@ -28,7 +34,7 @@ async function getOllamaModels() {
       updated: modelDetails.updated,
       size: modelDetails.size,
       capabilities: modelDetails.capabilities,
-      //readme: readmeMd,
+      readme: readmeMd,
       tags: modelTags,
     });
   }
@@ -46,6 +52,7 @@ async function getModelDetails(modelName) {
 
   // Extract description and readme
   details.description = $("#summary-content").text().trim();
+  details.readme = $("#readme").html();
 
   // Extract additional details
   details.pullCount = $("span[x-test-pull-count]").text().trim();
