@@ -1,6 +1,6 @@
 # Ollama Model Library
 
-Retrieve the Ollama model library in JSON format.
+Get Ollama models library in JSON format.
 
 # Features
 
