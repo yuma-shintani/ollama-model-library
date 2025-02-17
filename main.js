@@ -87,6 +87,7 @@ async function getModelTags(modelName) {
   try {
     // Get Ollama Models
     const models = await getOllamaModels();
+    console.log(models);
     fs.writeFileSync("docs/model.json", JSON.stringify(models, null, 2));
     console.log("model.json has been updated successfully.");
   } catch (error) {
