@@ -175,8 +175,7 @@ https://yuma-shintani.github.io/ollama-model-library/model.json
       }
     ]
   }
-  ...
-}
+]
 ```
 
 You can incorporate the Ollama Library into your own applications.
