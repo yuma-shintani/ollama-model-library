@@ -2,7 +2,7 @@
 
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fyuma-shintani%2Follama-model-library%2Factions%2Fworkflows%2F144521343%2Fruns%3Fstatus%3Dcompleted%26per_page%3D1&query=%24.workflow_runs%5B0%5D.run_started_at&style=flat-square&label=Last%20update%20Ollama%20models)
 
-Get Ollama models library in JSON format.
+Get Ollama models from the Ollama library website (https://ollama.com/library) in JSON format.
 
 # Features
 
