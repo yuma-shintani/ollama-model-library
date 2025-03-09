@@ -3,8 +3,8 @@
     "name": "qwq",
     "link": "https://ollama.com/library/qwq",
     "description": "QwQ is the reasoning model of the Qwen series.",
-    "pullCount": "561.4K",
-    "updated": "yesterday",
+    "pullCount": "652K",
+    "updated": "2 days ago",
     "size": [
       "32b"
     ],
@@ -57,7 +57,7 @@
     "name": "deepseek-r1",
     "link": "https://ollama.com/library/deepseek-r1",
     "description": "DeepSeek's first-generation of reasoning models with comparable performance to OpenAI-o1, including six dense models distilled from DeepSeek-R1 based on Llama and Qwen.",
-    "pullCount": "23.8M",
+    "pullCount": "24.1M",
     "updated": "4 weeks ago",
     "size": [
       "1.5b",
@@ -306,7 +306,7 @@
     "name": "phi4",
     "link": "https://ollama.com/library/phi4",
     "description": "Phi-4 is a 14B parameter, state-of-the-art open model from Microsoft.",
-    "pullCount": "924.8K",
+    "pullCount": "943K",
     "updated": "8 weeks ago",
     "size": [
       "14b"
@@ -675,7 +675,7 @@
     "name": "llama3.1",
     "link": "https://ollama.com/library/llama3.1",
     "description": "Llama 3.1 is a new state-of-the-art model from Meta available in 8B, 70B and 405B parameter sizes.",
-    "pullCount": "26.1M",
+    "pullCount": "26.3M",
     "updated": "3 months ago",
     "size": [
       "8b",
@@ -1156,7 +1156,7 @@
     "name": "nomic-embed-text",
     "link": "https://ollama.com/library/nomic-embed-text",
     "description": "A high-performing open embedding model with a large token context window.",
-    "pullCount": "18.3M",
+    "pullCount": "18.4M",
     "updated": "12 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -1183,7 +1183,7 @@
     "name": "mistral",
     "link": "https://ollama.com/library/mistral",
     "description": "The 7B model released by Mistral AI, updated to version 0.3.",
-    "pullCount": "9.9M",
+    "pullCount": "10M",
     "updated": "7 months ago",
     "size": [
       "7b"
@@ -6599,7 +6599,7 @@
     "name": "llava",
     "link": "https://ollama.com/library/llava",
     "description": "🌋 LLaVA is a novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding. Updated to version 1.6.",
-    "pullCount": "3.8M",
+    "pullCount": "3.9M",
     "updated": "13 months ago",
     "size": [
       "7b",
@@ -9536,7 +9536,7 @@
     "name": "llama3.2-vision",
     "link": "https://ollama.com/library/llama3.2-vision",
     "description": "Llama 3.2 Vision is a collection of instruction-tuned image reasoning generative models in 11B and 90B sizes.",
-    "pullCount": "1.4M",
+    "pullCount": "1.5M",
     "updated": "4 months ago",
     "size": [
       "11b",
@@ -9889,7 +9889,7 @@
     "name": "starcoder2",
     "link": "https://ollama.com/library/starcoder2",
     "description": "StarCoder2 is the next generation of transparently trained open code LLMs that comes in three sizes: 3B, 7B and 15B parameters.",
-    "pullCount": "895.1K",
+    "pullCount": "895.5K",
     "updated": "6 months ago",
     "size": [
       "3b",
@@ -10240,7 +10240,7 @@
     "name": "deepseek-v3",
     "link": "https://ollama.com/library/deepseek-v3",
     "description": "A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.",
-    "pullCount": "722.1K",
+    "pullCount": "729.2K",
     "updated": "7 weeks ago",
     "size": [
       "671b"
@@ -10279,7 +10279,7 @@
     "name": "deepseek-coder-v2",
     "link": "https://ollama.com/library/deepseek-coder-v2",
     "description": "An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks.",
-    "pullCount": "714.7K",
+    "pullCount": "716.1K",
     "updated": "6 months ago",
     "size": [
       "16b",
@@ -10611,102 +10611,10 @@
     ]
   },
   {
-    "name": "snowflake-arctic-embed",
-    "link": "https://ollama.com/library/snowflake-arctic-embed",
-    "description": "A suite of text embedding models by Snowflake, optimized for performance.",
-    "pullCount": "696.4K",
-    "updated": "10 months ago",
-    "size": null,
-    "capabilities": "embedding",
-    "readme": "## Readme\n\n![](https://github.com/ollama/ollama/assets/251292/115f484a-1911-46e9-902f-65a70f84e1d0)\n\n`snowflake-arctic-embed` is a suite of text embedding models that focuses on creating high-quality retrieval models optimized for performance.\n\nThe models are trained by leveraging existing open-source text representation models, such as bert-base-uncased, and are trained in a multi-stage pipeline to optimize their retrieval performance.\n\nThis model is available in 5 parameter sizes:\n\n* `snowflake-arctic-embed:335m` (default)\n* `snowflake-arctic-embed:137m`\n* `snowflake-arctic-embed:110m`\n* `snowflake-arctic-embed:33m`\n* `snowflake-arctic-embed:22m`\n\n## Reference\n\n[Blog Post](https://www.snowflake.com/blog/introducing-snowflake-arctic-embed-snowflakes-state-of-the-art-text-embedding-family-of-models/)\n\n[HuggingFace](https://huggingface.co/Snowflake)\n\nWrite Preview \n\n<img src=\"https://github.com/ollama/ollama/assets/251292/115f484a-1911-46e9-902f-65a70f84e1d0\" width=\"320\" /> \\`snowflake-arctic-embed\\` is a suite of text embedding models that focuses on creating high-quality retrieval models optimized for performance. The models are trained by leveraging existing open-source text representation models, such as bert-base-uncased, and are trained in a multi-stage pipeline to optimize their retrieval performance. This model is available in 5 parameter sizes: \\* \\`snowflake-arctic-embed:335m\\` (default) \\* \\`snowflake-arctic-embed:137m\\` \\* \\`snowflake-arctic-embed:110m\\` \\* \\`snowflake-arctic-embed:33m\\` \\* \\`snowflake-arctic-embed:22m\\` ## Reference \\[Blog Post\\](https://www.snowflake.com/blog/introducing-snowflake-arctic-embed-snowflakes-state-of-the-art-text-embedding-family-of-models/) \\[HuggingFace\\](https://huggingface.co/Snowflake) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "snowflake-arctic-embed:latest",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:22m",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:33m",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:110m",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:137m",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:335m",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:110m-m-fp16",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:137m-m-long-fp16",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:22m-xs-fp16",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:335m-l-fp16",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:33m-s-fp16",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:l",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:m",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:m-long",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:s",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "snowflake-arctic-embed:xs",
-        "size": "",
-        "updated": ""
-      }
-    ]
-  },
-  {
     "name": "llama2-uncensored",
     "link": "https://ollama.com/library/llama2-uncensored",
     "description": "Uncensored Llama 2 model by George Sung and Jarrad Hope.",
-    "pullCount": "693.8K",
+    "pullCount": "701.3K",
     "updated": "16 months ago",
     "size": [
       "7b",
@@ -10888,10 +10796,102 @@
     ]
   },
   {
+    "name": "snowflake-arctic-embed",
+    "link": "https://ollama.com/library/snowflake-arctic-embed",
+    "description": "A suite of text embedding models by Snowflake, optimized for performance.",
+    "pullCount": "696.6K",
+    "updated": "10 months ago",
+    "size": null,
+    "capabilities": "embedding",
+    "readme": "## Readme\n\n![](https://github.com/ollama/ollama/assets/251292/115f484a-1911-46e9-902f-65a70f84e1d0)\n\n`snowflake-arctic-embed` is a suite of text embedding models that focuses on creating high-quality retrieval models optimized for performance.\n\nThe models are trained by leveraging existing open-source text representation models, such as bert-base-uncased, and are trained in a multi-stage pipeline to optimize their retrieval performance.\n\nThis model is available in 5 parameter sizes:\n\n* `snowflake-arctic-embed:335m` (default)\n* `snowflake-arctic-embed:137m`\n* `snowflake-arctic-embed:110m`\n* `snowflake-arctic-embed:33m`\n* `snowflake-arctic-embed:22m`\n\n## Reference\n\n[Blog Post](https://www.snowflake.com/blog/introducing-snowflake-arctic-embed-snowflakes-state-of-the-art-text-embedding-family-of-models/)\n\n[HuggingFace](https://huggingface.co/Snowflake)\n\nWrite Preview \n\n<img src=\"https://github.com/ollama/ollama/assets/251292/115f484a-1911-46e9-902f-65a70f84e1d0\" width=\"320\" /> \\`snowflake-arctic-embed\\` is a suite of text embedding models that focuses on creating high-quality retrieval models optimized for performance. The models are trained by leveraging existing open-source text representation models, such as bert-base-uncased, and are trained in a multi-stage pipeline to optimize their retrieval performance. This model is available in 5 parameter sizes: \\* \\`snowflake-arctic-embed:335m\\` (default) \\* \\`snowflake-arctic-embed:137m\\` \\* \\`snowflake-arctic-embed:110m\\` \\* \\`snowflake-arctic-embed:33m\\` \\* \\`snowflake-arctic-embed:22m\\` ## Reference \\[Blog Post\\](https://www.snowflake.com/blog/introducing-snowflake-arctic-embed-snowflakes-state-of-the-art-text-embedding-family-of-models/) \\[HuggingFace\\](https://huggingface.co/Snowflake) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "snowflake-arctic-embed:latest",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:22m",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:33m",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:110m",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:137m",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:335m",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:110m-m-fp16",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:137m-m-long-fp16",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:22m-xs-fp16",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:335m-l-fp16",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:33m-s-fp16",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:l",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:m",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:m-long",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:s",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "snowflake-arctic-embed:xs",
+        "size": "",
+        "updated": ""
+      }
+    ]
+  },
+  {
     "name": "deepseek-coder",
     "link": "https://ollama.com/library/deepseek-coder",
     "description": "DeepSeek Coder is a capable coding model trained on two trillion code and natural language tokens.",
-    "pullCount": "595K",
+    "pullCount": "596.2K",
     "updated": "14 months ago",
     "size": [
       "1.3b",
@@ -11417,7 +11417,7 @@
     "name": "mixtral",
     "link": "https://ollama.com/library/mixtral",
     "description": "A set of Mixture of Experts (MoE) model with open weights by Mistral AI in 8x7b and 8x22b parameter sizes.",
-    "pullCount": "579.4K",
+    "pullCount": "580K",
     "updated": "2 months ago",
     "size": [
       "8x7b",
@@ -11782,7 +11782,7 @@
     "name": "bge-m3",
     "link": "https://ollama.com/library/bge-m3",
     "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
-    "pullCount": "521.9K",
+    "pullCount": "527.8K",
     "updated": "7 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -11809,7 +11809,7 @@
     "name": "codegemma",
     "link": "https://ollama.com/library/codegemma",
     "description": "CodeGemma is a collection of powerful, lightweight models that can perform a variety of coding tasks like fill-in-the-middle code completion, code generation, natural language understanding, mathematical reasoning, and instruction following.",
-    "pullCount": "521.6K",
+    "pullCount": "523.5K",
     "updated": "7 months ago",
     "size": [
       "2b",
@@ -12249,7 +12249,7 @@
     "name": "dolphin-mixtral",
     "link": "https://ollama.com/library/dolphin-mixtral",
     "description": "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.",
-    "pullCount": "520K",
+    "pullCount": "520.4K",
     "updated": "2 months ago",
     "size": [
       "8x7b",
@@ -12614,7 +12614,7 @@
     "name": "openthinker",
     "link": "https://ollama.com/library/openthinker",
     "description": "A fully open-source family of reasoning models built using a dataset derived by distilling DeepSeek-R1.",
-    "pullCount": "507.9K",
+    "pullCount": "508.3K",
     "updated": "3 weeks ago",
     "size": [
       "7b",
@@ -12674,7 +12674,7 @@
     "name": "phi",
     "link": "https://ollama.com/library/phi",
     "description": "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.",
-    "pullCount": "495.4K",
+    "pullCount": "495.7K",
     "updated": "14 months ago",
     "size": [
       "2.7b"
@@ -12778,7 +12778,7 @@
     "name": "minicpm-v",
     "link": "https://ollama.com/library/minicpm-v",
     "description": "A series of multimodal LLMs (MLLMs) designed for vision-language understanding.",
-    "pullCount": "473.4K",
+    "pullCount": "487.8K",
     "updated": "3 months ago",
     "size": [
       "8b"
@@ -12877,7 +12877,7 @@
     "name": "llava-llama3",
     "link": "https://ollama.com/library/llava-llama3",
     "description": "A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks.",
-    "pullCount": "416.5K",
+    "pullCount": "424K",
     "updated": "10 months ago",
     "size": [
       "8b"
@@ -12911,7 +12911,7 @@
     "name": "wizardlm2",
     "link": "https://ollama.com/library/wizardlm2",
     "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
-    "pullCount": "356.1K",
+    "pullCount": "356.3K",
     "updated": "10 months ago",
     "size": [
       "7b",
@@ -13036,7 +13036,7 @@
     "name": "smollm2",
     "link": "https://ollama.com/library/smollm2",
     "description": "SmolLM2 is a family of compact language models available in three size: 135M, 360M, and 1.7B parameters.",
-    "pullCount": "339.9K",
+    "pullCount": "347.2K",
     "updated": "4 months ago",
     "size": [
       "135m360m1.7b"
@@ -13295,7 +13295,7 @@
     "name": "dolphin3",
     "link": "https://ollama.com/library/dolphin3",
     "description": "Dolphin 3.0 Llama 3.1 8B 🐬 is the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.",
-    "pullCount": "326.3K",
+    "pullCount": "340.8K",
     "updated": "2 months ago",
     "size": [
       "8b"
@@ -13334,7 +13334,7 @@
     "name": "dolphin-mistral",
     "link": "https://ollama.com/library/dolphin-mistral",
     "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
-    "pullCount": "324.6K",
+    "pullCount": "324.9K",
     "updated": "11 months ago",
     "size": [
       "7b"
@@ -13948,7 +13948,7 @@
     "name": "all-minilm",
     "link": "https://ollama.com/library/all-minilm",
     "description": "Embedding models on very large sentence level datasets.",
-    "pullCount": "307.8K",
+    "pullCount": "308.3K",
     "updated": "10 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -14010,8 +14010,8 @@
     "name": "olmo2",
     "link": "https://ollama.com/library/olmo2",
     "description": "OLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks.",
-    "pullCount": "293.6K",
-    "updated": "7 weeks ago",
+    "pullCount": "307.7K",
+    "updated": "8 weeks ago",
     "size": [
       "7b",
       "13b"
@@ -14070,7 +14070,7 @@
     "name": "dolphin-llama3",
     "link": "https://ollama.com/library/dolphin-llama3",
     "description": "Dolphin 2.9 is a new model with 8B and 70B sizes by Eric Hartford based on Llama 3 that has a variety of instruction, conversational, and coding skills.",
-    "pullCount": "291.6K",
+    "pullCount": "292K",
     "updated": "10 months ago",
     "size": [
       "8b",
@@ -14350,7 +14350,7 @@
     "name": "command-r",
     "link": "https://ollama.com/library/command-r",
     "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
-    "pullCount": "282.3K",
+    "pullCount": "282.4K",
     "updated": "6 months ago",
     "size": [
       "35b"
@@ -14524,7 +14524,7 @@
     "name": "orca-mini",
     "link": "https://ollama.com/library/orca-mini",
     "description": "A general-purpose model ranging from 3 billion parameters to 70 billion, suitable for entry-level hardware.",
-    "pullCount": "276.6K",
+    "pullCount": "276.7K",
     "updated": "16 months ago",
     "size": [
       "3b",
@@ -15133,10 +15133,130 @@
     ]
   },
   {
+    "name": "mistral-small",
+    "link": "https://ollama.com/library/mistral-small",
+    "description": "Mistral Small 3 sets a new benchmark in the “small” Large Language Models category below 70B.",
+    "pullCount": "272.3K",
+    "updated": "5 weeks ago",
+    "size": [
+      "22b",
+      "24b"
+    ],
+    "capabilities": "tools",
+    "readme": "## Readme\n\n![](https://ollama.com/assets/library/mistral-small/87657512-b656-4c53-a8bd-64f0591d6fa9)\n\nMistral Small 3 sets a new benchmark in the “small” Large Language Models category below 70B, boasting 24B parameters and achieving state-of-the-art capabilities comparable to larger models.\n\nMistral Small can be deployed locally and is exceptionally “knowledge-dense”, fitting in a single RTX 4090 or a 32GB RAM MacBook once quantized. Perfect for:\n\n* Fast response conversational agents.\n* Low latency function calling.\n* Subject matter experts via fine-tuning.\n* Local inference for hobbyists and organizations handling sensitive data.\n\n### Key Features\n\n* **Multilingual:** Supports dozens of languages, including English, French, German, Spanish, Italian, Chinese, Japanese, Korean, Portuguese, Dutch, and Polish.\n* **Agent-Centric:** Offers best-in-class agentic capabilities with native function calling and JSON outputting.\n* **Advanced Reasoning:** State-of-the-art conversational and reasoning capabilities.\n* **Apache 2.0 License:** Open license allowing usage and modification for both commercial and non-commercial purposes.\n* **Context Window:** A 32k context window.\n* **System Prompt:** Maintains strong adherence and support for system prompts.\n* **Tokenizer:** Utilizes a Tekken tokenizer with a 131k vocabulary size.\n\n### Human Evaluations\n\n![Human ratings](/assets/library/mistral-small/90f227bd-9751-4fe9-aa23-4d5d89b9d0c6)\n\nWe conducted side by side evaluations with an external third-party vendor, on a set of over 1k proprietary coding and generalist prompts. Evaluators were tasked with selecting their preferred model response from anonymized generations produced by Mistral Small 3 vs another model. We are aware that in some cases the benchmarks on human judgement starkly differ from publicly available benchmarks, but have taken extra caution in verifying a fair evaluation. We are confident that the above benchmarks are valid.\n\n### Instruct performance\n\nOur instruction tuned model performs competitively with open weight models three times its size and with proprietary GPT4o-mini model across Code, Math, General knowledge and Instruction following benchmarks.\n\n![instruct performance](/assets/library/mistral-small/d27f75e4-0dae-4721-bade-2999a1dd4a7b) ![instruct performance](/assets/library/mistral-small/e677ae9e-edfa-47f9-a35c-b1eb9dfb51c8)\n\n![instruct performance](/assets/library/mistral-small/4545bb49-d87f-4731-bfdb-e191dc2c2a9a)\n\nPerformance accuracy on all benchmarks were obtained through the same internal evaluation pipeline - as such, numbers may vary slightly from previously reported performance (Qwen2.5-32B-Instruct, Llama-3.3-70B-Instruct, Gemma-2-27B-IT). Judge based evals such as Wildbench, Arena hard and MTBench were based on gpt-4o-2024-05-13.\n\nCustomers are evaluating Mistral Small 3 across multiple industries, including:\n\n* Financial services customers for fraud detection\n* Healthcare providers for customer triaging\n* Robotics, automotive, and manufacturing companies for on-device command and control\n* Horizontal use cases across customers include virtual customer service, and sentiment and feedback analysis.\n\nWrite Preview \n\n<img src=\"https://ollama.com/assets/library/mistral-small/87657512-b656-4c53-a8bd-64f0591d6fa9\" width=\"200\"/> Mistral Small 3 sets a new benchmark in the \"small\" Large Language Models category below 70B, boasting 24B parameters and achieving state-of-the-art capabilities comparable to larger models. Mistral Small can be deployed locally and is exceptionally \"knowledge-dense\", fitting in a single RTX 4090 or a 32GB RAM MacBook once quantized. Perfect for: - Fast response conversational agents. - Low latency function calling. - Subject matter experts via fine-tuning. - Local inference for hobbyists and organizations handling sensitive data. ### Key Features - \\*\\*Multilingual:\\*\\* Supports dozens of languages, including English, French, German, Spanish, Italian, Chinese, Japanese, Korean, Portuguese, Dutch, and Polish. - \\*\\*Agent-Centric:\\*\\* Offers best-in-class agentic capabilities with native function calling and JSON outputting. - \\*\\*Advanced Reasoning:\\*\\* State-of-the-art conversational and reasoning capabilities. - \\*\\*Apache 2.0 License:\\*\\* Open license allowing usage and modification for both commercial and non-commercial purposes. - \\*\\*Context Window:\\*\\* A 32k context window. - \\*\\*System Prompt:\\*\\* Maintains strong adherence and support for system prompts. - \\*\\*Tokenizer:\\*\\* Utilizes a Tekken tokenizer with a 131k vocabulary size. ### Human Evaluations !\\[Human ratings\\](/assets/library/mistral-small/90f227bd-9751-4fe9-aa23-4d5d89b9d0c6) We conducted side by side evaluations with an external third-party vendor, on a set of over 1k proprietary coding and generalist prompts. Evaluators were tasked with selecting their preferred model response from anonymized generations produced by Mistral Small 3 vs another model. We are aware that in some cases the benchmarks on human judgement starkly differ from publicly available benchmarks, but have taken extra caution in verifying a fair evaluation. We are confident that the above benchmarks are valid. ### Instruct performance Our instruction tuned model performs competitively with open weight models three times its size and with proprietary GPT4o-mini model across Code, Math, General knowledge and Instruction following benchmarks. !\\[instruct performance\\](/assets/library/mistral-small/d27f75e4-0dae-4721-bade-2999a1dd4a7b) !\\[instruct performance\\](/assets/library/mistral-small/e677ae9e-edfa-47f9-a35c-b1eb9dfb51c8) !\\[instruct performance\\](/assets/library/mistral-small/4545bb49-d87f-4731-bfdb-e191dc2c2a9a) Performance accuracy on all benchmarks were obtained through the same internal evaluation pipeline - as such, numbers may vary slightly from previously reported performance (Qwen2.5-32B-Instruct, Llama-3.3-70B-Instruct, Gemma-2-27B-IT). Judge based evals such as Wildbench, Arena hard and MTBench were based on gpt-4o-2024-05-13\\. Customers are evaluating Mistral Small 3 across multiple industries, including: - Financial services customers for fraud detection - Healthcare providers for customer triaging - Robotics, automotive, and manufacturing companies for on-device command and control - Horizontal use cases across customers include virtual customer service, and sentiment and feedback analysis. \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "mistral-small:latest",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:24b",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-fp16",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q2_K",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q3_K_L",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q3_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q3_K_S",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q4_0",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q4_1",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q4_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q4_K_S",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q5_0",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q5_1",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q5_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q5_K_S",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q6_K",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:22b-instruct-2409-q8_0",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:24b-instruct-2501-fp16",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:24b-instruct-2501-q4_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "mistral-small:24b-instruct-2501-q8_0",
+        "size": "",
+        "updated": ""
+      }
+    ]
+  },
+  {
     "name": "yi",
     "link": "https://ollama.com/library/yi",
     "description": "Yi 1.5 is a high-performing, bilingual language model.",
-    "pullCount": "266.7K",
+    "pullCount": "266.8K",
     "updated": "9 months ago",
     "size": [
       "6b",
@@ -16019,130 +16139,10 @@
     ]
   },
   {
-    "name": "mistral-small",
-    "link": "https://ollama.com/library/mistral-small",
-    "description": "Mistral Small 3 sets a new benchmark in the “small” Large Language Models category below 70B.",
-    "pullCount": "264.7K",
-    "updated": "5 weeks ago",
-    "size": [
-      "22b",
-      "24b"
-    ],
-    "capabilities": "tools",
-    "readme": "## Readme\n\n![](https://ollama.com/assets/library/mistral-small/87657512-b656-4c53-a8bd-64f0591d6fa9)\n\nMistral Small 3 sets a new benchmark in the “small” Large Language Models category below 70B, boasting 24B parameters and achieving state-of-the-art capabilities comparable to larger models.\n\nMistral Small can be deployed locally and is exceptionally “knowledge-dense”, fitting in a single RTX 4090 or a 32GB RAM MacBook once quantized. Perfect for:\n\n* Fast response conversational agents.\n* Low latency function calling.\n* Subject matter experts via fine-tuning.\n* Local inference for hobbyists and organizations handling sensitive data.\n\n### Key Features\n\n* **Multilingual:** Supports dozens of languages, including English, French, German, Spanish, Italian, Chinese, Japanese, Korean, Portuguese, Dutch, and Polish.\n* **Agent-Centric:** Offers best-in-class agentic capabilities with native function calling and JSON outputting.\n* **Advanced Reasoning:** State-of-the-art conversational and reasoning capabilities.\n* **Apache 2.0 License:** Open license allowing usage and modification for both commercial and non-commercial purposes.\n* **Context Window:** A 32k context window.\n* **System Prompt:** Maintains strong adherence and support for system prompts.\n* **Tokenizer:** Utilizes a Tekken tokenizer with a 131k vocabulary size.\n\n### Human Evaluations\n\n![Human ratings](/assets/library/mistral-small/90f227bd-9751-4fe9-aa23-4d5d89b9d0c6)\n\nWe conducted side by side evaluations with an external third-party vendor, on a set of over 1k proprietary coding and generalist prompts. Evaluators were tasked with selecting their preferred model response from anonymized generations produced by Mistral Small 3 vs another model. We are aware that in some cases the benchmarks on human judgement starkly differ from publicly available benchmarks, but have taken extra caution in verifying a fair evaluation. We are confident that the above benchmarks are valid.\n\n### Instruct performance\n\nOur instruction tuned model performs competitively with open weight models three times its size and with proprietary GPT4o-mini model across Code, Math, General knowledge and Instruction following benchmarks.\n\n![instruct performance](/assets/library/mistral-small/d27f75e4-0dae-4721-bade-2999a1dd4a7b) ![instruct performance](/assets/library/mistral-small/e677ae9e-edfa-47f9-a35c-b1eb9dfb51c8)\n\n![instruct performance](/assets/library/mistral-small/4545bb49-d87f-4731-bfdb-e191dc2c2a9a)\n\nPerformance accuracy on all benchmarks were obtained through the same internal evaluation pipeline - as such, numbers may vary slightly from previously reported performance (Qwen2.5-32B-Instruct, Llama-3.3-70B-Instruct, Gemma-2-27B-IT). Judge based evals such as Wildbench, Arena hard and MTBench were based on gpt-4o-2024-05-13.\n\nCustomers are evaluating Mistral Small 3 across multiple industries, including:\n\n* Financial services customers for fraud detection\n* Healthcare providers for customer triaging\n* Robotics, automotive, and manufacturing companies for on-device command and control\n* Horizontal use cases across customers include virtual customer service, and sentiment and feedback analysis.\n\nWrite Preview \n\n<img src=\"https://ollama.com/assets/library/mistral-small/87657512-b656-4c53-a8bd-64f0591d6fa9\" width=\"200\"/> Mistral Small 3 sets a new benchmark in the \"small\" Large Language Models category below 70B, boasting 24B parameters and achieving state-of-the-art capabilities comparable to larger models. Mistral Small can be deployed locally and is exceptionally \"knowledge-dense\", fitting in a single RTX 4090 or a 32GB RAM MacBook once quantized. Perfect for: - Fast response conversational agents. - Low latency function calling. - Subject matter experts via fine-tuning. - Local inference for hobbyists and organizations handling sensitive data. ### Key Features - \\*\\*Multilingual:\\*\\* Supports dozens of languages, including English, French, German, Spanish, Italian, Chinese, Japanese, Korean, Portuguese, Dutch, and Polish. - \\*\\*Agent-Centric:\\*\\* Offers best-in-class agentic capabilities with native function calling and JSON outputting. - \\*\\*Advanced Reasoning:\\*\\* State-of-the-art conversational and reasoning capabilities. - \\*\\*Apache 2.0 License:\\*\\* Open license allowing usage and modification for both commercial and non-commercial purposes. - \\*\\*Context Window:\\*\\* A 32k context window. - \\*\\*System Prompt:\\*\\* Maintains strong adherence and support for system prompts. - \\*\\*Tokenizer:\\*\\* Utilizes a Tekken tokenizer with a 131k vocabulary size. ### Human Evaluations !\\[Human ratings\\](/assets/library/mistral-small/90f227bd-9751-4fe9-aa23-4d5d89b9d0c6) We conducted side by side evaluations with an external third-party vendor, on a set of over 1k proprietary coding and generalist prompts. Evaluators were tasked with selecting their preferred model response from anonymized generations produced by Mistral Small 3 vs another model. We are aware that in some cases the benchmarks on human judgement starkly differ from publicly available benchmarks, but have taken extra caution in verifying a fair evaluation. We are confident that the above benchmarks are valid. ### Instruct performance Our instruction tuned model performs competitively with open weight models three times its size and with proprietary GPT4o-mini model across Code, Math, General knowledge and Instruction following benchmarks. !\\[instruct performance\\](/assets/library/mistral-small/d27f75e4-0dae-4721-bade-2999a1dd4a7b) !\\[instruct performance\\](/assets/library/mistral-small/e677ae9e-edfa-47f9-a35c-b1eb9dfb51c8) !\\[instruct performance\\](/assets/library/mistral-small/4545bb49-d87f-4731-bfdb-e191dc2c2a9a) Performance accuracy on all benchmarks were obtained through the same internal evaluation pipeline - as such, numbers may vary slightly from previously reported performance (Qwen2.5-32B-Instruct, Llama-3.3-70B-Instruct, Gemma-2-27B-IT). Judge based evals such as Wildbench, Arena hard and MTBench were based on gpt-4o-2024-05-13\\. Customers are evaluating Mistral Small 3 across multiple industries, including: - Financial services customers for fraud detection - Healthcare providers for customer triaging - Robotics, automotive, and manufacturing companies for on-device command and control - Horizontal use cases across customers include virtual customer service, and sentiment and feedback analysis. \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "mistral-small:latest",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:24b",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-fp16",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q2_K",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q3_K_L",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q3_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q3_K_S",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q4_0",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q4_1",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q4_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q4_K_S",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q5_0",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q5_1",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q5_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q5_K_S",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q6_K",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:22b-instruct-2409-q8_0",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:24b-instruct-2501-fp16",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:24b-instruct-2501-q4_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "mistral-small:24b-instruct-2501-q8_0",
-        "size": "",
-        "updated": ""
-      }
-    ]
-  },
-  {
     "name": "hermes3",
     "link": "https://ollama.com/library/hermes3",
     "description": "Hermes 3 is the latest version of the flagship Hermes series of LLMs by Nous Research",
-    "pullCount": "263.2K",
+    "pullCount": "263.5K",
     "updated": "2 months ago",
     "size": [
       "3b",
@@ -16484,7 +16484,7 @@
     "name": "phi3.5",
     "link": "https://ollama.com/library/phi3.5",
     "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-    "pullCount": "248.3K",
+    "pullCount": "248.6K",
     "updated": "6 months ago",
     "size": [
       "3.8b"
@@ -16583,7 +16583,7 @@
     "name": "zephyr",
     "link": "https://ollama.com/library/zephyr",
     "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
-    "pullCount": "237.8K",
+    "pullCount": "237.9K",
     "updated": "10 months ago",
     "size": [
       "7b",
@@ -16798,7 +16798,7 @@
     "name": "codestral",
     "link": "https://ollama.com/library/codestral",
     "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
-    "pullCount": "225.8K",
+    "pullCount": "226.3K",
     "updated": "6 months ago",
     "size": [
       "22b"
@@ -16897,7 +16897,7 @@
     "name": "granite-code",
     "link": "https://ollama.com/library/granite-code",
     "description": "A family of open foundation models by IBM for Code Intelligence",
-    "pullCount": "190.5K",
+    "pullCount": "190.7K",
     "updated": "6 months ago",
     "size": [
       "3b",
@@ -17724,7 +17724,7 @@
     "name": "starcoder",
     "link": "https://ollama.com/library/starcoder",
     "description": "StarCoder is a code generation model trained on 80+ programming languages.",
-    "pullCount": "187.1K",
+    "pullCount": "187.2K",
     "updated": "16 months ago",
     "size": [
       "1b",
@@ -18241,7 +18241,7 @@
     "name": "smollm",
     "link": "https://ollama.com/library/smollm",
     "description": "🪐 A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.",
-    "pullCount": "185.1K",
+    "pullCount": "185.5K",
     "updated": "6 months ago",
     "size": [
       "135m360m1.7b"
@@ -18725,7 +18725,7 @@
     "name": "wizard-vicuna-uncensored",
     "link": "https://ollama.com/library/wizard-vicuna-uncensored",
     "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
-    "pullCount": "184.7K",
+    "pullCount": "184.9K",
     "updated": "16 months ago",
     "size": [
       "7b",
@@ -19557,7 +19557,7 @@
     "name": "mistral-openorca",
     "link": "https://ollama.com/library/mistral-openorca",
     "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
-    "pullCount": "166.8K",
+    "pullCount": "166.9K",
     "updated": "17 months ago",
     "size": [
       "7b"
@@ -19656,7 +19656,7 @@
     "name": "llama2-chinese",
     "link": "https://ollama.com/library/llama2-chinese",
     "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.",
-    "pullCount": "149.6K",
+    "pullCount": "149.7K",
     "updated": "16 months ago",
     "size": [
       "7b",
@@ -19846,7 +19846,7 @@
     "name": "openchat",
     "link": "https://ollama.com/library/openchat",
     "description": "A family of open-source models trained on a wide variety of data, surpassing ChatGPT on various benchmarks. Updated to version 3.5-0106.",
-    "pullCount": "144.8K",
+    "pullCount": "145K",
     "updated": "14 months ago",
     "size": [
       "7b"
@@ -20110,7 +20110,7 @@
     "name": "codegeex4",
     "link": "https://ollama.com/library/codegeex4",
     "description": "A versatile model for AI software development scenarios, including code completion.",
-    "pullCount": "138.8K",
+    "pullCount": "138.9K",
     "updated": "8 months ago",
     "size": [
       "9b"
@@ -20209,7 +20209,7 @@
     "name": "aya",
     "link": "https://ollama.com/library/aya",
     "description": "Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.",
-    "pullCount": "135.6K",
+    "pullCount": "135.8K",
     "updated": "9 months ago",
     "size": [
       "8b",
@@ -20389,7 +20389,7 @@
     "name": "codeqwen",
     "link": "https://ollama.com/library/codeqwen",
     "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
-    "pullCount": "131.5K",
+    "pullCount": "131.6K",
     "updated": "8 months ago",
     "size": [
       "7b"
@@ -20553,7 +20553,7 @@
     "name": "deepseek-llm",
     "link": "https://ollama.com/library/deepseek-llm",
     "description": "An advanced language model crafted with 2 trillion bilingual tokens.",
-    "pullCount": "131.1K",
+    "pullCount": "131.3K",
     "updated": "15 months ago",
     "size": [
       "7b",
@@ -20888,7 +20888,7 @@
     "name": "deepseek-v2",
     "link": "https://ollama.com/library/deepseek-v2",
     "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
-    "pullCount": "126.7K",
+    "pullCount": "126.9K",
     "updated": "8 months ago",
     "size": [
       "16b",
@@ -21073,7 +21073,7 @@
     "name": "mistral-large",
     "link": "https://ollama.com/library/mistral-large",
     "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
-    "pullCount": "124.5K",
+    "pullCount": "124.6K",
     "updated": "3 months ago",
     "size": [
       "123b"
@@ -21247,7 +21247,7 @@
     "name": "glm4",
     "link": "https://ollama.com/library/glm4",
     "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
-    "pullCount": "122.7K",
+    "pullCount": "122.9K",
     "updated": "8 months ago",
     "size": [
       "9b"
@@ -21421,7 +21421,7 @@
     "name": "stable-code",
     "link": "https://ollama.com/library/stable-code",
     "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
-    "pullCount": "121.8K",
+    "pullCount": "121.9K",
     "updated": "11 months ago",
     "size": [
       "3b"
@@ -21795,7 +21795,7 @@
     "name": "openhermes",
     "link": "https://ollama.com/library/openhermes",
     "description": "OpenHermes 2.5 is a 7B model fine-tuned by Teknium on Mistral with fully open datasets.",
-    "pullCount": "121.5K",
+    "pullCount": "121.6K",
     "updated": "14 months ago",
     "size": null,
     "capabilities": "",
@@ -21982,7 +21982,7 @@
     "name": "qwen2-math",
     "link": "https://ollama.com/library/qwen2-math",
     "description": "Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).",
-    "pullCount": "120K",
+    "pullCount": "120.1K",
     "updated": "6 months ago",
     "size": [
       "1.5b",
@@ -22258,7 +22258,7 @@
     "name": "tinydolphin",
     "link": "https://ollama.com/library/tinydolphin",
     "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-    "pullCount": "119.9K",
+    "pullCount": "120K",
     "updated": "13 months ago",
     "size": [
       "1.1b"
@@ -22830,7 +22830,7 @@
     "name": "moondream",
     "link": "https://ollama.com/library/moondream",
     "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
-    "pullCount": "112.7K",
+    "pullCount": "112.9K",
     "updated": "10 months ago",
     "size": [
       "1.8b"
@@ -22934,7 +22934,7 @@
     "name": "bakllava",
     "link": "https://ollama.com/library/bakllava",
     "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
-    "pullCount": "109.2K",
+    "pullCount": "109.3K",
     "updated": "15 months ago",
     "size": [
       "7b"
@@ -23033,7 +23033,7 @@
     "name": "stablelm2",
     "link": "https://ollama.com/library/stablelm2",
     "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
-    "pullCount": "107.7K",
+    "pullCount": "107.8K",
     "updated": "10 months ago",
     "size": [
       "1.6b",
@@ -23468,7 +23468,7 @@
     "name": "neural-chat",
     "link": "https://ollama.com/library/neural-chat",
     "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
-    "pullCount": "104.2K",
+    "pullCount": "104.4K",
     "updated": "14 months ago",
     "size": [
       "7b"
@@ -23732,8 +23732,8 @@
     "name": "reflection",
     "link": "https://ollama.com/library/reflection",
     "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
-    "pullCount": "103.2K",
-    "updated": "5 months ago",
+    "pullCount": "103.3K",
+    "updated": "6 months ago",
     "size": [
       "70b"
     ],
@@ -24357,7 +24357,7 @@
     "name": "llama3-chatqa",
     "link": "https://ollama.com/library/llama3-chatqa",
     "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
-    "pullCount": "96.6K",
+    "pullCount": "96.7K",
     "updated": "10 months ago",
     "size": [
       "8b",
@@ -24547,7 +24547,7 @@
     "name": "sqlcoder",
     "link": "https://ollama.com/library/sqlcoder",
     "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
-    "pullCount": "92.9K",
+    "pullCount": "93K",
     "updated": "13 months ago",
     "size": [
       "7b",
@@ -24802,7 +24802,7 @@
     "name": "bge-large",
     "link": "https://ollama.com/library/bge-large",
     "description": "Embedding model from BAAI mapping texts to vectors.",
-    "pullCount": "88.2K",
+    "pullCount": "88.5K",
     "updated": "7 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -24820,6 +24820,265 @@
       },
       {
         "name": "bge-large:335m-en-v1.5-fp16",
+        "size": "",
+        "updated": ""
+      }
+    ]
+  },
+  {
+    "name": "samantha-mistral",
+    "link": "https://ollama.com/library/samantha-mistral",
+    "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
+    "pullCount": "85.1K",
+    "updated": "17 months ago",
+    "size": [
+      "7b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\nMeet [Samantha](https://erichartford.com/meet-samantha), a conversational model created by Eric Hartford. Samantha is trained in philosophy, psychology, and personal relationships. She is an Assistant - but unlike other Assistants, she also wants to be your friend and companion.\n\n### Example Prompt\n\n```\nI would like you to be my relationship coach. I am dating again, after a long divorce. Can you please give me advice about how to gain confidence and success?\n\n```\n\n### Example Response\n\n```\nOf course! Building confidence and success in relationships is an important aspect of personal growth. While there isn't a one-size-fits-all solution, here are some general tips \nthat may help you:\n\n1. Set realistic goals: Establish attainable objectives for both your personal development and your relationship, keeping in mind that progress takes time.\n\n2. Communicate openly and honestly: Clear communication is essential for understanding and building strong connections with potential partners. Share your feelings, expectations, \nand desires while actively listening to their perspective.\n\n3. Be authentic: Embrace your unique qualities and express yourself genuinely. Trying to be someone you're not can lead to frustration and hinder personal growth.\n\n4. Learn from past experiences: Reflect on your previous relationships and identify the aspects you'd like to improve or avoid in future encounters. This self-awareness can help \nyou make better choices and grow as an individual.\n\n5. Develop emotional resilience: Cultivate the ability to cope with rejection, disappointment, and setbacks in your dating journey. Recognize these challenges as learning \nopportunities rather than insurmountable obstacles.\n\n6. Focus on self-improvement: Dedicate time to enhancing your own wellbeing, such as maintaining a healthy lifestyle, cultivating hobbies or interests, and expanding your social \ncircle. Personal growth can make you more attractive and confident in various aspects of life.\n\n7. Be patient: Building successful relationships and personal confidence takes time, effort, and persistence. Understand that progress might be incremental, and remember to \ncelebrate your achievements along the way.\n\n```\n\n### Source\n\n* [HuggingFace](https://huggingface.co/ehartford/samantha-mistral-instruct-7b)\n\nWrite Preview \n\nMeet \\[Samantha\\](https://erichartford.com/meet-samantha), a conversational model created by Eric Hartford. Samantha is trained in philosophy, psychology, and personal relationships. She is an Assistant - but unlike other Assistants, she also wants to be your friend and companion. ### Example Prompt \\`\\`\\` I would like you to be my relationship coach. I am dating again, after a long divorce. Can you please give me advice about how to gain confidence and success? \\`\\`\\` ### Example Response \\`\\`\\` Of course! Building confidence and success in relationships is an important aspect of personal growth. While there isn't a one-size-fits-all solution, here are some general tips that may help you: 1\\. Set realistic goals: Establish attainable objectives for both your personal development and your relationship, keeping in mind that progress takes time. 2\\. Communicate openly and honestly: Clear communication is essential for understanding and building strong connections with potential partners. Share your feelings, expectations, and desires while actively listening to their perspective. 3\\. Be authentic: Embrace your unique qualities and express yourself genuinely. Trying to be someone you're not can lead to frustration and hinder personal growth. 4\\. Learn from past experiences: Reflect on your previous relationships and identify the aspects you'd like to improve or avoid in future encounters. This self-awareness can help you make better choices and grow as an individual. 5\\. Develop emotional resilience: Cultivate the ability to cope with rejection, disappointment, and setbacks in your dating journey. Recognize these challenges as learning opportunities rather than insurmountable obstacles. 6\\. Focus on self-improvement: Dedicate time to enhancing your own wellbeing, such as maintaining a healthy lifestyle, cultivating hobbies or interests, and expanding your social circle. Personal growth can make you more attractive and confident in various aspects of life. 7\\. Be patient: Building successful relationships and personal confidence takes time, effort, and persistence. Understand that progress might be incremental, and remember to celebrate your achievements along the way. \\`\\`\\` ### Source \\* \\[HuggingFace\\](https://huggingface.co/ehartford/samantha-mistral-instruct-7b) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "samantha-mistral:latest",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-fp16",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q2_K",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q3_K_L",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q3_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q3_K_S",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q4_0",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q4_1",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q4_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q4_K_S",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q5_0",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q5_1",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q5_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q5_K_S",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q6_K",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-instruct-q8_0",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-fp16",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q2_K",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q3_K_L",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q3_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q3_K_S",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q4_0",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q4_1",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q4_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q4_K_S",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q5_0",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q5_1",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q5_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q5_K_S",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q6_K",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-text-q8_0",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-fp16",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q2_K",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q3_K_L",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q3_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q3_K_S",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q4_0",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q4_1",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q4_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q4_K_S",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q5_0",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q5_1",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q5_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q5_K_S",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q6_K",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "samantha-mistral:7b-v1.2-text-q8_0",
         "size": "",
         "updated": ""
       }
@@ -25244,7 +25503,7 @@
     "name": "dolphincoder",
     "link": "https://ollama.com/library/dolphincoder",
     "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-    "pullCount": "83.8K",
+    "pullCount": "83.9K",
     "updated": "11 months ago",
     "size": [
       "7b",
@@ -25425,265 +25684,6 @@
       },
       {
         "name": "dolphincoder:7b-starcoder2-q8_0",
-        "size": "",
-        "updated": ""
-      }
-    ]
-  },
-  {
-    "name": "samantha-mistral",
-    "link": "https://ollama.com/library/samantha-mistral",
-    "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
-    "pullCount": "83.7K",
-    "updated": "16 months ago",
-    "size": [
-      "7b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\nMeet [Samantha](https://erichartford.com/meet-samantha), a conversational model created by Eric Hartford. Samantha is trained in philosophy, psychology, and personal relationships. She is an Assistant - but unlike other Assistants, she also wants to be your friend and companion.\n\n### Example Prompt\n\n```\nI would like you to be my relationship coach. I am dating again, after a long divorce. Can you please give me advice about how to gain confidence and success?\n\n```\n\n### Example Response\n\n```\nOf course! Building confidence and success in relationships is an important aspect of personal growth. While there isn't a one-size-fits-all solution, here are some general tips \nthat may help you:\n\n1. Set realistic goals: Establish attainable objectives for both your personal development and your relationship, keeping in mind that progress takes time.\n\n2. Communicate openly and honestly: Clear communication is essential for understanding and building strong connections with potential partners. Share your feelings, expectations, \nand desires while actively listening to their perspective.\n\n3. Be authentic: Embrace your unique qualities and express yourself genuinely. Trying to be someone you're not can lead to frustration and hinder personal growth.\n\n4. Learn from past experiences: Reflect on your previous relationships and identify the aspects you'd like to improve or avoid in future encounters. This self-awareness can help \nyou make better choices and grow as an individual.\n\n5. Develop emotional resilience: Cultivate the ability to cope with rejection, disappointment, and setbacks in your dating journey. Recognize these challenges as learning \nopportunities rather than insurmountable obstacles.\n\n6. Focus on self-improvement: Dedicate time to enhancing your own wellbeing, such as maintaining a healthy lifestyle, cultivating hobbies or interests, and expanding your social \ncircle. Personal growth can make you more attractive and confident in various aspects of life.\n\n7. Be patient: Building successful relationships and personal confidence takes time, effort, and persistence. Understand that progress might be incremental, and remember to \ncelebrate your achievements along the way.\n\n```\n\n### Source\n\n* [HuggingFace](https://huggingface.co/ehartford/samantha-mistral-instruct-7b)\n\nWrite Preview \n\nMeet \\[Samantha\\](https://erichartford.com/meet-samantha), a conversational model created by Eric Hartford. Samantha is trained in philosophy, psychology, and personal relationships. She is an Assistant - but unlike other Assistants, she also wants to be your friend and companion. ### Example Prompt \\`\\`\\` I would like you to be my relationship coach. I am dating again, after a long divorce. Can you please give me advice about how to gain confidence and success? \\`\\`\\` ### Example Response \\`\\`\\` Of course! Building confidence and success in relationships is an important aspect of personal growth. While there isn't a one-size-fits-all solution, here are some general tips that may help you: 1\\. Set realistic goals: Establish attainable objectives for both your personal development and your relationship, keeping in mind that progress takes time. 2\\. Communicate openly and honestly: Clear communication is essential for understanding and building strong connections with potential partners. Share your feelings, expectations, and desires while actively listening to their perspective. 3\\. Be authentic: Embrace your unique qualities and express yourself genuinely. Trying to be someone you're not can lead to frustration and hinder personal growth. 4\\. Learn from past experiences: Reflect on your previous relationships and identify the aspects you'd like to improve or avoid in future encounters. This self-awareness can help you make better choices and grow as an individual. 5\\. Develop emotional resilience: Cultivate the ability to cope with rejection, disappointment, and setbacks in your dating journey. Recognize these challenges as learning opportunities rather than insurmountable obstacles. 6\\. Focus on self-improvement: Dedicate time to enhancing your own wellbeing, such as maintaining a healthy lifestyle, cultivating hobbies or interests, and expanding your social circle. Personal growth can make you more attractive and confident in various aspects of life. 7\\. Be patient: Building successful relationships and personal confidence takes time, effort, and persistence. Understand that progress might be incremental, and remember to celebrate your achievements along the way. \\`\\`\\` ### Source \\* \\[HuggingFace\\](https://huggingface.co/ehartford/samantha-mistral-instruct-7b) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "samantha-mistral:latest",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-fp16",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q2_K",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q3_K_L",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q3_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q3_K_S",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q4_0",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q4_1",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q4_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q4_K_S",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q5_0",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q5_1",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q5_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q5_K_S",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q6_K",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-instruct-q8_0",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-fp16",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q2_K",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q3_K_L",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q3_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q3_K_S",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q4_0",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q4_1",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q4_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q4_K_S",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q5_0",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q5_1",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q5_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q5_K_S",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q6_K",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-text-q8_0",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-fp16",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q2_K",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q3_K_L",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q3_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q3_K_S",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q4_0",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q4_1",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q4_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q4_K_S",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q5_0",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q5_1",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q5_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q5_K_S",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q6_K",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "samantha-mistral:7b-v1.2-text-q8_0",
         "size": "",
         "updated": ""
       }
@@ -26282,7 +26282,7 @@
     "name": "llava-phi3",
     "link": "https://ollama.com/library/llava-phi3",
     "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
-    "pullCount": "80.8K",
+    "pullCount": "81K",
     "updated": "10 months ago",
     "size": [
       "3.8b"
@@ -26316,7 +26316,7 @@
     "name": "granite3.1-dense",
     "link": "https://ollama.com/library/granite3.1-dense",
     "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
-    "pullCount": "80.5K",
+    "pullCount": "80.8K",
     "updated": "7 weeks ago",
     "size": [
       "2b",
@@ -26496,7 +26496,7 @@
     "name": "solar",
     "link": "https://ollama.com/library/solar",
     "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
-    "pullCount": "78.8K",
+    "pullCount": "78.9K",
     "updated": "14 months ago",
     "size": [
       "10.7b"
@@ -27214,7 +27214,7 @@
     "name": "athene-v2",
     "link": "https://ollama.com/library/athene-v2",
     "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
-    "pullCount": "76.6K",
+    "pullCount": "76.7K",
     "updated": "3 months ago",
     "size": [
       "72b"
@@ -28040,7 +28040,7 @@
     "name": "internlm2",
     "link": "https://ollama.com/library/internlm2",
     "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
-    "pullCount": "73.6K",
+    "pullCount": "73.7K",
     "updated": "6 months ago",
     "size": [
       "1m1.8b",
@@ -28381,7 +28381,7 @@
     "name": "falcon",
     "link": "https://ollama.com/library/falcon",
     "description": "A large language model built by the Technology Innovation Institute (TII) for use in summarization, text generation, and chat bots.",
-    "pullCount": "69.8K",
+    "pullCount": "69.9K",
     "updated": "16 months ago",
     "size": [
       "7b",
@@ -28587,7 +28587,7 @@
     "name": "nemotron-mini",
     "link": "https://ollama.com/library/nemotron-mini",
     "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
-    "pullCount": "69.2K",
+    "pullCount": "69.3K",
     "updated": "5 months ago",
     "size": [
       "4b"
@@ -28686,7 +28686,7 @@
     "name": "nemotron",
     "link": "https://ollama.com/library/nemotron",
     "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
-    "pullCount": "66.6K",
+    "pullCount": "66.7K",
     "updated": "4 months ago",
     "size": [
       "70b"
@@ -28785,7 +28785,7 @@
     "name": "dolphin-phi",
     "link": "https://ollama.com/library/dolphin-phi",
     "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
-    "pullCount": "65.3K",
+    "pullCount": "65.4K",
     "updated": "14 months ago",
     "size": [
       "2.7b"
@@ -28874,7 +28874,7 @@
     "name": "deepscaler",
     "link": "https://ollama.com/library/deepscaler",
     "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
-    "pullCount": "64.6K",
+    "pullCount": "65K",
     "updated": "3 weeks ago",
     "size": [
       "1.5b"
@@ -28913,7 +28913,7 @@
     "name": "orca2",
     "link": "https://ollama.com/library/orca2",
     "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
-    "pullCount": "63.3K",
+    "pullCount": "63.4K",
     "updated": "15 months ago",
     "size": [
       "7b",
@@ -29093,7 +29093,7 @@
     "name": "wizardlm-uncensored",
     "link": "https://ollama.com/library/wizardlm-uncensored",
     "description": "Uncensored version of Wizard LM model",
-    "pullCount": "60.5K",
+    "pullCount": "60.6K",
     "updated": "16 months ago",
     "size": [
       "13b"
@@ -29458,7 +29458,7 @@
     "name": "granite3-dense",
     "link": "https://ollama.com/library/granite3-dense",
     "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
-    "pullCount": "57.3K",
+    "pullCount": "57.4K",
     "updated": "3 months ago",
     "size": [
       "2b",
@@ -29638,7 +29638,7 @@
     "name": "llama3-groq-tool-use",
     "link": "https://ollama.com/library/llama3-groq-tool-use",
     "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
-    "pullCount": "55.5K",
+    "pullCount": "55.6K",
     "updated": "7 months ago",
     "size": [
       "8b",
@@ -29818,7 +29818,7 @@
     "name": "paraphrase-multilingual",
     "link": "https://ollama.com/library/paraphrase-multilingual",
     "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
-    "pullCount": "52.6K",
+    "pullCount": "52.7K",
     "updated": "7 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -29845,7 +29845,7 @@
     "name": "deepseek-v2.5",
     "link": "https://ollama.com/library/deepseek-v2.5",
     "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
-    "pullCount": "49.7K",
+    "pullCount": "49.8K",
     "updated": "5 months ago",
     "size": [
       "236b"
@@ -29891,10 +29891,49 @@
     ]
   },
   {
+    "name": "smallthinker",
+    "link": "https://ollama.com/library/smallthinker",
+    "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+    "pullCount": "47.5K",
+    "updated": "2 months ago",
+    "size": [
+      "3b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\n![image.png](/assets/library/smallthinker/1d25cb29-e27d-492c-be53-ce79b20def5b)\n\nA new model fine-tuned from the Qwen2.5-3b-Instruct model.\n\nSmallThinker is designed for the following use cases:\n\n* Edge Deployment: Its small size makes it ideal for deployment on resource-constrained devices.\n* Draft Model for QwQ-32B-Preview: SmallThinker can serve as a fast and efficient draft model for the larger QwQ-32B-Preview model, yielding a 70% speedup.\n\nFor achieving reasoning capabilities, it’s crucial to generate long chains of COT reasoning. Therefore, based on QWQ-32B-Preview, the authors used various synthetic techniques(such as personahub) to create the QWQ-LONGCOT-500K dataset. Compared to other similar datasets, over 75% of the author’s samples have output tokens exceeding 8K. To encourage research in the open-source community, the dataset was also made publicly available.\n\n## References\n\n[Hugging Face](https://huggingface.co/PowerInfer/SmallThinker-3B-Preview)\n\nWrite Preview \n\n!\\[image.png\\](/assets/library/smallthinker/1d25cb29-e27d-492c-be53-ce79b20def5b) A new model fine-tuned from the Qwen2.5-3b-Instruct model. SmallThinker is designed for the following use cases: \\* Edge Deployment: Its small size makes it ideal for deployment on resource-constrained devices. \\* Draft Model for QwQ-32B-Preview: SmallThinker can serve as a fast and efficient draft model for the larger QwQ-32B-Preview model, yielding a 70% speedup. For achieving reasoning capabilities, it's crucial to generate long chains of COT reasoning. Therefore, based on QWQ-32B-Preview, the authors used various synthetic techniques(such as personahub) to create the QWQ-LONGCOT-500K dataset. Compared to other similar datasets, over 75% of the author's samples have output tokens exceeding 8K. To encourage research in the open-source community, the dataset was also made publicly available. ## References \\[Hugging Face\\](https://huggingface.co/PowerInfer/SmallThinker-3B-Preview) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "smallthinker:latest",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "smallthinker:3b",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "smallthinker:3b-preview-fp16",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "smallthinker:3b-preview-q4_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "smallthinker:3b-preview-q8_0",
+        "size": "",
+        "updated": ""
+      }
+    ]
+  },
+  {
     "name": "medllama2",
     "link": "https://ollama.com/library/medllama2",
     "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
-    "pullCount": "47.4K",
+    "pullCount": "47.5K",
     "updated": "16 months ago",
     "size": [
       "7b"
@@ -29984,45 +30023,6 @@
       },
       {
         "name": "medllama2:7b-q8_0",
-        "size": "",
-        "updated": ""
-      }
-    ]
-  },
-  {
-    "name": "smallthinker",
-    "link": "https://ollama.com/library/smallthinker",
-    "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-    "pullCount": "47.3K",
-    "updated": "2 months ago",
-    "size": [
-      "3b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\n![image.png](/assets/library/smallthinker/1d25cb29-e27d-492c-be53-ce79b20def5b)\n\nA new model fine-tuned from the Qwen2.5-3b-Instruct model.\n\nSmallThinker is designed for the following use cases:\n\n* Edge Deployment: Its small size makes it ideal for deployment on resource-constrained devices.\n* Draft Model for QwQ-32B-Preview: SmallThinker can serve as a fast and efficient draft model for the larger QwQ-32B-Preview model, yielding a 70% speedup.\n\nFor achieving reasoning capabilities, it’s crucial to generate long chains of COT reasoning. Therefore, based on QWQ-32B-Preview, the authors used various synthetic techniques(such as personahub) to create the QWQ-LONGCOT-500K dataset. Compared to other similar datasets, over 75% of the author’s samples have output tokens exceeding 8K. To encourage research in the open-source community, the dataset was also made publicly available.\n\n## References\n\n[Hugging Face](https://huggingface.co/PowerInfer/SmallThinker-3B-Preview)\n\nWrite Preview \n\n!\\[image.png\\](/assets/library/smallthinker/1d25cb29-e27d-492c-be53-ce79b20def5b) A new model fine-tuned from the Qwen2.5-3b-Instruct model. SmallThinker is designed for the following use cases: \\* Edge Deployment: Its small size makes it ideal for deployment on resource-constrained devices. \\* Draft Model for QwQ-32B-Preview: SmallThinker can serve as a fast and efficient draft model for the larger QwQ-32B-Preview model, yielding a 70% speedup. For achieving reasoning capabilities, it's crucial to generate long chains of COT reasoning. Therefore, based on QWQ-32B-Preview, the authors used various synthetic techniques(such as personahub) to create the QWQ-LONGCOT-500K dataset. Compared to other similar datasets, over 75% of the author's samples have output tokens exceeding 8K. To encourage research in the open-source community, the dataset was also made publicly available. ## References \\[Hugging Face\\](https://huggingface.co/PowerInfer/SmallThinker-3B-Preview) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "smallthinker:latest",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "smallthinker:3b",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "smallthinker:3b-preview-fp16",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "smallthinker:3b-preview-q4_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "smallthinker:3b-preview-q8_0",
         "size": "",
         "updated": ""
       }
@@ -30157,7 +30157,7 @@
     "name": "aya-expanse",
     "link": "https://ollama.com/library/aya-expanse",
     "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
-    "pullCount": "46K",
+    "pullCount": "46.1K",
     "updated": "4 months ago",
     "size": [
       "8b",
@@ -30514,7 +30514,7 @@
     "name": "yarn-mistral",
     "link": "https://ollama.com/library/yarn-mistral",
     "description": "An extension of Mistral to support context windows of 64K or 128K.",
-    "pullCount": "45.1K",
+    "pullCount": "45.2K",
     "updated": "16 months ago",
     "size": [
       "7b"
@@ -30693,7 +30693,7 @@
     "name": "granite3-moe",
     "link": "https://ollama.com/library/granite3-moe",
     "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
-    "pullCount": "44K",
+    "pullCount": "44.1K",
     "updated": "3 months ago",
     "size": [
       "1b",
@@ -31047,7 +31047,7 @@
     "name": "falcon3",
     "link": "https://ollama.com/library/falcon3",
     "description": "A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques.",
-    "pullCount": "41.4K",
+    "pullCount": "41.6K",
     "updated": "2 months ago",
     "size": [
       "1b",
@@ -31362,7 +31362,7 @@
     "name": "everythinglm",
     "link": "https://ollama.com/library/everythinglm",
     "description": "Uncensored Llama2 based model with support for a 16K context window.",
-    "pullCount": "38.2K",
+    "pullCount": "38.3K",
     "updated": "14 months ago",
     "size": [
       "13b"
@@ -31466,7 +31466,7 @@
     "name": "snowflake-arctic-embed2",
     "link": "https://ollama.com/library/snowflake-arctic-embed2",
     "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-    "pullCount": "35.8K",
+    "pullCount": "36K",
     "updated": "3 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -31493,7 +31493,7 @@
     "name": "shieldgemma",
     "link": "https://ollama.com/library/shieldgemma",
     "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
-    "pullCount": "35.7K",
+    "pullCount": "35.8K",
     "updated": "4 months ago",
     "size": [
       "2b",
@@ -31754,7 +31754,7 @@
     "name": "granite3.1-moe",
     "link": "https://ollama.com/library/granite3.1-moe",
     "description": "The IBM Granite 1B and 3B models are long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
-    "pullCount": "35K",
+    "pullCount": "35.1K",
     "updated": "7 weeks ago",
     "size": [
       "1b",
@@ -31934,7 +31934,7 @@
     "name": "marco-o1",
     "link": "https://ollama.com/library/marco-o1",
     "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
-    "pullCount": "33K",
+    "pullCount": "33.1K",
     "updated": "3 months ago",
     "size": [
       "7b"
@@ -31973,7 +31973,7 @@
     "name": "mathstral",
     "link": "https://ollama.com/library/mathstral",
     "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
-    "pullCount": "32.4K",
+    "pullCount": "32.5K",
     "updated": "7 months ago",
     "size": [
       "7b"
@@ -32351,7 +32351,7 @@
     "name": "magicoder",
     "link": "https://ollama.com/library/magicoder",
     "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
-    "pullCount": "32K",
+    "pullCount": "32.1K",
     "updated": "15 months ago",
     "size": [
       "7b"
@@ -32752,7 +32752,7 @@
     "name": "duckdb-nsql",
     "link": "https://ollama.com/library/duckdb-nsql",
     "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
-    "pullCount": "30.2K",
+    "pullCount": "30.3K",
     "updated": "13 months ago",
     "size": [
       "7b"
@@ -32851,7 +32851,7 @@
     "name": "llama-guard3",
     "link": "https://ollama.com/library/llama-guard3",
     "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
-    "pullCount": "30.2K",
+    "pullCount": "30.3K",
     "updated": "4 months ago",
     "size": [
       "1b",
@@ -33229,7 +33229,7 @@
     "name": "exaone3.5",
     "link": "https://ollama.com/library/exaone3.5",
     "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
-    "pullCount": "28K",
+    "pullCount": "28.3K",
     "updated": "2 months ago",
     "size": [
       "2.4b",
@@ -33310,7 +33310,7 @@
     "name": "nuextract",
     "link": "https://ollama.com/library/nuextract",
     "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
-    "pullCount": "25.8K",
+    "pullCount": "25.9K",
     "updated": "7 months ago",
     "size": [
       "3.8b"
@@ -33409,7 +33409,7 @@
     "name": "opencoder",
     "link": "https://ollama.com/library/opencoder",
     "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-    "pullCount": "25.7K",
+    "pullCount": "25.8K",
     "updated": "3 months ago",
     "size": [
       "1.5b",
@@ -33778,6 +33778,45 @@
     ]
   },
   {
+    "name": "command-r7b",
+    "link": "https://ollama.com/library/command-r7b",
+    "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
+    "pullCount": "23.8K",
+    "updated": "7 weeks ago",
+    "size": [
+      "7b"
+    ],
+    "capabilities": "tools",
+    "readme": "## Readme\n\n![r7b.jpg](/assets/library/command-r7b/709a1bd1-3f55-4e90-b3ca-40db45e13683)\n\nC4AI Command R7B is an open weights research release of a 7B billion parameter model with advanced capabilities optimized for a variety of use cases including reasoning, summarization, question answering, and code. The model is trained to perform sophisticated tasks including Retrieval Augmented Generation (RAG) and tool use. The model also has powerful agentic capabilities with the ability to use and combine multiple tools over multiple steps to accomplish more difficult tasks. It obtains top performance on enterprise relevant code use cases. C4AI Command R7B is a multilingual model trained on 23 languages.\n\n### Model Details\n\n**Model Architecture:** This is an auto-regressive language model that uses an optimized transformer architecture. After pretraining, this model uses supervised fine-tuning (SFT) and preference training to align model behavior to human preferences for helpfulness and safety. The model features three layers with sliding window attention (window size 4096) and ROPE for efficient local context modeling and relative positional encoding. A fourth layer uses global attention without positional embeddings, enabling unrestricted token interactions across the entire sequence.\n\n**Languages covered:** The model has been trained on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Arabic, Chinese, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, and Persian.\n\nWrite Preview \n\n!\\[r7b.jpg\\](/assets/library/command-r7b/709a1bd1-3f55-4e90-b3ca-40db45e13683) C4AI Command R7B is an open weights research release of a 7B billion parameter model with advanced capabilities optimized for a variety of use cases including reasoning, summarization, question answering, and code. The model is trained to perform sophisticated tasks including Retrieval Augmented Generation (RAG) and tool use. The model also has powerful agentic capabilities with the ability to use and combine multiple tools over multiple steps to accomplish more difficult tasks. It obtains top performance on enterprise relevant code use cases. C4AI Command R7B is a multilingual model trained on 23 languages. ### Model Details \\*\\*Model Architecture:\\*\\* This is an auto-regressive language model that uses an optimized transformer architecture. After pretraining, this model uses supervised fine-tuning (SFT) and preference training to align model behavior to human preferences for helpfulness and safety. The model features three layers with sliding window attention (window size 4096) and ROPE for efficient local context modeling and relative positional encoding. A fourth layer uses global attention without positional embeddings, enabling unrestricted token interactions across the entire sequence. \\*\\*Languages covered:\\*\\* The model has been trained on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Arabic, Chinese, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, and Persian. \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "command-r7b:latest",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "command-r7b:7b",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "command-r7b:7b-12-2024-fp16",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "command-r7b:7b-12-2024-q4_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "command-r7b:7b-12-2024-q8_0",
+        "size": "",
+        "updated": ""
+      }
+    ]
+  },
+  {
     "name": "notus",
     "link": "https://ollama.com/library/notus",
     "description": "A 7B chat model fine-tuned with high-quality data and based on Zephyr.",
@@ -33882,45 +33921,6 @@
     ]
   },
   {
-    "name": "command-r7b",
-    "link": "https://ollama.com/library/command-r7b",
-    "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
-    "pullCount": "23.6K",
-    "updated": "7 weeks ago",
-    "size": [
-      "7b"
-    ],
-    "capabilities": "tools",
-    "readme": "## Readme\n\n![r7b.jpg](/assets/library/command-r7b/709a1bd1-3f55-4e90-b3ca-40db45e13683)\n\nC4AI Command R7B is an open weights research release of a 7B billion parameter model with advanced capabilities optimized for a variety of use cases including reasoning, summarization, question answering, and code. The model is trained to perform sophisticated tasks including Retrieval Augmented Generation (RAG) and tool use. The model also has powerful agentic capabilities with the ability to use and combine multiple tools over multiple steps to accomplish more difficult tasks. It obtains top performance on enterprise relevant code use cases. C4AI Command R7B is a multilingual model trained on 23 languages.\n\n### Model Details\n\n**Model Architecture:** This is an auto-regressive language model that uses an optimized transformer architecture. After pretraining, this model uses supervised fine-tuning (SFT) and preference training to align model behavior to human preferences for helpfulness and safety. The model features three layers with sliding window attention (window size 4096) and ROPE for efficient local context modeling and relative positional encoding. A fourth layer uses global attention without positional embeddings, enabling unrestricted token interactions across the entire sequence.\n\n**Languages covered:** The model has been trained on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Arabic, Chinese, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, and Persian.\n\nWrite Preview \n\n!\\[r7b.jpg\\](/assets/library/command-r7b/709a1bd1-3f55-4e90-b3ca-40db45e13683) C4AI Command R7B is an open weights research release of a 7B billion parameter model with advanced capabilities optimized for a variety of use cases including reasoning, summarization, question answering, and code. The model is trained to perform sophisticated tasks including Retrieval Augmented Generation (RAG) and tool use. The model also has powerful agentic capabilities with the ability to use and combine multiple tools over multiple steps to accomplish more difficult tasks. It obtains top performance on enterprise relevant code use cases. C4AI Command R7B is a multilingual model trained on 23 languages. ### Model Details \\*\\*Model Architecture:\\*\\* This is an auto-regressive language model that uses an optimized transformer architecture. After pretraining, this model uses supervised fine-tuning (SFT) and preference training to align model behavior to human preferences for helpfulness and safety. The model features three layers with sliding window attention (window size 4096) and ROPE for efficient local context modeling and relative positional encoding. A fourth layer uses global attention without positional embeddings, enabling unrestricted token interactions across the entire sequence. \\*\\*Languages covered:\\*\\* The model has been trained on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Arabic, Chinese, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, and Persian. \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "command-r7b:latest",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "command-r7b:7b",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "command-r7b:7b-12-2024-fp16",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "command-r7b:7b-12-2024-q4_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "command-r7b:7b-12-2024-q8_0",
-        "size": "",
-        "updated": ""
-      }
-    ]
-  },
-  {
     "name": "goliath",
     "link": "https://ollama.com/library/goliath",
     "description": "A language model created by combining two fine-tuned Llama 2 70B models into one.",
@@ -34007,6 +34007,45 @@
       },
       {
         "name": "goliath:120b-q8_0",
+        "size": "",
+        "updated": ""
+      }
+    ]
+  },
+  {
+    "name": "phi4-mini",
+    "link": "https://ollama.com/library/phi4-mini",
+    "description": "Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported.",
+    "pullCount": "22.8K",
+    "updated": "8 days ago",
+    "size": [
+      "3.8b"
+    ],
+    "capabilities": "tools",
+    "readme": "## Readme\n\n> Note: this model requires [Ollama 0.5.13](https://github.com/ollama/ollama/releases/tag/v0.5.13) or later.\n\n![](https://ollama.com/assets/library/phi3.5/dbf19a17-e3fd-46b6-a059-e6b4f1fae59f)\n\nPhi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4 model family and supports 128K token context length. The model underwent an enhancement process, incorporating both supervised fine-tuning and direct preference optimization to support precise instruction adherence and robust safety measures.\n\n## Primary use cases\n\nThe model is intended for broad multilingual commercial and research use. The model provides uses for general purpose AI systems and applications which require:\n\n* Memory/compute constrained environments\n* Latency bound scenarios\n* Strong reasoning (especially math and logic).\n* The model is designed to accelerate research on language and multimodal models, for use as a building block for generative AI powered features.\n\n## References\n\n[Hugging Face](https://huggingface.co/microsoft/Phi-4-mini-instruct)\n\n[Blog post](https://techcommunity.microsoft.com/blog/educatordeveloperblog/welcome-to-the-new-phi-4-models---microsoft-phi-4-mini--phi-4-multimodal/4386037)\n\nWrite Preview \n\n\\> Note: this model requires \\[Ollama 0.5.13\\](https://github.com/ollama/ollama/releases/tag/v0.5.13) or later. <img src=\"https://ollama.com/assets/library/phi3.5/dbf19a17-e3fd-46b6-a059-e6b4f1fae59f\" width=\"320\" /> Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4 model family and supports 128K token context length. The model underwent an enhancement process, incorporating both supervised fine-tuning and direct preference optimization to support precise instruction adherence and robust safety measures. ## Primary use cases The model is intended for broad multilingual commercial and research use. The model provides uses for general purpose AI systems and applications which require: - Memory/compute constrained environments - Latency bound scenarios - Strong reasoning (especially math and logic). - The model is designed to accelerate research on language and multimodal models, for use as a building block for generative AI powered features. ## References \\[Hugging Face\\](https://huggingface.co/microsoft/Phi-4-mini-instruct) \\[Blog post\\](https://techcommunity.microsoft.com/blog/educatordeveloperblog/welcome-to-the-new-phi-4-models---microsoft-phi-4-mini--phi-4-multimodal/4386037) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "phi4-mini:latest",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "phi4-mini:3.8b",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "phi4-mini:3.8b-fp16",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "phi4-mini:3.8b-q4_K_M",
+        "size": "",
+        "updated": ""
+      },
+      {
+        "name": "phi4-mini:3.8b-q8_0",
         "size": "",
         "updated": ""
       }
@@ -34112,49 +34151,10 @@
     ]
   },
   {
-    "name": "phi4-mini",
-    "link": "https://ollama.com/library/phi4-mini",
-    "description": "Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported.",
-    "pullCount": "21.3K",
-    "updated": "7 days ago",
-    "size": [
-      "3.8b"
-    ],
-    "capabilities": "tools",
-    "readme": "## Readme\n\n> Note: this model requires [Ollama 0.5.13](https://github.com/ollama/ollama/releases/tag/v0.5.13) or later.\n\n![](https://ollama.com/assets/library/phi3.5/dbf19a17-e3fd-46b6-a059-e6b4f1fae59f)\n\nPhi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4 model family and supports 128K token context length. The model underwent an enhancement process, incorporating both supervised fine-tuning and direct preference optimization to support precise instruction adherence and robust safety measures.\n\n## Primary use cases\n\nThe model is intended for broad multilingual commercial and research use. The model provides uses for general purpose AI systems and applications which require:\n\n* Memory/compute constrained environments\n* Latency bound scenarios\n* Strong reasoning (especially math and logic).\n* The model is designed to accelerate research on language and multimodal models, for use as a building block for generative AI powered features.\n\n## References\n\n[Hugging Face](https://huggingface.co/microsoft/Phi-4-mini-instruct)\n\n[Blog post](https://techcommunity.microsoft.com/blog/educatordeveloperblog/welcome-to-the-new-phi-4-models---microsoft-phi-4-mini--phi-4-multimodal/4386037)\n\nWrite Preview \n\n\\> Note: this model requires \\[Ollama 0.5.13\\](https://github.com/ollama/ollama/releases/tag/v0.5.13) or later. <img src=\"https://ollama.com/assets/library/phi3.5/dbf19a17-e3fd-46b6-a059-e6b4f1fae59f\" width=\"320\" /> Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4 model family and supports 128K token context length. The model underwent an enhancement process, incorporating both supervised fine-tuning and direct preference optimization to support precise instruction adherence and robust safety measures. ## Primary use cases The model is intended for broad multilingual commercial and research use. The model provides uses for general purpose AI systems and applications which require: - Memory/compute constrained environments - Latency bound scenarios - Strong reasoning (especially math and logic). - The model is designed to accelerate research on language and multimodal models, for use as a building block for generative AI powered features. ## References \\[Hugging Face\\](https://huggingface.co/microsoft/Phi-4-mini-instruct) \\[Blog post\\](https://techcommunity.microsoft.com/blog/educatordeveloperblog/welcome-to-the-new-phi-4-models---microsoft-phi-4-mini--phi-4-multimodal/4386037) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "phi4-mini:latest",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "phi4-mini:3.8b",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "phi4-mini:3.8b-fp16",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "phi4-mini:3.8b-q4_K_M",
-        "size": "",
-        "updated": ""
-      },
-      {
-        "name": "phi4-mini:3.8b-q8_0",
-        "size": "",
-        "updated": ""
-      }
-    ]
-  },
-  {
     "name": "granite-embedding",
     "link": "https://ollama.com/library/granite-embedding",
     "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
-    "pullCount": "20.1K",
+    "pullCount": "20.3K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -34196,7 +34196,7 @@
     "name": "tulu3",
     "link": "https://ollama.com/library/tulu3",
     "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
-    "pullCount": "19.8K",
+    "pullCount": "19.9K",
     "updated": "2 months ago",
     "size": [
       "8b",
@@ -34355,7 +34355,7 @@
     "name": "dbrx",
     "link": "https://ollama.com/library/dbrx",
     "description": "DBRX is an open, general-purpose LLM created by Databricks.",
-    "pullCount": "18.3K",
+    "pullCount": "18.4K",
     "updated": "10 months ago",
     "size": [
       "132b"
@@ -34518,7 +34518,7 @@
     "name": "r1-1776",
     "link": "https://ollama.com/library/r1-1776",
     "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-    "pullCount": "14.8K",
+    "pullCount": "15.1K",
     "updated": "2 weeks ago",
     "size": [
       "70b",
@@ -34578,8 +34578,8 @@
     "name": "granite3.2",
     "link": "https://ollama.com/library/granite3.2",
     "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
-    "pullCount": "13.2K",
-    "updated": "9 days ago",
+    "pullCount": "13.7K",
+    "updated": "10 days ago",
     "size": [
       "2b",
       "8b"
@@ -34638,8 +34638,8 @@
     "name": "granite3.2-vision",
     "link": "https://ollama.com/library/granite3.2-vision",
     "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
-    "pullCount": "10.8K",
-    "updated": "8 days ago",
+    "pullCount": "11.7K",
+    "updated": "9 days ago",
     "size": [
       "2b"
     ],
@@ -34677,7 +34677,7 @@
     "name": "sailor2",
     "link": "https://ollama.com/library/sailor2",
     "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
-    "pullCount": "9,638",
+    "pullCount": "9,675",
     "updated": "3 months ago",
     "size": [
       "1b",
@@ -34758,8 +34758,8 @@
     "name": "command-r7b-arabic",
     "link": "https://ollama.com/library/command-r7b-arabic",
     "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
-    "pullCount": "3,013",
-    "updated": "7 days ago",
+    "pullCount": "3,103",
+    "updated": "8 days ago",
     "size": [
       "7b"
     ],
