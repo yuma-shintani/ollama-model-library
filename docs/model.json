@@ -43,16 +43,151 @@
     "name": "qwen3-vl",
     "link": "https://ollama.com/library/qwen3-vl",
     "description": "The most powerful vision-language model in the Qwen model family to date.",
-    "pullCount": "13.2K",
-    "updated": "1 week ago",
+    "pullCount": "14K",
+    "updated": "2 minutes ago",
     "size": null,
     "capabilities": "vision",
     "readme": "## Readme\n\n![Qwen 3 banner](/assets/library/qwen3-vl/d784b840-5f70-4a60-86bc-f10ad6c0627f)\n\nQwen3-VL is the most powerful vision-language model in the Qwen family to date.\n\nIn this generation, there are improvements to the model in many areas: its understanding and generating text, perceiving and reasoning about visual content, supporting longer context lengths, understanding spatial relationships and dynamic videos, or interacting with AI agents — Qwen3-VL shows clear and significant progress in every area.\n\n### Models\n\n**235B Instruct**\n\n`ollama run qwen3-vl:235b-cloud`\n\nLocal models coming soon.\n\n### Key features\n\n**Visual Agent Capabilities**: Qwen3-VL can operate computer and mobile interfaces — recognize GUI elements, understand button functions, call tools, and complete tasks. It achieves top global performance on benchmarks like OS World, and using tools significantly improves its performance on fine-grained perception tasks.\n\n**Superior Text-Centric Performance**: Qwen3-VL employs early-stage joint pretraining of text and visual modalities, continuously strengthening its language capabilities. Its performance on text-based tasks matches that of Qwen3-235B-A22B-2507 — the flagship language model — making it a truly “text-grounded, multimodal powerhouse” for the next generation of vision-language models.\n\n**Greatly Improved Visual Coding**: It can now generate code from images or videos — for example, turning a design mockup into Draw.io, HTML, CSS, or JavaScript code — making “what you see is what you get” visual programming a reality.\n\n**Much Better Spatial Understanding**: 2D grounding from absolute coordinates to relative coordinates. It can judge object positions, viewpoint changes, and occlusion relationships. It supports 3D grounding, laying the foundation for complex spatial reasoning and embodied AI applications.\n\n**Long Context & Long Video Understanding**: All models natively support 256K tokens of context, expandable up to 1 million tokens. This means you can input hundreds of pages of technical documents, entire textbooks, or even two-hour videos — and the model will remember everything and retrieve details accurately, down to the exact second in videos.\n\n**Stronger Multimodal Reasoning (Thinking Version)**: The Thinking model is specially optimized for STEM and math reasoning. When facing complex subject questions, it can notice fine details, break down problems step by step, analyze cause and effect, and give logical, evidence-based answers. It achieves strong performance on reasoning benchmarks like MathVision, MMMU, and MathVista.\n\n**Upgraded Visual Perception & Recognition**: By improving the quality and diversity of pre-training data, the model can now recognize a much wider range of objects — from celebrities, anime characters, products, and landmarks, to animals and plants — covering both everyday life and professional “recognize anything” needs.\n\n**Better OCR Across More Languages & Complex Scenes**: OCR now supports 32 languages (up from 10), covering more countries and regions. It performs more reliably under challenging real-world conditions like poor lighting, blur, or tilted text. Recognition accuracy for rare characters, ancient scripts, and technical terms has also improved significantly. Its ability to understand long documents and reconstruct fine structures is further enhanced.\n\nWrite Preview \n\n!\\[Qwen 3 banner\\](/assets/library/qwen3-vl/d784b840-5f70-4a60-86bc-f10ad6c0627f) Qwen3-VL is the most powerful vision-language model in the Qwen family to date. In this generation, there are improvements to the model in many areas: its understanding and generating text, perceiving and reasoning about visual content, supporting longer context lengths, understanding spatial relationships and dynamic videos, or interacting with AI agents — Qwen3-VL shows clear and significant progress in every area. ### Models \\*\\*235B Instruct\\*\\* \\`ollama run qwen3-vl:235b-cloud\\` Local models coming soon. ### Key features \\*\\*Visual Agent Capabilities\\*\\*: Qwen3-VL can operate computer and mobile interfaces — recognize GUI elements, understand button functions, call tools, and complete tasks. It achieves top global performance on benchmarks like OS World, and using tools significantly improves its performance on fine-grained perception tasks. \\*\\*Superior Text-Centric Performance\\*\\*: Qwen3-VL employs early-stage joint pretraining of text and visual modalities, continuously strengthening its language capabilities. Its performance on text-based tasks matches that of Qwen3-235B-A22B-2507 — the flagship language model — making it a truly “text-grounded, multimodal powerhouse” for the next generation of vision-language models. \\*\\*Greatly Improved Visual Coding\\*\\*: It can now generate code from images or videos — for example, turning a design mockup into Draw.io, HTML, CSS, or JavaScript code — making “what you see is what you get” visual programming a reality. \\*\\*Much Better Spatial Understanding\\*\\*: 2D grounding from absolute coordinates to relative coordinates. It can judge object positions, viewpoint changes, and occlusion relationships. It supports 3D grounding, laying the foundation for complex spatial reasoning and embodied AI applications. \\*\\*Long Context & Long Video Understanding\\*\\*: All models natively support 256K tokens of context, expandable up to 1 million tokens. This means you can input hundreds of pages of technical documents, entire textbooks, or even two-hour videos — and the model will remember everything and retrieve details accurately, down to the exact second in videos. \\*\\*Stronger Multimodal Reasoning (Thinking Version)\\*\\*: The Thinking model is specially optimized for STEM and math reasoning. When facing complex subject questions, it can notice fine details, break down problems step by step, analyze cause and effect, and give logical, evidence-based answers. It achieves strong performance on reasoning benchmarks like MathVision, MMMU, and MathVista. \\*\\*Upgraded Visual Perception & Recognition\\*\\*: By improving the quality and diversity of pre-training data, the model can now recognize a much wider range of objects — from celebrities, anime characters, products, and landmarks, to animals and plants — covering both everyday life and professional “recognize anything” needs. \\*\\*Better OCR Across More Languages & Complex Scenes\\*\\*: OCR now supports 32 languages (up from 10), covering more countries and regions. It performs more reliably under challenging real-world conditions like poor lighting, blur, or tilted text. Recognition accuracy for rare characters, ancient scripts, and technical terms has also improved significantly. Its ability to understand long documents and reconstruct fine structures is further enhanced. \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": [
       {
+        "name": "qwen3-vl:2b-instruct",
+        "size": "qwen3-vl:2b-instruct",
+        "updated": "Text, Image input • \n                    45 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:2b-instruct-q4_K_M",
+        "size": "qwen3-vl:2b-instruct-q4_K_M",
+        "updated": "Text, Image input • \n                    45 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:2b-instruct-q8_0",
+        "size": "qwen3-vl:2b-instruct-q8_0",
+        "updated": "Text, Image input • \n                    43 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:2b-instruct-bf16",
+        "size": "qwen3-vl:2b-instruct-bf16",
+        "updated": "Text, Image input • \n                    46 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:2b-thinking",
+        "size": "qwen3-vl:2b-thinking",
+        "updated": "Text, Image input • \n                    49 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:2b-thinking-q4_K_M",
+        "size": "qwen3-vl:2b-thinking-q4_K_M",
+        "updated": "Text, Image input • \n                    49 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:2b-thinking-q8_0",
+        "size": "qwen3-vl:2b-thinking-q8_0",
+        "updated": "Text, Image input • \n                    48 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:2b-thinking-bf16",
+        "size": "qwen3-vl:2b-thinking-bf16",
+        "updated": "Text, Image input • \n                    51 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:4b-instruct",
+        "size": "qwen3-vl:4b-instruct",
+        "updated": "Text, Image input • \n                    33 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:4b-instruct-q4_K_M",
+        "size": "qwen3-vl:4b-instruct-q4_K_M",
+        "updated": "Text, Image input • \n                    33 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:4b-instruct-q8_0",
+        "size": "qwen3-vl:4b-instruct-q8_0",
+        "updated": "Text, Image input • \n                    31 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:4b-instruct-bf16",
+        "size": "qwen3-vl:4b-instruct-bf16",
+        "updated": "Text, Image input • \n                    35 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:4b-thinking",
+        "size": "qwen3-vl:4b-thinking",
+        "updated": "Text, Image input • \n                    39 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:4b-thinking-q4_K_M",
+        "size": "qwen3-vl:4b-thinking-q4_K_M",
+        "updated": "Text, Image input • \n                    39 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:4b-thinking-q8_0",
+        "size": "qwen3-vl:4b-thinking-q8_0",
+        "updated": "Text, Image input • \n                    37 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:4b-thinking-bf16",
+        "size": "qwen3-vl:4b-thinking-bf16",
+        "updated": "Text, Image input • \n                    41 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:8b-instruct",
+        "size": "qwen3-vl:8b-instruct",
+        "updated": "Text, Image input • \n                    19 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:8b-instruct-q4_K_M",
+        "size": "qwen3-vl:8b-instruct-q4_K_M",
+        "updated": "Text, Image input • \n                    19 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:8b-instruct-q8_0",
+        "size": "qwen3-vl:8b-instruct-q8_0",
+        "updated": "Text, Image input • \n                    15 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:8b-instruct-bf16",
+        "size": "qwen3-vl:8b-instruct-bf16",
+        "updated": "Text, Image input • \n                    21 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:8b-thinking",
+        "size": "qwen3-vl:8b-thinking",
+        "updated": "Text, Image input • \n                    26 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:8b-thinking-q4_K_M",
+        "size": "qwen3-vl:8b-thinking-q4_K_M",
+        "updated": "Text, Image input • \n                    26 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:8b-thinking-q8_0",
+        "size": "qwen3-vl:8b-thinking-q8_0",
+        "updated": "Text, Image input • \n                    24 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:8b-thinking-bf16",
+        "size": "qwen3-vl:8b-thinking-bf16",
+        "updated": "Text, Image input • \n                    28 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:32b-thinking",
+        "size": "qwen3-vl:32b-thinking",
+        "updated": "Text, Image input • \n                    2 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:32b-thinking-q4_K_M",
+        "size": "qwen3-vl:32b-thinking-q4_K_M",
+        "updated": "Text, Image input • \n                    2 minutes ago"
+      },
+      {
+        "name": "qwen3-vl:32b-thinking-bf16",
+        "size": "qwen3-vl:32b-thinking-bf16",
+        "updated": "Text, Image input • \n                    7 minutes ago"
+      },
+      {
         "name": "qwen3-vl:235b-cloud",
         "size": "qwen3-vl:235b-cloud",
-        "updated": "Text, Image input • \n                    1 week ago"
+        "updated": "Text, Image input • \n                    2 weeks ago"
       }
     ]
   },
@@ -60,7 +195,7 @@
     "name": "deepseek-r1",
     "link": "https://ollama.com/library/deepseek-r1",
     "description": "DeepSeek-R1 is a family of open reasoning models with performance approaching that of leading models, such as O3 and Gemini 2.5 Pro.",
-    "pullCount": "68.1M",
+    "pullCount": "68.3M",
     "updated": "3 months ago",
     "size": [
       "1.5b",
@@ -255,7 +390,7 @@
     "name": "qwen3-coder",
     "link": "https://ollama.com/library/qwen3-coder",
     "description": "Alibaba's performant long context models for agentic and coding tasks.",
-    "pullCount": "565.8K",
+    "pullCount": "571.2K",
     "updated": "1 month ago",
     "size": [
       "30b",
@@ -320,7 +455,7 @@
     "name": "gemma3",
     "link": "https://ollama.com/library/gemma3",
     "description": "The current, most capable model that runs on a single GPU.",
-    "pullCount": "22.9M",
+    "pullCount": "23M",
     "updated": "2 months ago",
     "size": [
       "270m1b",
@@ -467,7 +602,7 @@
     "name": "glm-4.6",
     "link": "https://ollama.com/library/glm-4.6",
     "description": "Advanced agentic, reasoning and coding capabilities.",
-    "pullCount": "10.6K",
+    "pullCount": "11.2K",
     "updated": "1 week ago",
     "size": null,
     "capabilities": "",
@@ -484,7 +619,7 @@
     "name": "embeddinggemma",
     "link": "https://ollama.com/library/embeddinggemma",
     "description": "EmbeddingGemma is a 300M parameter embedding model from Google.",
-    "pullCount": "108.5K",
+    "pullCount": "110K",
     "updated": "1 month ago",
     "size": null,
     "capabilities": "embedding",
@@ -521,7 +656,7 @@
     "name": "qwen3",
     "link": "https://ollama.com/library/qwen3",
     "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models.",
-    "pullCount": "11.5M",
+    "pullCount": "11.6M",
     "updated": "2 weeks ago",
     "size": [
       "0.6b",
@@ -832,7 +967,7 @@
     "name": "deepseek-v3.1",
     "link": "https://ollama.com/library/deepseek-v3.1",
     "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
-    "pullCount": "117.9K",
+    "pullCount": "119.3K",
     "updated": "1 month ago",
     "size": [
       "671b"
@@ -1367,7 +1502,7 @@
     "name": "nomic-embed-text",
     "link": "https://ollama.com/library/nomic-embed-text",
     "description": "A high-performing open embedding model with a large token context window.",
-    "pullCount": "44.2M",
+    "pullCount": "44.3M",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -1394,7 +1529,7 @@
     "name": "llama3.2",
     "link": "https://ollama.com/library/llama3.2",
     "description": "Meta's Llama 3.2 goes small with 1B and 3B models.",
-    "pullCount": "42.2M",
+    "pullCount": "42.4M",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -1724,7 +1859,7 @@
     "name": "mistral",
     "link": "https://ollama.com/library/mistral",
     "description": "The 7B model released by Mistral AI, updated to version 0.3.",
-    "pullCount": "21.2M",
+    "pullCount": "21.3M",
     "updated": "3 months ago",
     "size": [
       "7b"
@@ -2158,7 +2293,7 @@
     "name": "qwen2.5",
     "link": "https://ollama.com/library/qwen2.5",
     "description": "Qwen2.5 models are pretrained on Alibaba's latest large-scale dataset, encompassing up to 18 trillion tokens. The model supports up to 128K tokens and has multilingual support.",
-    "pullCount": "15.7M",
+    "pullCount": "15.8M",
     "updated": "1 year ago",
     "size": [
       "0.5b",
@@ -2843,7 +2978,7 @@
     "name": "phi3",
     "link": "https://ollama.com/library/phi3",
     "description": "Phi-3 is a family of lightweight 3B (Mini) and 14B (Medium) state-of-the-art open models by Microsoft.",
-    "pullCount": "12.4M",
+    "pullCount": "12.5M",
     "updated": "1 year ago",
     "size": [
       "3.8b",
@@ -4079,7 +4214,7 @@
     "name": "gemma2",
     "link": "https://ollama.com/library/gemma2",
     "description": "Google Gemma 2 is a high-performing and efficient model available in three sizes: 2B, 9B, and 27B.",
-    "pullCount": "8.5M",
+    "pullCount": "8.6M",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -8593,7 +8728,7 @@
     "name": "llama2",
     "link": "https://ollama.com/library/llama2",
     "description": "Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.",
-    "pullCount": "4.3M",
+    "pullCount": "4.4M",
     "updated": "1 year ago",
     "size": [
       "7b",
@@ -9218,7 +9353,7 @@
     "name": "dolphin3",
     "link": "https://ollama.com/library/dolphin3",
     "description": "Dolphin 3.0 Llama 3.1 8B 🐬 is the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.",
-    "pullCount": "3.3M",
+    "pullCount": "3.4M",
     "updated": "9 months ago",
     "size": [
       "8b"
@@ -10832,7 +10967,7 @@
     "name": "mistral-small",
     "link": "https://ollama.com/library/mistral-small",
     "description": "Mistral Small 3 sets a new benchmark in the “small” Large Language Models category below 70B.",
-    "pullCount": "2M",
+    "pullCount": "2.1M",
     "updated": "9 months ago",
     "size": [
       "22b",
@@ -12604,7 +12739,7 @@
     "link": "https://ollama.com/library/llama2-uncensored",
     "description": "Uncensored Llama 2 model by George Sung and Jarrad Hope.",
     "pullCount": "1.3M",
-    "updated": "1 year ago",
+    "updated": "2 years ago",
     "size": [
       "7b",
       "70b"
@@ -12740,7 +12875,7 @@
       {
         "name": "llama2-uncensored:70b-chat-q4_1",
         "size": "llama2-uncensored:70b-chat-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "llama2-uncensored:70b-chat-q4_K_S",
@@ -13665,7 +13800,7 @@
     "name": "granite3.1-moe",
     "link": "https://ollama.com/library/granite3.1-moe",
     "description": "The IBM Granite 1B and 3B models are long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
-    "pullCount": "996.7K",
+    "pullCount": "1M",
     "updated": "9 months ago",
     "size": [
       "1b",
@@ -13845,7 +13980,7 @@
     "name": "qwen2.5vl",
     "link": "https://ollama.com/library/qwen2.5vl",
     "description": "Flagship vision-language model of Qwen and also a significant leap from the previous Qwen2-VL.",
-    "pullCount": "961.8K",
+    "pullCount": "981.1K",
     "updated": "5 months ago",
     "size": [
       "3b",
@@ -13947,7 +14082,7 @@
     "name": "snowflake-arctic-embed",
     "link": "https://ollama.com/library/snowflake-arctic-embed",
     "description": "A suite of text embedding models by Snowflake, optimized for performance.",
-    "pullCount": "949.7K",
+    "pullCount": "950.2K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -14039,8 +14174,8 @@
     "name": "orca-mini",
     "link": "https://ollama.com/library/orca-mini",
     "description": "A general-purpose model ranging from 3 billion parameters to 70 billion, suitable for entry-level hardware.",
-    "pullCount": "920.9K",
-    "updated": "1 year ago",
+    "pullCount": "926K",
+    "updated": "2 years ago",
     "size": [
       "3b",
       "7b",
@@ -14063,7 +14198,7 @@
       {
         "name": "orca-mini:7b",
         "size": "orca-mini:7b",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:13b",
@@ -14073,7 +14208,7 @@
       {
         "name": "orca-mini:70b",
         "size": "orca-mini:70b",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:3b-q4_0",
@@ -14183,82 +14318,82 @@
       {
         "name": "orca-mini:7b-v3",
         "size": "orca-mini:7b-v3",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q2_K",
         "size": "orca-mini:7b-v3-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q3_K_S",
         "size": "orca-mini:7b-v3-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q3_K_M",
         "size": "orca-mini:7b-v3-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q3_K_L",
         "size": "orca-mini:7b-v3-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q4_0",
         "size": "orca-mini:7b-v3-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q4_1",
         "size": "orca-mini:7b-v3-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q4_K_S",
         "size": "orca-mini:7b-v3-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q4_K_M",
         "size": "orca-mini:7b-v3-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q5_0",
         "size": "orca-mini:7b-v3-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q5_1",
         "size": "orca-mini:7b-v3-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q5_K_S",
         "size": "orca-mini:7b-v3-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q5_K_M",
         "size": "orca-mini:7b-v3-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q6_K",
         "size": "orca-mini:7b-v3-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-q8_0",
         "size": "orca-mini:7b-v3-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-v3-fp16",
         "size": "orca-mini:7b-v3-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:7b-q2_K",
@@ -14568,82 +14703,82 @@
       {
         "name": "orca-mini:70b-v3",
         "size": "orca-mini:70b-v3",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q2_K",
         "size": "orca-mini:70b-v3-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q3_K_S",
         "size": "orca-mini:70b-v3-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q3_K_M",
         "size": "orca-mini:70b-v3-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q3_K_L",
         "size": "orca-mini:70b-v3-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q4_0",
         "size": "orca-mini:70b-v3-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q4_1",
         "size": "orca-mini:70b-v3-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q4_K_S",
         "size": "orca-mini:70b-v3-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q4_K_M",
         "size": "orca-mini:70b-v3-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q5_0",
         "size": "orca-mini:70b-v3-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q5_1",
         "size": "orca-mini:70b-v3-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q5_K_S",
         "size": "orca-mini:70b-v3-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q5_K_M",
         "size": "orca-mini:70b-v3-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q6_K",
         "size": "orca-mini:70b-v3-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-q8_0",
         "size": "orca-mini:70b-v3-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "orca-mini:70b-v3-fp16",
         "size": "orca-mini:70b-v3-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       }
     ]
   },
@@ -14651,7 +14786,7 @@
     "name": "llama4",
     "link": "https://ollama.com/library/llama4",
     "description": "Meta's latest collection of multimodal models.",
-    "pullCount": "749.8K",
+    "pullCount": "751.1K",
     "updated": "4 months ago",
     "size": [
       "16x17b",
@@ -14721,7 +14856,7 @@
     "name": "phi",
     "link": "https://ollama.com/library/phi",
     "description": "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.",
-    "pullCount": "730.1K",
+    "pullCount": "730.4K",
     "updated": "1 year ago",
     "size": [
       "2.7b"
@@ -14822,10 +14957,49 @@
     ]
   },
   {
+    "name": "mistral-small3.2",
+    "link": "https://ollama.com/library/mistral-small3.2",
+    "description": "An update to Mistral Small that improves on function calling, instruction following, and less repetition errors.",
+    "pullCount": "716.9K",
+    "updated": "4 months ago",
+    "size": [
+      "24b"
+    ],
+    "capabilities": "visiontools",
+    "readme": "## Readme\n\n![](/assets/library/mistral-small3.2/cec4138e-e20c-4d5b-910f-56f8647dbda1)\n\nMistral-Small-3.2-24B-Instruct-2506 is a minor update of Mistral-Small-3.1-24B-Instruct-2503.\n\nSmall-3.2 improves in the following categories:\n\n* **Instruction following**: Small-3.2 is better at following precise instructions\n* **Repetition errors**: Small-3.2 produces less infinite generations or repetitive answers\n* **Function calling**: Small-3.2’s function calling template is more robust (see here and examples)\n\nIn all other categories Small-3.2 should match or slightly improve compared to Mistral-Small-3.1-24B-Instruct-2503.\n\n## References\n\n[Hugging Face](https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506)\n\nWrite Preview \n\n<img src=\"/assets/library/mistral-small3.2/cec4138e-e20c-4d5b-910f-56f8647dbda1\" width=\"140\" /> Mistral-Small-3.2-24B-Instruct-2506 is a minor update of Mistral-Small-3.1-24B-Instruct-2503\\. Small-3.2 improves in the following categories: \\* \\*\\*Instruction following\\*\\*: Small-3.2 is better at following precise instructions \\* \\*\\*Repetition errors\\*\\*: Small-3.2 produces less infinite generations or repetitive answers \\* \\*\\*Function calling\\*\\*: Small-3.2's function calling template is more robust (see here and examples) In all other categories Small-3.2 should match or slightly improve compared to Mistral-Small-3.1-24B-Instruct-2503\\. ## References \\[Hugging Face\\](https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "mistral-small3.2:latest",
+        "size": "mistral-small3.2:latest",
+        "updated": "Text, Image input • \n                    4 months ago"
+      },
+      {
+        "name": "mistral-small3.2:24b",
+        "size": "mistral-small3.2:24b",
+        "updated": "Text, Image input • \n                    4 months ago"
+      },
+      {
+        "name": "mistral-small3.2:24b-instruct-2506-q4_K_M",
+        "size": "mistral-small3.2:24b-instruct-2506-q4_K_M",
+        "updated": "Text, Image input • \n                    4 months ago"
+      },
+      {
+        "name": "mistral-small3.2:24b-instruct-2506-q8_0",
+        "size": "mistral-small3.2:24b-instruct-2506-q8_0",
+        "updated": "Text, Image input • \n                    4 months ago"
+      },
+      {
+        "name": "mistral-small3.2:24b-instruct-2506-fp16",
+        "size": "mistral-small3.2:24b-instruct-2506-fp16",
+        "updated": "Text, Image input • \n                    4 months ago"
+      }
+    ]
+  },
+  {
     "name": "dolphin-mixtral",
     "link": "https://ollama.com/library/dolphin-mixtral",
     "description": "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.",
-    "pullCount": "716K",
+    "pullCount": "716.4K",
     "updated": "10 months ago",
     "size": [
       "8x7b",
@@ -15187,49 +15361,10 @@
     ]
   },
   {
-    "name": "mistral-small3.2",
-    "link": "https://ollama.com/library/mistral-small3.2",
-    "description": "An update to Mistral Small that improves on function calling, instruction following, and less repetition errors.",
-    "pullCount": "715.1K",
-    "updated": "4 months ago",
-    "size": [
-      "24b"
-    ],
-    "capabilities": "visiontools",
-    "readme": "## Readme\n\n![](/assets/library/mistral-small3.2/cec4138e-e20c-4d5b-910f-56f8647dbda1)\n\nMistral-Small-3.2-24B-Instruct-2506 is a minor update of Mistral-Small-3.1-24B-Instruct-2503.\n\nSmall-3.2 improves in the following categories:\n\n* **Instruction following**: Small-3.2 is better at following precise instructions\n* **Repetition errors**: Small-3.2 produces less infinite generations or repetitive answers\n* **Function calling**: Small-3.2’s function calling template is more robust (see here and examples)\n\nIn all other categories Small-3.2 should match or slightly improve compared to Mistral-Small-3.1-24B-Instruct-2503.\n\n## References\n\n[Hugging Face](https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506)\n\nWrite Preview \n\n<img src=\"/assets/library/mistral-small3.2/cec4138e-e20c-4d5b-910f-56f8647dbda1\" width=\"140\" /> Mistral-Small-3.2-24B-Instruct-2506 is a minor update of Mistral-Small-3.1-24B-Instruct-2503\\. Small-3.2 improves in the following categories: \\* \\*\\*Instruction following\\*\\*: Small-3.2 is better at following precise instructions \\* \\*\\*Repetition errors\\*\\*: Small-3.2 produces less infinite generations or repetitive answers \\* \\*\\*Function calling\\*\\*: Small-3.2's function calling template is more robust (see here and examples) In all other categories Small-3.2 should match or slightly improve compared to Mistral-Small-3.1-24B-Instruct-2503\\. ## References \\[Hugging Face\\](https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "mistral-small3.2:latest",
-        "size": "mistral-small3.2:latest",
-        "updated": "Text, Image input • \n                    4 months ago"
-      },
-      {
-        "name": "mistral-small3.2:24b",
-        "size": "mistral-small3.2:24b",
-        "updated": "Text, Image input • \n                    4 months ago"
-      },
-      {
-        "name": "mistral-small3.2:24b-instruct-2506-q4_K_M",
-        "size": "mistral-small3.2:24b-instruct-2506-q4_K_M",
-        "updated": "Text, Image input • \n                    4 months ago"
-      },
-      {
-        "name": "mistral-small3.2:24b-instruct-2506-q8_0",
-        "size": "mistral-small3.2:24b-instruct-2506-q8_0",
-        "updated": "Text, Image input • \n                    4 months ago"
-      },
-      {
-        "name": "mistral-small3.2:24b-instruct-2506-fp16",
-        "size": "mistral-small3.2:24b-instruct-2506-fp16",
-        "updated": "Text, Image input • \n                    4 months ago"
-      }
-    ]
-  },
-  {
     "name": "gemma3n",
     "link": "https://ollama.com/library/gemma3n",
     "description": "Gemma 3n models are designed for efficient execution on everyday devices such as laptops, tablets or phones.",
-    "pullCount": "658.8K",
+    "pullCount": "665.1K",
     "updated": "4 months ago",
     "size": [
       "e2b",
@@ -15289,7 +15424,7 @@
     "name": "granite3.3",
     "link": "https://ollama.com/library/granite3.3",
     "description": "IBM Granite 2B and 8B models are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities.",
-    "pullCount": "655.4K",
+    "pullCount": "658.3K",
     "updated": "6 months ago",
     "size": [
       "2b",
@@ -15319,7 +15454,7 @@
     "name": "cogito",
     "link": "https://ollama.com/library/cogito",
     "description": "Cogito v1 Preview is a family of hybrid reasoning models by Deep Cogito that outperform the best available open models of the same size, including counterparts from LLaMA, DeepSeek, and Qwen across most standard benchmarks.",
-    "pullCount": "650.3K",
+    "pullCount": "655.1K",
     "updated": "6 months ago",
     "size": [
       "3b",
@@ -15437,8 +15572,8 @@
     "name": "phi4-reasoning",
     "link": "https://ollama.com/library/phi4-reasoning",
     "description": "Phi 4 reasoning and reasoning plus are 14-billion parameter open-weight reasoning models that rival much larger models on complex reasoning tasks.",
-    "pullCount": "617.7K",
-    "updated": "5 months ago",
+    "pullCount": "622.1K",
+    "updated": "6 months ago",
     "size": [
       "14b"
     ],
@@ -15448,47 +15583,47 @@
       {
         "name": "phi4-reasoning:latest",
         "size": "phi4-reasoning:latest",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "phi4-reasoning:plus",
         "size": "phi4-reasoning:plus",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "phi4-reasoning:14b",
         "size": "phi4-reasoning:14b",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "phi4-reasoning:14b-plus-q4_K_M",
         "size": "phi4-reasoning:14b-plus-q4_K_M",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "phi4-reasoning:14b-plus-q8_0",
         "size": "phi4-reasoning:14b-plus-q8_0",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "phi4-reasoning:14b-plus-fp16",
         "size": "phi4-reasoning:14b-plus-fp16",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "phi4-reasoning:14b-q4_K_M",
         "size": "phi4-reasoning:14b-q4_K_M",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "phi4-reasoning:14b-q8_0",
         "size": "phi4-reasoning:14b-q8_0",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "phi4-reasoning:14b-fp16",
         "size": "phi4-reasoning:14b-fp16",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       }
     ]
   },
@@ -15496,7 +15631,7 @@
     "name": "openthinker",
     "link": "https://ollama.com/library/openthinker",
     "description": "A fully open-source family of reasoning models built using a dataset derived by distilling DeepSeek-R1.",
-    "pullCount": "604.2K",
+    "pullCount": "604.3K",
     "updated": "6 months ago",
     "size": [
       "7b",
@@ -15586,7 +15721,7 @@
     "name": "magistral",
     "link": "https://ollama.com/library/magistral",
     "description": "Magistral is a small, efficient reasoning model with 24B parameters.",
-    "pullCount": "573.1K",
+    "pullCount": "578.8K",
     "updated": "4 months ago",
     "size": [
       "24b"
@@ -15625,7 +15760,7 @@
     "name": "deepscaler",
     "link": "https://ollama.com/library/deepscaler",
     "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
-    "pullCount": "566.6K",
+    "pullCount": "570.6K",
     "updated": "8 months ago",
     "size": [
       "1.5b"
@@ -15664,7 +15799,7 @@
     "name": "dolphin-phi",
     "link": "https://ollama.com/library/dolphin-phi",
     "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
-    "pullCount": "562.6K",
+    "pullCount": "566.7K",
     "updated": "1 year ago",
     "size": [
       "2.7b"
@@ -15753,7 +15888,7 @@
     "name": "dolphin-llama3",
     "link": "https://ollama.com/library/dolphin-llama3",
     "description": "Dolphin 2.9 is a new model with 8B and 70B sizes by Eric Hartford based on Llama 3 that has a variety of instruction, conversational, and coding skills.",
-    "pullCount": "515.7K",
+    "pullCount": "517.6K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -16033,7 +16168,7 @@
     "name": "codestral",
     "link": "https://ollama.com/library/codestral",
     "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
-    "pullCount": "501.3K",
+    "pullCount": "502.7K",
     "updated": "1 year ago",
     "size": [
       "22b"
@@ -16132,7 +16267,7 @@
     "name": "smollm",
     "link": "https://ollama.com/library/smollm",
     "description": "🪐 A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.",
-    "pullCount": "482.8K",
+    "pullCount": "483.9K",
     "updated": "1 year ago",
     "size": [
       "135m360m1.7b"
@@ -16613,10 +16748,49 @@
     ]
   },
   {
+    "name": "phi4-mini",
+    "link": "https://ollama.com/library/phi4-mini",
+    "description": "Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported.",
+    "pullCount": "457.4K",
+    "updated": "8 months ago",
+    "size": [
+      "3.8b"
+    ],
+    "capabilities": "tools",
+    "readme": "## Readme\n\n> Note: this model requires [Ollama 0.5.13](https://github.com/ollama/ollama/releases/tag/v0.5.13) or later.\n\n![](https://ollama.com/assets/library/phi3.5/dbf19a17-e3fd-46b6-a059-e6b4f1fae59f)\n\nPhi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4 model family and supports 128K token context length. The model underwent an enhancement process, incorporating both supervised fine-tuning and direct preference optimization to support precise instruction adherence and robust safety measures.\n\n## Primary use cases\n\nThe model is intended for broad multilingual commercial and research use. The model provides uses for general purpose AI systems and applications which require:\n\n* Memory/compute constrained environments\n* Latency bound scenarios\n* Strong reasoning (especially math and logic).\n* The model is designed to accelerate research on language and multimodal models, for use as a building block for generative AI powered features.\n\n## References\n\n[Hugging Face](https://huggingface.co/microsoft/Phi-4-mini-instruct)\n\n[Blog post](https://techcommunity.microsoft.com/blog/educatordeveloperblog/welcome-to-the-new-phi-4-models---microsoft-phi-4-mini--phi-4-multimodal/4386037)\n\nWrite Preview \n\n\\> Note: this model requires \\[Ollama 0.5.13\\](https://github.com/ollama/ollama/releases/tag/v0.5.13) or later. <img src=\"https://ollama.com/assets/library/phi3.5/dbf19a17-e3fd-46b6-a059-e6b4f1fae59f\" width=\"320\" /> Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4 model family and supports 128K token context length. The model underwent an enhancement process, incorporating both supervised fine-tuning and direct preference optimization to support precise instruction adherence and robust safety measures. ## Primary use cases The model is intended for broad multilingual commercial and research use. The model provides uses for general purpose AI systems and applications which require: - Memory/compute constrained environments - Latency bound scenarios - Strong reasoning (especially math and logic). - The model is designed to accelerate research on language and multimodal models, for use as a building block for generative AI powered features. ## References \\[Hugging Face\\](https://huggingface.co/microsoft/Phi-4-mini-instruct) \\[Blog post\\](https://techcommunity.microsoft.com/blog/educatordeveloperblog/welcome-to-the-new-phi-4-models---microsoft-phi-4-mini--phi-4-multimodal/4386037) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "phi4-mini:latest",
+        "size": "phi4-mini:latest",
+        "updated": "Text input • \n                    8 months ago"
+      },
+      {
+        "name": "phi4-mini:3.8b",
+        "size": "phi4-mini:3.8b",
+        "updated": "Text input • \n                    8 months ago"
+      },
+      {
+        "name": "phi4-mini:3.8b-q4_K_M",
+        "size": "phi4-mini:3.8b-q4_K_M",
+        "updated": "Text input • \n                    8 months ago"
+      },
+      {
+        "name": "phi4-mini:3.8b-q8_0",
+        "size": "phi4-mini:3.8b-q8_0",
+        "updated": "Text input • \n                    8 months ago"
+      },
+      {
+        "name": "phi4-mini:3.8b-fp16",
+        "size": "phi4-mini:3.8b-fp16",
+        "updated": "Text input • \n                    8 months ago"
+      }
+    ]
+  },
+  {
     "name": "wizardlm2",
     "link": "https://ollama.com/library/wizardlm2",
     "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
-    "pullCount": "457.2K",
+    "pullCount": "457.3K",
     "updated": "1 year ago",
     "size": [
       "7b",
@@ -16738,49 +16912,10 @@
     ]
   },
   {
-    "name": "phi4-mini",
-    "link": "https://ollama.com/library/phi4-mini",
-    "description": "Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported.",
-    "pullCount": "454.3K",
-    "updated": "8 months ago",
-    "size": [
-      "3.8b"
-    ],
-    "capabilities": "tools",
-    "readme": "## Readme\n\n> Note: this model requires [Ollama 0.5.13](https://github.com/ollama/ollama/releases/tag/v0.5.13) or later.\n\n![](https://ollama.com/assets/library/phi3.5/dbf19a17-e3fd-46b6-a059-e6b4f1fae59f)\n\nPhi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4 model family and supports 128K token context length. The model underwent an enhancement process, incorporating both supervised fine-tuning and direct preference optimization to support precise instruction adherence and robust safety measures.\n\n## Primary use cases\n\nThe model is intended for broad multilingual commercial and research use. The model provides uses for general purpose AI systems and applications which require:\n\n* Memory/compute constrained environments\n* Latency bound scenarios\n* Strong reasoning (especially math and logic).\n* The model is designed to accelerate research on language and multimodal models, for use as a building block for generative AI powered features.\n\n## References\n\n[Hugging Face](https://huggingface.co/microsoft/Phi-4-mini-instruct)\n\n[Blog post](https://techcommunity.microsoft.com/blog/educatordeveloperblog/welcome-to-the-new-phi-4-models---microsoft-phi-4-mini--phi-4-multimodal/4386037)\n\nWrite Preview \n\n\\> Note: this model requires \\[Ollama 0.5.13\\](https://github.com/ollama/ollama/releases/tag/v0.5.13) or later. <img src=\"https://ollama.com/assets/library/phi3.5/dbf19a17-e3fd-46b6-a059-e6b4f1fae59f\" width=\"320\" /> Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4 model family and supports 128K token context length. The model underwent an enhancement process, incorporating both supervised fine-tuning and direct preference optimization to support precise instruction adherence and robust safety measures. ## Primary use cases The model is intended for broad multilingual commercial and research use. The model provides uses for general purpose AI systems and applications which require: - Memory/compute constrained environments - Latency bound scenarios - Strong reasoning (especially math and logic). - The model is designed to accelerate research on language and multimodal models, for use as a building block for generative AI powered features. ## References \\[Hugging Face\\](https://huggingface.co/microsoft/Phi-4-mini-instruct) \\[Blog post\\](https://techcommunity.microsoft.com/blog/educatordeveloperblog/welcome-to-the-new-phi-4-models---microsoft-phi-4-mini--phi-4-multimodal/4386037) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "phi4-mini:latest",
-        "size": "phi4-mini:latest",
-        "updated": "Text input • \n                    8 months ago"
-      },
-      {
-        "name": "phi4-mini:3.8b",
-        "size": "phi4-mini:3.8b",
-        "updated": "Text input • \n                    8 months ago"
-      },
-      {
-        "name": "phi4-mini:3.8b-q4_K_M",
-        "size": "phi4-mini:3.8b-q4_K_M",
-        "updated": "Text input • \n                    8 months ago"
-      },
-      {
-        "name": "phi4-mini:3.8b-q8_0",
-        "size": "phi4-mini:3.8b-q8_0",
-        "updated": "Text input • \n                    8 months ago"
-      },
-      {
-        "name": "phi4-mini:3.8b-fp16",
-        "size": "phi4-mini:3.8b-fp16",
-        "updated": "Text input • \n                    8 months ago"
-      }
-    ]
-  },
-  {
     "name": "devstral",
     "link": "https://ollama.com/library/devstral",
     "description": "Devstral: the best open source model for coding agents",
-    "pullCount": "421.2K",
+    "pullCount": "422.8K",
     "updated": "3 months ago",
     "size": [
       "24b"
@@ -16816,10 +16951,49 @@
     ]
   },
   {
+    "name": "granite3.2-vision",
+    "link": "https://ollama.com/library/granite3.2-vision",
+    "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
+    "pullCount": "410.8K",
+    "updated": "8 months ago",
+    "size": [
+      "2b"
+    ],
+    "capabilities": "visiontools",
+    "readme": "## Readme\n\n> Note: this model requires [Ollama 0.5.13](https://github.com/ollama/ollama/releases/tag/v0.5.13).\n\nA compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more. The model was trained on a meticulously curated instruction-following dataset, comprising diverse public datasets and synthetic datasets tailored to support a wide range of document understanding and general image tasks. It was trained by fine-tuning a Granite large language model with both image and text modalities.\n\n## References\n\n[Hugging Face](https://huggingface.co/ibm-granite/granite-vision-3.2-2b)\n\nWrite Preview \n\n\\> Note: this model requires \\[Ollama 0.5.13\\](https://github.com/ollama/ollama/releases/tag/v0.5.13). A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more. The model was trained on a meticulously curated instruction-following dataset, comprising diverse public datasets and synthetic datasets tailored to support a wide range of document understanding and general image tasks. It was trained by fine-tuning a Granite large language model with both image and text modalities. ## References \\[Hugging Face\\](https://huggingface.co/ibm-granite/granite-vision-3.2-2b) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "granite3.2-vision:latest",
+        "size": "granite3.2-vision:latest",
+        "updated": "Text, Image input • \n                    8 months ago"
+      },
+      {
+        "name": "granite3.2-vision:2b",
+        "size": "granite3.2-vision:2b",
+        "updated": "Text, Image input • \n                    8 months ago"
+      },
+      {
+        "name": "granite3.2-vision:2b-q4_K_M",
+        "size": "granite3.2-vision:2b-q4_K_M",
+        "updated": "Text, Image input • \n                    8 months ago"
+      },
+      {
+        "name": "granite3.2-vision:2b-q8_0",
+        "size": "granite3.2-vision:2b-q8_0",
+        "updated": "Text, Image input • \n                    8 months ago"
+      },
+      {
+        "name": "granite3.2-vision:2b-fp16",
+        "size": "granite3.2-vision:2b-fp16",
+        "updated": "Text, Image input • \n                    8 months ago"
+      }
+    ]
+  },
+  {
     "name": "dolphin-mistral",
     "link": "https://ollama.com/library/dolphin-mistral",
     "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
-    "pullCount": "408.7K",
+    "pullCount": "408.9K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -17430,49 +17604,10 @@
     ]
   },
   {
-    "name": "granite3.2-vision",
-    "link": "https://ollama.com/library/granite3.2-vision",
-    "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
-    "pullCount": "408.2K",
-    "updated": "8 months ago",
-    "size": [
-      "2b"
-    ],
-    "capabilities": "visiontools",
-    "readme": "## Readme\n\n> Note: this model requires [Ollama 0.5.13](https://github.com/ollama/ollama/releases/tag/v0.5.13).\n\nA compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more. The model was trained on a meticulously curated instruction-following dataset, comprising diverse public datasets and synthetic datasets tailored to support a wide range of document understanding and general image tasks. It was trained by fine-tuning a Granite large language model with both image and text modalities.\n\n## References\n\n[Hugging Face](https://huggingface.co/ibm-granite/granite-vision-3.2-2b)\n\nWrite Preview \n\n\\> Note: this model requires \\[Ollama 0.5.13\\](https://github.com/ollama/ollama/releases/tag/v0.5.13). A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more. The model was trained on a meticulously curated instruction-following dataset, comprising diverse public datasets and synthetic datasets tailored to support a wide range of document understanding and general image tasks. It was trained by fine-tuning a Granite large language model with both image and text modalities. ## References \\[Hugging Face\\](https://huggingface.co/ibm-granite/granite-vision-3.2-2b) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "granite3.2-vision:latest",
-        "size": "granite3.2-vision:latest",
-        "updated": "Text, Image input • \n                    8 months ago"
-      },
-      {
-        "name": "granite3.2-vision:2b",
-        "size": "granite3.2-vision:2b",
-        "updated": "Text, Image input • \n                    8 months ago"
-      },
-      {
-        "name": "granite3.2-vision:2b-q4_K_M",
-        "size": "granite3.2-vision:2b-q4_K_M",
-        "updated": "Text, Image input • \n                    8 months ago"
-      },
-      {
-        "name": "granite3.2-vision:2b-q8_0",
-        "size": "granite3.2-vision:2b-q8_0",
-        "updated": "Text, Image input • \n                    8 months ago"
-      },
-      {
-        "name": "granite3.2-vision:2b-fp16",
-        "size": "granite3.2-vision:2b-fp16",
-        "updated": "Text, Image input • \n                    8 months ago"
-      }
-    ]
-  },
-  {
     "name": "command-r",
     "link": "https://ollama.com/library/command-r",
     "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
-    "pullCount": "360.9K",
+    "pullCount": "361.2K",
     "updated": "1 year ago",
     "size": [
       "35b"
@@ -17643,70 +17778,10 @@
     ]
   },
   {
-    "name": "deepcoder",
-    "link": "https://ollama.com/library/deepcoder",
-    "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
-    "pullCount": "349.9K",
-    "updated": "6 months ago",
-    "size": [
-      "1.5b",
-      "14b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\n![](/assets/library/deepcoder/7e57e9ba-4b82-4a7a-82f6-3ce9d4cba1c8)\n\nThrough a joint collaboration between the Agentica team and Together AI, DeepCoder-14B-Preview is a code reasoning model finetuned from Deepseek-R1-Distilled-Qwen-14B via distributed RL. It achieves an impressive 60.6% Pass@1 accuracy on LiveCodeBench (+8% improvement), matching the performance of `o3-mini-2025-01-031` (Low) and `o1-2024-12-17` with just 14B parameters\n\n## Evaluation\n\n| **Model**                        | LCB (v5)(8/1/24-2/1/25) | Codeforces Rating | Codeforces Percentile | HumanEval+ |\n| -------------------------------- | ----------------------- | ----------------- | --------------------- | ---------- |\n| **DeepCoder-14B-Preview**        | **_60.6_**              | **_1936_**        | **_95.3_**            | **_92.6_** |\n| **DeepSeek-R1-Distill-Qwen-14B** | 53.0                    | 1791              | 92.7                  | 92.0       |\n| **O1-2024-12-17 (Low)**          | 59.5                    | **1991**          | **96.1**              | 90.8       |\n| **O3-Mini-2025-1-31 (Low)**      | **60.9**                | 1918              | 94.9                  | 92.6       |\n| **O1-Preview**                   | 42.7                    | 1658              | 88.5                  | 89         |\n| **Deepseek-R1**                  | 62.8                    | 1948              | 95.4                  | 92.6       |\n| **Llama-4-Behemoth**             | 49.4                    | \\-                | \\-                    | \\-         |\n\n## References\n\n[Blog post](https://pretty-radio-b75.notion.site/DeepCoder-A-Fully-Open-Source-14B-Coder-at-O3-mini-Level-1cf81902c14680b3bee5eb349a512a51)\n\nWrite Preview \n\n<img src=\"/assets/library/deepcoder/7e57e9ba-4b82-4a7a-82f6-3ce9d4cba1c8\" width=\"100\" /> Through a joint collaboration between the Agentica team and Together AI, DeepCoder-14B-Preview is a code reasoning model finetuned from Deepseek-R1-Distilled-Qwen-14B via distributed RL. It achieves an impressive 60.6% Pass@1 accuracy on LiveCodeBench (+8% improvement), matching the performance of \\`o3-mini-2025-01-031\\` (Low) and \\`o1-2024-12-17\\` with just 14B parameters ## Evaluation | \\*\\*Model\\*\\* | LCB (v5)(8/1/24-2/1/25) | Codeforces Rating | Codeforces Percentile | HumanEval+ | | --- | --- | --- | --- | --- | | \\*\\*DeepCoder-14B-Preview\\*\\* | \\*\\*\\*60.6\\*\\*\\* | \\*\\*\\*1936\\*\\*\\* | \\*\\*\\*95.3\\*\\*\\* | \\*\\*\\*92.6\\*\\*\\* | | \\*\\*DeepSeek-R1-Distill-Qwen-14B\\*\\* | 53.0 | 1791 | 92.7 | 92.0 | | \\*\\*O1-2024-12-17 (Low)\\*\\* | 59.5 | \\*\\*1991\\*\\* | \\*\\*96.1\\*\\* | 90.8 | | \\*\\*O3-Mini-2025-1-31 (Low)\\*\\* | \\*\\*60.9\\*\\* | 1918 | 94.9 | 92.6 | | \\*\\*O1-Preview\\*\\* | 42.7 | 1658 | 88.5 | 89 | | \\*\\*Deepseek-R1\\*\\* | 62.8 | 1948 | 95.4 | 92.6 | | \\*\\*Llama-4-Behemoth\\*\\* | 49.4 | - | - | - | ## References \\[Blog post\\](https://pretty-radio-b75.notion.site/DeepCoder-A-Fully-Open-Source-14B-Coder-at-O3-mini-Level-1cf81902c14680b3bee5eb349a512a51) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "deepcoder:latest",
-        "size": "deepcoder:latest",
-        "updated": "Text input • \n                    6 months ago"
-      },
-      {
-        "name": "deepcoder:1.5b",
-        "size": "deepcoder:1.5b",
-        "updated": "Text input • \n                    6 months ago"
-      },
-      {
-        "name": "deepcoder:14b",
-        "size": "deepcoder:14b",
-        "updated": "Text input • \n                    6 months ago"
-      },
-      {
-        "name": "deepcoder:1.5b-preview-q4_K_M",
-        "size": "deepcoder:1.5b-preview-q4_K_M",
-        "updated": "Text input • \n                    6 months ago"
-      },
-      {
-        "name": "deepcoder:1.5b-preview-q8_0",
-        "size": "deepcoder:1.5b-preview-q8_0",
-        "updated": "Text input • \n                    6 months ago"
-      },
-      {
-        "name": "deepcoder:1.5b-preview-fp16",
-        "size": "deepcoder:1.5b-preview-fp16",
-        "updated": "Text input • \n                    6 months ago"
-      },
-      {
-        "name": "deepcoder:14b-preview-q4_K_M",
-        "size": "deepcoder:14b-preview-q4_K_M",
-        "updated": "Text input • \n                    6 months ago"
-      },
-      {
-        "name": "deepcoder:14b-preview-q8_0",
-        "size": "deepcoder:14b-preview-q8_0",
-        "updated": "Text input • \n                    6 months ago"
-      },
-      {
-        "name": "deepcoder:14b-preview-fp16",
-        "size": "deepcoder:14b-preview-fp16",
-        "updated": "Text input • \n                    6 months ago"
-      }
-    ]
-  },
-  {
     "name": "moondream",
     "link": "https://ollama.com/library/moondream",
     "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
-    "pullCount": "344.2K",
+    "pullCount": "352.6K",
     "updated": "1 year ago",
     "size": [
       "1.8b"
@@ -17803,6 +17878,66 @@
         "name": "moondream:1.8b-v2-fp16",
         "size": "moondream:1.8b-v2-fp16",
         "updated": "Text, Image input • \n                    1 year ago"
+      }
+    ]
+  },
+  {
+    "name": "deepcoder",
+    "link": "https://ollama.com/library/deepcoder",
+    "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
+    "pullCount": "351.3K",
+    "updated": "6 months ago",
+    "size": [
+      "1.5b",
+      "14b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\n![](/assets/library/deepcoder/7e57e9ba-4b82-4a7a-82f6-3ce9d4cba1c8)\n\nThrough a joint collaboration between the Agentica team and Together AI, DeepCoder-14B-Preview is a code reasoning model finetuned from Deepseek-R1-Distilled-Qwen-14B via distributed RL. It achieves an impressive 60.6% Pass@1 accuracy on LiveCodeBench (+8% improvement), matching the performance of `o3-mini-2025-01-031` (Low) and `o1-2024-12-17` with just 14B parameters\n\n## Evaluation\n\n| **Model**                        | LCB (v5)(8/1/24-2/1/25) | Codeforces Rating | Codeforces Percentile | HumanEval+ |\n| -------------------------------- | ----------------------- | ----------------- | --------------------- | ---------- |\n| **DeepCoder-14B-Preview**        | **_60.6_**              | **_1936_**        | **_95.3_**            | **_92.6_** |\n| **DeepSeek-R1-Distill-Qwen-14B** | 53.0                    | 1791              | 92.7                  | 92.0       |\n| **O1-2024-12-17 (Low)**          | 59.5                    | **1991**          | **96.1**              | 90.8       |\n| **O3-Mini-2025-1-31 (Low)**      | **60.9**                | 1918              | 94.9                  | 92.6       |\n| **O1-Preview**                   | 42.7                    | 1658              | 88.5                  | 89         |\n| **Deepseek-R1**                  | 62.8                    | 1948              | 95.4                  | 92.6       |\n| **Llama-4-Behemoth**             | 49.4                    | \\-                | \\-                    | \\-         |\n\n## References\n\n[Blog post](https://pretty-radio-b75.notion.site/DeepCoder-A-Fully-Open-Source-14B-Coder-at-O3-mini-Level-1cf81902c14680b3bee5eb349a512a51)\n\nWrite Preview \n\n<img src=\"/assets/library/deepcoder/7e57e9ba-4b82-4a7a-82f6-3ce9d4cba1c8\" width=\"100\" /> Through a joint collaboration between the Agentica team and Together AI, DeepCoder-14B-Preview is a code reasoning model finetuned from Deepseek-R1-Distilled-Qwen-14B via distributed RL. It achieves an impressive 60.6% Pass@1 accuracy on LiveCodeBench (+8% improvement), matching the performance of \\`o3-mini-2025-01-031\\` (Low) and \\`o1-2024-12-17\\` with just 14B parameters ## Evaluation | \\*\\*Model\\*\\* | LCB (v5)(8/1/24-2/1/25) | Codeforces Rating | Codeforces Percentile | HumanEval+ | | --- | --- | --- | --- | --- | | \\*\\*DeepCoder-14B-Preview\\*\\* | \\*\\*\\*60.6\\*\\*\\* | \\*\\*\\*1936\\*\\*\\* | \\*\\*\\*95.3\\*\\*\\* | \\*\\*\\*92.6\\*\\*\\* | | \\*\\*DeepSeek-R1-Distill-Qwen-14B\\*\\* | 53.0 | 1791 | 92.7 | 92.0 | | \\*\\*O1-2024-12-17 (Low)\\*\\* | 59.5 | \\*\\*1991\\*\\* | \\*\\*96.1\\*\\* | 90.8 | | \\*\\*O3-Mini-2025-1-31 (Low)\\*\\* | \\*\\*60.9\\*\\* | 1918 | 94.9 | 92.6 | | \\*\\*O1-Preview\\*\\* | 42.7 | 1658 | 88.5 | 89 | | \\*\\*Deepseek-R1\\*\\* | 62.8 | 1948 | 95.4 | 92.6 | | \\*\\*Llama-4-Behemoth\\*\\* | 49.4 | - | - | - | ## References \\[Blog post\\](https://pretty-radio-b75.notion.site/DeepCoder-A-Fully-Open-Source-14B-Coder-at-O3-mini-Level-1cf81902c14680b3bee5eb349a512a51) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "deepcoder:latest",
+        "size": "deepcoder:latest",
+        "updated": "Text input • \n                    6 months ago"
+      },
+      {
+        "name": "deepcoder:1.5b",
+        "size": "deepcoder:1.5b",
+        "updated": "Text input • \n                    6 months ago"
+      },
+      {
+        "name": "deepcoder:14b",
+        "size": "deepcoder:14b",
+        "updated": "Text input • \n                    6 months ago"
+      },
+      {
+        "name": "deepcoder:1.5b-preview-q4_K_M",
+        "size": "deepcoder:1.5b-preview-q4_K_M",
+        "updated": "Text input • \n                    6 months ago"
+      },
+      {
+        "name": "deepcoder:1.5b-preview-q8_0",
+        "size": "deepcoder:1.5b-preview-q8_0",
+        "updated": "Text input • \n                    6 months ago"
+      },
+      {
+        "name": "deepcoder:1.5b-preview-fp16",
+        "size": "deepcoder:1.5b-preview-fp16",
+        "updated": "Text input • \n                    6 months ago"
+      },
+      {
+        "name": "deepcoder:14b-preview-q4_K_M",
+        "size": "deepcoder:14b-preview-q4_K_M",
+        "updated": "Text input • \n                    6 months ago"
+      },
+      {
+        "name": "deepcoder:14b-preview-q8_0",
+        "size": "deepcoder:14b-preview-q8_0",
+        "updated": "Text input • \n                    6 months ago"
+      },
+      {
+        "name": "deepcoder:14b-preview-fp16",
+        "size": "deepcoder:14b-preview-fp16",
+        "updated": "Text input • \n                    6 months ago"
       }
     ]
   },
@@ -18152,7 +18287,7 @@
     "name": "mistral-small3.1",
     "link": "https://ollama.com/library/mistral-small3.1",
     "description": "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance.",
-    "pullCount": "341.4K",
+    "pullCount": "343K",
     "updated": "6 months ago",
     "size": [
       "24b"
@@ -18191,7 +18326,7 @@
     "name": "phi3.5",
     "link": "https://ollama.com/library/phi3.5",
     "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-    "pullCount": "340.7K",
+    "pullCount": "341.2K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -18290,7 +18425,7 @@
     "name": "yi",
     "link": "https://ollama.com/library/yi",
     "description": "Yi 1.5 is a high-performing, bilingual language model.",
-    "pullCount": "307.1K",
+    "pullCount": "307.2K",
     "updated": "1 year ago",
     "size": [
       "6b",
@@ -19176,7 +19311,7 @@
     "name": "zephyr",
     "link": "https://ollama.com/library/zephyr",
     "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
-    "pullCount": "293.7K",
+    "pullCount": "293.8K",
     "updated": "1 year ago",
     "size": [
       "7b",
@@ -19391,7 +19526,7 @@
     "name": "granite-code",
     "link": "https://ollama.com/library/granite-code",
     "description": "A family of open foundation models by IBM for Code Intelligence",
-    "pullCount": "292.1K",
+    "pullCount": "293.7K",
     "updated": "1 year ago",
     "size": [
       "3b",
@@ -20218,7 +20353,7 @@
     "name": "mistral-large",
     "link": "https://ollama.com/library/mistral-large",
     "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
-    "pullCount": "265.5K",
+    "pullCount": "265.7K",
     "updated": "11 months ago",
     "size": [
       "123b"
@@ -20392,7 +20527,7 @@
     "name": "wizard-vicuna-uncensored",
     "link": "https://ollama.com/library/wizard-vicuna-uncensored",
     "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
-    "pullCount": "254.8K",
+    "pullCount": "254.9K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -20653,7 +20788,7 @@
     "name": "exaone-deep",
     "link": "https://ollama.com/library/exaone-deep",
     "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
-    "pullCount": "231.2K",
+    "pullCount": "232.4K",
     "updated": "7 months ago",
     "size": [
       "2.4b",
@@ -20734,7 +20869,7 @@
     "name": "starcoder",
     "link": "https://ollama.com/library/starcoder",
     "description": "StarCoder is a code generation model trained on 80+ programming languages.",
-    "pullCount": "228.6K",
+    "pullCount": "228.7K",
     "updated": "2 years ago",
     "size": [
       "1b",
@@ -21251,8 +21386,8 @@
     "name": "nous-hermes",
     "link": "https://ollama.com/library/nous-hermes",
     "description": "General use models based on Llama and Llama 2 from Nous Research.",
-    "pullCount": "223.3K",
-    "updated": "1 year ago",
+    "pullCount": "224.6K",
+    "updated": "2 years ago",
     "size": [
       "7b",
       "13b"
@@ -21273,7 +21408,7 @@
       {
         "name": "nous-hermes:13b",
         "size": "nous-hermes:13b",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:7b-llama2",
@@ -21358,222 +21493,222 @@
       {
         "name": "nous-hermes:13b-llama2",
         "size": "nous-hermes:13b-llama2",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q2_K",
         "size": "nous-hermes:13b-llama2-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q3_K_S",
         "size": "nous-hermes:13b-llama2-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q3_K_M",
         "size": "nous-hermes:13b-llama2-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q3_K_L",
         "size": "nous-hermes:13b-llama2-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q4_0",
         "size": "nous-hermes:13b-llama2-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q4_1",
         "size": "nous-hermes:13b-llama2-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q4_K_S",
         "size": "nous-hermes:13b-llama2-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q4_K_M",
         "size": "nous-hermes:13b-llama2-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q5_0",
         "size": "nous-hermes:13b-llama2-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q5_1",
         "size": "nous-hermes:13b-llama2-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q5_K_S",
         "size": "nous-hermes:13b-llama2-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q5_K_M",
         "size": "nous-hermes:13b-llama2-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q6_K",
         "size": "nous-hermes:13b-llama2-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-q8_0",
         "size": "nous-hermes:13b-llama2-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-llama2-fp16",
         "size": "nous-hermes:13b-llama2-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q2_K",
         "size": "nous-hermes:13b-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q3_K_S",
         "size": "nous-hermes:13b-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q3_K_M",
         "size": "nous-hermes:13b-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q3_K_L",
         "size": "nous-hermes:13b-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q4_0",
         "size": "nous-hermes:13b-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q4_1",
         "size": "nous-hermes:13b-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q4_K_S",
         "size": "nous-hermes:13b-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q4_K_M",
         "size": "nous-hermes:13b-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q5_0",
         "size": "nous-hermes:13b-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q5_1",
         "size": "nous-hermes:13b-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q5_K_S",
         "size": "nous-hermes:13b-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q5_K_M",
         "size": "nous-hermes:13b-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q6_K",
         "size": "nous-hermes:13b-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-q8_0",
         "size": "nous-hermes:13b-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:13b-fp16",
         "size": "nous-hermes:13b-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:70b-llama2-q2_K",
         "size": "nous-hermes:70b-llama2-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:70b-llama2-q3_K_S",
         "size": "nous-hermes:70b-llama2-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:70b-llama2-q3_K_M",
         "size": "nous-hermes:70b-llama2-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:70b-llama2-q3_K_L",
         "size": "nous-hermes:70b-llama2-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:70b-llama2-q4_0",
         "size": "nous-hermes:70b-llama2-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:70b-llama2-q4_1",
         "size": "nous-hermes:70b-llama2-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:70b-llama2-q4_K_S",
         "size": "nous-hermes:70b-llama2-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:70b-llama2-q4_K_M",
         "size": "nous-hermes:70b-llama2-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:70b-llama2-q5_0",
         "size": "nous-hermes:70b-llama2-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:70b-llama2-q5_1",
         "size": "nous-hermes:70b-llama2-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:70b-llama2-q5_K_M",
         "size": "nous-hermes:70b-llama2-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:70b-llama2-q6_K",
         "size": "nous-hermes:70b-llama2-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "nous-hermes:70b-llama2-fp16",
         "size": "nous-hermes:70b-llama2-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       }
     ]
   },
@@ -21581,7 +21716,7 @@
     "name": "falcon",
     "link": "https://ollama.com/library/falcon",
     "description": "A large language model built by the Technology Innovation Institute (TII) for use in summarization, text generation, and chat bots.",
-    "pullCount": "213.2K",
+    "pullCount": "214.5K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -21787,7 +21922,7 @@
     "name": "deepseek-llm",
     "link": "https://ollama.com/library/deepseek-llm",
     "description": "An advanced language model crafted with 2 trillion bilingual tokens.",
-    "pullCount": "211.5K",
+    "pullCount": "211.6K",
     "updated": "1 year ago",
     "size": [
       "7b",
@@ -22693,7 +22828,7 @@
     "name": "openchat",
     "link": "https://ollama.com/library/openchat",
     "description": "A family of open-source models trained on a wide variety of data, surpassing ChatGPT on various benchmarks. Updated to version 3.5-0106.",
-    "pullCount": "204.4K",
+    "pullCount": "204.6K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -22957,7 +23092,7 @@
     "name": "deepseek-v2",
     "link": "https://ollama.com/library/deepseek-v2",
     "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
-    "pullCount": "196.4K",
+    "pullCount": "196.5K",
     "updated": "1 year ago",
     "size": [
       "16b",
@@ -23142,7 +23277,7 @@
     "name": "opencoder",
     "link": "https://ollama.com/library/opencoder",
     "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-    "pullCount": "192.3K",
+    "pullCount": "193.4K",
     "updated": "11 months ago",
     "size": [
       "1.5b",
@@ -23202,7 +23337,7 @@
     "name": "mistral-openorca",
     "link": "https://ollama.com/library/mistral-openorca",
     "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
-    "pullCount": "189.8K",
+    "pullCount": "189.9K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -23400,7 +23535,7 @@
     "name": "openhermes",
     "link": "https://ollama.com/library/openhermes",
     "description": "OpenHermes 2.5 is a 7B model fine-tuned by Teknium on Mistral with fully open datasets.",
-    "pullCount": "188.7K",
+    "pullCount": "188.8K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "",
@@ -23751,7 +23886,7 @@
     "name": "snowflake-arctic-embed2",
     "link": "https://ollama.com/library/snowflake-arctic-embed2",
     "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-    "pullCount": "179K",
+    "pullCount": "179.3K",
     "updated": "10 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -23778,7 +23913,7 @@
     "name": "qwen2-math",
     "link": "https://ollama.com/library/qwen2-math",
     "description": "Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).",
-    "pullCount": "175.3K",
+    "pullCount": "175.4K",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -24424,7 +24559,7 @@
     "name": "tinydolphin",
     "link": "https://ollama.com/library/tinydolphin",
     "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-    "pullCount": "165.5K",
+    "pullCount": "165.6K",
     "updated": "1 year ago",
     "size": [
       "1.1b"
@@ -24528,7 +24663,7 @@
     "name": "granite3.2",
     "link": "https://ollama.com/library/granite3.2",
     "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
-    "pullCount": "162K",
+    "pullCount": "162.2K",
     "updated": "8 months ago",
     "size": [
       "2b",
@@ -24588,7 +24723,7 @@
     "name": "glm4",
     "link": "https://ollama.com/library/glm4",
     "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
-    "pullCount": "161.8K",
+    "pullCount": "161.9K",
     "updated": "1 year ago",
     "size": [
       "9b"
@@ -24956,7 +25091,7 @@
     "name": "nous-hermes2",
     "link": "https://ollama.com/library/nous-hermes2",
     "description": "The powerful family of models by Nous Research that excels at scientific discussion and coding tasks.",
-    "pullCount": "152.6K",
+    "pullCount": "152.7K",
     "updated": "1 year ago",
     "size": [
       "10.7b",
@@ -25400,7 +25535,7 @@
     "name": "wizardcoder",
     "link": "https://ollama.com/library/wizardcoder",
     "description": "State-of-the-art code generation model",
-    "pullCount": "148.5K",
+    "pullCount": "148.6K",
     "updated": "1 year ago",
     "size": [
       "33b"
@@ -25741,7 +25876,7 @@
       {
         "name": "wizardcoder:34b-python-fp16",
         "size": "wizardcoder:34b-python-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       }
     ]
   },
@@ -25749,7 +25884,7 @@
     "name": "command-r-plus",
     "link": "https://ollama.com/library/command-r-plus",
     "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
-    "pullCount": "145.6K",
+    "pullCount": "145.7K",
     "updated": "1 year ago",
     "size": [
       "104b"
@@ -25868,7 +26003,7 @@
     "name": "bakllava",
     "link": "https://ollama.com/library/bakllava",
     "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
-    "pullCount": "145.2K",
+    "pullCount": "145.4K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -25967,7 +26102,7 @@
     "name": "sqlcoder",
     "link": "https://ollama.com/library/sqlcoder",
     "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
-    "pullCount": "140.2K",
+    "pullCount": "140.3K",
     "updated": "1 year ago",
     "size": [
       "7b",
@@ -26222,7 +26357,7 @@
     "name": "bge-large",
     "link": "https://ollama.com/library/bge-large",
     "description": "Embedding model from BAAI mapping texts to vectors.",
-    "pullCount": "137.4K",
+    "pullCount": "137.5K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -27224,7 +27359,7 @@
     "name": "llava-phi3",
     "link": "https://ollama.com/library/llava-phi3",
     "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
-    "pullCount": "128.5K",
+    "pullCount": "128.6K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -27258,7 +27393,7 @@
     "name": "granite3-dense",
     "link": "https://ollama.com/library/granite3-dense",
     "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
-    "pullCount": "127.6K",
+    "pullCount": "127.7K",
     "updated": "11 months ago",
     "size": [
       "2b",
@@ -27438,7 +27573,7 @@
     "name": "granite3.1-dense",
     "link": "https://ollama.com/library/granite3.1-dense",
     "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
-    "pullCount": "123.8K",
+    "pullCount": "123.9K",
     "updated": "9 months ago",
     "size": [
       "2b",
@@ -27618,7 +27753,7 @@
     "name": "wizard-math",
     "link": "https://ollama.com/library/wizard-math",
     "description": "Model focused on math and logic problems",
-    "pullCount": "121.9K",
+    "pullCount": "122K",
     "updated": "1 year ago",
     "size": [
       "7b",
@@ -27641,12 +27776,12 @@
       {
         "name": "wizard-math:13b",
         "size": "wizard-math:13b",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b",
         "size": "wizard-math:70b",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-v1.1-q2_K",
@@ -27726,227 +27861,227 @@
       {
         "name": "wizard-math:7b-q2_K",
         "size": "wizard-math:7b-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-q3_K_S",
         "size": "wizard-math:7b-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-q3_K_M",
         "size": "wizard-math:7b-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-q3_K_L",
         "size": "wizard-math:7b-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-q4_0",
         "size": "wizard-math:7b-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-q4_1",
         "size": "wizard-math:7b-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-q4_K_S",
         "size": "wizard-math:7b-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-q4_K_M",
         "size": "wizard-math:7b-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-q5_0",
         "size": "wizard-math:7b-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-q5_1",
         "size": "wizard-math:7b-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-q5_K_S",
         "size": "wizard-math:7b-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-q5_K_M",
         "size": "wizard-math:7b-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-q6_K",
         "size": "wizard-math:7b-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-q8_0",
         "size": "wizard-math:7b-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:7b-fp16",
         "size": "wizard-math:7b-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q2_K",
         "size": "wizard-math:13b-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q3_K_S",
         "size": "wizard-math:13b-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q3_K_M",
         "size": "wizard-math:13b-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q3_K_L",
         "size": "wizard-math:13b-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q4_0",
         "size": "wizard-math:13b-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q4_1",
         "size": "wizard-math:13b-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q4_K_S",
         "size": "wizard-math:13b-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q4_K_M",
         "size": "wizard-math:13b-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q5_0",
         "size": "wizard-math:13b-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q5_1",
         "size": "wizard-math:13b-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q5_K_S",
         "size": "wizard-math:13b-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q5_K_M",
         "size": "wizard-math:13b-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q6_K",
         "size": "wizard-math:13b-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-q8_0",
         "size": "wizard-math:13b-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:13b-fp16",
         "size": "wizard-math:13b-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q2_K",
         "size": "wizard-math:70b-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q3_K_S",
         "size": "wizard-math:70b-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q3_K_M",
         "size": "wizard-math:70b-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q3_K_L",
         "size": "wizard-math:70b-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q4_0",
         "size": "wizard-math:70b-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q4_1",
         "size": "wizard-math:70b-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q4_K_S",
         "size": "wizard-math:70b-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q4_K_M",
         "size": "wizard-math:70b-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q5_0",
         "size": "wizard-math:70b-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q5_1",
         "size": "wizard-math:70b-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q5_K_S",
         "size": "wizard-math:70b-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q5_K_M",
         "size": "wizard-math:70b-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q6_K",
         "size": "wizard-math:70b-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-q8_0",
         "size": "wizard-math:70b-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizard-math:70b-fp16",
         "size": "wizard-math:70b-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       }
     ]
   },
@@ -27954,7 +28089,7 @@
     "name": "r1-1776",
     "link": "https://ollama.com/library/r1-1776",
     "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-    "pullCount": "121.7K",
+    "pullCount": "122K",
     "updated": "8 months ago",
     "size": [
       "70b",
@@ -28014,7 +28149,7 @@
     "name": "exaone3.5",
     "link": "https://ollama.com/library/exaone3.5",
     "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
-    "pullCount": "121K",
+    "pullCount": "121.1K",
     "updated": "10 months ago",
     "size": [
       "2.4b",
@@ -28384,7 +28519,7 @@
     "name": "paraphrase-multilingual",
     "link": "https://ollama.com/library/paraphrase-multilingual",
     "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
-    "pullCount": "113.1K",
+    "pullCount": "113.3K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -28411,7 +28546,7 @@
     "name": "dolphincoder",
     "link": "https://ollama.com/library/dolphincoder",
     "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-    "pullCount": "112.9K",
+    "pullCount": "113.1K",
     "updated": "1 year ago",
     "size": [
       "7b",
@@ -28650,7 +28785,7 @@
     "name": "samantha-mistral",
     "link": "https://ollama.com/library/samantha-mistral",
     "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
-    "pullCount": "111K",
+    "pullCount": "111.1K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -28909,7 +29044,7 @@
     "name": "nemotron-mini",
     "link": "https://ollama.com/library/nemotron-mini",
     "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
-    "pullCount": "109.6K",
+    "pullCount": "109.7K",
     "updated": "1 year ago",
     "size": [
       "4b"
@@ -29008,7 +29143,7 @@
     "name": "granite-embedding",
     "link": "https://ollama.com/library/granite-embedding",
     "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
-    "pullCount": "109K",
+    "pullCount": "109.3K",
     "updated": "10 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -29304,7 +29439,7 @@
     "name": "internlm2",
     "link": "https://ollama.com/library/internlm2",
     "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
-    "pullCount": "103K",
+    "pullCount": "103.1K",
     "updated": "1 year ago",
     "size": [
       "1m1.8b",
@@ -29904,7 +30039,7 @@
     "name": "solar",
     "link": "https://ollama.com/library/solar",
     "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
-    "pullCount": "102.3K",
+    "pullCount": "102.4K",
     "updated": "1 year ago",
     "size": [
       "10.7b"
@@ -30592,7 +30727,7 @@
     "name": "llama3-groq-tool-use",
     "link": "https://ollama.com/library/llama3-groq-tool-use",
     "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
-    "pullCount": "99.9K",
+    "pullCount": "100.1K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -30772,7 +30907,7 @@
     "name": "nemotron",
     "link": "https://ollama.com/library/nemotron",
     "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
-    "pullCount": "97.4K",
+    "pullCount": "97.5K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -30871,7 +31006,7 @@
     "name": "qwen3-embedding",
     "link": "https://ollama.com/library/qwen3-embedding",
     "description": "Building upon the foundational models of the Qwen3 series, Qwen3 Embedding provides a comprehensive range of text embeddings models in various sizes",
-    "pullCount": "95.5K",
+    "pullCount": "96.9K",
     "updated": "1 month ago",
     "size": [
       "0.6b",
@@ -31297,7 +31432,7 @@
     "name": "meditron",
     "link": "https://ollama.com/library/meditron",
     "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
-    "pullCount": "93.9K",
+    "pullCount": "94K",
     "updated": "1 year ago",
     "size": [
       "7b",
@@ -31422,7 +31557,7 @@
     "name": "granite3-moe",
     "link": "https://ollama.com/library/granite3-moe",
     "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
-    "pullCount": "91.6K",
+    "pullCount": "91.7K",
     "updated": "11 months ago",
     "size": [
       "1b",
@@ -31602,7 +31737,7 @@
     "name": "llama-guard3",
     "link": "https://ollama.com/library/llama-guard3",
     "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
-    "pullCount": "90.2K",
+    "pullCount": "90.3K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -31782,7 +31917,7 @@
     "name": "wizardlm-uncensored",
     "link": "https://ollama.com/library/wizardlm-uncensored",
     "description": "Uncensored version of Wizard LM model",
-    "pullCount": "89.4K",
+    "pullCount": "89.5K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -32066,7 +32201,7 @@
     "name": "smallthinker",
     "link": "https://ollama.com/library/smallthinker",
     "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-    "pullCount": "85.1K",
+    "pullCount": "85.2K",
     "updated": "10 months ago",
     "size": [
       "3b"
@@ -32369,272 +32504,272 @@
       {
         "name": "wizardlm:13b-llama2-q2_K",
         "size": "wizardlm:13b-llama2-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-q3_K_S",
         "size": "wizardlm:13b-llama2-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-q3_K_M",
         "size": "wizardlm:13b-llama2-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-q3_K_L",
         "size": "wizardlm:13b-llama2-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-q4_0",
         "size": "wizardlm:13b-llama2-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-q4_1",
         "size": "wizardlm:13b-llama2-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-q4_K_S",
         "size": "wizardlm:13b-llama2-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-q4_K_M",
         "size": "wizardlm:13b-llama2-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-q5_0",
         "size": "wizardlm:13b-llama2-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-q5_1",
         "size": "wizardlm:13b-llama2-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-q5_K_S",
         "size": "wizardlm:13b-llama2-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-q5_K_M",
         "size": "wizardlm:13b-llama2-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-q6_K",
         "size": "wizardlm:13b-llama2-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-q8_0",
         "size": "wizardlm:13b-llama2-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-llama2-fp16",
         "size": "wizardlm:13b-llama2-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q2_K",
         "size": "wizardlm:13b-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q3_K_S",
         "size": "wizardlm:13b-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q3_K_M",
         "size": "wizardlm:13b-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q3_K_L",
         "size": "wizardlm:13b-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q4_0",
         "size": "wizardlm:13b-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q4_1",
         "size": "wizardlm:13b-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q4_K_S",
         "size": "wizardlm:13b-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q4_K_M",
         "size": "wizardlm:13b-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q5_0",
         "size": "wizardlm:13b-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q5_1",
         "size": "wizardlm:13b-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q5_K_S",
         "size": "wizardlm:13b-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q5_K_M",
         "size": "wizardlm:13b-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q6_K",
         "size": "wizardlm:13b-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-q8_0",
         "size": "wizardlm:13b-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:13b-fp16",
         "size": "wizardlm:13b-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q2_K",
         "size": "wizardlm:30b-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q3_K_S",
         "size": "wizardlm:30b-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q3_K_M",
         "size": "wizardlm:30b-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q3_K_L",
         "size": "wizardlm:30b-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q4_0",
         "size": "wizardlm:30b-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q4_1",
         "size": "wizardlm:30b-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q4_K_S",
         "size": "wizardlm:30b-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q4_K_M",
         "size": "wizardlm:30b-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q5_0",
         "size": "wizardlm:30b-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q5_1",
         "size": "wizardlm:30b-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q5_K_S",
         "size": "wizardlm:30b-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q5_K_M",
         "size": "wizardlm:30b-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q6_K",
         "size": "wizardlm:30b-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-q8_0",
         "size": "wizardlm:30b-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:30b-fp16",
         "size": "wizardlm:30b-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:70b-llama2-q2_K",
         "size": "wizardlm:70b-llama2-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:70b-llama2-q3_K_S",
         "size": "wizardlm:70b-llama2-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:70b-llama2-q3_K_M",
         "size": "wizardlm:70b-llama2-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:70b-llama2-q3_K_L",
         "size": "wizardlm:70b-llama2-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:70b-llama2-q4_0",
         "size": "wizardlm:70b-llama2-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:70b-llama2-q4_1",
         "size": "wizardlm:70b-llama2-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:70b-llama2-q4_K_S",
         "size": "wizardlm:70b-llama2-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:70b-llama2-q4_K_M",
         "size": "wizardlm:70b-llama2-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:70b-llama2-q5_0",
         "size": "wizardlm:70b-llama2-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "wizardlm:70b-llama2-q5_K_S",
@@ -32654,7 +32789,7 @@
       {
         "name": "wizardlm:70b-llama2-q8_0",
         "size": "wizardlm:70b-llama2-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       }
     ]
   },
@@ -32662,8 +32797,8 @@
     "name": "medllama2",
     "link": "https://ollama.com/library/medllama2",
     "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
-    "pullCount": "79.3K",
-    "updated": "1 year ago",
+    "pullCount": "79.4K",
+    "updated": "2 years ago",
     "size": [
       "7b"
     ],
@@ -32673,87 +32808,87 @@
       {
         "name": "medllama2:latest",
         "size": "medllama2:latest",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b",
         "size": "medllama2:7b",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q2_K",
         "size": "medllama2:7b-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q3_K_S",
         "size": "medllama2:7b-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q3_K_M",
         "size": "medllama2:7b-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q3_K_L",
         "size": "medllama2:7b-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q4_0",
         "size": "medllama2:7b-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q4_1",
         "size": "medllama2:7b-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q4_K_S",
         "size": "medllama2:7b-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q4_K_M",
         "size": "medllama2:7b-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q5_0",
         "size": "medllama2:7b-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q5_1",
         "size": "medllama2:7b-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q5_K_S",
         "size": "medllama2:7b-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q5_K_M",
         "size": "medllama2:7b-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q6_K",
         "size": "medllama2:7b-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-q8_0",
         "size": "medllama2:7b-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "medllama2:7b-fp16",
         "size": "medllama2:7b-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       }
     ]
   },
@@ -32866,7 +33001,7 @@
     "link": "https://ollama.com/library/stable-beluga",
     "description": "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.",
     "pullCount": "74.8K",
-    "updated": "1 year ago",
+    "updated": "2 years ago",
     "size": [
       "7b",
       "13b",
@@ -32878,247 +33013,247 @@
       {
         "name": "stable-beluga:latest",
         "size": "stable-beluga:latest",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b",
         "size": "stable-beluga:7b",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b",
         "size": "stable-beluga:13b",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b",
         "size": "stable-beluga:70b",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q2_K",
         "size": "stable-beluga:7b-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q3_K_S",
         "size": "stable-beluga:7b-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q3_K_M",
         "size": "stable-beluga:7b-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q3_K_L",
         "size": "stable-beluga:7b-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q4_0",
         "size": "stable-beluga:7b-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q4_1",
         "size": "stable-beluga:7b-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q4_K_S",
         "size": "stable-beluga:7b-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q4_K_M",
         "size": "stable-beluga:7b-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q5_0",
         "size": "stable-beluga:7b-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q5_1",
         "size": "stable-beluga:7b-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q5_K_S",
         "size": "stable-beluga:7b-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q5_K_M",
         "size": "stable-beluga:7b-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q6_K",
         "size": "stable-beluga:7b-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-q8_0",
         "size": "stable-beluga:7b-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:7b-fp16",
         "size": "stable-beluga:7b-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q2_K",
         "size": "stable-beluga:13b-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q3_K_S",
         "size": "stable-beluga:13b-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q3_K_M",
         "size": "stable-beluga:13b-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q3_K_L",
         "size": "stable-beluga:13b-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q4_0",
         "size": "stable-beluga:13b-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q4_1",
         "size": "stable-beluga:13b-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q4_K_S",
         "size": "stable-beluga:13b-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q4_K_M",
         "size": "stable-beluga:13b-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q5_0",
         "size": "stable-beluga:13b-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q5_1",
         "size": "stable-beluga:13b-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q5_K_S",
         "size": "stable-beluga:13b-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q5_K_M",
         "size": "stable-beluga:13b-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q6_K",
         "size": "stable-beluga:13b-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-q8_0",
         "size": "stable-beluga:13b-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:13b-fp16",
         "size": "stable-beluga:13b-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q2_K",
         "size": "stable-beluga:70b-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q3_K_S",
         "size": "stable-beluga:70b-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q3_K_M",
         "size": "stable-beluga:70b-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q3_K_L",
         "size": "stable-beluga:70b-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q4_0",
         "size": "stable-beluga:70b-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q4_1",
         "size": "stable-beluga:70b-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q4_K_S",
         "size": "stable-beluga:70b-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q4_K_M",
         "size": "stable-beluga:70b-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q5_0",
         "size": "stable-beluga:70b-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q5_1",
         "size": "stable-beluga:70b-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q5_K_S",
         "size": "stable-beluga:70b-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q5_K_M",
         "size": "stable-beluga:70b-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q6_K",
         "size": "stable-beluga:70b-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-q8_0",
         "size": "stable-beluga:70b-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "stable-beluga:70b-fp16",
         "size": "stable-beluga:70b-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       }
     ]
   },
@@ -33175,7 +33310,7 @@
     "name": "command-r7b",
     "link": "https://ollama.com/library/command-r7b",
     "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
-    "pullCount": "69K",
+    "pullCount": "69.2K",
     "updated": "9 months ago",
     "size": [
       "7b"
@@ -33211,10 +33346,49 @@
     ]
   },
   {
+    "name": "phi4-mini-reasoning",
+    "link": "https://ollama.com/library/phi4-mini-reasoning",
+    "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
+    "pullCount": "67.1K",
+    "updated": "6 months ago",
+    "size": [
+      "3.8b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\nPhi 4 mini reasoning is designed for multi-step, logic-intensive mathematical problem-solving tasks under memory/compute constrained environments and latency bound scenarios. Some of the use cases include formal proof generation, symbolic computation, advanced word problems, and a wide range of mathematical reasoning scenarios. These models excel at maintaining context across steps, applying structured logic, and delivering accurate, reliable solutions in domains that require deep analytical thinking.\n\n![image.png](/assets/library/phi4-mini-reasoning/986a6e3b-daf1-48b6-97cc-2177ea38a598) The graph compares the performance of various models on popular math benchmarks for long sentence generation. Phi-4-mini-reasoning outperforms its base model on long sentence generation across each evaluation, as well as larger models like OpenThinker-7B, Llama-3.2-3B-instruct, DeepSeek-R1-Distill-Qwen-7B, DeepSeek-R1-Distill-Llama-8B, and Bespoke-Stratos-7B. Phi-4-mini-reasoning is comparable to OpenAI o1-mini across math benchmarks, surpassing the model’s performance during Math-500 and GPQA Diamond evaluations. As seen above, Phi-4-mini-reasoning with 3.8B parameters outperforms models of over twice its size. \n\n## References\n\n[Blog post ](https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/)\n\nWrite Preview \n\nPhi 4 mini reasoning is designed for multi-step, logic-intensive mathematical problem-solving tasks under memory/compute constrained environments and latency bound scenarios. Some of the use cases include formal proof generation, symbolic computation, advanced word problems, and a wide range of mathematical reasoning scenarios. These models excel at maintaining context across steps, applying structured logic, and delivering accurate, reliable solutions in domains that require deep analytical thinking. !\\[image.png\\](/assets/library/phi4-mini-reasoning/986a6e3b-daf1-48b6-97cc-2177ea38a598) <small>The graph compares the performance of various models on popular math benchmarks for long sentence generation. Phi-4-mini-reasoning outperforms its base model on long sentence generation across each evaluation, as well as larger models like OpenThinker-7B, Llama-3.2-3B-instruct, DeepSeek-R1-Distill-Qwen-7B, DeepSeek-R1-Distill-Llama-8B, and Bespoke-Stratos-7B. Phi-4-mini-reasoning is comparable to OpenAI o1-mini across math benchmarks, surpassing the model’s performance during Math-500 and GPQA Diamond evaluations. As seen above, Phi-4-mini-reasoning with 3.8B parameters outperforms models of over twice its size. </small> ## References \\[Blog post \\](https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "phi4-mini-reasoning:latest",
+        "size": "phi4-mini-reasoning:latest",
+        "updated": "Text input • \n                    6 months ago"
+      },
+      {
+        "name": "phi4-mini-reasoning:3.8b",
+        "size": "phi4-mini-reasoning:3.8b",
+        "updated": "Text input • \n                    6 months ago"
+      },
+      {
+        "name": "phi4-mini-reasoning:3.8b-q4_K_M",
+        "size": "phi4-mini-reasoning:3.8b-q4_K_M",
+        "updated": "Text input • \n                    6 months ago"
+      },
+      {
+        "name": "phi4-mini-reasoning:3.8b-q8_0",
+        "size": "phi4-mini-reasoning:3.8b-q8_0",
+        "updated": "Text input • \n                    6 months ago"
+      },
+      {
+        "name": "phi4-mini-reasoning:3.8b-fp16",
+        "size": "phi4-mini-reasoning:3.8b-fp16",
+        "updated": "Text input • \n                    6 months ago"
+      }
+    ]
+  },
+  {
     "name": "reader-lm",
     "link": "https://ollama.com/library/reader-lm",
     "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
-    "pullCount": "67K",
+    "pullCount": "67.1K",
     "updated": "1 year ago",
     "size": [
       "0.5b",
@@ -33391,49 +33565,10 @@
     ]
   },
   {
-    "name": "phi4-mini-reasoning",
-    "link": "https://ollama.com/library/phi4-mini-reasoning",
-    "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
-    "pullCount": "67K",
-    "updated": "5 months ago",
-    "size": [
-      "3.8b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\nPhi 4 mini reasoning is designed for multi-step, logic-intensive mathematical problem-solving tasks under memory/compute constrained environments and latency bound scenarios. Some of the use cases include formal proof generation, symbolic computation, advanced word problems, and a wide range of mathematical reasoning scenarios. These models excel at maintaining context across steps, applying structured logic, and delivering accurate, reliable solutions in domains that require deep analytical thinking.\n\n![image.png](/assets/library/phi4-mini-reasoning/986a6e3b-daf1-48b6-97cc-2177ea38a598) The graph compares the performance of various models on popular math benchmarks for long sentence generation. Phi-4-mini-reasoning outperforms its base model on long sentence generation across each evaluation, as well as larger models like OpenThinker-7B, Llama-3.2-3B-instruct, DeepSeek-R1-Distill-Qwen-7B, DeepSeek-R1-Distill-Llama-8B, and Bespoke-Stratos-7B. Phi-4-mini-reasoning is comparable to OpenAI o1-mini across math benchmarks, surpassing the model’s performance during Math-500 and GPQA Diamond evaluations. As seen above, Phi-4-mini-reasoning with 3.8B parameters outperforms models of over twice its size. \n\n## References\n\n[Blog post ](https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/)\n\nWrite Preview \n\nPhi 4 mini reasoning is designed for multi-step, logic-intensive mathematical problem-solving tasks under memory/compute constrained environments and latency bound scenarios. Some of the use cases include formal proof generation, symbolic computation, advanced word problems, and a wide range of mathematical reasoning scenarios. These models excel at maintaining context across steps, applying structured logic, and delivering accurate, reliable solutions in domains that require deep analytical thinking. !\\[image.png\\](/assets/library/phi4-mini-reasoning/986a6e3b-daf1-48b6-97cc-2177ea38a598) <small>The graph compares the performance of various models on popular math benchmarks for long sentence generation. Phi-4-mini-reasoning outperforms its base model on long sentence generation across each evaluation, as well as larger models like OpenThinker-7B, Llama-3.2-3B-instruct, DeepSeek-R1-Distill-Qwen-7B, DeepSeek-R1-Distill-Llama-8B, and Bespoke-Stratos-7B. Phi-4-mini-reasoning is comparable to OpenAI o1-mini across math benchmarks, surpassing the model’s performance during Math-500 and GPQA Diamond evaluations. As seen above, Phi-4-mini-reasoning with 3.8B parameters outperforms models of over twice its size. </small> ## References \\[Blog post \\](https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "phi4-mini-reasoning:latest",
-        "size": "phi4-mini-reasoning:latest",
-        "updated": "Text input • \n                    5 months ago"
-      },
-      {
-        "name": "phi4-mini-reasoning:3.8b",
-        "size": "phi4-mini-reasoning:3.8b",
-        "updated": "Text input • \n                    5 months ago"
-      },
-      {
-        "name": "phi4-mini-reasoning:3.8b-q4_K_M",
-        "size": "phi4-mini-reasoning:3.8b-q4_K_M",
-        "updated": "Text input • \n                    5 months ago"
-      },
-      {
-        "name": "phi4-mini-reasoning:3.8b-q8_0",
-        "size": "phi4-mini-reasoning:3.8b-q8_0",
-        "updated": "Text input • \n                    5 months ago"
-      },
-      {
-        "name": "phi4-mini-reasoning:3.8b-fp16",
-        "size": "phi4-mini-reasoning:3.8b-fp16",
-        "updated": "Text input • \n                    5 months ago"
-      }
-    ]
-  },
-  {
     "name": "granite4",
     "link": "https://ollama.com/library/granite4",
     "description": "Granite 4 features improved instruction following (IF) and tool-calling capabilities, making them more effective in enterprise applications.",
-    "pullCount": "62.3K",
+    "pullCount": "64.5K",
     "updated": "3 weeks ago",
     "size": null,
     "capabilities": "tools",
@@ -33647,7 +33782,7 @@
     "name": "shieldgemma",
     "link": "https://ollama.com/library/shieldgemma",
     "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
-    "pullCount": "60.8K",
+    "pullCount": "60.9K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -34504,7 +34639,7 @@
     "link": "https://ollama.com/library/codeup",
     "description": "Great code generation model based on Llama2.",
     "pullCount": "55.2K",
-    "updated": "1 year ago",
+    "updated": "2 years ago",
     "size": [
       "13b"
     ],
@@ -34514,97 +34649,97 @@
       {
         "name": "codeup:latest",
         "size": "codeup:latest",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b",
         "size": "codeup:13b",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2",
         "size": "codeup:13b-llama2",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat",
         "size": "codeup:13b-llama2-chat",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q2_K",
         "size": "codeup:13b-llama2-chat-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q3_K_S",
         "size": "codeup:13b-llama2-chat-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q3_K_M",
         "size": "codeup:13b-llama2-chat-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q3_K_L",
         "size": "codeup:13b-llama2-chat-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q4_0",
         "size": "codeup:13b-llama2-chat-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q4_1",
         "size": "codeup:13b-llama2-chat-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q4_K_S",
         "size": "codeup:13b-llama2-chat-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q4_K_M",
         "size": "codeup:13b-llama2-chat-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q5_0",
         "size": "codeup:13b-llama2-chat-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q5_1",
         "size": "codeup:13b-llama2-chat-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q5_K_S",
         "size": "codeup:13b-llama2-chat-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q5_K_M",
         "size": "codeup:13b-llama2-chat-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q6_K",
         "size": "codeup:13b-llama2-chat-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-q8_0",
         "size": "codeup:13b-llama2-chat-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codeup:13b-llama2-chat-fp16",
         "size": "codeup:13b-llama2-chat-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       }
     ]
   },
@@ -34854,7 +34989,7 @@
     "name": "falcon2",
     "link": "https://ollama.com/library/falcon2",
     "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
-    "pullCount": "50.1K",
+    "pullCount": "50.2K",
     "updated": "1 year ago",
     "size": [
       "11b"
@@ -35256,7 +35391,7 @@
     "link": "https://ollama.com/library/codebooga",
     "description": "A high-performing code instruct model created by merging two existing code models.",
     "pullCount": "46.6K",
-    "updated": "1 year ago",
+    "updated": "2 years ago",
     "size": [
       "34b"
     ],
@@ -35266,82 +35401,82 @@
       {
         "name": "codebooga:latest",
         "size": "codebooga:latest",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b",
         "size": "codebooga:34b",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-q2_K",
         "size": "codebooga:34b-v0.1-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-q3_K_S",
         "size": "codebooga:34b-v0.1-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-q3_K_M",
         "size": "codebooga:34b-v0.1-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-q3_K_L",
         "size": "codebooga:34b-v0.1-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-q4_0",
         "size": "codebooga:34b-v0.1-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-q4_1",
         "size": "codebooga:34b-v0.1-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-q4_K_M",
         "size": "codebooga:34b-v0.1-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-q5_0",
         "size": "codebooga:34b-v0.1-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-q5_1",
         "size": "codebooga:34b-v0.1-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-q5_K_S",
         "size": "codebooga:34b-v0.1-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-q5_K_M",
         "size": "codebooga:34b-v0.1-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-q6_K",
         "size": "codebooga:34b-v0.1-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-q8_0",
         "size": "codebooga:34b-v0.1-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "codebooga:34b-v0.1-fp16",
         "size": "codebooga:34b-v0.1-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       }
     ]
   },
@@ -35820,7 +35955,7 @@
     "name": "notux",
     "link": "https://ollama.com/library/notux",
     "description": "A top-performing mixture of experts model, fine-tuned with high-quality data.",
-    "pullCount": "37.6K",
+    "pullCount": "37.7K",
     "updated": "1 year ago",
     "size": [
       "8x7b"
@@ -35925,7 +36060,7 @@
     "link": "https://ollama.com/library/open-orca-platypus2",
     "description": "Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation.",
     "pullCount": "37.5K",
-    "updated": "1 year ago",
+    "updated": "2 years ago",
     "size": [
       "13b"
     ],
@@ -35935,87 +36070,87 @@
       {
         "name": "open-orca-platypus2:latest",
         "size": "open-orca-platypus2:latest",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b",
         "size": "open-orca-platypus2:13b",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q2_K",
         "size": "open-orca-platypus2:13b-q2_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q3_K_S",
         "size": "open-orca-platypus2:13b-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q3_K_M",
         "size": "open-orca-platypus2:13b-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q3_K_L",
         "size": "open-orca-platypus2:13b-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q4_0",
         "size": "open-orca-platypus2:13b-q4_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q4_1",
         "size": "open-orca-platypus2:13b-q4_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q4_K_S",
         "size": "open-orca-platypus2:13b-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q4_K_M",
         "size": "open-orca-platypus2:13b-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q5_0",
         "size": "open-orca-platypus2:13b-q5_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q5_1",
         "size": "open-orca-platypus2:13b-q5_1",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q5_K_S",
         "size": "open-orca-platypus2:13b-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q5_K_M",
         "size": "open-orca-platypus2:13b-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q6_K",
         "size": "open-orca-platypus2:13b-q6_K",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-q8_0",
         "size": "open-orca-platypus2:13b-q8_0",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       },
       {
         "name": "open-orca-platypus2:13b-fp16",
         "size": "open-orca-platypus2:13b-fp16",
-        "updated": "Text input • \n                    1 year ago"
+        "updated": "Text input • \n                    2 years ago"
       }
     ]
   },
@@ -36127,7 +36262,7 @@
     "name": "firefunction-v2",
     "link": "https://ollama.com/library/firefunction-v2",
     "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
-    "pullCount": "36.5K",
+    "pullCount": "36.6K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -36487,7 +36622,7 @@
     "name": "kimi-k2",
     "link": "https://ollama.com/library/kimi-k2",
     "description": "A state-of-the-art mixture-of-experts (MoE) language model. Kimi K2-Instruct-0905 demonstrates significant improvements in performance on public benchmarks and real-world coding agent tasks.",
-    "pullCount": "8,596",
+    "pullCount": "8,761",
     "updated": "1 month ago",
     "size": null,
     "capabilities": "",
@@ -36497,6 +36632,23 @@
         "name": "kimi-k2:1t-cloud",
         "size": "kimi-k2:1t-cloud",
         "updated": "Text input • \n                    1 month ago"
+      }
+    ]
+  },
+  {
+    "name": "minimax-m2",
+    "link": "https://ollama.com/library/minimax-m2",
+    "description": "MiniMax M2 is a high-efficiency large language model built for coding and agentic workflows.",
+    "pullCount": "116",
+    "updated": "6 hours ago",
+    "size": null,
+    "capabilities": "",
+    "readme": "## Readme\n\n![MiniMax M2 banner](/assets/library/minimax-m2/855052f9-7ace-44ae-a870-08f43ebd5a7c)\n\nMiniMax M2 is a high-efficiency large language model built for coding and agentic workflows.\n\n### Get started\n\n```\nollama run minimax-m2:cloud\n\n```\n\n### Highlights\n\n**Superior Intelligence**. According to benchmarks from Artificial Analysis, MiniMax-M2 demonstrates highly competitive general intelligence across mathematics, science, instruction following, coding, and agentic tool use. **Its composite score ranks #1 among open-source models globally**.\n\n**Advanced Coding**. Engineered for end-to-end developer workflows, MiniMax-M2 excels at multi-file edits, coding-run-fix loops, and test-validated repairs. Strong performance on Terminal-Bench and (Multi-)SWE-Bench–style tasks demonstrates practical effectiveness in terminals, IDEs, and CI across languages.\n\n**Agent Performance**. MiniMax-M2 plans and executes complex, long-horizon toolchains across shell, browser, retrieval, and code runners. In BrowseComp-style evaluations, it consistently locates hard-to-surface sources, maintains evidence traceable, and gracefully recovers from flaky steps.\n\n**Efficient Design**. With 10 billion activated parameters (230 billion in total), MiniMax-M2 delivers lower latency, lower cost, and higher throughput for interactive agents and batched sampling—perfectly aligned with the shift toward highly deployable models that still shine on coding and agentic tasks.\n\n### Coding & Agentic Benchmarks\n\nThese comprehensive evaluations test real-world end-to-end coding and agentic tool use: editing real repos, executing commands, browsing the web, and delivering functional solutions. Performance on this suite correlates with day-to-day developer experience in terminals, IDEs, and CI.\n\n| **Benchmark**              | **MiniMax-M2** | **Claude Sonnet 4** | **Claude Sonnet 4.5** | **Gemini 2.5 Pro** | **GPT-5 (thinking)** | **GLM-4.6** | **Kimi K2 0905** | **DeepSeek-V3.2** |\n| -------------------------- | -------------- | ------------------- | --------------------- | ------------------ | -------------------- | ----------- | ---------------- | ----------------- |\n| **SWE-bench Verified**     | 69.4           | 72.7 \\*             | 77.2 \\*               | 63.8 \\*            | 74.9 \\*              | 68 \\*       | 69.2 \\*          | 67.8 \\*           |\n| **Multi-SWE-Bench**        | 36.2           | 35.7 \\*             | 44.3                  | /                  | /                    | 30          | 33.5             | 30.6              |\n| **SWE-bench Multilingual** | 56.5           | 56.9 \\*             | 68                    | /                  | /                    | 53.8        | 55.9 \\*          | 57.9 \\*           |\n| **Terminal-Bench**         | 46.3           | 36.4 \\*             | 50 \\*                 | 25.3 \\*            | 43.8 \\*              | 40.5 \\*     | 44.5 \\*          | 37.7 \\*           |\n| **ArtifactsBench**         | 66.8           | 57.3\\*              | 61.5                  | 57.7\\*             | 73\\*                 | 59.8        | 54.2             | 55.8              |\n| **BrowseComp**             | 44             | 12.2                | 19.6                  | 9.9                | 54.9\\*               | 45.1\\*      | 14.1             | 40.1\\*            |\n| **BrowseComp-zh**          | 48.5           | 29.1                | 40.8                  | 32.2               | 65                   | 49.5        | 28.8             | 47.9\\*            |\n| **GAIA (text only)**       | 75.7           | 68.3                | 71.2                  | 60.2               | 76.4                 | 71.9        | 60.2             | 63.5              |\n| **xbench-DeepSearch**      | 72             | 64.6                | 66                    | 56                 | 77.8                 | 70          | 61               | 71                |\n| **HLE (w/ tools)**         | 31.8           | 20.3                | 24.5                  | 28.4 \\*            | 35.2 \\*              | 30.4 \\*     | 26.9 \\*          | 27.2 \\*           |\n| **τ²-Bench**               | 77.2           | 65.5\\*              | 84.7\\*                | 59.2               | 80.1\\*               | 75.9\\*      | 70.3             | 66.7              |\n| **FinSearchComp-global**   | 65.5           | 42                  | 60.8                  | 42.6\\*             | 63.9\\*               | 29.2        | 29.5\\*           | 26.2              |\n| **AgentCompany**           | 36             | 37                  | 41                    | 39.3\\*             | /                    | 35          | 30               | 34                |\n\n> Notes: Data points marked with an asterisk (\\*) are taken directly from the model’s official tech report or blog. All other metrics were obtained using the evaluation methods described below. - SWE-bench Verified: We use the same scaffold as [R2E-Gym](https://arxiv.org/pdf/2504.07164) (Jain et al. 2025) on top of OpenHands to test with agents on SWE tasks. All scores are validated on our internal infrastructure with 128k context length, 100 max steps, and no test-time scaling. All git-related content is removed to ensure agent sees only the code at the issue point. - Multi-SWE-Bench & SWE-bench Multilingual: All scores are averaged across 8 runs using the [claude-code](https://github.com/anthropics/claude-code) CLI (300 max steps) as the evaluation scaffold. - Terminal-Bench: All scores are evaluated with the official claude-code from the original [Terminal-Bench](https://www.tbench.ai/) repository(commit `94bf692`), averaged over 8 runs to report the mean pass rate. - ArtifactsBench: All Scores are computed by averaging three runs with the official implementation of [ArtifactsBench](https://github.com/Tencent-Hunyuan/ArtifactsBenchmark), using the stable Gemini-2.5-Pro as the judge model. - BrowseComp & BrowseComp-zh & GAIA (text only) & xbench-DeepSearch: All scores reported use the same agent framework as [WebExplorer](https://arxiv.org/pdf/2509.06501) (Liu et al. 2025), with minor tools description adjustment. We use the 103-sample text-only GAIA validation subset following [WebExplorer](https://arxiv.org/pdf/2509.06501) (Liu et al. 2025). - HLE (w/ tools): All reported scores are obtained using search tools and a Python tool. The search tools employ the same agent framework as [WebExplorer](https://arxiv.org/pdf/2509.06501) (Liu et al. 2025), and the Python tool runs in a Jupyter environment. We use the text-only HLE subset. - τ²-Bench: All scores reported use “extended thinking with tool use”, and employ GPT-4.1 as the user simulator. - FinSearchComp-global: Official results are reported for GPT-5-Thinking, Gemini 2.5 Pro, and Kimi-K2\\. Other models are evaluated using the open-source [FinSearchComp](https://arxiv.org/pdf/2509.13160) (Hu et al. 2025) framework using both search and Python tools, launched simultaneously for consistency. - AgentCompany: All scores reported use OpenHands 0.42 agent framework.\n\n### Intelligence Benchmarks\n\nWe align with **Artificial Analysis** (AA), which aggregates challenging benchmarks using a consistent methodology to reflect a model’s broader **intelligence profile** across math, science, instruction following, coding, and agentic tool use.\n\n| **Metric (AA)**     | **MiniMax-M2** | **Claude Sonnet 4** | **Claude Sonnet 4.5** | **Gemini 2.5 Pro** | **GPT-5 (thinking)** | **GLM-4.6** | **Kimi K2 0905** | **DeepSeek-V3.2** |\n| ------------------- | -------------- | ------------------- | --------------------- | ------------------ | -------------------- | ----------- | ---------------- | ----------------- |\n| AIME25              | 78             | 74                  | 88                    | 88                 | 94                   | 86          | 57               | 88                |\n| MMLU-Pro            | 82             | 84                  | 88                    | 86                 | 87                   | 83          | 82               | 85                |\n| GPQA-Diamond        | 78             | 78                  | 83                    | 84                 | 85                   | 78          | 77               | 80                |\n| HLE (w/o tools)     | 12.5           | 9.6                 | 17.3                  | 21.1               | 26.5                 | 13.3        | 6.3              | 13.8              |\n| LiveCodeBench (LCB) | 83             | 66                  | 71                    | 80                 | 85                   | 70          | 61               | 79                |\n| SciCode             | 36             | 40                  | 45                    | 43                 | 43                   | 38          | 31               | 38                |\n| IFBench             | 72             | 55                  | 57                    | 49                 | 73                   | 43          | 42               | 54                |\n| AA-LCR              | 61             | 65                  | 66                    | 66                 | 76                   | 54          | 52               | 69                |\n| τ²-Bench-Telecom    | 87             | 65                  | 78                    | 54                 | 85                   | 71          | 73               | 34                |\n| Terminal-Bench-Hard | 24             | 30                  | 33                    | 25                 | 31                   | 23          | 23               | 29                |\n| **AA Intelligence** | 61             | 57                  | 63                    | 60                 | 69                   | 56          | 50               | 57                |\n\n> AA: All scores of MiniMax-M2 aligned with Artificial Analysis Intelligence Benchmarking Methodology (<https://artificialanalysis.ai/methodology/intelligence-benchmarking>). All scores of other models reported from <https://artificialanalysis.ai/>.\n\n---\n\nWrite Preview \n\n!\\[MiniMax M2 banner\\](/assets/library/minimax-m2/855052f9-7ace-44ae-a870-08f43ebd5a7c) MiniMax M2 is a high-efficiency large language model built for coding and agentic workflows. ### Get started \\`\\`\\` ollama run minimax-m2:cloud \\`\\`\\` ### Highlights \\*\\*Superior Intelligence\\*\\*. According to benchmarks from Artificial Analysis, MiniMax-M2 demonstrates highly competitive general intelligence across mathematics, science, instruction following, coding, and agentic tool use. \\*\\*Its composite score ranks #1 among open-source models globally\\*\\*. \\*\\*Advanced Coding\\*\\*. Engineered for end-to-end developer workflows, MiniMax-M2 excels at multi-file edits, coding-run-fix loops, and test-validated repairs. Strong performance on Terminal-Bench and (Multi-)SWE-Bench–style tasks demonstrates practical effectiveness in terminals, IDEs, and CI across languages. \\*\\*Agent Performance\\*\\*. MiniMax-M2 plans and executes complex, long-horizon toolchains across shell, browser, retrieval, and code runners. In BrowseComp-style evaluations, it consistently locates hard-to-surface sources, maintains evidence traceable, and gracefully recovers from flaky steps. \\*\\*Efficient Design\\*\\*. With 10 billion activated parameters (230 billion in total), MiniMax-M2 delivers lower latency, lower cost, and higher throughput for interactive agents and batched sampling—perfectly aligned with the shift toward highly deployable models that still shine on coding and agentic tasks. ### Coding & Agentic Benchmarks These comprehensive evaluations test real-world end-to-end coding and agentic tool use: editing real repos, executing commands, browsing the web, and delivering functional solutions. Performance on this suite correlates with day-to-day developer experience in terminals, IDEs, and CI. | \\*\\*Benchmark\\*\\* | \\*\\*MiniMax-M2\\*\\* | \\*\\*Claude Sonnet 4\\*\\* | \\*\\*Claude Sonnet 4.5\\*\\* | \\*\\*Gemini 2.5 Pro\\*\\* | \\*\\*GPT-5 (thinking)\\*\\* | \\*\\*GLM-4.6\\*\\* | \\*\\*Kimi K2 0905\\*\\* | \\*\\*DeepSeek-V3.2\\*\\* | |-----------|------------|-----------------|-------------------|-----------------|------------------|---------|---------------|----------------| | \\*\\*SWE-bench Verified\\*\\* | 69.4 | 72.7 \\* | 77.2 \\* | 63.8 \\* | 74.9 \\* | 68 \\* | 69.2 \\* | 67.8 \\* | | \\*\\*Multi-SWE-Bench\\*\\* | 36.2 | 35.7 \\* | 44.3 | / | / | 30 | 33.5 | 30.6 | | \\*\\*SWE-bench Multilingual\\*\\* | 56.5 | 56.9 \\* | 68 | / | / | 53.8 | 55.9 \\* | 57.9 \\* | | \\*\\*Terminal-Bench\\*\\* | 46.3 | 36.4 \\* | 50 \\* | 25.3 \\* | 43.8 \\* | 40.5 \\* | 44.5 \\* | 37.7 \\* | | \\*\\*ArtifactsBench\\*\\* | 66.8 | 57.3\\* | 61.5 | 57.7\\* | 73\\* | 59.8 | 54.2 | 55.8 | | \\*\\*BrowseComp\\*\\* | 44 | 12.2 | 19.6 | 9.9 | 54.9\\* | 45.1\\* | 14.1 | 40.1\\* | | \\*\\*BrowseComp-zh\\*\\* | 48.5 | 29.1 | 40.8 | 32.2 | 65 | 49.5 | 28.8 | 47.9\\* | | \\*\\*GAIA (text only)\\*\\* | 75.7 | 68.3 | 71.2 | 60.2 | 76.4 | 71.9 | 60.2 | 63.5 | | \\*\\*xbench-DeepSearch\\*\\* | 72 | 64.6 | 66 | 56 | 77.8 | 70 | 61 | 71 | | \\*\\*HLE (w/ tools)\\*\\* | 31.8 | 20.3 | 24.5 | 28.4 \\* | 35.2 \\* | 30.4 \\* | 26.9 \\* | 27.2 \\* | | \\*\\*τ²-Bench\\*\\* | 77.2 | 65.5\\* | 84.7\\* | 59.2 | 80.1\\* | 75.9\\* | 70.3 | 66.7 | | \\*\\*FinSearchComp-global\\*\\* | 65.5 | 42 | 60.8 | 42.6\\* | 63.9\\* | 29.2 | 29.5\\* | 26.2 | | \\*\\*AgentCompany\\*\\* | 36 | 37 | 41 | 39.3\\* | / | 35 | 30 | 34 | >Notes: Data points marked with an asterisk (\\*) are taken directly from the model's official tech report or blog. All other metrics were obtained using the evaluation methods described below. >- SWE-bench Verified: We use the same scaffold as \\[R2E-Gym\\](https://arxiv.org/pdf/2504.07164) (Jain et al. 2025) on top of OpenHands to test with agents on SWE tasks. All scores are validated on our internal infrastructure with 128k context length, 100 max steps, and no test-time scaling. All git-related content is removed to ensure agent sees only the code at the issue point. >- Multi-SWE-Bench & SWE-bench Multilingual: All scores are averaged across 8 runs using the \\[claude-code\\](https://github.com/anthropics/claude-code) CLI (300 max steps) as the evaluation scaffold. >- Terminal-Bench: All scores are evaluated with the official claude-code from the original \\[Terminal-Bench\\](https://www.tbench.ai/) repository(commit \\`94bf692\\`), averaged over 8 runs to report the mean pass rate. >- ArtifactsBench: All Scores are computed by averaging three runs with the official implementation of \\[ArtifactsBench\\](https://github.com/Tencent-Hunyuan/ArtifactsBenchmark), using the stable Gemini-2.5-Pro as the judge model. >- BrowseComp & BrowseComp-zh & GAIA (text only) & xbench-DeepSearch: All scores reported use the same agent framework as \\[WebExplorer\\](https://arxiv.org/pdf/2509.06501) (Liu et al. 2025), with minor tools description adjustment. We use the 103-sample text-only GAIA validation subset following \\[WebExplorer\\](https://arxiv.org/pdf/2509.06501) (Liu et al. 2025). >- HLE (w/ tools): All reported scores are obtained using search tools and a Python tool. The search tools employ the same agent framework as \\[WebExplorer\\](https://arxiv.org/pdf/2509.06501) (Liu et al. 2025), and the Python tool runs in a Jupyter environment. We use the text-only HLE subset. >- τ²-Bench: All scores reported use \"extended thinking with tool use\", and employ GPT-4.1 as the user simulator. >- FinSearchComp-global: Official results are reported for GPT-5-Thinking, Gemini 2.5 Pro, and Kimi-K2\\. Other models are evaluated using the open-source \\[FinSearchComp\\](https://arxiv.org/pdf/2509.13160) (Hu et al. 2025) framework using both search and Python tools, launched simultaneously for consistency. >- AgentCompany: All scores reported use OpenHands 0.42 agent framework. ### Intelligence Benchmarks We align with \\*\\*Artificial Analysis\\*\\* (AA), which aggregates challenging benchmarks using a consistent methodology to reflect a model’s broader \\*\\*intelligence profile\\*\\* across math, science, instruction following, coding, and agentic tool use. | \\*\\*Metric (AA)\\*\\* | \\*\\*MiniMax-M2\\*\\* | \\*\\*Claude Sonnet 4\\*\\* | \\*\\*Claude Sonnet 4.5\\*\\* | \\*\\*Gemini 2.5 Pro\\*\\* | \\*\\*GPT-5 (thinking)\\*\\* | \\*\\*GLM-4.6\\*\\* | \\*\\*Kimi K2 0905\\*\\* | \\*\\*DeepSeek-V3.2\\*\\* | |-----------------|----------------|---------------------|------------------------|---------------------|----------------------|-------------|------------------|-------------------| | AIME25 | 78 | 74 | 88 | 88 | 94 | 86 | 57 | 88 | | MMLU-Pro | 82 | 84 | 88 | 86 | 87 | 83 | 82 | 85 | | GPQA-Diamond | 78 | 78 | 83 | 84 | 85 | 78 | 77 | 80 | | HLE (w/o tools) | 12.5 | 9.6 | 17.3 | 21.1 | 26.5 | 13.3 | 6.3 | 13.8 | | LiveCodeBench (LCB) | 83 | 66 | 71 | 80 | 85 | 70 | 61 | 79 | | SciCode | 36 | 40 | 45 | 43 | 43 | 38 | 31 | 38 | | IFBench | 72 | 55 | 57 | 49 | 73 | 43 | 42 | 54 | | AA-LCR | 61 | 65 | 66 | 66 | 76 | 54 | 52 | 69 | | τ²-Bench-Telecom | 87 | 65 | 78 | 54 | 85 | 71 | 73 | 34 | | Terminal-Bench-Hard | 24 | 30 | 33 | 25 | 31 | 23 | 23 | 29 | | \\*\\*AA Intelligence\\*\\* | 61 | 57 | 63 | 60 | 69 | 56 | 50 | 57 | >AA: All scores of MiniMax-M2 aligned with Artificial Analysis Intelligence Benchmarking Methodology (https://artificialanalysis.ai/methodology/intelligence-benchmarking). All scores of other models reported from https://artificialanalysis.ai/. --- \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "minimax-m2:cloud",
+        "size": "minimax-m2:cloud",
+        "updated": "Text input • \n                    6 hours ago"
       }
     ]
   }
