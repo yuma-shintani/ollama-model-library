@@ -10714,7 +10714,7 @@
       {
         "name": "qwen3-coder:480b-cloud",
         "size": "qwen3-coder:480b-cloud",
-        "updated": "Text input • \n                    4 months ago"
+        "updated": "Text input • \n                    5 months ago"
       }
     ]
   },
@@ -16117,7 +16117,7 @@
     "name": "smollm",
     "link": "https://ollama.com/library/smollm",
     "description": "🪐 A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.",
-    "pullCount": "944.1K",
+    "pullCount": "945.7K",
     "updated": "1 year ago",
     "size": [
       "135m360m1.7b"
@@ -16598,40 +16598,10 @@
     ]
   },
   {
-    "name": "granite3.3",
-    "link": "https://ollama.com/library/granite3.3",
-    "description": "IBM Granite 2B and 8B models are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities.",
-    "pullCount": "896.9K",
-    "updated": "10 months ago",
-    "size": [
-      "2b",
-      "8b"
-    ],
-    "capabilities": "tools",
-    "readme": "## Readme\n\n![](/assets/library/granite3.2/90c5e567-0004-425c-a17a-1b846c2b5d3d)\n\n## Granite 3.3\n\nThe IBM Granite **2B and 8B models** are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities. These models deliver significant gains on benchmarks for measuring generic performance including AlpacaEval-2.0 and Arena-Hard, and improvements in mathematics, coding, and instruction following. They also supports Fill-in-the-Middle (FIM) for code completion tasks and structured reasoning.\n\n### Parameter Sizes\n\n**2B:**\n\n`ollama run granite3.3:2b`\n\n**8B:**\n\n`ollama run granite3.3:8b`\n\n### Supported Languages\n\nEnglish, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese. However, users may finetune this Granite model for languages beyond these 12 languages.\n\n### Intended Use\n\nThese models are designed to handle general instruction-following tasks and can be integrated into AI assistants across various domains, including business applications.\n\n### Capabilities\n\n* Thinking\n* Summarization\n* Text classification\n* Text extraction\n* Question-answering\n* Retrieval Augmented Generation (RAG)\n* Code related tasks\n* Function-calling tasks\n* Multilingual dialog use cases\n* Fill-in-the-middle\n* Long-context tasks including long document/meeting summarization, long document QA, etc.\n\n### Thinking\n\nTo enable thinking, add a message with “role”: “control” and set “content” to “thinking”. For example:\n\n```\n{\n    \"messages\": [\n        {\"role\": \"control\", \"content\": \"thinking\"},\n        {\"role\": \"user\", \"content\": \"How do I get to the airport if my car won't start?\"}\n    ]\n}\n\n```\n\n## Learn more\n\n* **Developers:** IBM Research\n* **Website**: [Granite Docs](https://www.ibm.com/granite/docs/)\n* **Release Date**: April 16th, 2025\n* **License:** [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)\n\nWrite Preview \n\n<img src=\"/assets/library/granite3.2/90c5e567-0004-425c-a17a-1b846c2b5d3d\" width=\"600\" /> ## Granite 3.3 The IBM Granite \\*\\*2B and 8B models\\*\\* are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities. These models deliver significant gains on benchmarks for measuring generic performance including AlpacaEval-2.0 and Arena-Hard, and improvements in mathematics, coding, and instruction following. They also supports Fill-in-the-Middle (FIM) for code completion tasks and structured reasoning. ### Parameter Sizes \\*\\*2B:\\*\\* \\`ollama run granite3.3:2b\\` \\*\\*8B:\\*\\* \\`ollama run granite3.3:8b\\` ### Supported Languages English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese. However, users may finetune this Granite model for languages beyond these 12 languages. ### Intended Use These models are designed to handle general instruction-following tasks and can be integrated into AI assistants across various domains, including business applications. ### Capabilities \\* Thinking \\* Summarization \\* Text classification \\* Text extraction \\* Question-answering \\* Retrieval Augmented Generation (RAG) \\* Code related tasks \\* Function-calling tasks \\* Multilingual dialog use cases \\* Fill-in-the-middle \\* Long-context tasks including long document/meeting summarization, long document QA, etc. ### Thinking To enable thinking, add a message with \"role\": \"control\" and set \"content\" to \"thinking\". For example: \\`\\`\\` { \"messages\": \\[ {\"role\": \"control\", \"content\": \"thinking\"}, {\"role\": \"user\", \"content\": \"How do I get to the airport if my car won't start?\"} \\] } \\`\\`\\` ## Learn more - \\*\\*Developers:\\*\\* IBM Research - \\*\\*Website\\*\\*: \\[Granite Docs\\](https://www.ibm.com/granite/docs/) - \\*\\*Release Date\\*\\*: April 16th, 2025 - \\*\\*License:\\*\\* \\[Apache 2.0\\](https://www.apache.org/licenses/LICENSE-2.0) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "granite3.3:latest",
-        "size": "granite3.3:latest",
-        "updated": "Text input • \n                    10 months ago"
-      },
-      {
-        "name": "granite3.3:2b",
-        "size": "granite3.3:2b",
-        "updated": "Text input • \n                    10 months ago"
-      },
-      {
-        "name": "granite3.3:8b",
-        "size": "granite3.3:8b",
-        "updated": "Text input • \n                    10 months ago"
-      }
-    ]
-  },
-  {
     "name": "phi4-mini",
     "link": "https://ollama.com/library/phi4-mini",
     "description": "Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported.",
-    "pullCount": "896.5K",
+    "pullCount": "897.5K",
     "updated": "11 months ago",
     "size": [
       "3.8b"
@@ -16667,10 +16637,40 @@
     ]
   },
   {
+    "name": "granite3.3",
+    "link": "https://ollama.com/library/granite3.3",
+    "description": "IBM Granite 2B and 8B models are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities.",
+    "pullCount": "897.4K",
+    "updated": "10 months ago",
+    "size": [
+      "2b",
+      "8b"
+    ],
+    "capabilities": "tools",
+    "readme": "## Readme\n\n![](/assets/library/granite3.2/90c5e567-0004-425c-a17a-1b846c2b5d3d)\n\n## Granite 3.3\n\nThe IBM Granite **2B and 8B models** are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities. These models deliver significant gains on benchmarks for measuring generic performance including AlpacaEval-2.0 and Arena-Hard, and improvements in mathematics, coding, and instruction following. They also supports Fill-in-the-Middle (FIM) for code completion tasks and structured reasoning.\n\n### Parameter Sizes\n\n**2B:**\n\n`ollama run granite3.3:2b`\n\n**8B:**\n\n`ollama run granite3.3:8b`\n\n### Supported Languages\n\nEnglish, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese. However, users may finetune this Granite model for languages beyond these 12 languages.\n\n### Intended Use\n\nThese models are designed to handle general instruction-following tasks and can be integrated into AI assistants across various domains, including business applications.\n\n### Capabilities\n\n* Thinking\n* Summarization\n* Text classification\n* Text extraction\n* Question-answering\n* Retrieval Augmented Generation (RAG)\n* Code related tasks\n* Function-calling tasks\n* Multilingual dialog use cases\n* Fill-in-the-middle\n* Long-context tasks including long document/meeting summarization, long document QA, etc.\n\n### Thinking\n\nTo enable thinking, add a message with “role”: “control” and set “content” to “thinking”. For example:\n\n```\n{\n    \"messages\": [\n        {\"role\": \"control\", \"content\": \"thinking\"},\n        {\"role\": \"user\", \"content\": \"How do I get to the airport if my car won't start?\"}\n    ]\n}\n\n```\n\n## Learn more\n\n* **Developers:** IBM Research\n* **Website**: [Granite Docs](https://www.ibm.com/granite/docs/)\n* **Release Date**: April 16th, 2025\n* **License:** [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)\n\nWrite Preview \n\n<img src=\"/assets/library/granite3.2/90c5e567-0004-425c-a17a-1b846c2b5d3d\" width=\"600\" /> ## Granite 3.3 The IBM Granite \\*\\*2B and 8B models\\*\\* are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities. These models deliver significant gains on benchmarks for measuring generic performance including AlpacaEval-2.0 and Arena-Hard, and improvements in mathematics, coding, and instruction following. They also supports Fill-in-the-Middle (FIM) for code completion tasks and structured reasoning. ### Parameter Sizes \\*\\*2B:\\*\\* \\`ollama run granite3.3:2b\\` \\*\\*8B:\\*\\* \\`ollama run granite3.3:8b\\` ### Supported Languages English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese. However, users may finetune this Granite model for languages beyond these 12 languages. ### Intended Use These models are designed to handle general instruction-following tasks and can be integrated into AI assistants across various domains, including business applications. ### Capabilities \\* Thinking \\* Summarization \\* Text classification \\* Text extraction \\* Question-answering \\* Retrieval Augmented Generation (RAG) \\* Code related tasks \\* Function-calling tasks \\* Multilingual dialog use cases \\* Fill-in-the-middle \\* Long-context tasks including long document/meeting summarization, long document QA, etc. ### Thinking To enable thinking, add a message with \"role\": \"control\" and set \"content\" to \"thinking\". For example: \\`\\`\\` { \"messages\": \\[ {\"role\": \"control\", \"content\": \"thinking\"}, {\"role\": \"user\", \"content\": \"How do I get to the airport if my car won't start?\"} \\] } \\`\\`\\` ## Learn more - \\*\\*Developers:\\*\\* IBM Research - \\*\\*Website\\*\\*: \\[Granite Docs\\](https://www.ibm.com/granite/docs/) - \\*\\*Release Date\\*\\*: April 16th, 2025 - \\*\\*License:\\*\\* \\[Apache 2.0\\](https://www.apache.org/licenses/LICENSE-2.0) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "granite3.3:latest",
+        "size": "granite3.3:latest",
+        "updated": "Text input • \n                    10 months ago"
+      },
+      {
+        "name": "granite3.3:2b",
+        "size": "granite3.3:2b",
+        "updated": "Text input • \n                    10 months ago"
+      },
+      {
+        "name": "granite3.3:8b",
+        "size": "granite3.3:8b",
+        "updated": "Text input • \n                    10 months ago"
+      }
+    ]
+  },
+  {
     "name": "qwen3-embedding",
     "link": "https://ollama.com/library/qwen3-embedding",
     "description": "Building upon the foundational models of the Qwen3 series, Qwen3 Embedding provides a comprehensive range of text embeddings models in various sizes",
-    "pullCount": "833.2K",
+    "pullCount": "836.9K",
     "updated": "4 months ago",
     "size": [
       "0.6b",
@@ -16746,7 +16746,7 @@
     "name": "codestral",
     "link": "https://ollama.com/library/codestral",
     "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
-    "pullCount": "823.7K",
+    "pullCount": "824.9K",
     "updated": "1 year ago",
     "size": [
       "22b"
@@ -16845,7 +16845,7 @@
     "name": "openthinker",
     "link": "https://ollama.com/library/openthinker",
     "description": "A fully open-source family of reasoning models built using a dataset derived by distilling DeepSeek-R1.",
-    "pullCount": "790.4K",
+    "pullCount": "791.3K",
     "updated": "10 months ago",
     "size": [
       "7b",
@@ -16935,7 +16935,7 @@
     "name": "granite3.2-vision",
     "link": "https://ollama.com/library/granite3.2-vision",
     "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
-    "pullCount": "756.6K",
+    "pullCount": "757.5K",
     "updated": "11 months ago",
     "size": [
       "2b"
@@ -16974,7 +16974,7 @@
     "name": "devstral",
     "link": "https://ollama.com/library/devstral",
     "description": "Devstral: the best open source model for coding agents",
-    "pullCount": "750.7K",
+    "pullCount": "751.6K",
     "updated": "7 months ago",
     "size": [
       "24b"
@@ -17013,7 +17013,7 @@
     "name": "dolphin-mistral",
     "link": "https://ollama.com/library/dolphin-mistral",
     "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
-    "pullCount": "733.8K",
+    "pullCount": "735.6K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -17627,7 +17627,7 @@
     "name": "granite4",
     "link": "https://ollama.com/library/granite4",
     "description": "Granite 4 features improved instruction following (IF) and tool-calling capabilities, making them more effective in enterprise applications.",
-    "pullCount": "721.8K",
+    "pullCount": "723.2K",
     "updated": "3 months ago",
     "size": [
       "350m1b",
@@ -17727,7 +17727,7 @@
     "name": "command-r",
     "link": "https://ollama.com/library/command-r",
     "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
-    "pullCount": "703.5K",
+    "pullCount": "705.1K",
     "updated": "1 year ago",
     "size": [
       "35b"
@@ -17901,7 +17901,7 @@
     "name": "granite-code",
     "link": "https://ollama.com/library/granite-code",
     "description": "A family of open foundation models by IBM for Code Intelligence",
-    "pullCount": "678.9K",
+    "pullCount": "680.5K",
     "updated": "1 year ago",
     "size": [
       "3b",
@@ -18728,7 +18728,7 @@
     "name": "wizardlm2",
     "link": "https://ollama.com/library/wizardlm2",
     "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
-    "pullCount": "660K",
+    "pullCount": "661.1K",
     "updated": "1 year ago",
     "size": [
       "7b",
@@ -18853,7 +18853,7 @@
     "name": "deepcoder",
     "link": "https://ollama.com/library/deepcoder",
     "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
-    "pullCount": "642.6K",
+    "pullCount": "643.5K",
     "updated": "10 months ago",
     "size": [
       "1.5b",
@@ -18913,7 +18913,7 @@
     "name": "moondream",
     "link": "https://ollama.com/library/moondream",
     "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
-    "pullCount": "639.9K",
+    "pullCount": "641K",
     "updated": "1 year ago",
     "size": [
       "1.8b"
@@ -19017,7 +19017,7 @@
     "name": "hermes3",
     "link": "https://ollama.com/library/hermes3",
     "description": "Hermes 3 is the latest version of the flagship Hermes series of LLMs by Nous Research",
-    "pullCount": "620.2K",
+    "pullCount": "621.7K",
     "updated": "1 year ago",
     "size": [
       "3b",
@@ -19359,7 +19359,7 @@
     "name": "mistral-small3.1",
     "link": "https://ollama.com/library/mistral-small3.1",
     "description": "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance.",
-    "pullCount": "602.3K",
+    "pullCount": "602.9K",
     "updated": "10 months ago",
     "size": [
       "24b"
@@ -19398,8 +19398,8 @@
     "name": "lfm2.5-thinking",
     "link": "https://ollama.com/library/lfm2.5-thinking",
     "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
-    "pullCount": "587.7K",
-    "updated": "4 weeks ago",
+    "pullCount": "588.6K",
+    "updated": "1 month ago",
     "size": [
       "1.2b"
     ],
@@ -19409,27 +19409,27 @@
       {
         "name": "lfm2.5-thinking:latest",
         "size": "lfm2.5-thinking:latest",
-        "updated": "Text input • \n                    4 weeks ago"
+        "updated": "Text input • \n                    1 month ago"
       },
       {
         "name": "lfm2.5-thinking:1.2b",
         "size": "lfm2.5-thinking:1.2b",
-        "updated": "Text input • \n                    4 weeks ago"
+        "updated": "Text input • \n                    1 month ago"
       },
       {
         "name": "lfm2.5-thinking:1.2b-q4_K_M",
         "size": "lfm2.5-thinking:1.2b-q4_K_M",
-        "updated": "Text input • \n                    4 weeks ago"
+        "updated": "Text input • \n                    1 month ago"
       },
       {
         "name": "lfm2.5-thinking:1.2b-q8_0",
         "size": "lfm2.5-thinking:1.2b-q8_0",
-        "updated": "Text input • \n                    4 weeks ago"
+        "updated": "Text input • \n                    1 month ago"
       },
       {
         "name": "lfm2.5-thinking:1.2b-bf16",
         "size": "lfm2.5-thinking:1.2b-bf16",
-        "updated": "Text input • \n                    4 weeks ago"
+        "updated": "Text input • \n                    1 month ago"
       }
     ]
   },
@@ -19437,7 +19437,7 @@
     "name": "yi",
     "link": "https://ollama.com/library/yi",
     "description": "Yi 1.5 is a high-performing, bilingual language model.",
-    "pullCount": "575.7K",
+    "pullCount": "577.2K",
     "updated": "1 year ago",
     "size": [
       "6b",
@@ -20323,7 +20323,7 @@
     "name": "zephyr",
     "link": "https://ollama.com/library/zephyr",
     "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
-    "pullCount": "557.3K",
+    "pullCount": "558.8K",
     "updated": "1 year ago",
     "size": [
       "7b",
@@ -20538,7 +20538,7 @@
     "name": "mistral-large",
     "link": "https://ollama.com/library/mistral-large",
     "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
-    "pullCount": "547.3K",
+    "pullCount": "548.8K",
     "updated": "1 year ago",
     "size": [
       "123b"
@@ -20712,7 +20712,7 @@
     "name": "phi3.5",
     "link": "https://ollama.com/library/phi3.5",
     "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-    "pullCount": "546.9K",
+    "pullCount": "547.8K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -20811,7 +20811,7 @@
     "name": "wizard-vicuna-uncensored",
     "link": "https://ollama.com/library/wizard-vicuna-uncensored",
     "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
-    "pullCount": "539.1K",
+    "pullCount": "540.7K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -21072,7 +21072,7 @@
     "name": "embeddinggemma",
     "link": "https://ollama.com/library/embeddinggemma",
     "description": "EmbeddingGemma is a 300M parameter embedding model from Google.",
-    "pullCount": "530.9K",
+    "pullCount": "532.7K",
     "updated": "5 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -21109,7 +21109,7 @@
     "name": "bakllava",
     "link": "https://ollama.com/library/bakllava",
     "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
-    "pullCount": "517.6K",
+    "pullCount": "518.5K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -21208,7 +21208,7 @@
     "name": "starcoder",
     "link": "https://ollama.com/library/starcoder",
     "description": "StarCoder is a code generation model trained on 80+ programming languages.",
-    "pullCount": "495.1K",
+    "pullCount": "496.6K",
     "updated": "2 years ago",
     "size": [
       "1b",
@@ -21725,7 +21725,7 @@
     "name": "paraphrase-multilingual",
     "link": "https://ollama.com/library/paraphrase-multilingual",
     "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
-    "pullCount": "492.4K",
+    "pullCount": "493.8K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -21752,7 +21752,7 @@
     "name": "nous-hermes",
     "link": "https://ollama.com/library/nous-hermes",
     "description": "General use models based on Llama and Llama 2 from Nous Research.",
-    "pullCount": "487.6K",
+    "pullCount": "489.2K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -22082,7 +22082,7 @@
     "name": "exaone-deep",
     "link": "https://ollama.com/library/exaone-deep",
     "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
-    "pullCount": "487.1K",
+    "pullCount": "488K",
     "updated": "11 months ago",
     "size": [
       "2.4b",
@@ -22163,7 +22163,7 @@
     "name": "deepseek-llm",
     "link": "https://ollama.com/library/deepseek-llm",
     "description": "An advanced language model crafted with 2 trillion bilingual tokens.",
-    "pullCount": "480.9K",
+    "pullCount": "482.5K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -22498,7 +22498,7 @@
     "name": "falcon",
     "link": "https://ollama.com/library/falcon",
     "description": "A large language model built by the Technology Innovation Institute (TII) for use in summarization, text generation, and chat bots.",
-    "pullCount": "478.5K",
+    "pullCount": "480.1K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -22704,7 +22704,7 @@
     "name": "deepseek-v2",
     "link": "https://ollama.com/library/deepseek-v2",
     "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
-    "pullCount": "476.9K",
+    "pullCount": "478.4K",
     "updated": "1 year ago",
     "size": [
       "16b",
@@ -22889,7 +22889,7 @@
     "name": "openchat",
     "link": "https://ollama.com/library/openchat",
     "description": "A family of open-source models trained on a wide variety of data, surpassing ChatGPT on various benchmarks. Updated to version 3.5-0106.",
-    "pullCount": "475.7K",
+    "pullCount": "477.3K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -23153,7 +23153,7 @@
     "name": "vicuna",
     "link": "https://ollama.com/library/vicuna",
     "description": "General use chat model based on Llama and Llama 2 with 2K to 16K context sizes.",
-    "pullCount": "471.9K",
+    "pullCount": "473.5K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -23724,7 +23724,7 @@
     "name": "ministral-3",
     "link": "https://ollama.com/library/ministral-3",
     "description": "The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware.",
-    "pullCount": "468.4K",
+    "pullCount": "469.9K",
     "updated": "2 months ago",
     "size": [
       "3b",
@@ -23820,7 +23820,7 @@
     "name": "openhermes",
     "link": "https://ollama.com/library/openhermes",
     "description": "OpenHermes 2.5 is a 7B model fine-tuned by Teknium on Mistral with fully open datasets.",
-    "pullCount": "452.2K",
+    "pullCount": "453.8K",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "",
@@ -24007,7 +24007,7 @@
     "name": "codeqwen",
     "link": "https://ollama.com/library/codeqwen",
     "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
-    "pullCount": "452.1K",
+    "pullCount": "453.7K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -24171,7 +24171,7 @@
     "name": "glm4",
     "link": "https://ollama.com/library/glm4",
     "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
-    "pullCount": "445.7K",
+    "pullCount": "447.5K",
     "updated": "1 year ago",
     "size": [
       "9b"
@@ -24345,7 +24345,7 @@
     "name": "qwen2-math",
     "link": "https://ollama.com/library/qwen2-math",
     "description": "Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).",
-    "pullCount": "439.9K",
+    "pullCount": "441.5K",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -24621,7 +24621,7 @@
     "name": "aya",
     "link": "https://ollama.com/library/aya",
     "description": "Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.",
-    "pullCount": "433.6K",
+    "pullCount": "435.2K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -24801,7 +24801,7 @@
     "name": "llama2-chinese",
     "link": "https://ollama.com/library/llama2-chinese",
     "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.",
-    "pullCount": "428.3K",
+    "pullCount": "430K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -24991,7 +24991,7 @@
     "name": "stable-code",
     "link": "https://ollama.com/library/stable-code",
     "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
-    "pullCount": "422.1K",
+    "pullCount": "423.7K",
     "updated": "1 year ago",
     "size": [
       "3b"
@@ -25185,7 +25185,7 @@
     "name": "neural-chat",
     "link": "https://ollama.com/library/neural-chat",
     "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
-    "pullCount": "420.9K",
+    "pullCount": "422.5K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -25449,7 +25449,7 @@
     "name": "nous-hermes2",
     "link": "https://ollama.com/library/nous-hermes2",
     "description": "The powerful family of models by Nous Research that excels at scientific discussion and coding tasks.",
-    "pullCount": "416.5K",
+    "pullCount": "418.2K",
     "updated": "2 years ago",
     "size": [
       "10.7b",
@@ -25629,7 +25629,7 @@
     "name": "opencoder",
     "link": "https://ollama.com/library/opencoder",
     "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-    "pullCount": "413.5K",
+    "pullCount": "414.2K",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -25689,7 +25689,7 @@
     "name": "sqlcoder",
     "link": "https://ollama.com/library/sqlcoder",
     "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
-    "pullCount": "410K",
+    "pullCount": "411.7K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -25944,7 +25944,7 @@
     "name": "wizardcoder",
     "link": "https://ollama.com/library/wizardcoder",
     "description": "State-of-the-art code generation model",
-    "pullCount": "409.8K",
+    "pullCount": "411.5K",
     "updated": "2 years ago",
     "size": [
       "33b"
@@ -26293,7 +26293,7 @@
     "name": "yi-coder",
     "link": "https://ollama.com/library/yi-coder",
     "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
-    "pullCount": "403K",
+    "pullCount": "404.7K",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -26643,7 +26643,7 @@
     "name": "stablelm2",
     "link": "https://ollama.com/library/stablelm2",
     "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
-    "pullCount": "397K",
+    "pullCount": "398.7K",
     "updated": "1 year ago",
     "size": [
       "1.6b",
@@ -27078,7 +27078,7 @@
     "name": "llama3-chatqa",
     "link": "https://ollama.com/library/llama3-chatqa",
     "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
-    "pullCount": "394.7K",
+    "pullCount": "396.4K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -27268,7 +27268,7 @@
     "name": "granite3-dense",
     "link": "https://ollama.com/library/granite3-dense",
     "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
-    "pullCount": "392.8K",
+    "pullCount": "394.5K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -27448,7 +27448,7 @@
     "name": "granite3.1-dense",
     "link": "https://ollama.com/library/granite3.1-dense",
     "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
-    "pullCount": "391.6K",
+    "pullCount": "393.3K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -27628,7 +27628,7 @@
     "name": "wizard-math",
     "link": "https://ollama.com/library/wizard-math",
     "description": "Model focused on math and logic problems",
-    "pullCount": "381.9K",
+    "pullCount": "383.6K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -27964,7 +27964,7 @@
     "name": "dolphincoder",
     "link": "https://ollama.com/library/dolphincoder",
     "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-    "pullCount": "381.8K",
+    "pullCount": "383.5K",
     "updated": "1 year ago",
     "size": [
       "7b",
@@ -28154,7 +28154,7 @@
     "name": "llama3-gradient",
     "link": "https://ollama.com/library/llama3-gradient",
     "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
-    "pullCount": "380.9K",
+    "pullCount": "382.5K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -28344,7 +28344,7 @@
     "name": "samantha-mistral",
     "link": "https://ollama.com/library/samantha-mistral",
     "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
-    "pullCount": "377K",
+    "pullCount": "378.7K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -28603,7 +28603,7 @@
     "name": "deepseek-v3.1",
     "link": "https://ollama.com/library/deepseek-v3.1",
     "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
-    "pullCount": "376K",
+    "pullCount": "376.9K",
     "updated": "4 months ago",
     "size": [
       "671b"
@@ -28644,7 +28644,7 @@
       {
         "name": "deepseek-v3.1:671b-q8_0",
         "size": "deepseek-v3.1:671b-q8_0",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "deepseek-v3.1:671b-fp16",
@@ -28657,7 +28657,7 @@
     "name": "command-r-plus",
     "link": "https://ollama.com/library/command-r-plus",
     "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
-    "pullCount": "374.9K",
+    "pullCount": "376.1K",
     "updated": "1 year ago",
     "size": [
       "104b"
@@ -28776,7 +28776,7 @@
     "name": "internlm2",
     "link": "https://ollama.com/library/internlm2",
     "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
-    "pullCount": "371K",
+    "pullCount": "372.7K",
     "updated": "1 year ago",
     "size": [
       "1m1.8b",
@@ -29117,7 +29117,7 @@
     "name": "llama3-groq-tool-use",
     "link": "https://ollama.com/library/llama3-groq-tool-use",
     "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
-    "pullCount": "368.7K",
+    "pullCount": "370.4K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -29297,7 +29297,7 @@
     "name": "llama-guard3",
     "link": "https://ollama.com/library/llama-guard3",
     "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
-    "pullCount": "364.8K",
+    "pullCount": "366.6K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -29477,7 +29477,7 @@
     "name": "starling-lm",
     "link": "https://ollama.com/library/starling-lm",
     "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
-    "pullCount": "364.4K",
+    "pullCount": "366.1K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -29671,7 +29671,7 @@
     "name": "phind-codellama",
     "link": "https://ollama.com/library/phind-codellama",
     "description": "Code generation model based on Code Llama.",
-    "pullCount": "362.7K",
+    "pullCount": "364.4K",
     "updated": "2 years ago",
     "size": [
       "34b"
@@ -29930,7 +29930,7 @@
     "name": "solar",
     "link": "https://ollama.com/library/solar",
     "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
-    "pullCount": "362.5K",
+    "pullCount": "364.2K",
     "updated": "2 years ago",
     "size": [
       "10.7b"
@@ -30104,7 +30104,7 @@
     "name": "xwinlm",
     "link": "https://ollama.com/library/xwinlm",
     "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
-    "pullCount": "359.5K",
+    "pullCount": "361.2K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -30519,7 +30519,7 @@
     "name": "aya-expanse",
     "link": "https://ollama.com/library/aya-expanse",
     "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
-    "pullCount": "356.7K",
+    "pullCount": "358.5K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -30699,7 +30699,7 @@
     "name": "granite3-moe",
     "link": "https://ollama.com/library/granite3-moe",
     "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
-    "pullCount": "353K",
+    "pullCount": "354.7K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -30879,7 +30879,7 @@
     "name": "yarn-llama2",
     "link": "https://ollama.com/library/yarn-llama2",
     "description": "An extension of Llama 2 that supports a context of up to 128k tokens.",
-    "pullCount": "352.9K",
+    "pullCount": "354.6K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -31229,7 +31229,7 @@
     "name": "translategemma",
     "link": "https://ollama.com/library/translategemma",
     "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-    "pullCount": "349.5K",
+    "pullCount": "351.4K",
     "updated": "1 month ago",
     "size": [
       "4b",
@@ -31310,7 +31310,7 @@
     "name": "codegeex4",
     "link": "https://ollama.com/library/codegeex4",
     "description": "A versatile model for AI software development scenarios, including code completion.",
-    "pullCount": "349.4K",
+    "pullCount": "350.4K",
     "updated": "1 year ago",
     "size": [
       "9b"
@@ -31409,7 +31409,7 @@
     "name": "mistral-openorca",
     "link": "https://ollama.com/library/mistral-openorca",
     "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
-    "pullCount": "347.9K",
+    "pullCount": "348.9K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -31508,7 +31508,7 @@
     "name": "tinydolphin",
     "link": "https://ollama.com/library/tinydolphin",
     "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-    "pullCount": "346.9K",
+    "pullCount": "348K",
     "updated": "2 years ago",
     "size": [
       "1.1b"
@@ -31612,7 +31612,7 @@
     "name": "orca2",
     "link": "https://ollama.com/library/orca2",
     "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
-    "pullCount": "339.8K",
+    "pullCount": "341.5K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -31792,7 +31792,7 @@
     "name": "qwen3-next",
     "link": "https://ollama.com/library/qwen3-next",
     "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
-    "pullCount": "336.1K",
+    "pullCount": "336.8K",
     "updated": "2 months ago",
     "size": [
       "80b"
@@ -31856,7 +31856,7 @@
     "name": "stable-beluga",
     "link": "https://ollama.com/library/stable-beluga",
     "description": "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.",
-    "pullCount": "333K",
+    "pullCount": "334.6K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -32117,7 +32117,7 @@
     "name": "reader-lm",
     "link": "https://ollama.com/library/reader-lm",
     "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
-    "pullCount": "327.1K",
+    "pullCount": "328.7K",
     "updated": "1 year ago",
     "size": [
       "0.5b",
@@ -32297,7 +32297,7 @@
     "name": "shieldgemma",
     "link": "https://ollama.com/library/shieldgemma",
     "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
-    "pullCount": "323.6K",
+    "pullCount": "325.2K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -32558,7 +32558,7 @@
     "name": "rnj-1",
     "link": "https://ollama.com/library/rnj-1",
     "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
-    "pullCount": "323K",
+    "pullCount": "323.3K",
     "updated": "2 months ago",
     "size": [
       "8b"
@@ -32602,7 +32602,7 @@
     "name": "llama-pro",
     "link": "https://ollama.com/library/llama-pro",
     "description": "An expansion of Llama 2 that specializes in integrating both general language understanding and domain-specific knowledge, particularly in programming and mathematics.",
-    "pullCount": "319.2K",
+    "pullCount": "320.8K",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "",
@@ -32779,7 +32779,7 @@
     "name": "yarn-mistral",
     "link": "https://ollama.com/library/yarn-mistral",
     "description": "An extension of Mistral to support context windows of 64K or 128K.",
-    "pullCount": "316.3K",
+    "pullCount": "317.9K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -32958,7 +32958,7 @@
     "name": "nexusraven",
     "link": "https://ollama.com/library/nexusraven",
     "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
-    "pullCount": "313.7K",
+    "pullCount": "315.3K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -33132,7 +33132,7 @@
     "name": "wizardlm",
     "link": "https://ollama.com/library/wizardlm",
     "description": "General use model based on Llama 2.",
-    "pullCount": "308.4K",
+    "pullCount": "309.9K",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "",
@@ -33509,7 +33509,7 @@
     "name": "meditron",
     "link": "https://ollama.com/library/meditron",
     "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
-    "pullCount": "295.3K",
+    "pullCount": "296.4K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -33634,7 +33634,7 @@
     "name": "reflection",
     "link": "https://ollama.com/library/reflection",
     "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
-    "pullCount": "281.5K",
+    "pullCount": "282.4K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -33733,7 +33733,7 @@
     "name": "nemotron-mini",
     "link": "https://ollama.com/library/nemotron-mini",
     "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
-    "pullCount": "274.7K",
+    "pullCount": "275.6K",
     "updated": "1 year ago",
     "size": [
       "4b"
@@ -33829,10 +33829,42 @@
     ]
   },
   {
+    "name": "glm-4.7-flash",
+    "link": "https://ollama.com/library/glm-4.7-flash",
+    "description": "As the strongest model in the 30B class, GLM-4.7-Flash offers a new option for lightweight deployment that balances performance and efficiency.",
+    "pullCount": "268.7K",
+    "updated": "3 weeks ago",
+    "size": null,
+    "capabilities": "toolsthinking",
+    "readme": "## Readme\n\n![](/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a)\n\n> Note: this model requires [Ollama 0.14.3](https://github.com/ollama/ollama/releases) which is currently in pre-release.\n\n## Introduction\n\nGLM-4.7-Flash is a 30B-A3B MoE model. As the strongest model in the 30B class, GLM-4.7-Flash offers a new option for lightweight deployment that balances performance and efficiency.\n\n### Performances on Benchmarks\n\n| Benchmark          | GLM-4.7-Flash | Qwen3-30B-A3B-Thinking-2507 | GPT-OSS-20B |\n| ------------------ | ------------- | --------------------------- | ----------- |\n| AIME 25            | 91.6          | 85.0                        | 91.7        |\n| GPQA               | 75.2          | 73.4                        | 71.5        |\n| LCB v6             | 64.0          | 66.0                        | 61.0        |\n| HLE                | 14.4          | 9.8                         | 10.9        |\n| SWE-bench Verified | 59.2          | 22.0                        | 34.0        |\n| τ²-Bench           | 79.5          | 49.0                        | 47.7        |\n| BrowseComp         | 42.8          | 2.29                        | 28.3        |\n\nWrite Preview \n\n<img src=\"/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a\" width=\"128\" /> > Note: this model requires \\[Ollama 0.14.3\\](https://github.com/ollama/ollama/releases) which is currently in pre-release. ## Introduction GLM-4.7-Flash is a 30B-A3B MoE model. As the strongest model in the 30B class, GLM-4.7-Flash offers a new option for lightweight deployment that balances performance and efficiency. ### Performances on Benchmarks | Benchmark | GLM-4.7-Flash | Qwen3-30B-A3B-Thinking-2507 | GPT-OSS-20B | |--------------------|---------------|-----------------------------|-------------| | AIME 25 | 91.6 | 85.0 | 91.7 | | GPQA | 75.2 | 73.4 | 71.5 | | LCB v6 | 64.0 | 66.0 | 61.0 | | HLE | 14.4 | 9.8 | 10.9 | | SWE-bench Verified | 59.2 | 22.0 | 34.0 | | τ²-Bench | 79.5 | 49.0 | 47.7 | | BrowseComp | 42.8 | 2.29 | 28.3 | \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "glm-4.7-flash:latest",
+        "size": "glm-4.7-flash:latest",
+        "updated": "Text input • \n                    3 weeks ago"
+      },
+      {
+        "name": "glm-4.7-flash:q4_K_M",
+        "size": "glm-4.7-flash:q4_K_M",
+        "updated": "Text input • \n                    3 weeks ago"
+      },
+      {
+        "name": "glm-4.7-flash:q8_0",
+        "size": "glm-4.7-flash:q8_0",
+        "updated": "Text input • \n                    3 weeks ago"
+      },
+      {
+        "name": "glm-4.7-flash:bf16",
+        "size": "glm-4.7-flash:bf16",
+        "updated": "Text input • \n                    3 weeks ago"
+      }
+    ]
+  },
+  {
     "name": "granite3.2",
     "link": "https://ollama.com/library/granite3.2",
     "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
-    "pullCount": "267.9K",
+    "pullCount": "268.4K",
     "updated": "11 months ago",
     "size": [
       "2b",
@@ -33889,42 +33921,10 @@
     ]
   },
   {
-    "name": "glm-4.7-flash",
-    "link": "https://ollama.com/library/glm-4.7-flash",
-    "description": "As the strongest model in the 30B class, GLM-4.7-Flash offers a new option for lightweight deployment that balances performance and efficiency.",
-    "pullCount": "266.8K",
-    "updated": "3 weeks ago",
-    "size": null,
-    "capabilities": "toolsthinking",
-    "readme": "## Readme\n\n![](/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a)\n\n> Note: this model requires [Ollama 0.14.3](https://github.com/ollama/ollama/releases) which is currently in pre-release.\n\n## Introduction\n\nGLM-4.7-Flash is a 30B-A3B MoE model. As the strongest model in the 30B class, GLM-4.7-Flash offers a new option for lightweight deployment that balances performance and efficiency.\n\n### Performances on Benchmarks\n\n| Benchmark          | GLM-4.7-Flash | Qwen3-30B-A3B-Thinking-2507 | GPT-OSS-20B |\n| ------------------ | ------------- | --------------------------- | ----------- |\n| AIME 25            | 91.6          | 85.0                        | 91.7        |\n| GPQA               | 75.2          | 73.4                        | 71.5        |\n| LCB v6             | 64.0          | 66.0                        | 61.0        |\n| HLE                | 14.4          | 9.8                         | 10.9        |\n| SWE-bench Verified | 59.2          | 22.0                        | 34.0        |\n| τ²-Bench           | 79.5          | 49.0                        | 47.7        |\n| BrowseComp         | 42.8          | 2.29                        | 28.3        |\n\nWrite Preview \n\n<img src=\"/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a\" width=\"128\" /> > Note: this model requires \\[Ollama 0.14.3\\](https://github.com/ollama/ollama/releases) which is currently in pre-release. ## Introduction GLM-4.7-Flash is a 30B-A3B MoE model. As the strongest model in the 30B class, GLM-4.7-Flash offers a new option for lightweight deployment that balances performance and efficiency. ### Performances on Benchmarks | Benchmark | GLM-4.7-Flash | Qwen3-30B-A3B-Thinking-2507 | GPT-OSS-20B | |--------------------|---------------|-----------------------------|-------------| | AIME 25 | 91.6 | 85.0 | 91.7 | | GPQA | 75.2 | 73.4 | 71.5 | | LCB v6 | 64.0 | 66.0 | 61.0 | | HLE | 14.4 | 9.8 | 10.9 | | SWE-bench Verified | 59.2 | 22.0 | 34.0 | | τ²-Bench | 79.5 | 49.0 | 47.7 | | BrowseComp | 42.8 | 2.29 | 28.3 | \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "glm-4.7-flash:latest",
-        "size": "glm-4.7-flash:latest",
-        "updated": "Text input • \n                    3 weeks ago"
-      },
-      {
-        "name": "glm-4.7-flash:q4_K_M",
-        "size": "glm-4.7-flash:q4_K_M",
-        "updated": "Text input • \n                    3 weeks ago"
-      },
-      {
-        "name": "glm-4.7-flash:q8_0",
-        "size": "glm-4.7-flash:q8_0",
-        "updated": "Text input • \n                    3 weeks ago"
-      },
-      {
-        "name": "glm-4.7-flash:bf16",
-        "size": "glm-4.7-flash:bf16",
-        "updated": "Text input • \n                    3 weeks ago"
-      }
-    ]
-  },
-  {
     "name": "wizardlm-uncensored",
     "link": "https://ollama.com/library/wizardlm-uncensored",
     "description": "Uncensored version of Wizard LM model",
-    "pullCount": "262.6K",
+    "pullCount": "263.6K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -34028,7 +34028,7 @@
     "name": "athene-v2",
     "link": "https://ollama.com/library/athene-v2",
     "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
-    "pullCount": "261.1K",
+    "pullCount": "262K",
     "updated": "1 year ago",
     "size": [
       "72b"
@@ -34127,7 +34127,7 @@
     "name": "nemotron",
     "link": "https://ollama.com/library/nemotron",
     "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
-    "pullCount": "259.4K",
+    "pullCount": "260.3K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -34226,7 +34226,7 @@
     "name": "exaone3.5",
     "link": "https://ollama.com/library/exaone3.5",
     "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
-    "pullCount": "258.9K",
+    "pullCount": "259.7K",
     "updated": "1 year ago",
     "size": [
       "2.4b",
@@ -34307,7 +34307,7 @@
     "name": "snowflake-arctic-embed2",
     "link": "https://ollama.com/library/snowflake-arctic-embed2",
     "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-    "pullCount": "250.7K",
+    "pullCount": "251.1K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -34334,7 +34334,7 @@
     "name": "nous-hermes2-mixtral",
     "link": "https://ollama.com/library/nous-hermes2-mixtral",
     "description": "The Nous Hermes 2 model from Nous Research, now trained over Mixtral.",
-    "pullCount": "244.5K",
+    "pullCount": "245.5K",
     "updated": "1 year ago",
     "size": [
       "8x7b"
@@ -34438,7 +34438,7 @@
     "name": "r1-1776",
     "link": "https://ollama.com/library/r1-1776",
     "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-    "pullCount": "243.6K",
+    "pullCount": "244.2K",
     "updated": "12 months ago",
     "size": [
       "70b",
@@ -34498,7 +34498,7 @@
     "name": "medllama2",
     "link": "https://ollama.com/library/medllama2",
     "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
-    "pullCount": "238.8K",
+    "pullCount": "239.7K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -34597,7 +34597,7 @@
     "name": "codeup",
     "link": "https://ollama.com/library/codeup",
     "description": "Great code generation model based on Llama2.",
-    "pullCount": "228.2K",
+    "pullCount": "229.2K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -34706,7 +34706,7 @@
     "name": "everythinglm",
     "link": "https://ollama.com/library/everythinglm",
     "description": "Uncensored Llama2 based model with support for a 16K context window.",
-    "pullCount": "222K",
+    "pullCount": "222.9K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -34810,7 +34810,7 @@
     "name": "mathstral",
     "link": "https://ollama.com/library/mathstral",
     "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
-    "pullCount": "218.1K",
+    "pullCount": "219K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -34909,7 +34909,7 @@
     "name": "solar-pro",
     "link": "https://ollama.com/library/solar-pro",
     "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
-    "pullCount": "216K",
+    "pullCount": "216.9K",
     "updated": "1 year ago",
     "size": [
       "22b"
@@ -35013,7 +35013,7 @@
     "name": "magicoder",
     "link": "https://ollama.com/library/magicoder",
     "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
-    "pullCount": "211.8K",
+    "pullCount": "212.8K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -35117,7 +35117,7 @@
     "name": "falcon2",
     "link": "https://ollama.com/library/falcon2",
     "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
-    "pullCount": "210.7K",
+    "pullCount": "211.6K",
     "updated": "1 year ago",
     "size": [
       "11b"
@@ -35216,7 +35216,7 @@
     "name": "stablelm-zephyr",
     "link": "https://ollama.com/library/stablelm-zephyr",
     "description": "A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware.",
-    "pullCount": "210.5K",
+    "pullCount": "211.3K",
     "updated": "2 years ago",
     "size": [
       "3b"
@@ -35312,52 +35312,10 @@
     ]
   },
   {
-    "name": "granite-embedding",
-    "link": "https://ollama.com/library/granite-embedding",
-    "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
-    "pullCount": "209.4K",
-    "updated": "1 year ago",
-    "size": null,
-    "capabilities": "embedding",
-    "readme": "## Readme\n\n## Granite embedding models\n\nThe IBM Granite Embedding **30M and 278M models** are text-only dense biencoder embedding models, with **30M** available in English only and **278M** serving multilingual use cases. These models are designed to produce fixed length vector representations for a given text chunk, which can be used for text similarity, retrieval, and search applications.\n\n### Parameter Sizes\n\n**30M:**\n\n`ollama run granite-embedding:30m`\n\n**278M:**\n\n`ollama run granite-embedding:278m`\n\n### Supported Languages\n\n**30M:** English**278M:** English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, Chinese (Simplified)\n\n## Granite dense models\n\nThe Granite dense models are available in **2B and 8B** parameter sizes designed to support tool-based use cases and for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.\n\n[See model page](https://ollama.com/library/granite3-dense)\n\n## Granite mixture of experts models\n\nThe Granite mixture of experts models are available in **1B and 3B** parameter sizes designed for **low latency usage**.\n\n[See model page](https://ollama.com/library/granite3-moe)\n\n## Learn more\n\n* **Developers:** IBM Research\n* **GitHub Repository:** [ibm-granite/granite-language-models](https://github.com/ibm-granite/granite-3.1-language-models)\n* **Website**: [Granite Docs](https://www.ibm.com/granite/docs/)\n* **Release Date**: December 18th, 2024\n* **License:** [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).\n\nWrite Preview \n\n\\## Granite embedding models The IBM Granite Embedding \\*\\*30M and 278M models\\*\\* are text-only dense biencoder embedding models, with \\*\\*30M\\*\\* available in English only and \\*\\*278M\\*\\* serving multilingual use cases. These models are designed to produce fixed length vector representations for a given text chunk, which can be used for text similarity, retrieval, and search applications. ### Parameter Sizes \\*\\*30M:\\*\\* \\`ollama run granite-embedding:30m\\` \\*\\*278M:\\*\\* \\`ollama run granite-embedding:278m\\` ### Supported Languages \\*\\*30M:\\*\\* English \\*\\*278M:\\*\\* English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, Chinese (Simplified) ## Granite dense models The Granite dense models are available in \\*\\*2B and 8B\\*\\* parameter sizes designed to support tool-based use cases and for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing. \\[See model page\\](https://ollama.com/library/granite3-dense) ## Granite mixture of experts models The Granite mixture of experts models are available in \\*\\*1B and 3B\\*\\* parameter sizes designed for \\*\\*low latency usage\\*\\*. \\[See model page\\](https://ollama.com/library/granite3-moe) ## Learn more - \\*\\*Developers:\\*\\* IBM Research - \\*\\*GitHub Repository:\\*\\* \\[ibm-granite/granite-language-models\\](https://github.com/ibm-granite/granite-3.1-language-models) - \\*\\*Website\\*\\*: \\[Granite Docs\\](https://www.ibm.com/granite/docs/) - \\*\\*Release Date\\*\\*: December 18th, 2024 - \\*\\*License:\\*\\* \\[Apache 2.0\\](https://www.apache.org/licenses/LICENSE-2.0). \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "granite-embedding:latest",
-        "size": "granite-embedding:latest",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite-embedding:30m",
-        "size": "granite-embedding:30m",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite-embedding:278m",
-        "size": "granite-embedding:278m",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite-embedding:30m-en",
-        "size": "granite-embedding:30m-en",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite-embedding:30m-en-fp16",
-        "size": "granite-embedding:30m-en-fp16",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite-embedding:278m-fp16",
-        "size": "granite-embedding:278m-fp16",
-        "updated": "Text input • \n                    1 year ago"
-      }
-    ]
-  },
-  {
     "name": "megadolphin",
     "link": "https://ollama.com/library/megadolphin",
     "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
-    "pullCount": "209.1K",
+    "pullCount": "210.1K",
     "updated": "2 years ago",
     "size": [
       "120b"
@@ -35463,10 +35421,52 @@
     ]
   },
   {
+    "name": "granite-embedding",
+    "link": "https://ollama.com/library/granite-embedding",
+    "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
+    "pullCount": "209.8K",
+    "updated": "1 year ago",
+    "size": null,
+    "capabilities": "embedding",
+    "readme": "## Readme\n\n## Granite embedding models\n\nThe IBM Granite Embedding **30M and 278M models** are text-only dense biencoder embedding models, with **30M** available in English only and **278M** serving multilingual use cases. These models are designed to produce fixed length vector representations for a given text chunk, which can be used for text similarity, retrieval, and search applications.\n\n### Parameter Sizes\n\n**30M:**\n\n`ollama run granite-embedding:30m`\n\n**278M:**\n\n`ollama run granite-embedding:278m`\n\n### Supported Languages\n\n**30M:** English**278M:** English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, Chinese (Simplified)\n\n## Granite dense models\n\nThe Granite dense models are available in **2B and 8B** parameter sizes designed to support tool-based use cases and for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.\n\n[See model page](https://ollama.com/library/granite3-dense)\n\n## Granite mixture of experts models\n\nThe Granite mixture of experts models are available in **1B and 3B** parameter sizes designed for **low latency usage**.\n\n[See model page](https://ollama.com/library/granite3-moe)\n\n## Learn more\n\n* **Developers:** IBM Research\n* **GitHub Repository:** [ibm-granite/granite-language-models](https://github.com/ibm-granite/granite-3.1-language-models)\n* **Website**: [Granite Docs](https://www.ibm.com/granite/docs/)\n* **Release Date**: December 18th, 2024\n* **License:** [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).\n\nWrite Preview \n\n\\## Granite embedding models The IBM Granite Embedding \\*\\*30M and 278M models\\*\\* are text-only dense biencoder embedding models, with \\*\\*30M\\*\\* available in English only and \\*\\*278M\\*\\* serving multilingual use cases. These models are designed to produce fixed length vector representations for a given text chunk, which can be used for text similarity, retrieval, and search applications. ### Parameter Sizes \\*\\*30M:\\*\\* \\`ollama run granite-embedding:30m\\` \\*\\*278M:\\*\\* \\`ollama run granite-embedding:278m\\` ### Supported Languages \\*\\*30M:\\*\\* English \\*\\*278M:\\*\\* English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, Chinese (Simplified) ## Granite dense models The Granite dense models are available in \\*\\*2B and 8B\\*\\* parameter sizes designed to support tool-based use cases and for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing. \\[See model page\\](https://ollama.com/library/granite3-dense) ## Granite mixture of experts models The Granite mixture of experts models are available in \\*\\*1B and 3B\\*\\* parameter sizes designed for \\*\\*low latency usage\\*\\*. \\[See model page\\](https://ollama.com/library/granite3-moe) ## Learn more - \\*\\*Developers:\\*\\* IBM Research - \\*\\*GitHub Repository:\\*\\* \\[ibm-granite/granite-language-models\\](https://github.com/ibm-granite/granite-3.1-language-models) - \\*\\*Website\\*\\*: \\[Granite Docs\\](https://www.ibm.com/granite/docs/) - \\*\\*Release Date\\*\\*: December 18th, 2024 - \\*\\*License:\\*\\* \\[Apache 2.0\\](https://www.apache.org/licenses/LICENSE-2.0). \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "granite-embedding:latest",
+        "size": "granite-embedding:latest",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite-embedding:30m",
+        "size": "granite-embedding:30m",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite-embedding:278m",
+        "size": "granite-embedding:278m",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite-embedding:30m-en",
+        "size": "granite-embedding:30m-en",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite-embedding:30m-en-fp16",
+        "size": "granite-embedding:30m-en-fp16",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite-embedding:278m-fp16",
+        "size": "granite-embedding:278m-fp16",
+        "updated": "Text input • \n                    1 year ago"
+      }
+    ]
+  },
+  {
     "name": "duckdb-nsql",
     "link": "https://ollama.com/library/duckdb-nsql",
     "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
-    "pullCount": "206.3K",
+    "pullCount": "207.2K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -35565,7 +35565,7 @@
     "name": "tulu3",
     "link": "https://ollama.com/library/tulu3",
     "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
-    "pullCount": "205.2K",
+    "pullCount": "205.6K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -35625,7 +35625,7 @@
     "name": "nuextract",
     "link": "https://ollama.com/library/nuextract",
     "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
-    "pullCount": "204.4K",
+    "pullCount": "205.3K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -35724,7 +35724,7 @@
     "name": "mistrallite",
     "link": "https://ollama.com/library/mistrallite",
     "description": "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.",
-    "pullCount": "204K",
+    "pullCount": "204.9K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -35823,7 +35823,7 @@
     "name": "bespoke-minicheck",
     "link": "https://ollama.com/library/bespoke-minicheck",
     "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
-    "pullCount": "203.3K",
+    "pullCount": "204.2K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -35922,7 +35922,7 @@
     "name": "notux",
     "link": "https://ollama.com/library/notux",
     "description": "A top-performing mixture of experts model, fine-tuned with high-quality data.",
-    "pullCount": "200.3K",
+    "pullCount": "201.2K",
     "updated": "2 years ago",
     "size": [
       "8x7b"
@@ -36026,7 +36026,7 @@
     "name": "notus",
     "link": "https://ollama.com/library/notus",
     "description": "A 7B chat model fine-tuned with high-quality data and based on Zephyr.",
-    "pullCount": "199.9K",
+    "pullCount": "200.8K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -36130,7 +36130,7 @@
     "name": "wizard-vicuna",
     "link": "https://ollama.com/library/wizard-vicuna",
     "description": "Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj.",
-    "pullCount": "199.4K",
+    "pullCount": "200.2K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -36229,7 +36229,7 @@
     "name": "bge-large",
     "link": "https://ollama.com/library/bge-large",
     "description": "Embedding model from BAAI mapping texts to vectors.",
-    "pullCount": "198.4K",
+    "pullCount": "198.6K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -36253,44 +36253,10 @@
     ]
   },
   {
-    "name": "llava-phi3",
-    "link": "https://ollama.com/library/llava-phi3",
-    "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
-    "pullCount": "197.2K",
-    "updated": "1 year ago",
-    "size": [
-      "3.8b"
-    ],
-    "capabilities": "vision",
-    "readme": "## Readme\n\n![](https://ollama.com/assets/library/llava-llama3/dc3b65cd-62de-45cd-93f9-5c6da62214fa)\n\n`llava-phi3` is a LLaVA model fine-tuned from Phi 3 Mini 4k, with strong performance benchmarks on par with the original LLaVA model:\n\n![](https://ollama.com/assets/library/llava-phi3/c6ad7ff5-28e3-4ff8-9469-92ae66517b88)\n\n## References\n\n[Hugging Face](https://huggingface.co/xtuner/llava-phi-3-mini-gguf)\n\n[GitHub](https://github.com/InternLM/xtuner/tree/main)\n\nWrite Preview \n\n<img src=\"https://ollama.com/assets/library/llava-llama3/dc3b65cd-62de-45cd-93f9-5c6da62214fa\" width=\"320\" /> \\`llava-phi3\\` is a LLaVA model fine-tuned from Phi 3 Mini 4k, with strong performance benchmarks on par with the original LLaVA model: <img src=\"https://ollama.com/assets/library/llava-phi3/c6ad7ff5-28e3-4ff8-9469-92ae66517b88\" width=\"400\" /> ## References \\[Hugging Face\\](https://huggingface.co/xtuner/llava-phi-3-mini-gguf) \\[GitHub\\](https://github.com/InternLM/xtuner/tree/main) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "llava-phi3:latest",
-        "size": "llava-phi3:latest",
-        "updated": "Text, Image input • \n                    1 year ago"
-      },
-      {
-        "name": "llava-phi3:3.8b",
-        "size": "llava-phi3:3.8b",
-        "updated": "Text, Image input • \n                    1 year ago"
-      },
-      {
-        "name": "llava-phi3:3.8b-mini-q4_0",
-        "size": "llava-phi3:3.8b-mini-q4_0",
-        "updated": "Text, Image input • \n                    1 year ago"
-      },
-      {
-        "name": "llava-phi3:3.8b-mini-fp16",
-        "size": "llava-phi3:3.8b-mini-fp16",
-        "updated": "Text, Image input • \n                    1 year ago"
-      }
-    ]
-  },
-  {
     "name": "firefunction-v2",
     "link": "https://ollama.com/library/firefunction-v2",
     "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
-    "pullCount": "196.7K",
+    "pullCount": "197.6K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -36386,10 +36352,44 @@
     ]
   },
   {
+    "name": "llava-phi3",
+    "link": "https://ollama.com/library/llava-phi3",
+    "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
+    "pullCount": "197.4K",
+    "updated": "1 year ago",
+    "size": [
+      "3.8b"
+    ],
+    "capabilities": "vision",
+    "readme": "## Readme\n\n![](https://ollama.com/assets/library/llava-llama3/dc3b65cd-62de-45cd-93f9-5c6da62214fa)\n\n`llava-phi3` is a LLaVA model fine-tuned from Phi 3 Mini 4k, with strong performance benchmarks on par with the original LLaVA model:\n\n![](https://ollama.com/assets/library/llava-phi3/c6ad7ff5-28e3-4ff8-9469-92ae66517b88)\n\n## References\n\n[Hugging Face](https://huggingface.co/xtuner/llava-phi-3-mini-gguf)\n\n[GitHub](https://github.com/InternLM/xtuner/tree/main)\n\nWrite Preview \n\n<img src=\"https://ollama.com/assets/library/llava-llama3/dc3b65cd-62de-45cd-93f9-5c6da62214fa\" width=\"320\" /> \\`llava-phi3\\` is a LLaVA model fine-tuned from Phi 3 Mini 4k, with strong performance benchmarks on par with the original LLaVA model: <img src=\"https://ollama.com/assets/library/llava-phi3/c6ad7ff5-28e3-4ff8-9469-92ae66517b88\" width=\"400\" /> ## References \\[Hugging Face\\](https://huggingface.co/xtuner/llava-phi-3-mini-gguf) \\[GitHub\\](https://github.com/InternLM/xtuner/tree/main) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "llava-phi3:latest",
+        "size": "llava-phi3:latest",
+        "updated": "Text, Image input • \n                    1 year ago"
+      },
+      {
+        "name": "llava-phi3:3.8b",
+        "size": "llava-phi3:3.8b",
+        "updated": "Text, Image input • \n                    1 year ago"
+      },
+      {
+        "name": "llava-phi3:3.8b-mini-q4_0",
+        "size": "llava-phi3:3.8b-mini-q4_0",
+        "updated": "Text, Image input • \n                    1 year ago"
+      },
+      {
+        "name": "llava-phi3:3.8b-mini-fp16",
+        "size": "llava-phi3:3.8b-mini-fp16",
+        "updated": "Text, Image input • \n                    1 year ago"
+      }
+    ]
+  },
+  {
     "name": "codebooga",
     "link": "https://ollama.com/library/codebooga",
     "description": "A high-performing code instruct model created by merging two existing code models.",
-    "pullCount": "196.2K",
+    "pullCount": "197K",
     "updated": "2 years ago",
     "size": [
       "34b"
@@ -36483,7 +36483,7 @@
     "name": "open-orca-platypus2",
     "link": "https://ollama.com/library/open-orca-platypus2",
     "description": "Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation.",
-    "pullCount": "192.7K",
+    "pullCount": "193.5K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -36582,7 +36582,7 @@
     "name": "dbrx",
     "link": "https://ollama.com/library/dbrx",
     "description": "DBRX is an open, general-purpose LLM created by Databricks.",
-    "pullCount": "189.4K",
+    "pullCount": "189.8K",
     "updated": "1 year ago",
     "size": [
       "132b"
@@ -36631,7 +36631,7 @@
     "name": "deepseek-ocr",
     "link": "https://ollama.com/library/deepseek-ocr",
     "description": "DeepSeek-OCR is a vision-language model that can perform token-efficient OCR.",
-    "pullCount": "183.3K",
+    "pullCount": "183.9K",
     "updated": "3 months ago",
     "size": [
       "3b"
@@ -36660,7 +36660,7 @@
     "name": "goliath",
     "link": "https://ollama.com/library/goliath",
     "description": "A language model created by combining two fine-tuned Llama 2 70B models into one.",
-    "pullCount": "182.3K",
+    "pullCount": "183.1K",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "",
@@ -36752,7 +36752,7 @@
     "name": "nemotron-3-nano",
     "link": "https://ollama.com/library/nemotron-3-nano",
     "description": "Nemotron 3 Nano - A new Standard for Efficient, Open, and Intelligent Agentic Models",
-    "pullCount": "173.1K",
+    "pullCount": "173.6K",
     "updated": "2 months ago",
     "size": [
       "30b"
@@ -36796,7 +36796,7 @@
     "name": "sailor2",
     "link": "https://ollama.com/library/sailor2",
     "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
-    "pullCount": "162.7K",
+    "pullCount": "163.3K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -36877,7 +36877,7 @@
     "name": "olmo-3",
     "link": "https://ollama.com/library/olmo-3",
     "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-    "pullCount": "156.4K",
+    "pullCount": "157.2K",
     "updated": "2 months ago",
     "size": [
       "7b",
@@ -36967,7 +36967,7 @@
     "name": "devstral-small-2",
     "link": "https://ollama.com/library/devstral-small-2",
     "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-    "pullCount": "155.2K",
+    "pullCount": "155.7K",
     "updated": "2 months ago",
     "size": [
       "24b"
@@ -37011,7 +37011,7 @@
     "name": "smallthinker",
     "link": "https://ollama.com/library/smallthinker",
     "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-    "pullCount": "153.9K",
+    "pullCount": "154.2K",
     "updated": "1 year ago",
     "size": [
       "3b"
@@ -37050,7 +37050,7 @@
     "name": "command-r7b",
     "link": "https://ollama.com/library/command-r7b",
     "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
-    "pullCount": "152.7K",
+    "pullCount": "153K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -37089,7 +37089,7 @@
     "name": "phi4-mini-reasoning",
     "link": "https://ollama.com/library/phi4-mini-reasoning",
     "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
-    "pullCount": "150.9K",
+    "pullCount": "151.2K",
     "updated": "9 months ago",
     "size": [
       "3.8b"
@@ -37128,7 +37128,7 @@
     "name": "deepseek-v2.5",
     "link": "https://ollama.com/library/deepseek-v2.5",
     "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
-    "pullCount": "150.9K",
+    "pullCount": "151.2K",
     "updated": "1 year ago",
     "size": [
       "236b"
@@ -37177,7 +37177,7 @@
     "name": "granite3-guardian",
     "link": "https://ollama.com/library/granite3-guardian",
     "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
-    "pullCount": "143.3K",
+    "pullCount": "143.8K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -37242,7 +37242,7 @@
     "name": "command-a",
     "link": "https://ollama.com/library/command-a",
     "description": "111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI",
-    "pullCount": "128.6K",
+    "pullCount": "128.9K",
     "updated": "11 months ago",
     "size": [
       "111b"
@@ -37281,7 +37281,7 @@
     "name": "marco-o1",
     "link": "https://ollama.com/library/marco-o1",
     "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
-    "pullCount": "117.2K",
+    "pullCount": "117.4K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -37320,7 +37320,7 @@
     "name": "alfred",
     "link": "https://ollama.com/library/alfred",
     "description": "A robust conversational model designed to be used for both chat and instruct use cases.",
-    "pullCount": "108K",
+    "pullCount": "108.3K",
     "updated": "2 years ago",
     "size": [
       "40b"
@@ -37369,7 +37369,7 @@
     "name": "qwen3-coder-next",
     "link": "https://ollama.com/library/qwen3-coder-next",
     "description": "Qwen3-Coder-Next is a coding-focused language model from Alibaba's Qwen team, optimized for agentic coding workflows and local development.",
-    "pullCount": "97.5K",
+    "pullCount": "98.6K",
     "updated": "1 week ago",
     "size": null,
     "capabilities": "tools",
@@ -37401,7 +37401,7 @@
     "name": "olmo-3.1",
     "link": "https://ollama.com/library/olmo-3.1",
     "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-    "pullCount": "94.2K",
+    "pullCount": "94.7K",
     "updated": "2 months ago",
     "size": [
       "32b"
@@ -37465,7 +37465,7 @@
     "name": "devstral-2",
     "link": "https://ollama.com/library/devstral-2",
     "description": "123B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-    "pullCount": "87.6K",
+    "pullCount": "87.9K",
     "updated": "2 months ago",
     "size": [
       "123b"
@@ -37509,7 +37509,7 @@
     "name": "command-r7b-arabic",
     "link": "https://ollama.com/library/command-r7b-arabic",
     "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
-    "pullCount": "84.8K",
+    "pullCount": "85K",
     "updated": "11 months ago",
     "size": [
       "7b"
@@ -37548,7 +37548,7 @@
     "name": "kimi-k2.5",
     "link": "https://ollama.com/library/kimi-k2.5",
     "description": "Kimi K2.5 is an open-source, native multimodal agentic model that seamlessly integrates vision and language understanding with advanced agentic capabilities, instant and thinking modes, as well as conversational and agentic paradigms.",
-    "pullCount": "77.7K",
+    "pullCount": "78.4K",
     "updated": "3 weeks ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
@@ -37565,8 +37565,8 @@
     "name": "cogito-2.1",
     "link": "https://ollama.com/library/cogito-2.1",
     "description": "The Cogito v2.1 LLMs are instruction tuned generative models. All models are released under MIT license for commercial use.",
-    "pullCount": "71.3K",
-    "updated": "2 months ago",
+    "pullCount": "71.7K",
+    "updated": "3 months ago",
     "size": [
       "671b"
     ],
@@ -37586,7 +37586,7 @@
       {
         "name": "cogito-2.1:671b-cloud",
         "size": "cogito-2.1:671b-cloud",
-        "updated": "Text input • \n                    2 months ago"
+        "updated": "Text input • \n                    3 months ago"
       },
       {
         "name": "cogito-2.1:671b-q4_K_M",
@@ -37609,7 +37609,7 @@
     "name": "gpt-oss-safeguard",
     "link": "https://ollama.com/library/gpt-oss-safeguard",
     "description": "gpt-oss-safeguard-20b and gpt-oss-safeguard-120b are safety reasoning models built-upon gpt-oss",
-    "pullCount": "70.9K",
+    "pullCount": "71.1K",
     "updated": "3 months ago",
     "size": [
       "20b",
@@ -37639,7 +37639,7 @@
     "name": "functiongemma",
     "link": "https://ollama.com/library/functiongemma",
     "description": "FunctionGemma is a specialized version of Google's Gemma 3 270M model fine-tuned explicitly for function calling.",
-    "pullCount": "69.2K",
+    "pullCount": "69.5K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "tools",
@@ -37671,7 +37671,7 @@
     "name": "glm-4.6",
     "link": "https://ollama.com/library/glm-4.6",
     "description": "Advanced agentic, reasoning and coding capabilities.",
-    "pullCount": "68.1K",
+    "pullCount": "68.2K",
     "updated": "4 months ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -37688,7 +37688,7 @@
     "name": "gemini-3-flash-preview",
     "link": "https://ollama.com/library/gemini-3-flash-preview",
     "description": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost.",
-    "pullCount": "62.5K",
+    "pullCount": "62.8K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
@@ -37710,7 +37710,7 @@
     "name": "minimax-m2",
     "link": "https://ollama.com/library/minimax-m2",
     "description": "MiniMax M2 is a high-efficiency large language model built for coding and agentic workflows.",
-    "pullCount": "60.8K",
+    "pullCount": "60.9K",
     "updated": "3 months ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -37727,7 +37727,7 @@
     "name": "glm-4.7",
     "link": "https://ollama.com/library/glm-4.7",
     "description": "Advancing the Coding Capability",
-    "pullCount": "50.3K",
+    "pullCount": "50.5K",
     "updated": "1 month ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -37744,7 +37744,7 @@
     "name": "glm-5",
     "link": "https://ollama.com/library/glm-5",
     "description": "A strong reasoning and agentic model from Z.ai with 744B total parameters (40B active), built for complex systems engineering and long-horizon tasks.",
-    "pullCount": "48.2K",
+    "pullCount": "48.8K",
     "updated": "1 week ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -37761,7 +37761,7 @@
     "name": "nomic-embed-text-v2-moe",
     "link": "https://ollama.com/library/nomic-embed-text-v2-moe",
     "description": "nomic-embed-text-v2-moe is a multilingual MoE text embedding model that excels at multilingual retrieval.",
-    "pullCount": "41K",
+    "pullCount": "41.1K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -37778,7 +37778,7 @@
     "name": "glm-ocr",
     "link": "https://ollama.com/library/glm-ocr",
     "description": "GLM-OCR is a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture.",
-    "pullCount": "39.7K",
+    "pullCount": "40.2K",
     "updated": "2 weeks ago",
     "size": null,
     "capabilities": "visiontools",
@@ -37822,8 +37822,8 @@
     "name": "minimax-m2.5",
     "link": "https://ollama.com/library/minimax-m2.5",
     "description": "MiniMax-M2.5 is a state-of-the-art large language model designed for real-world productivity and coding tasks.",
-    "pullCount": "35.2K",
-    "updated": "6 days ago",
+    "pullCount": "36.2K",
+    "updated": "1 week ago",
     "size": null,
     "capabilities": "toolsthinking",
     "readme": "## Readme\n\n![logo](/assets/library/minimax-m2.5/7bf8b4e2-abdc-4f35-af56-ac075749d26c)\n\nMiniMax M2.5 is the fastest-improving model series for coding and agentic workflows, trained with large-scale reinforcement learning across hundreds of thousands of real-world environments.\n\n### Highlights\n\n* **Coding**. Trained on large-scale RL across 10+ languages (Python, Go, C, C++, TypeScript, Rust, Kotlin, Java, JavaScript, PHP, Lua, Dart, Ruby) and hundreds of thousands of real environments, M2.5 develops native “spec behavior”—planning architecture, structure, and design before writing code. It handles the full development lifecycle: system design from zero, environment setup, feature iteration, code review, and testing across Web, Android, iOS, Windows, and Mac.\n* **Leading agent performance**. M2.5 achieves 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp—reaching a level comparable to the Claude Opus series on coding tasks. In search and tool-use tasks, the model demonstrates higher decision maturity—solving problems in fewer rounds with better token efficiency, saving roughly 20% in tool-call rounds compared to M2.1.\n* **37% faster task completion**. Through improved task decomposition and more efficient chain-of-thought reasoning, M2.5 completes complex agentic tasks significantly faster. On SWE-Bench Verified, end-to-end runtime dropped from 31.3 minutes (M2.1) to 22.8 minutes—on par with Claude Opus 4.6’s 22.9 minutes—while also consuming fewer tokens per task (3.52M vs 3.72M).\n\n![m2.5 benchmark](/assets/library/minimax-m2.5/d0fc55de-dbe8-4a30-8bb7-545cd0d9da04)\n\n### Benchmarks\n\n**Coding**\n\nM2.5 represents a significant step up from M2.1, reaching performance comparable to the Claude Opus series on core software engineering tasks.\n\n![image.png](/assets/library/minimax-m2.5/65275c3b-5ed8-4d1f-940a-407b65bbdd78)\n\nMiniMax tested performance on the SWE-Bench Verified evaluation set using different coding agent harnesses.\n\nOn Droid: 79.7(M2.5) > 78.9(Opus 4.6)\n\nOn OpenCode: 76.1(M2.5) > 75.9(Opus 4.6)\n\n**Search and tool calling**\n\n![image.png](/assets/library/minimax-m2.5/38ae04b3-e0c8-4643-9c16-7b1d9d30b03c)\n\n### Office & Productivity\n\nM2.5 was trained in collaboration with domain experts in finance, law, and social sciences to produce genuinely deliverable outputs. In evaluations on advanced office tasks—including Word documents, PowerPoint presentations, and Excel financial modeling—M2.5 achieved a 59.0% average win rate against mainstream models using pairwise comparison (GDPval-MM framework).\n\nAdditional internal benchmarks include MEWC (based on Microsoft Excel World Championship problems, 2021–2026) and Finance Modeling (expert-constructed financial modeling tasks scored via rubrics). Detailed scores for these benchmarks are available as charts in the [original blog post](https://www.minimax.io/news/minimax-m25).\n\n### Reference\n\n* [MiniMax M2.5 announcement](https://www.minimax.io/news/minimax-m25)\n\nWrite Preview \n\n!\\[logo\\](/assets/library/minimax-m2.5/7bf8b4e2-abdc-4f35-af56-ac075749d26c) MiniMax M2.5 is the fastest-improving model series for coding and agentic workflows, trained with large-scale reinforcement learning across hundreds of thousands of real-world environments. ### Highlights - \\*\\*Coding\\*\\*. Trained on large-scale RL across 10+ languages (Python, Go, C, C++, TypeScript, Rust, Kotlin, Java, JavaScript, PHP, Lua, Dart, Ruby) and hundreds of thousands of real environments, M2.5 develops native \"spec behavior\"—planning architecture, structure, and design before writing code. It handles the full development lifecycle: system design from zero, environment setup, feature iteration, code review, and testing across Web, Android, iOS, Windows, and Mac. - \\*\\*Leading agent performance\\*\\*. M2.5 achieves 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp—reaching a level comparable to the Claude Opus series on coding tasks. In search and tool-use tasks, the model demonstrates higher decision maturity—solving problems in fewer rounds with better token efficiency, saving roughly 20% in tool-call rounds compared to M2.1\\. - \\*\\*37% faster task completion\\*\\*. Through improved task decomposition and more efficient chain-of-thought reasoning, M2.5 completes complex agentic tasks significantly faster. On SWE-Bench Verified, end-to-end runtime dropped from 31.3 minutes (M2.1) to 22.8 minutes—on par with Claude Opus 4.6's 22.9 minutes—while also consuming fewer tokens per task (3.52M vs 3.72M). !\\[m2.5 benchmark\\](/assets/library/minimax-m2.5/d0fc55de-dbe8-4a30-8bb7-545cd0d9da04) ### Benchmarks \\*\\*Coding\\*\\* M2.5 represents a significant step up from M2.1, reaching performance comparable to the Claude Opus series on core software engineering tasks. !\\[image.png\\](/assets/library/minimax-m2.5/65275c3b-5ed8-4d1f-940a-407b65bbdd78) MiniMax tested performance on the SWE-Bench Verified evaluation set using different coding agent harnesses. On Droid: 79.7(M2.5) > 78.9(Opus 4.6) On OpenCode: 76.1(M2.5) > 75.9(Opus 4.6) \\*\\*Search and tool calling\\*\\* !\\[image.png\\](/assets/library/minimax-m2.5/38ae04b3-e0c8-4643-9c16-7b1d9d30b03c) ### Office & Productivity M2.5 was trained in collaboration with domain experts in finance, law, and social sciences to produce genuinely deliverable outputs. In evaluations on advanced office tasks—including Word documents, PowerPoint presentations, and Excel financial modeling—M2.5 achieved a 59.0% average win rate against mainstream models using pairwise comparison (GDPval-MM framework). Additional internal benchmarks include MEWC (based on Microsoft Excel World Championship problems, 2021–2026) and Finance Modeling (expert-constructed financial modeling tasks scored via rubrics). Detailed scores for these benchmarks are available as charts in the \\[original blog post\\](https://www.minimax.io/news/minimax-m25). ### Reference \\* \\[MiniMax M2.5 announcement\\](https://www.minimax.io/news/minimax-m25) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
@@ -37831,7 +37831,7 @@
       {
         "name": "minimax-m2.5:cloud",
         "size": "minimax-m2.5:cloud",
-        "updated": "Text input • \n                    6 days ago"
+        "updated": "Text input • \n                    1 week ago"
       }
     ]
   },
@@ -37839,7 +37839,7 @@
     "name": "deepseek-v3.2",
     "link": "https://ollama.com/library/deepseek-v3.2",
     "description": "DeepSeek-V3.2, a model that harmonizes high computational efficiency with superior reasoning and agent performance.",
-    "pullCount": "32.9K",
+    "pullCount": "33.1K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -37873,7 +37873,7 @@
     "name": "minimax-m2.1",
     "link": "https://ollama.com/library/minimax-m2.1",
     "description": "Exceptional multilingual capabilities to elevate code engineering",
-    "pullCount": "18.9K",
+    "pullCount": "19K",
     "updated": "1 month ago",
     "size": null,
     "capabilities": "tools",
@@ -37890,7 +37890,7 @@
     "name": "mistral-large-3",
     "link": "https://ollama.com/library/mistral-large-3",
     "description": "A general-purpose multimodal mixture-of-experts model for production-grade tasks and enterprise workloads.",
-    "pullCount": "18.8K",
+    "pullCount": "18.9K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "visiontools",
@@ -37907,8 +37907,8 @@
     "name": "qwen3.5",
     "link": "https://ollama.com/library/qwen3.5",
     "description": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency.",
-    "pullCount": "12.4K",
-    "updated": "2 days ago",
+    "pullCount": "13.1K",
+    "updated": "3 days ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
     "readme": "## Readme\n\n![](/assets/library/qwen3.5/b6074711-2930-4f09-93b7-4f65ae7a3576)\n\nOver recent months, we have intensified our focus on developing foundation models that deliver exceptional utility and performance. Qwen3.5 represents a significant leap forward, integrating breakthroughs in multimodal learning, architectural efficiency, reinforcement learning scale, and global accessibility to empower developers and enterprises with unprecedented capability and efficiency.\n\n![benchmark](/assets/library/qwen3.5/1c5d9a27-97b2-4d6d-a1b1-d326259acae5)\n\n## Qwen3.5 Highlights\n\nQwen3.5 features the following enhancement:\n\n* **Unified Vision-Language Foundation**: Early fusion training on multimodal tokens achieves cross-generational parity with Qwen3 and outperforms Qwen3-VL models across reasoning, coding, agents, and visual understanding benchmarks.\n* **Efficient Hybrid Architecture**: Gated Delta Networks combined with sparse Mixture-of-Experts deliver high-throughput inference with minimal latency and cost overhead.\n* **Scalable RL Generalization**: Reinforcement learning scaled across million-agent environments with progressively complex task distributions for robust real-world adaptability.\n* **Global Linguistic Coverage**: Expanded support to 201 languages and dialects, enabling inclusive, worldwide deployment with nuanced cultural and regional understanding.\n* **Next-Generation Training Infrastructure**: Near-100% multimodal training efficiency compared to text-only training and asynchronous RL frameworks supporting massive-scale agent scaffolds and environment orchestration.\n\n## Benchmark Results\n\n### Language\n\n| GPT5.2                 | Claude 4.5 Opus | Gemini-3 Pro | Qwen3-Max-Thinking | K2.5-1T-A32B | Qwen3.5-397B-A17B |           |\n| ---------------------- | --------------- | ------------ | ------------------ | ------------ | ----------------- | --------- |\n| Knowledge              |                 |              |                    |              |                   |           |\n| MMLU-Pro               | 87.4            | 89.5         | 89.8               | 85.7         | 87.1              | 87.8      |\n| MMLU-Redux             | 95.0            | 95.6         | 95.9               | 92.8         | 94.5              | 94.9      |\n| SuperGPQA              | 67.9            | 70.6         | 74.0               | 67.3         | 69.2              | 70.4      |\n| C-Eval                 | 90.5            | 92.2         | 93.4               | 93.7         | 94.0              | 93.0      |\n| Instruction Following  |                 |              |                    |              |                   |           |\n| IFEval                 | 94.8            | 90.9         | 93.5               | 93.4         | 93.9              | 92.6      |\n| IFBench                | 75.4            | 58.0         | 70.4               | 70.9         | 70.2              | 76.5      |\n| MultiChallenge         | 57.9            | 54.2         | 64.2               | 63.3         | 62.7              | 67.6      |\n| Long Context           |                 |              |                    |              |                   |           |\n| AA-LCR                 | 72.7            | 74.0         | 70.7               | 68.7         | 70.0              | 68.7      |\n| LongBench v2           | 54.5            | 64.4         | 68.2               | 60.6         | 61.0              | 63.2      |\n| STEM                   |                 |              |                    |              |                   |           |\n| GPQA                   | 92.4            | 87.0         | 91.9               | 87.4         | 87.6              | 88.4      |\n| HLE                    | 35.5            | 30.8         | 37.5               | 30.2         | 30.1              | 28.7      |\n| HLE-Verified¹          | 43.3            | 38.8         | 48                 | 37.6         | \\--               | 37.6      |\n| Reasoning              |                 |              |                    |              |                   |           |\n| LiveCodeBench v6       | 87.7            | 84.8         | 90.7               | 85.9         | 85.0              | 83.6      |\n| HMMT Feb 25            | 99.4            | 92.9         | 97.3               | 98.0         | 95.4              | 94.8      |\n| HMMT Nov 25            | 100             | 93.3         | 93.3               | 94.7         | 91.1              | 92.7      |\n| IMOAnswerBench         | 86.3            | 84.0         | 83.3               | 83.9         | 81.8              | 80.9      |\n| AIME26                 | 96.7            | 93.3         | 90.6               | 93.3         | 93.3              | 91.3      |\n| General Agent          |                 |              |                    |              |                   |           |\n| BFCL-V4                | 63.1            | 77.5         | 72.5               | 67.7         | 68.3              | 72.9      |\n| TAU2-Bench             | 87.1            | 91.6         | 85.4               | 84.6         | 77.0              | 86.7      |\n| VITA-Bench             | 38.2            | 56.3         | 51.6               | 40.9         | 41.9              | 49.7      |\n| DeepPlanning           | 44.6            | 33.9         | 23.3               | 28.7         | 14.5              | 34.3      |\n| Tool Decathlon         | 43.8            | 43.5         | 36.4               | 18.8         | 27.8              | 38.3      |\n| MCP-Mark               | 57.5            | 42.3         | 53.9               | 33.5         | 29.5              | 46.1      |\n| Search Agent³          |                 |              |                    |              |                   |           |\n| HLE w/ tool            | 45.5            | 43.4         | 45.8               | 49.8         | 50.2              | 48.3      |\n| BrowseComp             | 65.8            | 67.8         | 59.2               | 53.9         | \\--/74.9          | 69.0/78.6 |\n| BrowseComp-zh          | 76.1            | 62.4         | 66.8               | 60.9         | \\--               | 70.3      |\n| WideSearch             | 76.8            | 76.4         | 68.0               | 57.9         | 72.7              | 74.0      |\n| Seal-0                 | 45.0            | 47.7         | 45.5               | 46.9         | 57.4              | 46.9      |\n| Multilingualism        |                 |              |                    |              |                   |           |\n| MMMLU                  | 89.5            | 90.1         | 90.6               | 84.4         | 86.0              | 88.5      |\n| MMLU-ProX              | 83.7            | 85.7         | 87.7               | 78.5         | 82.3              | 84.7      |\n| NOVA-63                | 54.6            | 56.7         | 56.7               | 54.2         | 56.0              | 59.1      |\n| INCLUDE                | 87.5            | 86.2         | 90.5               | 82.3         | 83.3              | 85.6      |\n| Global PIQA            | 90.9            | 91.6         | 93.2               | 86.0         | 89.3              | 89.8      |\n| PolyMATH               | 62.5            | 79.0         | 81.6               | 64.7         | 43.1              | 73.3      |\n| WMT24++                | 78.8            | 79.7         | 80.7               | 77.6         | 77.6              | 78.9      |\n| MAXIFE                 | 88.4            | 79.2         | 87.5               | 84.0         | 72.8              | 88.2      |\n| Coding Agent           |                 |              |                    |              |                   |           |\n| SWE-bench Verified     | 80.0            | 80.9         | 76.2               | 75.3         | 76.8              | 76.2      |\n| SWE-bench Multilingual | 72.0            | 77.5         | 65.0               | 66.7         | 73.0              | 69.3      |\n| SecCodeBench           | 68.7            | 68.6         | 62.4               | 57.5         | 61.3              | 68.3      |\n| Terminal Bench 2       | 54.0            | 59.3         | 54.2               | 22.5         | 50.8              | 52.5      |\n\n\\* HLE-Verified: a verified and revised version of Humanity’s Last Exam (HLE), accompanied by a transparent, component-wise verification protocol and a fine-grained error taxonomy. We open-source the dataset at https://huggingface.co/datasets/skylenage/HLE-Verified.  \n\\* TAU2-Bench: we follow the official setup except for the airline domain, where all models are evaluated by applying the fixes proposed in the Claude Opus 4.5 system card.  \n\\* MCPMark: GitHub MCP server uses v0.30.3 from api.githubcopilot.com; Playwright tool responses are truncated at 32k tokens.  \n\\* Search Agent: most search agents built on our model adopt a simple context-folding strategy(256k): once the cumulative Tool Response length reaches a preset threshold, earlier Tool Responses are pruned from the history to keep the context within limits.  \n\\* BrowseComp: we tested two strategies, simple context-folding achieved a score of 69.0, while using the same discard-all strategy as DeepSeek-V3.2 and Kimi K2.5 achieved 78.6.  \n\\* WideSearch: we use a 256k context window without any context management.  \n\\* MMLU-ProX: we report the averaged accuracy on 29 languages.  \n\\* WMT24++: a harder subset of WMT24 after difficulty labeling and rebalancing; we report the averaged scores on 55 languages using XCOMET-XXL.  \n\\* MAXIFE: we report the accuracy on English + multilingual original prompts (totally 23 settings).  \n\\* Empty cells (--) indicate scores not yet available or not applicable.  \n\n### Vision Language\n\n| GPT5.2                                      | Claude 4.5 Opus | Gemini-3 Pro | Qwen3-VL-235B-A22B | K2.5-1T-A32B | Qwen3.5-397B-A17B |           |\n| ------------------------------------------- | --------------- | ------------ | ------------------ | ------------ | ----------------- | --------- |\n| STEM and Puzzle                             |                 |              |                    |              |                   |           |\n| MMMU                                        | 86.7            | 80.7         | 87.2               | 80.6         | 84.3              | 85.0      |\n| MMMU-Pro                                    | 79.5            | 70.6         | 81.0               | 69.3         | 78.5              | 79.0      |\n| MathVision                                  | 83.0            | 74.3         | 86.6               | 74.6         | 84.2              | 88.6      |\n| Mathvista(mini)                             | 83.1            | 80.0         | 87.9               | 85.8         | 90.1              | 90.3      |\n| We-Math                                     | 79.0            | 70.0         | 86.9               | 74.8         | 84.7              | 87.9      |\n| DynaMath                                    | 86.8            | 79.7         | 85.1               | 82.8         | 84.4              | 86.3      |\n| ZEROBench                                   | 9               | 3            | 10                 | 4            | 9                 | 12        |\n| ZEROBench\\_sub                              | 33.2            | 28.4         | 39.0               | 28.4         | 33.5              | 41.0      |\n| BabyVision                                  | 34.4            | 14.2         | 49.7               | 22.2         | 36.5              | 52.3⁄43.3 |\n| General VQA                                 |                 |              |                    |              |                   |           |\n| RealWorldQA                                 | 83.3            | 77.0         | 83.3               | 81.3         | 81.0              | 83.9      |\n| MMStar                                      | 77.1            | 73.2         | 83.1               | 78.7         | 80.5              | 83.8      |\n| HallusionBench                              | 65.2            | 64.1         | 68.6               | 66.7         | 69.8              | 71.4      |\n| MMBenchEN-DEV-v1.1                          | 88.2            | 89.2         | 93.7               | 89.7         | 94.2              | 93.7      |\n| SimpleVQA                                   | 55.8            | 65.7         | 73.2               | 61.3         | 71.2              | 67.1      |\n| Text Recognition and Document Understanding |                 |              |                    |              |                   |           |\n| OmniDocBench1.5                             | 85.7            | 87.7         | 88.5               | 84.5         | 88.8              | 90.8      |\n| CharXiv(RQ)                                 | 82.1            | 68.5         | 81.4               | 66.1         | 77.5              | 80.8      |\n| MMLongBench-Doc                             | –               | 61.9         | 60.5               | 56.2         | 58.5              | 61.5      |\n| CC-OCR                                      | 70.3            | 76.9         | 79.0               | 81.5         | 79.7              | 82.0      |\n| AI2D\\_TEST                                  | 92.2            | 87.7         | 94.1               | 89.2         | 90.8              | 93.9      |\n| OCRBench                                    | 80.7            | 85.8         | 90.4               | 87.5         | 92.3              | 93.1      |\n| Spatial Intelligence                        |                 |              |                    |              |                   |           |\n| ERQA                                        | 59.8            | 46.8         | 70.5               | 52.5         | –                 | 67.5      |\n| CountBench                                  | 91.9            | 90.6         | 97.3               | 93.7         | 94.1              | 97.2      |\n| RefCOCO(avg)                                | –               | –            | 84.1               | 91.1         | 87.8              | 92.3      |\n| ODInW13                                     | –               | –            | 46.3               | 43.2         | –                 | 47.0      |\n| EmbSpatialBench                             | 81.3            | 75.7         | 61.2               | 84.3         | 77.4              | 84.5      |\n| RefSpatialBench                             | –               | –            | 65.5               | 69.9         | –                 | 73.6      |\n| LingoQA                                     | 68.8            | 78.8         | 72.8               | 66.8         | 68.2              | 81.6      |\n| V\\*                                         | 75.9            | 67.0         | 88.0               | 85.9         | 77.0              | 95.8⁄91.1 |\n| Hypersim                                    | –               | –            | –                  | 11.0         | –                 | 12.5      |\n| SUNRGBD                                     | –               | –            | –                  | 34.9         | –                 | 38.3      |\n| Nuscene                                     | –               | –            | –                  | 13.9         | –                 | 16.0      |\n| Video Understanding                         |                 |              |                    |              |                   |           |\n| VideoMME(w sub.)                            | 86              | 77.6         | 88.4               | 83.8         | 87.4              | 87.5      |\n| VideoMME(w/o sub.)                          | 85.8            | 81.4         | 87.7               | 79.0         | 83.2              | 83.7      |\n| VideoMMMU                                   | 85.9            | 84.4         | 87.6               | 80.0         | 86.6              | 84.7      |\n| MLVU (M-Avg)                                | 85.6            | 81.7         | 83.0               | 83.8         | 85.0              | 86.7      |\n| MVBench                                     | 78.1            | 67.2         | 74.1               | 75.2         | 73.5              | 77.6      |\n| LVBench                                     | 73.7            | 57.3         | 76.2               | 63.6         | 75.9              | 75.5      |\n| MMVU                                        | 80.8            | 77.3         | 77.5               | 71.1         | 80.4              | 75.4      |\n| Visual Agent                                |                 |              |                    |              |                   |           |\n| ScreenSpot Pro                              | –               | 45.7         | 72.7               | 62.0         | –                 | 65.6      |\n| OSWorld-Verified                            | 38.2            | 66.3         | –                  | 38.1         | 63.3              | 62.2      |\n| AndroidWorld                                | –               | –            | –                  | 63.7         | –                 | 66.8      |\n| Medical VQA                                 |                 |              |                    |              |                   |           |\n| SLAKE                                       | 76.9            | 76.4         | 81.3               | 54.7         | 81.6              | 79.9      |\n| PMC-VQA                                     | 58.9            | 59.9         | 62.3               | 41.2         | 63.3              | 64.2      |\n| MedXpertQA-MM                               | 73.3            | 63.6         | 76.0               | 47.6         | 65.3              | 70.0      |\n\n\\* MathVision：our model’s score is evaluated using a fixed prompt, e.g., “Please reason step by step, and put your final answer within \\\\boxed{}.” For other models, we report the higher score between runs with and without the \\\\boxed{} formatting.  \n\\* BabyVision: our model’s score is reported with CI (Code Interpreter) enabled; without CI, the result is 43.3.  \n\\* V\\*: our model’s score is reported with CI (Code Interpreter) enabled; without CI, the result is 91.1.  \n\\* Empty cells (--) indicate scores not yet available or not applicable.  \n\nWrite Preview \n\n<img src=\"/assets/library/qwen3.5/b6074711-2930-4f09-93b7-4f65ae7a3576\" width=\"360\" /> Over recent months, we have intensified our focus on developing foundation models that deliver exceptional utility and performance. Qwen3.5 represents a significant leap forward, integrating breakthroughs in multimodal learning, architectural efficiency, reinforcement learning scale, and global accessibility to empower developers and enterprises with unprecedented capability and efficiency. !\\[benchmark\\](/assets/library/qwen3.5/1c5d9a27-97b2-4d6d-a1b1-d326259acae5) ## Qwen3.5 Highlights Qwen3.5 features the following enhancement: - \\*\\*Unified Vision-Language Foundation\\*\\*: Early fusion training on multimodal tokens achieves cross-generational parity with Qwen3 and outperforms Qwen3-VL models across reasoning, coding, agents, and visual understanding benchmarks. - \\*\\*Efficient Hybrid Architecture\\*\\*: Gated Delta Networks combined with sparse Mixture-of-Experts deliver high-throughput inference with minimal latency and cost overhead. - \\*\\*Scalable RL Generalization\\*\\*: Reinforcement learning scaled across million-agent environments with progressively complex task distributions for robust real-world adaptability. - \\*\\*Global Linguistic Coverage\\*\\*: Expanded support to 201 languages and dialects, enabling inclusive, worldwide deployment with nuanced cultural and regional understanding. - \\*\\*Next-Generation Training Infrastructure\\*\\*: Near-100% multimodal training efficiency compared to text-only training and asynchronous RL frameworks supporting massive-scale agent scaffolds and environment orchestration. ## Benchmark Results ### Language <div style=\"font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1a1a2e;max-width:900px;margin:0 auto;padding:16px 0\"> <table style=\"width:100%;border-collapse:collapse;font-size:13px\"> <thead><tr> <th style=\"padding:10px 12px;text-align:left;font-weight:600;border-bottom:2px solid #7c3aed;color:#4c1d95\"></th> <th style=\"padding:10px 12px;text-align:center;font-weight:500;border-bottom:2px solid #7c3aed;color:#4c1d95;font-size: 14px;\">GPT5.2</th> <th style=\"padding:10px 12px;text-align:center;font-weight:500;border-bottom:2px solid #7c3aed;color:#4c1d95;font-size: 14px;\">Claude 4.5 Opus</th> <th style=\"padding:10px 12px;text-align:center;font-weight:500;border-bottom:2px solid #7c3aed;color:#4c1d95;font-size: 14px;\">Gemini-3 Pro</th> <th style=\"padding:10px 12px;text-align:center;font-weight:500;border-bottom:2px solid #7c3aed;color:#4c1d95;font-size: 14px;\">Qwen3-Max-Thinking</th> <th style=\"padding:10px 12px;text-align:center;font-weight:500;border-bottom:2px solid #7c3aed;color:#4c1d95;font-size: 14px;\">K2.5-1T-A32B</th> <th style=\"padding:10px 12px;text-align:center;font-weight:500;border-bottom:2px solid #7c3aed;color:#4c1d95;font-size: 14px;\">Qwen3.5-397B-A17B</th> </tr></thead> <tbody> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">Knowledge</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MMLU-Pro</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">89.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">89.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.8</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MMLU-Redux</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">95.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">95.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">95.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">92.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">94.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">94.9</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">SuperGPQA</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">67.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">70.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">74.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">67.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">69.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">70.4</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">C-Eval</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">92.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">94.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.0</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">Instruction Following</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">IFEval</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">94.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">92.6</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">IFBench</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">75.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">58.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">70.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">70.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">70.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">76.5</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MultiChallenge</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">57.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">54.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">64.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">63.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">62.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">67.6</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">Long Context</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">AA-LCR</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">72.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">74.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">70.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">68.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">70.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">68.7</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">LongBench v2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">54.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">64.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">68.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">60.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">61.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">63.2</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">STEM</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">GPQA</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">92.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">91.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">88.4</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">HLE</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">35.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">30.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">37.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">30.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">30.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">28.7</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">HLE-Verified¹</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">43.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">38.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">48</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">37.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">37.6</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">Reasoning</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">LiveCodeBench v6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.6</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">HMMT Feb 25</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">99.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">92.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">97.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">98.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">95.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">94.8</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">HMMT Nov 25</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">100</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">94.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">91.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">92.7</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">IMOAnswerBench</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">86.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">81.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">80.9</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">AIME26</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">96.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">91.3</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">General Agent</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">BFCL-V4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">63.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">72.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">67.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">68.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">72.9</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">TAU2-Bench</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">91.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">86.7</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">VITA-Bench</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">38.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">56.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">51.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">40.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">41.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">49.7</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">DeepPlanning</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">44.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">33.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">23.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">28.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">14.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">34.3</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">Tool Decathlon</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">43.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">43.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">36.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">18.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">27.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">38.3</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MCP-Mark</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">57.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">42.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">53.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">33.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">29.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">46.1</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">Search Agent³</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">HLE w/ tool</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">45.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">43.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">45.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">49.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">50.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">48.3</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">BrowseComp</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">65.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">67.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">59.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">53.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--/74.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">69.0/78.6</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">BrowseComp-zh</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">76.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">62.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">66.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">60.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">70.3</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">WideSearch</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">76.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">76.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">68.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">57.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">72.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">74.0</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">Seal-0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">45.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">47.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">45.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">46.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">57.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">46.9</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">Multilingualism</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MMMLU</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">89.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">86.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">88.5</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MMLU-ProX</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">78.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">82.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.7</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">NOVA-63</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">54.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">56.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">56.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">54.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">56.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">59.1</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">INCLUDE</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">86.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">82.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.6</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">Global PIQA</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">91.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">86.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">89.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">89.8</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">PolyMATH</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">62.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">79.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">81.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">64.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">43.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">73.3</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">WMT24++</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">78.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">79.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">80.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">78.9</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MAXIFE</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">88.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">79.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">72.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">88.2</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">Coding Agent</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">SWE-bench Verified</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">80.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">80.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">76.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">75.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">76.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">76.2</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">SWE-bench Multilingual</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">72.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">65.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">66.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">73.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">69.3</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">SecCodeBench</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">68.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">68.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">62.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">57.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">61.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">68.3</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">Terminal Bench 2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">54.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">59.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">54.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">22.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">50.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">52.5</td> </tr> </tbody> </table> <p style=\"margin-top:12px;font-size:11px;color:#888\"> \\* HLE-Verified: a verified and revised version of Humanity’s Last Exam (HLE), accompanied by a transparent, component-wise verification protocol and a fine-grained error taxonomy. We open-source the dataset at https://huggingface.co/datasets/skylenage/HLE-Verified.<br> \\* TAU2-Bench: we follow the official setup except for the airline domain, where all models are evaluated by applying the fixes proposed in the Claude Opus 4.5 system card.<br> \\* MCPMark: GitHub MCP server uses v0.30.3 from api.githubcopilot.com; Playwright tool responses are truncated at 32k tokens.<br> \\* Search Agent: most search agents built on our model adopt a simple context-folding strategy(256k): once the cumulative Tool Response length reaches a preset threshold, earlier Tool Responses are pruned from the history to keep the context within limits.<br> \\* BrowseComp: we tested two strategies, simple context-folding achieved a score of 69.0, while using the same discard-all strategy as DeepSeek-V3.2 and Kimi K2.5 achieved 78.6.<br> \\* WideSearch: we use a 256k context window without any context management.<br> \\* MMLU-ProX: we report the averaged accuracy on 29 languages.<br> \\* WMT24++: a harder subset of WMT24 after difficulty labeling and rebalancing; we report the averaged scores on 55 languages using XCOMET-XXL.<br> \\* MAXIFE: we report the accuracy on English + multilingual original prompts (totally 23 settings).<br> \\* Empty cells (--) indicate scores not yet available or not applicable.<br> </p> </div> ### Vision Language <div style=\"font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1a1a2e;max-width:900px;margin:0 auto;padding:16px 0\"> <table style=\"width:100%;border-collapse:collapse;font-size:13px\"> <thead><tr> <th style=\"padding:10px 12px;text-align:left;font-weight:600;border-bottom:2px solid #7c3aed;color:#4c1d95\"></th> <th style=\"padding:10px 12px;text-align:center;font-weight:500;border-bottom:2px solid #7c3aed;color:#4c1d95;font-size: 14px;\">GPT5.2</th> <th style=\"padding:10px 12px;text-align:center;font-weight:500;border-bottom:2px solid #7c3aed;color:#4c1d95;font-size: 14px;\">Claude 4.5 Opus</th> <th style=\"padding:10px 12px;text-align:center;font-weight:500;border-bottom:2px solid #7c3aed;color:#4c1d95;font-size: 14px;\">Gemini-3 Pro</th> <th style=\"padding:10px 12px;text-align:center;font-weight:500;border-bottom:2px solid #7c3aed;color:#4c1d95;font-size: 14px;\">Qwen3-VL-235B-A22B</th> <th style=\"padding:10px 12px;text-align:center;font-weight:500;border-bottom:2px solid #7c3aed;color:#4c1d95;font-size: 14px;\">K2.5-1T-A32B</th> <th style=\"padding:10px 12px;text-align:center;font-weight:500;border-bottom:2px solid #7c3aed;color:#4c1d95;font-size: 14px;\">Qwen3.5-397B-A17B</th> </tr></thead> <tbody> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">STEM and Puzzle</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MMMU</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">86.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">80.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">80.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.0</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MMMU-Pro</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">79.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">70.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">81.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">69.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">78.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">79.0</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MathVision</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">74.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">86.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">74.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">88.6</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">Mathvista(mini)</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">80.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.3</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">We-Math</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">79.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">70.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">86.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">74.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.9</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">DynaMath</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">86.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">79.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">82.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">86.3</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">ZEROBench</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">10</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">12</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">ZEROBench\\_sub</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">33.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">28.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">39.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">28.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">33.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">41.0</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">BabyVision</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">34.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">14.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">49.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">22.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">36.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">52.3/43.3</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">General VQA</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">RealWorldQA</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">81.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">81.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.9</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MMStar</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">73.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">78.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">80.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.8</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">HallusionBench</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">65.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">64.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">68.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">66.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">69.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">71.4</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MMBench<sub><small>EN-DEV-v1.1</small></sub></td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">88.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">89.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">89.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">94.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.7</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">SimpleVQA</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">55.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">65.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">73.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">61.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">71.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">67.1</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">Text Recognition and Document Understanding</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">OmniDocBench1.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">88.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">88.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.8</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">CharXiv(RQ)</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">82.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">68.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">81.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">66.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">80.8</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MMLongBench-Doc</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">61.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">60.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">56.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">58.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">61.5</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">CC-OCR</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">70.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">76.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">79.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">81.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">79.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">82.0</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">AI2D\\_TEST</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">92.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">94.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">89.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.9</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">OCRBench</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">80.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">92.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.1</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">Spatial Intelligence</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">ERQA</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">59.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">46.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">70.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">52.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">67.5</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">CountBench</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">91.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">90.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">97.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">93.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">94.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">97.2</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">RefCOCO(avg)</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">91.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">92.3</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">ODInW13</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">46.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">43.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">47.0</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">EmbSpatialBench</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">81.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">75.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">61.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.5</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">RefSpatialBench</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">65.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">69.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">73.6</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">LingoQA</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">68.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">78.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">72.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">66.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">68.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">81.6</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">V\\*</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">75.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">67.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">88.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">95.8/91.1</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">Hypersim</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">11.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">12.5</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">SUNRGBD</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">34.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">38.3</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">Nuscene</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">13.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">16.0</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">Video Understanding</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">VideoMME<sub><small>(w sub.)</sub></small></td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">86</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">88.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.5</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">VideoMME<sub><small>(w/o sub.)</sub></small></td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">81.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">79.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.7</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">VideoMMMU</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">87.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">80.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">86.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">84.7</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MLVU (M-Avg)</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">81.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">83.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">85.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">86.7</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MVBench</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">78.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">67.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">74.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">75.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">73.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.6</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">LVBench</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">73.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">57.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">76.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">63.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">75.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">75.5</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MMVU</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">80.8</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">77.5</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">71.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">80.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">75.4</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">Visual Agent</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">ScreenSpot Pro</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">45.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">72.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">62.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">65.6</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">OSWorld-Verified</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">38.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">66.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">38.1</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">63.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">62.2</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">AndroidWorld</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">63.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">--</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">66.8</td> </tr> <tr><td colspan=\"7\" style=\"padding:8px 12px;font-weight:600;color:#7c3aed;border-bottom:1px solid #e5e7eb;background:#faf5ff\">Medical VQA</td></tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">SLAKE</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">76.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">76.4</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">81.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">54.7</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">81.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">79.9</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">PMC-VQA</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">58.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">59.9</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">62.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">41.2</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">63.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">64.2</td> </tr> <tr> <td style=\"padding:7px 12px;padding-left:20px;border-bottom:1px solid #f0f0f0;color:#444\">MedXpertQA-MM</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">73.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">63.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">76.0</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">47.6</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">65.3</td> <td style=\"padding:7px 12px;text-align:center;border-bottom:1px solid #f0f0f0\">70.0</td> </tr> </tbody> </table> <p style=\"margin-top:12px;font-size:11px;color:#888\"> \\* MathVision：our model’s score is evaluated using a fixed prompt, e.g., “Please reason step by step, and put your final answer within \\\\boxed{}.” For other models, we report the higher score between runs with and without the \\\\boxed{} formatting.<br> \\* BabyVision: our model’s score is reported with CI (Code Interpreter) enabled; without CI, the result is 43.3.<br> \\* V\\*: our model’s score is reported with CI (Code Interpreter) enabled; without CI, the result is 91.1.<br> \\* Empty cells (--) indicate scores not yet available or not applicable.<br> </p> </div> \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
@@ -37916,12 +37916,12 @@
       {
         "name": "qwen3.5:cloud",
         "size": "qwen3.5:cloud",
-        "updated": "Text input • \n                    2 days ago"
+        "updated": "Text input • \n                    3 days ago"
       },
       {
         "name": "qwen3.5:397b-cloud",
         "size": "qwen3.5:397b-cloud",
-        "updated": "Text, Image input • \n                    2 days ago"
+        "updated": "Text, Image input • \n                    3 days ago"
       }
     ]
   }
