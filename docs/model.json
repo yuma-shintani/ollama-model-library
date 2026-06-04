@@ -484,7 +484,7 @@
     "name": "deepseek-r1",
     "link": "https://ollama.com/library/deepseek-r1",
     "description": "DeepSeek-R1 is a family of open reasoning models with performance approaching that of leading models, such as O3 and Gemini 2.5 Pro.",
-    "pullCount": "86.8M",
+    "pullCount": "86.9M",
     "updated": "11 months ago",
     "size": [
       "1.5b",
@@ -679,7 +679,7 @@
     "name": "nomic-embed-text",
     "link": "https://ollama.com/library/nomic-embed-text",
     "description": "A high-performing open embedding model with a large token context window.",
-    "pullCount": "72.7M",
+    "pullCount": "72.9M",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "embedding",
@@ -706,7 +706,7 @@
     "name": "llama3.2",
     "link": "https://ollama.com/library/llama3.2",
     "description": "Meta's Llama 3.2 goes small with 1B and 3B models.",
-    "pullCount": "71.3M",
+    "pullCount": "71.4M",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -1036,8 +1036,8 @@
     "name": "gemma3",
     "link": "https://ollama.com/library/gemma3",
     "description": "The current, most capable model that runs on a single GPU.",
-    "pullCount": "37.3M",
-    "updated": "5 months ago",
+    "pullCount": "37.4M",
+    "updated": "6 months ago",
     "size": [
       "270m1b",
       "4b",
@@ -1120,7 +1120,7 @@
       {
         "name": "gemma3:4b-cloud",
         "size": "gemma3:4b-cloud",
-        "updated": "Text, Image input • \n                    5 months ago"
+        "updated": "Text, Image input • \n                    6 months ago"
       },
       {
         "name": "gemma3:4b-it-qat",
@@ -1145,7 +1145,7 @@
       {
         "name": "gemma3:12b-cloud",
         "size": "gemma3:12b-cloud",
-        "updated": "Text, Image input • \n                    5 months ago"
+        "updated": "Text, Image input • \n                    6 months ago"
       },
       {
         "name": "gemma3:12b-it-qat",
@@ -1170,7 +1170,7 @@
       {
         "name": "gemma3:27b-cloud",
         "size": "gemma3:27b-cloud",
-        "updated": "Text, Image input • \n                    5 months ago"
+        "updated": "Text, Image input • \n                    6 months ago"
       },
       {
         "name": "gemma3:27b-it-qat",
@@ -1198,7 +1198,7 @@
     "name": "qwen2.5",
     "link": "https://ollama.com/library/qwen2.5",
     "description": "Qwen2.5 models are pretrained on Alibaba's latest large-scale dataset, encompassing up to 18 trillion tokens. The model supports up to 128K tokens and has multilingual support.",
-    "pullCount": "31.7M",
+    "pullCount": "31.8M",
     "updated": "1 year ago",
     "size": [
       "0.5b",
@@ -1883,7 +1883,7 @@
     "name": "qwen3",
     "link": "https://ollama.com/library/qwen3",
     "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models.",
-    "pullCount": "30.1M",
+    "pullCount": "30.2M",
     "updated": "7 months ago",
     "size": [
       "0.6b",
@@ -3844,7 +3844,7 @@
     "name": "qwen2.5-coder",
     "link": "https://ollama.com/library/qwen2.5-coder",
     "description": "The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.",
-    "pullCount": "16.2M",
+    "pullCount": "16.3M",
     "updated": "1 year ago",
     "size": [
       "0.5b",
@@ -5364,7 +5364,7 @@
     "name": "qwen3.5",
     "link": "https://ollama.com/library/qwen3.5",
     "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-    "pullCount": "12.9M",
+    "pullCount": "13M",
     "updated": "1 week ago",
     "size": [
       "0.8b",
@@ -5704,16 +5704,17 @@
     "name": "gemma4",
     "link": "https://ollama.com/library/gemma4",
     "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
-    "pullCount": "11.6M",
-    "updated": "1 week ago",
+    "pullCount": "11.7M",
+    "updated": "6 hours ago",
     "size": [
       "e2b",
       "e4b",
+      "12b",
       "26b",
       "31b"
     ],
     "capabilities": "visiontoolsthinkingaudio",
-    "readme": "## Readme\n\n![Gemma 4 Ollama logo](/assets/library/gemma4/d698dd59-9f30-44f9-81b1-a7620010c005)Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input and generating text output.\n\nGemma 4 introduces key **capability and architectural advancements**:\n\n* **Reasoning** – All models in the family are designed as highly capable reasoners, with configurable thinking modes.\n* **Extended Multimodalities** – Processes Text, Image with variable aspect ratio and resolution support (all models)\n* **Diverse & Efficient Architectures** – Offers Dense and Mixture-of-Experts (MoE) variants of different sizes for scalable deployment.\n* **Optimized for On-Device** – Smaller models are specifically designed for efficient local execution on laptops and mobile devices.\n* **Increased Context Window** – The small models feature a 128K context window, while the medium models support 256K.\n* **Enhanced Coding & Agentic Capabilities** – Achieves notable improvements in coding benchmarks alongside native function-calling support, powering highly capable autonomous agents.\n* **Native System Prompt Support** – Gemma 4 introduces native support for the `system` role, enabling more structured and controllable conversations.\n\n### Models\n\n**Ollama’s cloud**\n\n```\nollama run gemma4:31b-cloud\n\n```\n\n**Edge models**\n\nThe “E” in E2B and E4B stands for “effective” parameters, and are made for edge device deployments.\n\n**Effective 2B (E2B)**\n\n```\nollama run gemma4:e2b\n\n```\n\n**Effective 4B (E4B)**\n\n```\nollama run gemma4:e4b\n\n```\n\n**Workstation models**\n\nThese models are designed for frontier intelligence locally.\n\n**26B** (Mixture of Experts model with 4B active parameters)\n\n```\nollama run gemma4:26b\n\n```\n\n**31B** (Dense)\n\n```\nollama run gemma4:31b\n\n```\n\n## **Benchmark Results**\n\nThese models were evaluated against a large collection of different datasets and metrics to cover different aspects of text generation. Evaluation results marked in the table are for instruction-tuned models.\n\n| Gemma 4 31B                                               | Gemma 4 26B A4B | Gemma 4 E4B | Gemma 4 E2B | Gemma 3 27B (no think) |       |\n| --------------------------------------------------------- | --------------- | ----------- | ----------- | ---------------------- | ----- |\n| MMLU Pro                                                  | 85.2%           | 82.6%       | 69.4%       | 60.0%                  | 67.6% |\n| AIME 2026 no tools                                        | 89.2%           | 88.3%       | 42.5%       | 37.5%                  | 20.8% |\n| LiveCodeBench v6                                          | 80.0%           | 77.1%       | 52.0%       | 44.0%                  | 29.1% |\n| Codeforces ELO                                            | 2150            | 1718        | 940         | 633                    | 110   |\n| GPQA Diamond                                              | 84.3%           | 82.3%       | 58.6%       | 43.4%                  | 42.4% |\n| Tau2 (average over 3)                                     | 76.9%           | 68.2%       | 42.2%       | 24.5%                  | 16.2% |\n| HLE no tools                                              | 19.5%           | 8.7%        | \\-          | \\-                     | \\-    |\n| HLE with search                                           | 26.5%           | 17.2%       | \\-          | \\-                     | \\-    |\n| BigBench Extra Hard                                       | 74.4%           | 64.8%       | 33.1%       | 21.9%                  | 19.3% |\n| MMMLU                                                     | 88.4%           | 86.3%       | 76.6%       | 67.4%                  | 70.7% |\n| **Vision**                                                |                 |             |             |                        |       |\n| MMMU Pro                                                  | 76.9%           | 73.8%       | 52.6%       | 44.2%                  | 49.7% |\n| OmniDocBench 1.5 (average edit distance, lower is better) | 0.131           | 0.149       | 0.181       | 0.290                  | 0.365 |\n| MATH-Vision                                               | 85.6%           | 82.4%       | 59.5%       | 52.4%                  | 46.0% |\n| MedXPertQA MM                                             | 61.3%           | 58.1%       | 28.7%       | 23.5%                  | \\-    |\n| **Audio**                                                 |                 |             |             |                        |       |\n| CoVoST                                                    | \\-              | \\-          | 35.54       | 33.47                  | \\-    |\n| FLEURS (lower is better)                                  | \\-              | \\-          | 0.08        | 0.09                   | \\-    |\n| **Long Context**                                          |                 |             |             |                        |       |\n| MRCR v2 8 needle 128k (average)                           | 66.4%           | 44.1%       | 25.4%       | 19.1%                  | 13.5% |\n\n## Model information\n\n| Property                      | E2B                                   | E4B                                 | 31B Dense   |\n| ----------------------------- | ------------------------------------- | ----------------------------------- | ----------- |\n| **Total Parameters**          | 2.3B effective (5.1B with embeddings) | 4.5B effective (8B with embeddings) | 30.7B       |\n| **Layers**                    | 35                                    | 42                                  | 60          |\n| **Sliding Window**            | 512 tokens                            | 512 tokens                          | 1024 tokens |\n| **Context Length**            | 128K tokens                           | 128K tokens                         | 256K tokens |\n| **Vocabulary Size**           | 262K                                  | 262K                                | 262K        |\n| **Supported Modalities**      | Text, Image, Audio                    | Text, Image, Audio                  | Text, Image |\n| **Vision Encoder Parameters** | _\\~150M_                              | _\\~150M_                            | _\\~550M_    |\n| **Audio Encoder Parameters**  | _\\~300M_                              | _\\~300M_                            | No Audio    |\n\n### Mixture-of-Experts (MoE) Model\n\n| Property                      | 26B A4B MoE                       |\n| ----------------------------- | --------------------------------- |\n| **Total Parameters**          | 25.2B                             |\n| **Active Parameters**         | 3.8B                              |\n| **Layers**                    | 30                                |\n| **Sliding Window**            | 1024 tokens                       |\n| **Context Length**            | 256K tokens                       |\n| **Vocabulary Size**           | 262K                              |\n| **Expert Count**              | 8 active / 128 total and 1 shared |\n| **Supported Modalities**      | Text, Image                       |\n| **Vision Encoder Parameters** | _\\~550M_                          |\n\n## **Best Practices**\n\nFor the best performance, use these configurations and best practices:\n\n### 1\\. Sampling Parameters\n\nUse the following standardized sampling configuration across all use cases:\n\n* `temperature=1.0`\n* `top_p=0.95`\n* `top_k=64`\n\n### 2\\. Thinking Mode Configuration\n\n> Note that Ollama already handles the complexities of the chat template for you.\n\nCompared to Gemma 3, the models use standard `system`, `assistant`, and `user` roles. To properly manage the thinking process, use the following control tokens:\n\n* **Trigger Thinking:** Thinking is enabled by including the `<|think|>` token at the start of the system prompt. To disable thinking, remove the token.\n* **Standard Generation:** When thinking is enabled, the model will output its internal reasoning followed by the final answer using this structure:  \n`<|channel>thought\\n`**\\[Internal reasoning\\]**`<channel|>`\n* **Disabled Thinking Behavior:** For all models except for the E2B and E4B variants, if thinking is disabled, the model will still generate the tags but with an empty thought block:  \n`<|channel>thought\\n<channel|>`**\\[Final answer\\]**\n\n### 3\\. Multi-Turn Conversations\n\n* **No Thinking Content in History**: In multi-turn conversations, the historical model output should only include the final response. Thoughts from previous model turns must _not be added_ before the next user turn begins.\n\n### 4\\. Modality order\n\n* For optimal performance with multimodal inputs, place image and/or audio content **before** the text in your prompt.\n\n### 5\\. Variable Image Resolution\n\nAside from variable aspect ratios, Gemma 4 supports variable image resolution through a configurable visual token budget, which controls how many tokens are used to represent an image. A higher token budget preserves more visual detail\n\nat the cost of additional compute, while a lower budget enables faster inference for tasks that don’t require fine-grained understanding.\n\n* The supported token budgets are: **70**, **140**, **280**, **560**, and **1120**.  \n   * Use _lower budgets_ for classification, captioning, or video understanding, where faster inference and processing many frames outweigh fine-grained detail.  \n   * Use _higher budgets_ for tasks like OCR, document parsing, or reading small text.\n\nWrite Preview \n\n!\\[Gemma 4 Ollama logo\\](/assets/library/gemma4/d698dd59-9f30-44f9-81b1-a7620010c005) Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input and generating text output. Gemma 4 introduces key \\*\\*capability and architectural advancements\\*\\*: \\* \\*\\*Reasoning\\*\\* – All models in the family are designed as highly capable reasoners, with configurable thinking modes. \\* \\*\\*Extended Multimodalities\\*\\* – Processes Text, Image with variable aspect ratio and resolution support (all models) \\* \\*\\*Diverse & Efficient Architectures\\*\\* – Offers Dense and Mixture-of-Experts (MoE) variants of different sizes for scalable deployment. \\* \\*\\*Optimized for On-Device\\*\\* – Smaller models are specifically designed for efficient local execution on laptops and mobile devices. \\* \\*\\*Increased Context Window\\*\\* – The small models feature a 128K context window, while the medium models support 256K. \\* \\*\\*Enhanced Coding & Agentic Capabilities\\*\\* – Achieves notable improvements in coding benchmarks alongside native function-calling support, powering highly capable autonomous agents. \\* \\*\\*Native System Prompt Support\\*\\* – Gemma 4 introduces native support for the \\`system\\` role, enabling more structured and controllable conversations. ### Models \\*\\*Ollama's cloud\\*\\* \\`\\`\\` ollama run gemma4:31b-cloud \\`\\`\\` \\*\\*Edge models\\*\\* The \"E\" in E2B and E4B stands for \"effective\" parameters, and are made for edge device deployments. \\*\\*Effective 2B (E2B)\\*\\* \\`\\`\\` ollama run gemma4:e2b \\`\\`\\` \\*\\*Effective 4B (E4B)\\*\\* \\`\\`\\` ollama run gemma4:e4b \\`\\`\\` \\*\\*Workstation models\\*\\* These models are designed for frontier intelligence locally. \\*\\*26B\\*\\* (Mixture of Experts model with 4B active parameters) \\`\\`\\` ollama run gemma4:26b \\`\\`\\` \\*\\*31B\\*\\* (Dense) \\`\\`\\` ollama run gemma4:31b \\`\\`\\` ## \\*\\*Benchmark Results\\*\\* These models were evaluated against a large collection of different datasets and metrics to cover different aspects of text generation. Evaluation results marked in the table are for instruction-tuned models. | | Gemma 4 31B | Gemma 4 26B A4B | Gemma 4 E4B | Gemma 4 E2B | Gemma 3 27B (no think) | | :---- | :---- | :---- | :---- | :---- | :---- | | MMLU Pro | 85.2% | 82.6% | 69.4% | 60.0% | 67.6% | | AIME 2026 no tools | 89.2% | 88.3% | 42.5% | 37.5% | 20.8% | | LiveCodeBench v6 | 80.0% | 77.1% | 52.0% | 44.0% | 29.1% | | Codeforces ELO | 2150 | 1718 | 940 | 633 | 110 | | GPQA Diamond | 84.3% | 82.3% | 58.6% | 43.4% | 42.4% | | Tau2 (average over 3) | 76.9% | 68.2% | 42.2% | 24.5% | 16.2% | | HLE no tools | 19.5% | 8.7% | - | - | - | | HLE with search | 26.5% | 17.2% | - | - | - | | BigBench Extra Hard | 74.4% | 64.8% | 33.1% | 21.9% | 19.3% | | MMMLU | 88.4% | 86.3% | 76.6% | 67.4% | 70.7% | | \\*\\*Vision\\*\\* | | | | | | | MMMU Pro | 76.9% | 73.8% | 52.6% | 44.2% | 49.7% | | OmniDocBench 1.5 (average edit distance, lower is better) | 0.131 | 0.149 | 0.181 | 0.290 | 0.365 | | MATH-Vision | 85.6% | 82.4% | 59.5% | 52.4% | 46.0% | | MedXPertQA MM | 61.3% | 58.1% | 28.7% | 23.5% | - | | \\*\\*Audio\\*\\* | | | | | | | CoVoST | - | - | 35.54 | 33.47 | - | | FLEURS (lower is better) | - | - | 0.08 | 0.09 | - | | \\*\\*Long Context\\*\\* | | | | | | | MRCR v2 8 needle 128k (average) | 66.4% | 44.1% | 25.4% | 19.1% | 13.5% | ## Model information | Property | E2B | E4B | 31B Dense | | :---- | :---- | :---- | :---- | | \\*\\*Total Parameters\\*\\* | 2.3B effective (5.1B with embeddings) | 4.5B effective (8B with embeddings) | 30.7B | | \\*\\*Layers\\*\\* | 35 | 42 | 60 | | \\*\\*Sliding Window\\*\\* | 512 tokens | 512 tokens | 1024 tokens | | \\*\\*Context Length\\*\\* | 128K tokens | 128K tokens | 256K tokens | | \\*\\*Vocabulary Size\\*\\* | 262K | 262K | 262K | | \\*\\*Supported Modalities\\*\\* | Text, Image, Audio | Text, Image, Audio | Text, Image | | \\*\\*Vision Encoder Parameters\\*\\* | \\*\\~150M\\* | \\*\\~150M\\* | \\*\\~550M\\* | | \\*\\*Audio Encoder Parameters\\*\\* | \\*\\~300M\\* | \\*\\~300M\\* | No Audio | ### Mixture-of-Experts (MoE) Model | Property | 26B A4B MoE | | :---- | :---- | | \\*\\*Total Parameters\\*\\* | 25.2B | | \\*\\*Active Parameters\\*\\* | 3.8B | | \\*\\*Layers\\*\\* | 30 | | \\*\\*Sliding Window\\*\\* | 1024 tokens | | \\*\\*Context Length\\*\\* | 256K tokens | | \\*\\*Vocabulary Size\\*\\* | 262K | | \\*\\*Expert Count\\*\\* | 8 active / 128 total and 1 shared | | \\*\\*Supported Modalities\\*\\* | Text, Image | | \\*\\*Vision Encoder Parameters\\*\\* | \\*\\~550M\\* | ## \\*\\*Best Practices\\*\\* For the best performance, use these configurations and best practices: ### 1\\. Sampling Parameters Use the following standardized sampling configuration across all use cases: \\* \\`temperature=1.0\\` \\* \\`top\\_p=0.95\\` \\* \\`top\\_k=64\\` ### 2\\. Thinking Mode Configuration > Note that Ollama already handles the complexities of the chat template for you. Compared to Gemma 3, the models use standard \\`system\\`, \\`assistant\\`, and \\`user\\` roles. To properly manage the thinking process, use the following control tokens: \\* \\*\\*Trigger Thinking:\\*\\* Thinking is enabled by including the \\`<|think|>\\` token at the start of the system prompt. To disable thinking, remove the token. \\* \\*\\*Standard Generation:\\*\\* When thinking is enabled, the model will output its internal reasoning followed by the final answer using this structure: \\`<|channel>thought\\\\n\\`\\*\\*\\[Internal reasoning\\]\\*\\*\\`<channel|>\\` \\* \\*\\*Disabled Thinking Behavior:\\*\\* For all models except for the E2B and E4B variants, if thinking is disabled, the model will still generate the tags but with an empty thought block: \\`<|channel>thought\\\\n<channel|>\\`\\*\\*\\[Final answer\\]\\*\\* ### 3\\. Multi-Turn Conversations \\* \\*\\*No Thinking Content in History\\*\\*: In multi-turn conversations, the historical model output should only include the final response. Thoughts from previous model turns must \\*not be added\\* before the next user turn begins. ### 4\\. Modality order \\* For optimal performance with multimodal inputs, place image and/or audio content \\*\\*before\\*\\* the text in your prompt. ### 5\\. Variable Image Resolution Aside from variable aspect ratios, Gemma 4 supports variable image resolution through a configurable visual token budget, which controls how many tokens are used to represent an image. A higher token budget preserves more visual detail at the cost of additional compute, while a lower budget enables faster inference for tasks that don't require fine-grained understanding. \\* The supported token budgets are: \\*\\*70\\*\\*, \\*\\*140\\*\\*, \\*\\*280\\*\\*, \\*\\*560\\*\\*, and \\*\\*1120\\*\\*. \\* Use \\*lower budgets\\* for classification, captioning, or video understanding, where faster inference and processing many frames outweigh fine-grained detail. \\* Use \\*higher budgets\\* for tasks like OCR, document parsing, or reading small text. \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "readme": "## Readme\n\n![Gemma 4 Ollama logo](/assets/library/gemma4/d698dd59-9f30-44f9-81b1-a7620010c005)Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input and generating text output.\n\nGemma 4 introduces key **capability and architectural advancements**:\n\n* **Reasoning** – All models in the family are designed as highly capable reasoners, with configurable thinking modes.\n* **Extended Multimodalities** – Processes Text, Image with variable aspect ratio and resolution support (all models)\n* **Diverse & Efficient Architectures** – Offers Dense and Mixture-of-Experts (MoE) variants of different sizes for scalable deployment.\n* **Optimized for On-Device** – Smaller models are specifically designed for efficient local execution on laptops and mobile devices.\n* **Increased Context Window** – The small models feature a 128K context window, while the medium models support 256K.\n* **Enhanced Coding & Agentic Capabilities** – Achieves notable improvements in coding benchmarks alongside native function-calling support, powering highly capable autonomous agents.\n* **Native System Prompt Support** – Gemma 4 introduces native support for the `system` role, enabling more structured and controllable conversations.\n\n### Models\n\n**Ollama’s cloud**\n\n```\nollama run gemma4:31b-cloud\n\n```\n\n**Edge models**\n\nThe “E” in E2B and E4B stands for “effective” parameters, and are made for edge device deployments.\n\n**Effective 2B (E2B)**\n\n```\nollama run gemma4:e2b\n\n```\n\n**Effective 4B (E4B)**\n\n```\nollama run gemma4:e4b\n\n```\n\n**Workstation models**\n\nThese models are designed for frontier intelligence locally.\n\n**12B**\n\n```\nollama run gemma4:12b\n\n```\n\n**26B** (Mixture of Experts model with 4B active parameters)\n\n```\nollama run gemma4:26b\n\n```\n\n**31B** (Dense)\n\n```\nollama run gemma4:31b\n\n```\n\n## Benchmark Results\n\nThese models were evaluated against a large collection of different datasets and metrics to cover different aspects of text generation. Evaluation results marked in the table are for instruction-tuned models.\n\n| Gemma 4 31B                                               | Gemma 4 26B A4B | Gemma 4 E4B | Gemma 4 E2B | Gemma 3 27B (no think) |       |\n| --------------------------------------------------------- | --------------- | ----------- | ----------- | ---------------------- | ----- |\n| MMLU Pro                                                  | 85.2%           | 82.6%       | 69.4%       | 60.0%                  | 67.6% |\n| AIME 2026 no tools                                        | 89.2%           | 88.3%       | 42.5%       | 37.5%                  | 20.8% |\n| LiveCodeBench v6                                          | 80.0%           | 77.1%       | 52.0%       | 44.0%                  | 29.1% |\n| Codeforces ELO                                            | 2150            | 1718        | 940         | 633                    | 110   |\n| GPQA Diamond                                              | 84.3%           | 82.3%       | 58.6%       | 43.4%                  | 42.4% |\n| Tau2 (average over 3)                                     | 76.9%           | 68.2%       | 42.2%       | 24.5%                  | 16.2% |\n| HLE no tools                                              | 19.5%           | 8.7%        | \\-          | \\-                     | \\-    |\n| HLE with search                                           | 26.5%           | 17.2%       | \\-          | \\-                     | \\-    |\n| BigBench Extra Hard                                       | 74.4%           | 64.8%       | 33.1%       | 21.9%                  | 19.3% |\n| MMMLU                                                     | 88.4%           | 86.3%       | 76.6%       | 67.4%                  | 70.7% |\n| **Vision**                                                |                 |             |             |                        |       |\n| MMMU Pro                                                  | 76.9%           | 73.8%       | 52.6%       | 44.2%                  | 49.7% |\n| OmniDocBench 1.5 (average edit distance, lower is better) | 0.131           | 0.149       | 0.181       | 0.290                  | 0.365 |\n| MATH-Vision                                               | 85.6%           | 82.4%       | 59.5%       | 52.4%                  | 46.0% |\n| MedXPertQA MM                                             | 61.3%           | 58.1%       | 28.7%       | 23.5%                  | \\-    |\n| **Audio**                                                 |                 |             |             |                        |       |\n| CoVoST                                                    | \\-              | \\-          | 35.54       | 33.47                  | \\-    |\n| FLEURS (lower is better)                                  | \\-              | \\-          | 0.08        | 0.09                   | \\-    |\n| **Long Context**                                          |                 |             |             |                        |       |\n| MRCR v2 8 needle 128k (average)                           | 66.4%           | 44.1%       | 25.4%       | 19.1%                  | 13.5% |\n\n## Model information\n\n| Property                      | E2B                                   | E4B                                 | 31B Dense   |\n| ----------------------------- | ------------------------------------- | ----------------------------------- | ----------- |\n| **Total Parameters**          | 2.3B effective (5.1B with embeddings) | 4.5B effective (8B with embeddings) | 30.7B       |\n| **Layers**                    | 35                                    | 42                                  | 60          |\n| **Sliding Window**            | 512 tokens                            | 512 tokens                          | 1024 tokens |\n| **Context Length**            | 128K tokens                           | 128K tokens                         | 256K tokens |\n| **Vocabulary Size**           | 262K                                  | 262K                                | 262K        |\n| **Supported Modalities**      | Text, Image, Audio                    | Text, Image, Audio                  | Text, Image |\n| **Vision Encoder Parameters** | _\\~150M_                              | _\\~150M_                            | _\\~550M_    |\n| **Audio Encoder Parameters**  | _\\~300M_                              | _\\~300M_                            | No Audio    |\n\n### Mixture-of-Experts (MoE) Model\n\n| Property                      | 26B A4B MoE                       |\n| ----------------------------- | --------------------------------- |\n| **Total Parameters**          | 25.2B                             |\n| **Active Parameters**         | 3.8B                              |\n| **Layers**                    | 30                                |\n| **Sliding Window**            | 1024 tokens                       |\n| **Context Length**            | 256K tokens                       |\n| **Vocabulary Size**           | 262K                              |\n| **Expert Count**              | 8 active / 128 total and 1 shared |\n| **Supported Modalities**      | Text, Image                       |\n| **Vision Encoder Parameters** | _\\~550M_                          |\n\n## Best Practices\n\nFor the best performance, use these configurations and best practices:\n\n### 1\\. Sampling Parameters\n\nUse the following standardized sampling configuration across all use cases:\n\n* `temperature=1.0`\n* `top_p=0.95`\n* `top_k=64`\n\n### 2\\. Thinking Mode Configuration\n\n> Note that Ollama already handles the complexities of the chat template for you.\n\nCompared to Gemma 3, the models use standard `system`, `assistant`, and `user` roles. To properly manage the thinking process, use the following control tokens:\n\n* **Trigger Thinking:** Thinking is enabled by including the `<|think|>` token at the start of the system prompt. To disable thinking, remove the token.\n* **Standard Generation:** When thinking is enabled, the model will output its internal reasoning followed by the final answer using this structure:  \n`<|channel>thought\\n`**\\[Internal reasoning\\]**`<channel|>`\n* **Disabled Thinking Behavior:** For all models except for the E2B and E4B variants, if thinking is disabled, the model will still generate the tags but with an empty thought block:  \n`<|channel>thought\\n<channel|>`**\\[Final answer\\]**\n\n### 3\\. Multi-Turn Conversations\n\n* **No Thinking Content in History**: In multi-turn conversations, the historical model output should only include the final response. Thoughts from previous model turns must _not be added_ before the next user turn begins.\n\n### 4\\. Modality order\n\n* For optimal performance with multimodal inputs, place image and/or audio content **before** the text in your prompt.\n\n### 5\\. Variable Image Resolution\n\nAside from variable aspect ratios, Gemma 4 supports variable image resolution through a configurable visual token budget, which controls how many tokens are used to represent an image. A higher token budget preserves more visual detail\n\nat the cost of additional compute, while a lower budget enables faster inference for tasks that don’t require fine-grained understanding.\n\n* The supported token budgets are: **70**, **140**, **280**, **560**, and **1120**.  \n   * Use _lower budgets_ for classification, captioning, or video understanding, where faster inference and processing many frames outweigh fine-grained detail.  \n   * Use _higher budgets_ for tasks like OCR, document parsing, or reading small text.\n\nWrite Preview \n\n!\\[Gemma 4 Ollama logo\\](/assets/library/gemma4/d698dd59-9f30-44f9-81b1-a7620010c005) Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input and generating text output. Gemma 4 introduces key \\*\\*capability and architectural advancements\\*\\*: \\* \\*\\*Reasoning\\*\\* – All models in the family are designed as highly capable reasoners, with configurable thinking modes. \\* \\*\\*Extended Multimodalities\\*\\* – Processes Text, Image with variable aspect ratio and resolution support (all models) \\* \\*\\*Diverse & Efficient Architectures\\*\\* – Offers Dense and Mixture-of-Experts (MoE) variants of different sizes for scalable deployment. \\* \\*\\*Optimized for On-Device\\*\\* – Smaller models are specifically designed for efficient local execution on laptops and mobile devices. \\* \\*\\*Increased Context Window\\*\\* – The small models feature a 128K context window, while the medium models support 256K. \\* \\*\\*Enhanced Coding & Agentic Capabilities\\*\\* – Achieves notable improvements in coding benchmarks alongside native function-calling support, powering highly capable autonomous agents. \\* \\*\\*Native System Prompt Support\\*\\* – Gemma 4 introduces native support for the \\`system\\` role, enabling more structured and controllable conversations. ### Models \\*\\*Ollama's cloud\\*\\* \\`\\`\\` ollama run gemma4:31b-cloud \\`\\`\\` \\*\\*Edge models\\*\\* The \"E\" in E2B and E4B stands for \"effective\" parameters, and are made for edge device deployments. \\*\\*Effective 2B (E2B)\\*\\* \\`\\`\\` ollama run gemma4:e2b \\`\\`\\` \\*\\*Effective 4B (E4B)\\*\\* \\`\\`\\` ollama run gemma4:e4b \\`\\`\\` \\*\\*Workstation models\\*\\* These models are designed for frontier intelligence locally. \\*\\*12B\\*\\* \\`\\`\\` ollama run gemma4:12b \\`\\`\\` \\*\\*26B\\*\\* (Mixture of Experts model with 4B active parameters) \\`\\`\\` ollama run gemma4:26b \\`\\`\\` \\*\\*31B\\*\\* (Dense) \\`\\`\\` ollama run gemma4:31b \\`\\`\\` ## Benchmark Results These models were evaluated against a large collection of different datasets and metrics to cover different aspects of text generation. Evaluation results marked in the table are for instruction-tuned models. | | Gemma 4 31B | Gemma 4 26B A4B | Gemma 4 E4B | Gemma 4 E2B | Gemma 3 27B (no think) | | :---- | :---- | :---- | :---- | :---- | :---- | | MMLU Pro | 85.2% | 82.6% | 69.4% | 60.0% | 67.6% | | AIME 2026 no tools | 89.2% | 88.3% | 42.5% | 37.5% | 20.8% | | LiveCodeBench v6 | 80.0% | 77.1% | 52.0% | 44.0% | 29.1% | | Codeforces ELO | 2150 | 1718 | 940 | 633 | 110 | | GPQA Diamond | 84.3% | 82.3% | 58.6% | 43.4% | 42.4% | | Tau2 (average over 3) | 76.9% | 68.2% | 42.2% | 24.5% | 16.2% | | HLE no tools | 19.5% | 8.7% | - | - | - | | HLE with search | 26.5% | 17.2% | - | - | - | | BigBench Extra Hard | 74.4% | 64.8% | 33.1% | 21.9% | 19.3% | | MMMLU | 88.4% | 86.3% | 76.6% | 67.4% | 70.7% | | \\*\\*Vision\\*\\* | | | | | | | MMMU Pro | 76.9% | 73.8% | 52.6% | 44.2% | 49.7% | | OmniDocBench 1.5 (average edit distance, lower is better) | 0.131 | 0.149 | 0.181 | 0.290 | 0.365 | | MATH-Vision | 85.6% | 82.4% | 59.5% | 52.4% | 46.0% | | MedXPertQA MM | 61.3% | 58.1% | 28.7% | 23.5% | - | | \\*\\*Audio\\*\\* | | | | | | | CoVoST | - | - | 35.54 | 33.47 | - | | FLEURS (lower is better) | - | - | 0.08 | 0.09 | - | | \\*\\*Long Context\\*\\* | | | | | | | MRCR v2 8 needle 128k (average) | 66.4% | 44.1% | 25.4% | 19.1% | 13.5% | ## Model information | Property | E2B | E4B | 31B Dense | | :---- | :---- | :---- | :---- | | \\*\\*Total Parameters\\*\\* | 2.3B effective (5.1B with embeddings) | 4.5B effective (8B with embeddings) | 30.7B | | \\*\\*Layers\\*\\* | 35 | 42 | 60 | | \\*\\*Sliding Window\\*\\* | 512 tokens | 512 tokens | 1024 tokens | | \\*\\*Context Length\\*\\* | 128K tokens | 128K tokens | 256K tokens | | \\*\\*Vocabulary Size\\*\\* | 262K | 262K | 262K | | \\*\\*Supported Modalities\\*\\* | Text, Image, Audio | Text, Image, Audio | Text, Image | | \\*\\*Vision Encoder Parameters\\*\\* | \\*\\~150M\\* | \\*\\~150M\\* | \\*\\~550M\\* | | \\*\\*Audio Encoder Parameters\\*\\* | \\*\\~300M\\* | \\*\\~300M\\* | No Audio | ### Mixture-of-Experts (MoE) Model | Property | 26B A4B MoE | | :---- | :---- | | \\*\\*Total Parameters\\*\\* | 25.2B | | \\*\\*Active Parameters\\*\\* | 3.8B | | \\*\\*Layers\\*\\* | 30 | | \\*\\*Sliding Window\\*\\* | 1024 tokens | | \\*\\*Context Length\\*\\* | 256K tokens | | \\*\\*Vocabulary Size\\*\\* | 262K | | \\*\\*Expert Count\\*\\* | 8 active / 128 total and 1 shared | | \\*\\*Supported Modalities\\*\\* | Text, Image | | \\*\\*Vision Encoder Parameters\\*\\* | \\*\\~550M\\* | ## Best Practices For the best performance, use these configurations and best practices: ### 1\\. Sampling Parameters Use the following standardized sampling configuration across all use cases: \\* \\`temperature=1.0\\` \\* \\`top\\_p=0.95\\` \\* \\`top\\_k=64\\` ### 2\\. Thinking Mode Configuration > Note that Ollama already handles the complexities of the chat template for you. Compared to Gemma 3, the models use standard \\`system\\`, \\`assistant\\`, and \\`user\\` roles. To properly manage the thinking process, use the following control tokens: \\* \\*\\*Trigger Thinking:\\*\\* Thinking is enabled by including the \\`<|think|>\\` token at the start of the system prompt. To disable thinking, remove the token. \\* \\*\\*Standard Generation:\\*\\* When thinking is enabled, the model will output its internal reasoning followed by the final answer using this structure: \\`<|channel>thought\\\\n\\`\\*\\*\\[Internal reasoning\\]\\*\\*\\`<channel|>\\` \\* \\*\\*Disabled Thinking Behavior:\\*\\* For all models except for the E2B and E4B variants, if thinking is disabled, the model will still generate the tags but with an empty thought block: \\`<|channel>thought\\\\n<channel|>\\`\\*\\*\\[Final answer\\]\\*\\* ### 3\\. Multi-Turn Conversations \\* \\*\\*No Thinking Content in History\\*\\*: In multi-turn conversations, the historical model output should only include the final response. Thoughts from previous model turns must \\*not be added\\* before the next user turn begins. ### 4\\. Modality order \\* For optimal performance with multimodal inputs, place image and/or audio content \\*\\*before\\*\\* the text in your prompt. ### 5\\. Variable Image Resolution Aside from variable aspect ratios, Gemma 4 supports variable image resolution through a configurable visual token budget, which controls how many tokens are used to represent an image. A higher token budget preserves more visual detail at the cost of additional compute, while a lower budget enables faster inference for tasks that don't require fine-grained understanding. \\* The supported token budgets are: \\*\\*70\\*\\*, \\*\\*140\\*\\*, \\*\\*280\\*\\*, \\*\\*560\\*\\*, and \\*\\*1120\\*\\*. \\* Use \\*lower budgets\\* for classification, captioning, or video understanding, where faster inference and processing many frames outweigh fine-grained detail. \\* Use \\*higher budgets\\* for tasks like OCR, document parsing, or reading small text. \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": [
       {
         "name": "gemma4:latest",
@@ -5729,6 +5730,11 @@
         "name": "gemma4:e4b",
         "size": "gemma4:e4b",
         "updated": "Text, Image input • \n                    2 months ago"
+      },
+      {
+        "name": "gemma4:12b",
+        "size": "gemma4:12b",
+        "updated": "Text, Image input • \n                    6 hours ago"
       },
       {
         "name": "gemma4:26b",
@@ -5809,6 +5815,41 @@
         "name": "gemma4:e4b-nvfp4",
         "size": "gemma4:e4b-nvfp4",
         "updated": "Text input • \n                    1 month ago"
+      },
+      {
+        "name": "gemma4:12b-it-q4_K_M",
+        "size": "gemma4:12b-it-q4_K_M",
+        "updated": "Text, Image input • \n                    6 hours ago"
+      },
+      {
+        "name": "gemma4:12b-it-q8_0",
+        "size": "gemma4:12b-it-q8_0",
+        "updated": "Text, Image input • \n                    6 hours ago"
+      },
+      {
+        "name": "gemma4:12b-it-bf16",
+        "size": "gemma4:12b-it-bf16",
+        "updated": "Text, Image input • \n                    6 hours ago"
+      },
+      {
+        "name": "gemma4:12b-mlx",
+        "size": "gemma4:12b-mlx",
+        "updated": "Text input • \n                    10 hours ago"
+      },
+      {
+        "name": "gemma4:12b-mlx-bf16",
+        "size": "gemma4:12b-mlx-bf16",
+        "updated": "Text input • \n                    10 hours ago"
+      },
+      {
+        "name": "gemma4:12b-mxfp8",
+        "size": "gemma4:12b-mxfp8",
+        "updated": "Text input • \n                    10 hours ago"
+      },
+      {
+        "name": "gemma4:12b-nvfp4",
+        "size": "gemma4:12b-nvfp4",
+        "updated": "Text input • \n                    10 hours ago"
       },
       {
         "name": "gemma4:26b-a4b-it-q4_K_M",
@@ -9471,7 +9512,7 @@
     "name": "qwen3-coder",
     "link": "https://ollama.com/library/qwen3-coder",
     "description": "Alibaba's performant long context models for agentic and coding tasks.",
-    "pullCount": "5.8M",
+    "pullCount": "5.9M",
     "updated": "8 months ago",
     "size": [
       "30b",
@@ -13062,7 +13103,7 @@
     "name": "granite3.1-moe",
     "link": "https://ollama.com/library/granite3.1-moe",
     "description": "The IBM Granite 1B and 3B models are long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
-    "pullCount": "2.9M",
+    "pullCount": "3M",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -15343,23 +15384,6 @@
     ]
   },
   {
-    "name": "minimax-m2.5",
-    "link": "https://ollama.com/library/minimax-m2.5",
-    "description": "MiniMax-M2.5 is a state-of-the-art large language model designed for real-world productivity and coding tasks.",
-    "pullCount": "2.2M",
-    "updated": "3 months ago",
-    "size": null,
-    "capabilities": "toolsthinking",
-    "readme": "## Readme\n\n![logo](/assets/library/minimax-m2.5/7bf8b4e2-abdc-4f35-af56-ac075749d26c)\n\nMiniMax M2.5 is the fastest-improving model series for coding and agentic workflows, trained with large-scale reinforcement learning across hundreds of thousands of real-world environments.\n\n### Highlights\n\n* **Coding**. Trained on large-scale RL across 10+ languages (Python, Go, C, C++, TypeScript, Rust, Kotlin, Java, JavaScript, PHP, Lua, Dart, Ruby) and hundreds of thousands of real environments, M2.5 develops native “spec behavior”—planning architecture, structure, and design before writing code. It handles the full development lifecycle: system design from zero, environment setup, feature iteration, code review, and testing across Web, Android, iOS, Windows, and Mac.\n* **Leading agent performance**. M2.5 achieves 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp—reaching a level comparable to the Claude Opus series on coding tasks. In search and tool-use tasks, the model demonstrates higher decision maturity—solving problems in fewer rounds with better token efficiency, saving roughly 20% in tool-call rounds compared to M2.1.\n* **37% faster task completion**. Through improved task decomposition and more efficient chain-of-thought reasoning, M2.5 completes complex agentic tasks significantly faster. On SWE-Bench Verified, end-to-end runtime dropped from 31.3 minutes (M2.1) to 22.8 minutes—on par with Claude Opus 4.6’s 22.9 minutes—while also consuming fewer tokens per task (3.52M vs 3.72M).\n\n![m2.5 benchmark](/assets/library/minimax-m2.5/d0fc55de-dbe8-4a30-8bb7-545cd0d9da04)\n\n### Benchmarks\n\n**Coding**\n\nM2.5 represents a significant step up from M2.1, reaching performance comparable to the Claude Opus series on core software engineering tasks.\n\n![image.png](/assets/library/minimax-m2.5/65275c3b-5ed8-4d1f-940a-407b65bbdd78)\n\nMiniMax tested performance on the SWE-Bench Verified evaluation set using different coding agent harnesses.\n\nOn Droid: 79.7(M2.5) > 78.9(Opus 4.6)\n\nOn OpenCode: 76.1(M2.5) > 75.9(Opus 4.6)\n\n**Search and tool calling**\n\n![image.png](/assets/library/minimax-m2.5/38ae04b3-e0c8-4643-9c16-7b1d9d30b03c)\n\n### Office & Productivity\n\nM2.5 was trained in collaboration with domain experts in finance, law, and social sciences to produce genuinely deliverable outputs. In evaluations on advanced office tasks—including Word documents, PowerPoint presentations, and Excel financial modeling—M2.5 achieved a 59.0% average win rate against mainstream models using pairwise comparison (GDPval-MM framework).\n\nAdditional internal benchmarks include MEWC (based on Microsoft Excel World Championship problems, 2021–2026) and Finance Modeling (expert-constructed financial modeling tasks scored via rubrics). Detailed scores for these benchmarks are available as charts in the [original blog post](https://www.minimax.io/news/minimax-m25).\n\n### Reference\n\n* [MiniMax M2.5 announcement](https://www.minimax.io/news/minimax-m25)\n\nWrite Preview \n\n!\\[logo\\](/assets/library/minimax-m2.5/7bf8b4e2-abdc-4f35-af56-ac075749d26c) MiniMax M2.5 is the fastest-improving model series for coding and agentic workflows, trained with large-scale reinforcement learning across hundreds of thousands of real-world environments. ### Highlights - \\*\\*Coding\\*\\*. Trained on large-scale RL across 10+ languages (Python, Go, C, C++, TypeScript, Rust, Kotlin, Java, JavaScript, PHP, Lua, Dart, Ruby) and hundreds of thousands of real environments, M2.5 develops native \"spec behavior\"—planning architecture, structure, and design before writing code. It handles the full development lifecycle: system design from zero, environment setup, feature iteration, code review, and testing across Web, Android, iOS, Windows, and Mac. - \\*\\*Leading agent performance\\*\\*. M2.5 achieves 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp—reaching a level comparable to the Claude Opus series on coding tasks. In search and tool-use tasks, the model demonstrates higher decision maturity—solving problems in fewer rounds with better token efficiency, saving roughly 20% in tool-call rounds compared to M2.1\\. - \\*\\*37% faster task completion\\*\\*. Through improved task decomposition and more efficient chain-of-thought reasoning, M2.5 completes complex agentic tasks significantly faster. On SWE-Bench Verified, end-to-end runtime dropped from 31.3 minutes (M2.1) to 22.8 minutes—on par with Claude Opus 4.6's 22.9 minutes—while also consuming fewer tokens per task (3.52M vs 3.72M). !\\[m2.5 benchmark\\](/assets/library/minimax-m2.5/d0fc55de-dbe8-4a30-8bb7-545cd0d9da04) ### Benchmarks \\*\\*Coding\\*\\* M2.5 represents a significant step up from M2.1, reaching performance comparable to the Claude Opus series on core software engineering tasks. !\\[image.png\\](/assets/library/minimax-m2.5/65275c3b-5ed8-4d1f-940a-407b65bbdd78) MiniMax tested performance on the SWE-Bench Verified evaluation set using different coding agent harnesses. On Droid: 79.7(M2.5) > 78.9(Opus 4.6) On OpenCode: 76.1(M2.5) > 75.9(Opus 4.6) \\*\\*Search and tool calling\\*\\* !\\[image.png\\](/assets/library/minimax-m2.5/38ae04b3-e0c8-4643-9c16-7b1d9d30b03c) ### Office & Productivity M2.5 was trained in collaboration with domain experts in finance, law, and social sciences to produce genuinely deliverable outputs. In evaluations on advanced office tasks—including Word documents, PowerPoint presentations, and Excel financial modeling—M2.5 achieved a 59.0% average win rate against mainstream models using pairwise comparison (GDPval-MM framework). Additional internal benchmarks include MEWC (based on Microsoft Excel World Championship problems, 2021–2026) and Finance Modeling (expert-constructed financial modeling tasks scored via rubrics). Detailed scores for these benchmarks are available as charts in the \\[original blog post\\](https://www.minimax.io/news/minimax-m25). ### Reference \\* \\[MiniMax M2.5 announcement\\](https://www.minimax.io/news/minimax-m25) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "minimax-m2.5:cloud",
-        "size": "minimax-m2.5:cloud",
-        "updated": "Text input • \n                    3 months ago"
-      }
-    ]
-  },
-  {
     "name": "mistral-small3.2",
     "link": "https://ollama.com/library/mistral-small3.2",
     "description": "An update to Mistral Small that improves on function calling, instruction following, and less repetition errors.",
@@ -15395,6 +15419,23 @@
         "name": "mistral-small3.2:24b-instruct-2506-fp16",
         "size": "mistral-small3.2:24b-instruct-2506-fp16",
         "updated": "Text, Image input • \n                    11 months ago"
+      }
+    ]
+  },
+  {
+    "name": "minimax-m2.5",
+    "link": "https://ollama.com/library/minimax-m2.5",
+    "description": "MiniMax-M2.5 is a state-of-the-art large language model designed for real-world productivity and coding tasks.",
+    "pullCount": "2.2M",
+    "updated": "3 months ago",
+    "size": null,
+    "capabilities": "toolsthinking",
+    "readme": "## Readme\n\n![logo](/assets/library/minimax-m2.5/7bf8b4e2-abdc-4f35-af56-ac075749d26c)\n\nMiniMax M2.5 is the fastest-improving model series for coding and agentic workflows, trained with large-scale reinforcement learning across hundreds of thousands of real-world environments.\n\n### Highlights\n\n* **Coding**. Trained on large-scale RL across 10+ languages (Python, Go, C, C++, TypeScript, Rust, Kotlin, Java, JavaScript, PHP, Lua, Dart, Ruby) and hundreds of thousands of real environments, M2.5 develops native “spec behavior”—planning architecture, structure, and design before writing code. It handles the full development lifecycle: system design from zero, environment setup, feature iteration, code review, and testing across Web, Android, iOS, Windows, and Mac.\n* **Leading agent performance**. M2.5 achieves 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp—reaching a level comparable to the Claude Opus series on coding tasks. In search and tool-use tasks, the model demonstrates higher decision maturity—solving problems in fewer rounds with better token efficiency, saving roughly 20% in tool-call rounds compared to M2.1.\n* **37% faster task completion**. Through improved task decomposition and more efficient chain-of-thought reasoning, M2.5 completes complex agentic tasks significantly faster. On SWE-Bench Verified, end-to-end runtime dropped from 31.3 minutes (M2.1) to 22.8 minutes—on par with Claude Opus 4.6’s 22.9 minutes—while also consuming fewer tokens per task (3.52M vs 3.72M).\n\n![m2.5 benchmark](/assets/library/minimax-m2.5/d0fc55de-dbe8-4a30-8bb7-545cd0d9da04)\n\n### Benchmarks\n\n**Coding**\n\nM2.5 represents a significant step up from M2.1, reaching performance comparable to the Claude Opus series on core software engineering tasks.\n\n![image.png](/assets/library/minimax-m2.5/65275c3b-5ed8-4d1f-940a-407b65bbdd78)\n\nMiniMax tested performance on the SWE-Bench Verified evaluation set using different coding agent harnesses.\n\nOn Droid: 79.7(M2.5) > 78.9(Opus 4.6)\n\nOn OpenCode: 76.1(M2.5) > 75.9(Opus 4.6)\n\n**Search and tool calling**\n\n![image.png](/assets/library/minimax-m2.5/38ae04b3-e0c8-4643-9c16-7b1d9d30b03c)\n\n### Office & Productivity\n\nM2.5 was trained in collaboration with domain experts in finance, law, and social sciences to produce genuinely deliverable outputs. In evaluations on advanced office tasks—including Word documents, PowerPoint presentations, and Excel financial modeling—M2.5 achieved a 59.0% average win rate against mainstream models using pairwise comparison (GDPval-MM framework).\n\nAdditional internal benchmarks include MEWC (based on Microsoft Excel World Championship problems, 2021–2026) and Finance Modeling (expert-constructed financial modeling tasks scored via rubrics). Detailed scores for these benchmarks are available as charts in the [original blog post](https://www.minimax.io/news/minimax-m25).\n\n### Reference\n\n* [MiniMax M2.5 announcement](https://www.minimax.io/news/minimax-m25)\n\nWrite Preview \n\n!\\[logo\\](/assets/library/minimax-m2.5/7bf8b4e2-abdc-4f35-af56-ac075749d26c) MiniMax M2.5 is the fastest-improving model series for coding and agentic workflows, trained with large-scale reinforcement learning across hundreds of thousands of real-world environments. ### Highlights - \\*\\*Coding\\*\\*. Trained on large-scale RL across 10+ languages (Python, Go, C, C++, TypeScript, Rust, Kotlin, Java, JavaScript, PHP, Lua, Dart, Ruby) and hundreds of thousands of real environments, M2.5 develops native \"spec behavior\"—planning architecture, structure, and design before writing code. It handles the full development lifecycle: system design from zero, environment setup, feature iteration, code review, and testing across Web, Android, iOS, Windows, and Mac. - \\*\\*Leading agent performance\\*\\*. M2.5 achieves 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp—reaching a level comparable to the Claude Opus series on coding tasks. In search and tool-use tasks, the model demonstrates higher decision maturity—solving problems in fewer rounds with better token efficiency, saving roughly 20% in tool-call rounds compared to M2.1\\. - \\*\\*37% faster task completion\\*\\*. Through improved task decomposition and more efficient chain-of-thought reasoning, M2.5 completes complex agentic tasks significantly faster. On SWE-Bench Verified, end-to-end runtime dropped from 31.3 minutes (M2.1) to 22.8 minutes—on par with Claude Opus 4.6's 22.9 minutes—while also consuming fewer tokens per task (3.52M vs 3.72M). !\\[m2.5 benchmark\\](/assets/library/minimax-m2.5/d0fc55de-dbe8-4a30-8bb7-545cd0d9da04) ### Benchmarks \\*\\*Coding\\*\\* M2.5 represents a significant step up from M2.1, reaching performance comparable to the Claude Opus series on core software engineering tasks. !\\[image.png\\](/assets/library/minimax-m2.5/65275c3b-5ed8-4d1f-940a-407b65bbdd78) MiniMax tested performance on the SWE-Bench Verified evaluation set using different coding agent harnesses. On Droid: 79.7(M2.5) > 78.9(Opus 4.6) On OpenCode: 76.1(M2.5) > 75.9(Opus 4.6) \\*\\*Search and tool calling\\*\\* !\\[image.png\\](/assets/library/minimax-m2.5/38ae04b3-e0c8-4643-9c16-7b1d9d30b03c) ### Office & Productivity M2.5 was trained in collaboration with domain experts in finance, law, and social sciences to produce genuinely deliverable outputs. In evaluations on advanced office tasks—including Word documents, PowerPoint presentations, and Excel financial modeling—M2.5 achieved a 59.0% average win rate against mainstream models using pairwise comparison (GDPval-MM framework). Additional internal benchmarks include MEWC (based on Microsoft Excel World Championship problems, 2021–2026) and Finance Modeling (expert-constructed financial modeling tasks scored via rubrics). Detailed scores for these benchmarks are available as charts in the \\[original blog post\\](https://www.minimax.io/news/minimax-m25). ### Reference \\* \\[MiniMax M2.5 announcement\\](https://www.minimax.io/news/minimax-m25) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "minimax-m2.5:cloud",
+        "size": "minimax-m2.5:cloud",
+        "updated": "Text input • \n                    3 months ago"
       }
     ]
   },
@@ -15526,7 +15567,7 @@
     "name": "qwen2.5vl",
     "link": "https://ollama.com/library/qwen2.5vl",
     "description": "Flagship vision-language model of Qwen and also a significant leap from the previous Qwen2-VL.",
-    "pullCount": "2.1M",
+    "pullCount": "2.2M",
     "updated": "1 year ago",
     "size": [
       "3b",
@@ -15853,6 +15894,171 @@
     ]
   },
   {
+    "name": "qwen3.6",
+    "link": "https://ollama.com/library/qwen3.6",
+    "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+    "pullCount": "1.9M",
+    "updated": "2 days ago",
+    "size": [
+      "27b",
+      "35b"
+    ],
+    "capabilities": "visiontoolsthinking",
+    "readme": "## Readme\n\n![](/assets/library/qwen3.6/a4dafb1d-29c1-46bc-81ca-a8a6db6b55b3)\n\nFollowing the February release of the Qwen3.5 series, we’re pleased to share the first open-weight variant of Qwen3.6\\. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience.\n\n### Qwen3.6 Highlights\n\nThis release delivers substantial upgrades, particularly in\n\n* Agentic Coding: the model now handles frontend workflows and repository-level reasoning with greater fluency and precision.\n* Thinking Preservation: we’ve introduced a new option to retain reasoning context from historical messages, streamlining iterative development and reducing overhead.\n\n![qwen3.6_35b_a3b_score.png](/assets/library/qwen3.6/4d333c77-e6ad-4047-8724-f38c68cc5b28)\n\nWrite Preview \n\n<img src=\"/assets/library/qwen3.6/a4dafb1d-29c1-46bc-81ca-a8a6db6b55b3\" width=\"360\" /> Following the February release of the Qwen3.5 series, we're pleased to share the first open-weight variant of Qwen3.6\\. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience. ### Qwen3.6 Highlights This release delivers substantial upgrades, particularly in - Agentic Coding: the model now handles frontend workflows and repository-level reasoning with greater fluency and precision. - Thinking Preservation: we've introduced a new option to retain reasoning context from historical messages, streamlining iterative development and reducing overhead. !\\[qwen3.6\\_35b\\_a3b\\_score.png\\](/assets/library/qwen3.6/4d333c77-e6ad-4047-8724-f38c68cc5b28) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "qwen3.6:latest",
+        "size": "qwen3.6:latest",
+        "updated": "Text, Image input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:27b",
+        "size": "qwen3.6:27b",
+        "updated": "Text, Image input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:35b",
+        "size": "qwen3.6:35b",
+        "updated": "Text, Image input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:27b-coding-mxfp8",
+        "size": "qwen3.6:27b-coding-mxfp8",
+        "updated": "Text input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:27b-coding-nvfp4",
+        "size": "qwen3.6:27b-coding-nvfp4",
+        "updated": "Text input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:27b-coding-bf16",
+        "size": "qwen3.6:27b-coding-bf16",
+        "updated": "Text input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:27b-mlx",
+        "size": "qwen3.6:27b-mlx",
+        "updated": "Text input • \n                    1 week ago"
+      },
+      {
+        "name": "qwen3.6:27b-mlx-bf16",
+        "size": "qwen3.6:27b-mlx-bf16",
+        "updated": "Text input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:27b-mtp-q4_K_M",
+        "size": "qwen3.6:27b-mtp-q4_K_M",
+        "updated": "Text, Image input • \n                    2 days ago"
+      },
+      {
+        "name": "qwen3.6:27b-mtp-q8_0",
+        "size": "qwen3.6:27b-mtp-q8_0",
+        "updated": "Text, Image input • \n                    2 days ago"
+      },
+      {
+        "name": "qwen3.6:27b-mtp-bf16",
+        "size": "qwen3.6:27b-mtp-bf16",
+        "updated": "Text, Image input • \n                    2 days ago"
+      },
+      {
+        "name": "qwen3.6:27b-mxfp8",
+        "size": "qwen3.6:27b-mxfp8",
+        "updated": "Text input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:27b-nvfp4",
+        "size": "qwen3.6:27b-nvfp4",
+        "updated": "Text input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:27b-q4_K_M",
+        "size": "qwen3.6:27b-q4_K_M",
+        "updated": "Text, Image input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:27b-q8_0",
+        "size": "qwen3.6:27b-q8_0",
+        "updated": "Text, Image input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:27b-bf16",
+        "size": "qwen3.6:27b-bf16",
+        "updated": "Text, Image input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:35b-a3b",
+        "size": "qwen3.6:35b-a3b",
+        "updated": "Text, Image input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:35b-a3b-coding-mxfp8",
+        "size": "qwen3.6:35b-a3b-coding-mxfp8",
+        "updated": "Text input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:35b-a3b-coding-nvfp4",
+        "size": "qwen3.6:35b-a3b-coding-nvfp4",
+        "updated": "Text input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:35b-a3b-coding-bf16",
+        "size": "qwen3.6:35b-a3b-coding-bf16",
+        "updated": "Text input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:35b-a3b-mlx-bf16",
+        "size": "qwen3.6:35b-a3b-mlx-bf16",
+        "updated": "Text input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:35b-a3b-mtp-q4_K_M",
+        "size": "qwen3.6:35b-a3b-mtp-q4_K_M",
+        "updated": "Text, Image input • \n                    2 days ago"
+      },
+      {
+        "name": "qwen3.6:35b-a3b-q4_K_M",
+        "size": "qwen3.6:35b-a3b-q4_K_M",
+        "updated": "Text, Image input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:35b-a3b-mtp-q8_0",
+        "size": "qwen3.6:35b-a3b-mtp-q8_0",
+        "updated": "Text, Image input • \n                    2 days ago"
+      },
+      {
+        "name": "qwen3.6:35b-a3b-nvfp4",
+        "size": "qwen3.6:35b-a3b-nvfp4",
+        "updated": "Text input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:35b-a3b-q8_0",
+        "size": "qwen3.6:35b-a3b-q8_0",
+        "updated": "Text, Image input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:35b-a3b-bf16",
+        "size": "qwen3.6:35b-a3b-bf16",
+        "updated": "Text, Image input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:35b-a3b-mtp-bf16",
+        "size": "qwen3.6:35b-a3b-mtp-bf16",
+        "updated": "Text, Image input • \n                    2 days ago"
+      },
+      {
+        "name": "qwen3.6:35b-a3b-mxfp8",
+        "size": "qwen3.6:35b-a3b-mxfp8",
+        "updated": "Text input • \n                    1 month ago"
+      },
+      {
+        "name": "qwen3.6:35b-mlx",
+        "size": "qwen3.6:35b-mlx",
+        "updated": "Text input • \n                    1 week ago"
+      }
+    ]
+  },
+  {
     "name": "dolphin-llama3",
     "link": "https://ollama.com/library/dolphin-llama3",
     "description": "Dolphin 2.9 is a new model with 8B and 70B sizes by Eric Hartford based on Llama 3 that has a variety of instruction, conversational, and coding skills.",
@@ -16129,171 +16335,6 @@
         "name": "dolphin-llama3:70b-v2.9-fp16",
         "size": "dolphin-llama3:70b-v2.9-fp16",
         "updated": "Text input • \n                    2 years ago"
-      }
-    ]
-  },
-  {
-    "name": "qwen3.6",
-    "link": "https://ollama.com/library/qwen3.6",
-    "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
-    "pullCount": "1.9M",
-    "updated": "yesterday",
-    "size": [
-      "27b",
-      "35b"
-    ],
-    "capabilities": "visiontoolsthinking",
-    "readme": "## Readme\n\n![](/assets/library/qwen3.6/a4dafb1d-29c1-46bc-81ca-a8a6db6b55b3)\n\nFollowing the February release of the Qwen3.5 series, we’re pleased to share the first open-weight variant of Qwen3.6\\. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience.\n\n### Qwen3.6 Highlights\n\nThis release delivers substantial upgrades, particularly in\n\n* Agentic Coding: the model now handles frontend workflows and repository-level reasoning with greater fluency and precision.\n* Thinking Preservation: we’ve introduced a new option to retain reasoning context from historical messages, streamlining iterative development and reducing overhead.\n\n![qwen3.6_35b_a3b_score.png](/assets/library/qwen3.6/4d333c77-e6ad-4047-8724-f38c68cc5b28)\n\nWrite Preview \n\n<img src=\"/assets/library/qwen3.6/a4dafb1d-29c1-46bc-81ca-a8a6db6b55b3\" width=\"360\" /> Following the February release of the Qwen3.5 series, we're pleased to share the first open-weight variant of Qwen3.6\\. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience. ### Qwen3.6 Highlights This release delivers substantial upgrades, particularly in - Agentic Coding: the model now handles frontend workflows and repository-level reasoning with greater fluency and precision. - Thinking Preservation: we've introduced a new option to retain reasoning context from historical messages, streamlining iterative development and reducing overhead. !\\[qwen3.6\\_35b\\_a3b\\_score.png\\](/assets/library/qwen3.6/4d333c77-e6ad-4047-8724-f38c68cc5b28) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "qwen3.6:latest",
-        "size": "qwen3.6:latest",
-        "updated": "Text, Image input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:27b",
-        "size": "qwen3.6:27b",
-        "updated": "Text, Image input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:35b",
-        "size": "qwen3.6:35b",
-        "updated": "Text, Image input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:27b-coding-mxfp8",
-        "size": "qwen3.6:27b-coding-mxfp8",
-        "updated": "Text input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:27b-coding-nvfp4",
-        "size": "qwen3.6:27b-coding-nvfp4",
-        "updated": "Text input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:27b-coding-bf16",
-        "size": "qwen3.6:27b-coding-bf16",
-        "updated": "Text input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:27b-mlx",
-        "size": "qwen3.6:27b-mlx",
-        "updated": "Text input • \n                    1 week ago"
-      },
-      {
-        "name": "qwen3.6:27b-mlx-bf16",
-        "size": "qwen3.6:27b-mlx-bf16",
-        "updated": "Text input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:27b-mtp-q4_K_M",
-        "size": "qwen3.6:27b-mtp-q4_K_M",
-        "updated": "Text, Image input • \n                    yesterday"
-      },
-      {
-        "name": "qwen3.6:27b-mtp-q8_0",
-        "size": "qwen3.6:27b-mtp-q8_0",
-        "updated": "Text, Image input • \n                    yesterday"
-      },
-      {
-        "name": "qwen3.6:27b-mtp-bf16",
-        "size": "qwen3.6:27b-mtp-bf16",
-        "updated": "Text, Image input • \n                    yesterday"
-      },
-      {
-        "name": "qwen3.6:27b-mxfp8",
-        "size": "qwen3.6:27b-mxfp8",
-        "updated": "Text input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:27b-nvfp4",
-        "size": "qwen3.6:27b-nvfp4",
-        "updated": "Text input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:27b-q4_K_M",
-        "size": "qwen3.6:27b-q4_K_M",
-        "updated": "Text, Image input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:27b-q8_0",
-        "size": "qwen3.6:27b-q8_0",
-        "updated": "Text, Image input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:27b-bf16",
-        "size": "qwen3.6:27b-bf16",
-        "updated": "Text, Image input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:35b-a3b",
-        "size": "qwen3.6:35b-a3b",
-        "updated": "Text, Image input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:35b-a3b-coding-mxfp8",
-        "size": "qwen3.6:35b-a3b-coding-mxfp8",
-        "updated": "Text input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:35b-a3b-coding-nvfp4",
-        "size": "qwen3.6:35b-a3b-coding-nvfp4",
-        "updated": "Text input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:35b-a3b-coding-bf16",
-        "size": "qwen3.6:35b-a3b-coding-bf16",
-        "updated": "Text input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:35b-a3b-mlx-bf16",
-        "size": "qwen3.6:35b-a3b-mlx-bf16",
-        "updated": "Text input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:35b-a3b-mtp-q4_K_M",
-        "size": "qwen3.6:35b-a3b-mtp-q4_K_M",
-        "updated": "Text, Image input • \n                    yesterday"
-      },
-      {
-        "name": "qwen3.6:35b-a3b-q4_K_M",
-        "size": "qwen3.6:35b-a3b-q4_K_M",
-        "updated": "Text, Image input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:35b-a3b-mtp-q8_0",
-        "size": "qwen3.6:35b-a3b-mtp-q8_0",
-        "updated": "Text, Image input • \n                    yesterday"
-      },
-      {
-        "name": "qwen3.6:35b-a3b-nvfp4",
-        "size": "qwen3.6:35b-a3b-nvfp4",
-        "updated": "Text input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:35b-a3b-q8_0",
-        "size": "qwen3.6:35b-a3b-q8_0",
-        "updated": "Text, Image input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:35b-a3b-bf16",
-        "size": "qwen3.6:35b-a3b-bf16",
-        "updated": "Text, Image input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:35b-a3b-mtp-bf16",
-        "size": "qwen3.6:35b-a3b-mtp-bf16",
-        "updated": "Text, Image input • \n                    yesterday"
-      },
-      {
-        "name": "qwen3.6:35b-a3b-mxfp8",
-        "size": "qwen3.6:35b-a3b-mxfp8",
-        "updated": "Text input • \n                    1 month ago"
-      },
-      {
-        "name": "qwen3.6:35b-mlx",
-        "size": "qwen3.6:35b-mlx",
-        "updated": "Text input • \n                    1 week ago"
       }
     ]
   },
@@ -17506,6 +17547,33 @@
     ]
   },
   {
+    "name": "glm-ocr",
+    "link": "https://ollama.com/library/glm-ocr",
+    "description": "GLM-OCR is a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture.",
+    "pullCount": "1.5M",
+    "updated": "4 months ago",
+    "size": null,
+    "capabilities": "visiontools",
+    "readme": "## Readme\n\n![logo.svg](/assets/library/glm-ocr/c08dfddc-0734-4983-a450-3466d01594ee)\n\nGLM-OCR is a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture. The model integrates the CogViT visual encoder pre-trained on large-scale image–text data, a lightweight cross-modal connector with efficient token downsampling, and a GLM-0.5B language decoder.\n\n![image.png](/assets/library/glm-ocr/7b4bd5ed-e6bc-4f36-889d-a02fa36e88ae)\n\n### Usage\n\n#### Text recognition\n\n```\nollama run glm-ocr Text Recognition: ./image.png\n\n```\n\n#### Table recognition\n\n```\nollama run glm-ocr Table Recognition: ./image.png\n\n```\n\n#### Figure recognition\n\n```\nollama run glm-ocr Figure Recognition: ./image.png\n\n```\n\n### Key features\n\n* **State-of-the-Art Performance**: Achieves a score of 94.62 on OmniDocBench V1.5, ranking #1 overall, and delivers state-of-the-art results across major document understanding benchmarks, including formula recognition, table recognition, and information extraction.\n* **Optimized for Real-World Scenarios**: Designed and optimized for practical business use cases, maintaining robust performance on complex tables, code-heavy documents, seals, and other challenging real-world layouts.\n* **Efficient Inference**: With only 0.9B parameters, GLM-OCR supports deployment via vLLM, SGLang, and Ollama, significantly reducing inference latency and compute cost, making it ideal for high-concurrency services and edge deployments.\n* **Easy to Use**: Fully open-sourced and equipped with a comprehensive [SDK](https://github.com/zai-org/GLM-OCR) and inference toolchain, offering simple installation, one-line invocation, and smooth integration into existing production pipelines.\n\nWrite Preview \n\n!\\[logo.svg\\](/assets/library/glm-ocr/c08dfddc-0734-4983-a450-3466d01594ee) GLM-OCR is a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture. The model integrates the CogViT visual encoder pre-trained on large-scale image–text data, a lightweight cross-modal connector with efficient token downsampling, and a GLM-0.5B language decoder. !\\[image.png\\](/assets/library/glm-ocr/7b4bd5ed-e6bc-4f36-889d-a02fa36e88ae) ### Usage #### Text recognition \\`\\`\\`shell ollama run glm-ocr Text Recognition: ./image.png \\`\\`\\` #### Table recognition \\`\\`\\`shell ollama run glm-ocr Table Recognition: ./image.png \\`\\`\\` #### Figure recognition \\`\\`\\`shell ollama run glm-ocr Figure Recognition: ./image.png \\`\\`\\` ### Key features - \\*\\*State-of-the-Art Performance\\*\\*: Achieves a score of 94.62 on OmniDocBench V1.5, ranking #1 overall, and delivers state-of-the-art results across major document understanding benchmarks, including formula recognition, table recognition, and information extraction. - \\*\\*Optimized for Real-World Scenarios\\*\\*: Designed and optimized for practical business use cases, maintaining robust performance on complex tables, code-heavy documents, seals, and other challenging real-world layouts. - \\*\\*Efficient Inference\\*\\*: With only 0.9B parameters, GLM-OCR supports deployment via vLLM, SGLang, and Ollama, significantly reducing inference latency and compute cost, making it ideal for high-concurrency services and edge deployments. - \\*\\*Easy to Use\\*\\*: Fully open-sourced and equipped with a comprehensive \\[SDK\\](https://github.com/zai-org/GLM-OCR) and inference toolchain, offering simple installation, one-line invocation, and smooth integration into existing production pipelines. \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "glm-ocr:latest",
+        "size": "glm-ocr:latest",
+        "updated": "Text, Image input • \n                    4 months ago"
+      },
+      {
+        "name": "glm-ocr:q8_0",
+        "size": "glm-ocr:q8_0",
+        "updated": "Text, Image input • \n                    4 months ago"
+      },
+      {
+        "name": "glm-ocr:bf16",
+        "size": "glm-ocr:bf16",
+        "updated": "Text, Image input • \n                    4 months ago"
+      }
+    ]
+  },
+  {
     "name": "dolphin-mistral",
     "link": "https://ollama.com/library/dolphin-mistral",
     "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
@@ -18263,29 +18331,34 @@
     ]
   },
   {
-    "name": "glm-ocr",
-    "link": "https://ollama.com/library/glm-ocr",
-    "description": "GLM-OCR is a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture.",
+    "name": "qwen3-coder-next",
+    "link": "https://ollama.com/library/qwen3-coder-next",
+    "description": "Qwen3-Coder-Next is a coding-focused language model from Alibaba's Qwen team, optimized for agentic coding workflows and local development.",
     "pullCount": "1.4M",
-    "updated": "4 months ago",
+    "updated": "3 months ago",
     "size": null,
-    "capabilities": "visiontools",
-    "readme": "## Readme\n\n![logo.svg](/assets/library/glm-ocr/c08dfddc-0734-4983-a450-3466d01594ee)\n\nGLM-OCR is a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture. The model integrates the CogViT visual encoder pre-trained on large-scale image–text data, a lightweight cross-modal connector with efficient token downsampling, and a GLM-0.5B language decoder.\n\n![image.png](/assets/library/glm-ocr/7b4bd5ed-e6bc-4f36-889d-a02fa36e88ae)\n\n### Usage\n\n#### Text recognition\n\n```\nollama run glm-ocr Text Recognition: ./image.png\n\n```\n\n#### Table recognition\n\n```\nollama run glm-ocr Table Recognition: ./image.png\n\n```\n\n#### Figure recognition\n\n```\nollama run glm-ocr Figure Recognition: ./image.png\n\n```\n\n### Key features\n\n* **State-of-the-Art Performance**: Achieves a score of 94.62 on OmniDocBench V1.5, ranking #1 overall, and delivers state-of-the-art results across major document understanding benchmarks, including formula recognition, table recognition, and information extraction.\n* **Optimized for Real-World Scenarios**: Designed and optimized for practical business use cases, maintaining robust performance on complex tables, code-heavy documents, seals, and other challenging real-world layouts.\n* **Efficient Inference**: With only 0.9B parameters, GLM-OCR supports deployment via vLLM, SGLang, and Ollama, significantly reducing inference latency and compute cost, making it ideal for high-concurrency services and edge deployments.\n* **Easy to Use**: Fully open-sourced and equipped with a comprehensive [SDK](https://github.com/zai-org/GLM-OCR) and inference toolchain, offering simple installation, one-line invocation, and smooth integration into existing production pipelines.\n\nWrite Preview \n\n!\\[logo.svg\\](/assets/library/glm-ocr/c08dfddc-0734-4983-a450-3466d01594ee) GLM-OCR is a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture. The model integrates the CogViT visual encoder pre-trained on large-scale image–text data, a lightweight cross-modal connector with efficient token downsampling, and a GLM-0.5B language decoder. !\\[image.png\\](/assets/library/glm-ocr/7b4bd5ed-e6bc-4f36-889d-a02fa36e88ae) ### Usage #### Text recognition \\`\\`\\`shell ollama run glm-ocr Text Recognition: ./image.png \\`\\`\\` #### Table recognition \\`\\`\\`shell ollama run glm-ocr Table Recognition: ./image.png \\`\\`\\` #### Figure recognition \\`\\`\\`shell ollama run glm-ocr Figure Recognition: ./image.png \\`\\`\\` ### Key features - \\*\\*State-of-the-Art Performance\\*\\*: Achieves a score of 94.62 on OmniDocBench V1.5, ranking #1 overall, and delivers state-of-the-art results across major document understanding benchmarks, including formula recognition, table recognition, and information extraction. - \\*\\*Optimized for Real-World Scenarios\\*\\*: Designed and optimized for practical business use cases, maintaining robust performance on complex tables, code-heavy documents, seals, and other challenging real-world layouts. - \\*\\*Efficient Inference\\*\\*: With only 0.9B parameters, GLM-OCR supports deployment via vLLM, SGLang, and Ollama, significantly reducing inference latency and compute cost, making it ideal for high-concurrency services and edge deployments. - \\*\\*Easy to Use\\*\\*: Fully open-sourced and equipped with a comprehensive \\[SDK\\](https://github.com/zai-org/GLM-OCR) and inference toolchain, offering simple installation, one-line invocation, and smooth integration into existing production pipelines. \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "capabilities": "tools",
+    "readme": "## Readme\n\n![](/assets/library/qwen3-coder-next/dbbd2b20-4b43-4d02-9cfe-e83a63cabae8)\n\nBuilt on top of Qwen3-Next-80B-A3B-Base, which adopts a novel architecture with hybrid attention and MoE, Qwen3-Coder-Next has been agentically trained at scale on large-scale executable task synthesis, environment interaction, and reinforcement learning, obtaining strong coding and agentic capabilities with significantly lower inference costs.\n\n![image.png](/assets/library/qwen3-coder-next/7d9b5395-c335-48b9-b8c5-7e5090abbb8e)\n\n### Features\n\n* **Ultra-efficient inference:** 80B total parameters, 3B active per token. Runs on consumer hardware with quantization.\n* **256K native context:** Full repository-scale understanding without chunking or retrieval hacks.\n* **Agentic training:** Trained on 800K executable tasks with environment interaction and reinforcement learning—not just static code-text pairs.\n* **Tool calling:** Works with coding agents like Claude Code, Qwen Code, Cline, and OpenCode out of the box.\n* **Non-thinking mode only:** Fast responses without `<think></think>` blocks.\n\n### Benchmarks\n\n![](/assets/library/qwen3-coder-next/d978a788-2fa4-44ea-832c-20cd82202a6c)\n\nWrite Preview \n\n<img src=\"/assets/library/qwen3-coder-next/dbbd2b20-4b43-4d02-9cfe-e83a63cabae8\" width=\"360\" /> Built on top of Qwen3-Next-80B-A3B-Base, which adopts a novel architecture with hybrid attention and MoE, Qwen3-Coder-Next has been agentically trained at scale on large-scale executable task synthesis, environment interaction, and reinforcement learning, obtaining strong coding and agentic capabilities with significantly lower inference costs. !\\[image.png\\](/assets/library/qwen3-coder-next/7d9b5395-c335-48b9-b8c5-7e5090abbb8e) ### Features \\* \\*\\*Ultra-efficient inference:\\*\\* 80B total parameters, 3B active per token. Runs on consumer hardware with quantization. \\* \\*\\*256K native context:\\*\\* Full repository-scale understanding without chunking or retrieval hacks. \\* \\*\\*Agentic training:\\*\\* Trained on 800K executable tasks with environment interaction and reinforcement learning—not just static code-text pairs. \\* \\*\\*Tool calling:\\*\\* Works with coding agents like Claude Code, Qwen Code, Cline, and OpenCode out of the box. \\* \\*\\*Non-thinking mode only:\\*\\* Fast responses without \\`<think></think>\\` blocks. ### Benchmarks !\\[\\](/assets/library/qwen3-coder-next/d978a788-2fa4-44ea-832c-20cd82202a6c) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": [
       {
-        "name": "glm-ocr:latest",
-        "size": "glm-ocr:latest",
-        "updated": "Text, Image input • \n                    4 months ago"
+        "name": "qwen3-coder-next:latest",
+        "size": "qwen3-coder-next:latest",
+        "updated": "Text input • \n                    4 months ago"
       },
       {
-        "name": "glm-ocr:q8_0",
-        "size": "glm-ocr:q8_0",
-        "updated": "Text, Image input • \n                    4 months ago"
+        "name": "qwen3-coder-next:cloud",
+        "size": "qwen3-coder-next:cloud",
+        "updated": "Text input • \n                    3 months ago"
       },
       {
-        "name": "glm-ocr:bf16",
-        "size": "glm-ocr:bf16",
-        "updated": "Text, Image input • \n                    4 months ago"
+        "name": "qwen3-coder-next:q4_K_M",
+        "size": "qwen3-coder-next:q4_K_M",
+        "updated": "Text input • \n                    3 months ago"
+      },
+      {
+        "name": "qwen3-coder-next:q8_0",
+        "size": "qwen3-coder-next:q8_0",
+        "updated": "Text input • \n                    4 months ago"
       }
     ]
   },
@@ -18460,38 +18533,6 @@
         "name": "command-r:35b-v0.1-fp16",
         "size": "command-r:35b-v0.1-fp16",
         "updated": "Text input • \n                    2 years ago"
-      }
-    ]
-  },
-  {
-    "name": "qwen3-coder-next",
-    "link": "https://ollama.com/library/qwen3-coder-next",
-    "description": "Qwen3-Coder-Next is a coding-focused language model from Alibaba's Qwen team, optimized for agentic coding workflows and local development.",
-    "pullCount": "1.4M",
-    "updated": "3 months ago",
-    "size": null,
-    "capabilities": "tools",
-    "readme": "## Readme\n\n![](/assets/library/qwen3-coder-next/dbbd2b20-4b43-4d02-9cfe-e83a63cabae8)\n\nBuilt on top of Qwen3-Next-80B-A3B-Base, which adopts a novel architecture with hybrid attention and MoE, Qwen3-Coder-Next has been agentically trained at scale on large-scale executable task synthesis, environment interaction, and reinforcement learning, obtaining strong coding and agentic capabilities with significantly lower inference costs.\n\n![image.png](/assets/library/qwen3-coder-next/7d9b5395-c335-48b9-b8c5-7e5090abbb8e)\n\n### Features\n\n* **Ultra-efficient inference:** 80B total parameters, 3B active per token. Runs on consumer hardware with quantization.\n* **256K native context:** Full repository-scale understanding without chunking or retrieval hacks.\n* **Agentic training:** Trained on 800K executable tasks with environment interaction and reinforcement learning—not just static code-text pairs.\n* **Tool calling:** Works with coding agents like Claude Code, Qwen Code, Cline, and OpenCode out of the box.\n* **Non-thinking mode only:** Fast responses without `<think></think>` blocks.\n\n### Benchmarks\n\n![](/assets/library/qwen3-coder-next/d978a788-2fa4-44ea-832c-20cd82202a6c)\n\nWrite Preview \n\n<img src=\"/assets/library/qwen3-coder-next/dbbd2b20-4b43-4d02-9cfe-e83a63cabae8\" width=\"360\" /> Built on top of Qwen3-Next-80B-A3B-Base, which adopts a novel architecture with hybrid attention and MoE, Qwen3-Coder-Next has been agentically trained at scale on large-scale executable task synthesis, environment interaction, and reinforcement learning, obtaining strong coding and agentic capabilities with significantly lower inference costs. !\\[image.png\\](/assets/library/qwen3-coder-next/7d9b5395-c335-48b9-b8c5-7e5090abbb8e) ### Features \\* \\*\\*Ultra-efficient inference:\\*\\* 80B total parameters, 3B active per token. Runs on consumer hardware with quantization. \\* \\*\\*256K native context:\\*\\* Full repository-scale understanding without chunking or retrieval hacks. \\* \\*\\*Agentic training:\\*\\* Trained on 800K executable tasks with environment interaction and reinforcement learning—not just static code-text pairs. \\* \\*\\*Tool calling:\\*\\* Works with coding agents like Claude Code, Qwen Code, Cline, and OpenCode out of the box. \\* \\*\\*Non-thinking mode only:\\*\\* Fast responses without \\`<think></think>\\` blocks. ### Benchmarks !\\[\\](/assets/library/qwen3-coder-next/d978a788-2fa4-44ea-832c-20cd82202a6c) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "qwen3-coder-next:latest",
-        "size": "qwen3-coder-next:latest",
-        "updated": "Text input • \n                    3 months ago"
-      },
-      {
-        "name": "qwen3-coder-next:cloud",
-        "size": "qwen3-coder-next:cloud",
-        "updated": "Text input • \n                    3 months ago"
-      },
-      {
-        "name": "qwen3-coder-next:q4_K_M",
-        "size": "qwen3-coder-next:q4_K_M",
-        "updated": "Text input • \n                    3 months ago"
-      },
-      {
-        "name": "qwen3-coder-next:q8_0",
-        "size": "qwen3-coder-next:q8_0",
-        "updated": "Text input • \n                    3 months ago"
       }
     ]
   },
@@ -19734,109 +19775,10 @@
     ]
   },
   {
-    "name": "codestral",
-    "link": "https://ollama.com/library/codestral",
-    "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
-    "pullCount": "1.3M",
-    "updated": "1 year ago",
-    "size": [
-      "22b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\n# Codestral\n\n![Codestral Hello World](https://ollama.com/assets/mchiang0610/test1/76bfd7f0-fccd-431b-95fe-dddf5a422dcf)\n\nCodestral is Mistral AI’s first-ever code model designed for code generation tasks. It is a 22B model.\n\n### Fluent in 80+ programming languages\n\nCodestral is trained on a dataset of over 80 programming languages, including Python, Java, C, C++, JavaScript, Swift, Fortran and Bash.\n\nThe model can complete coding functions, write tests, and complete any partial code using a fill-in-the-middle mechanism.\n\n### Benchmarks\n\n![With its larger context window of 32k (compared to 4k, 8k or 16k for competitors), Codestral outperforms all other models in RepoBench, a long-range eval for code generation](https://ollama.com/assets/mchiang0610/test1/f5ea9604-669b-4de0-957d-41245e33636c)\n\n![Benchmarks](https://ollama.com/assets/mchiang0610/test1/e42a01d3-4f36-4d60-a0c8-74ad10159cdd)\n\n![FIM benchmarks](https://ollama.com/assets/mchiang0610/test1/8ca203e2-7bfd-4081-98c8-1ecc3cc46ef8)\n\n### Reference\n\n[Mistral AI - Codestral: Hello, World](https://mistral.ai/news/codestral/)\n\nWrite Preview \n\n\\# Codestral !\\[Codestral Hello World\\](https://ollama.com/assets/mchiang0610/test1/76bfd7f0-fccd-431b-95fe-dddf5a422dcf) Codestral is Mistral AI's first-ever code model designed for code generation tasks. It is a 22B model. ### Fluent in 80+ programming languages Codestral is trained on a dataset of over 80 programming languages, including Python, Java, C, C++, JavaScript, Swift, Fortran and Bash. The model can complete coding functions, write tests, and complete any partial code using a fill-in-the-middle mechanism. ### Benchmarks !\\[With its larger context window of 32k (compared to 4k, 8k or 16k for competitors), Codestral outperforms all other models in RepoBench, a long-range eval for code generation\\](https://ollama.com/assets/mchiang0610/test1/f5ea9604-669b-4de0-957d-41245e33636c) !\\[Benchmarks\\](https://ollama.com/assets/mchiang0610/test1/e42a01d3-4f36-4d60-a0c8-74ad10159cdd) !\\[FIM benchmarks\\](https://ollama.com/assets/mchiang0610/test1/8ca203e2-7bfd-4081-98c8-1ecc3cc46ef8) ### Reference \\[Mistral AI - Codestral: Hello, World\\](https://mistral.ai/news/codestral/) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "codestral:latest",
-        "size": "codestral:latest",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:v0.1",
-        "size": "codestral:v0.1",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b",
-        "size": "codestral:22b",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q2_K",
-        "size": "codestral:22b-v0.1-q2_K",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q3_K_S",
-        "size": "codestral:22b-v0.1-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q3_K_M",
-        "size": "codestral:22b-v0.1-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q3_K_L",
-        "size": "codestral:22b-v0.1-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q4_0",
-        "size": "codestral:22b-v0.1-q4_0",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q4_1",
-        "size": "codestral:22b-v0.1-q4_1",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q4_K_S",
-        "size": "codestral:22b-v0.1-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q4_K_M",
-        "size": "codestral:22b-v0.1-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q5_0",
-        "size": "codestral:22b-v0.1-q5_0",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q5_1",
-        "size": "codestral:22b-v0.1-q5_1",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q5_K_S",
-        "size": "codestral:22b-v0.1-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q5_K_M",
-        "size": "codestral:22b-v0.1-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q6_K",
-        "size": "codestral:22b-v0.1-q6_K",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "codestral:22b-v0.1-q8_0",
-        "size": "codestral:22b-v0.1-q8_0",
-        "updated": "Text input • \n                    1 year ago"
-      }
-    ]
-  },
-  {
     "name": "moondream",
     "link": "https://ollama.com/library/moondream",
     "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
-    "pullCount": "1.2M",
+    "pullCount": "1.3M",
     "updated": "2 years ago",
     "size": [
       "1.8b"
@@ -19933,6 +19875,105 @@
         "name": "moondream:1.8b-v2-fp16",
         "size": "moondream:1.8b-v2-fp16",
         "updated": "Text, Image input • \n                    2 years ago"
+      }
+    ]
+  },
+  {
+    "name": "codestral",
+    "link": "https://ollama.com/library/codestral",
+    "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
+    "pullCount": "1.3M",
+    "updated": "1 year ago",
+    "size": [
+      "22b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\n# Codestral\n\n![Codestral Hello World](https://ollama.com/assets/mchiang0610/test1/76bfd7f0-fccd-431b-95fe-dddf5a422dcf)\n\nCodestral is Mistral AI’s first-ever code model designed for code generation tasks. It is a 22B model.\n\n### Fluent in 80+ programming languages\n\nCodestral is trained on a dataset of over 80 programming languages, including Python, Java, C, C++, JavaScript, Swift, Fortran and Bash.\n\nThe model can complete coding functions, write tests, and complete any partial code using a fill-in-the-middle mechanism.\n\n### Benchmarks\n\n![With its larger context window of 32k (compared to 4k, 8k or 16k for competitors), Codestral outperforms all other models in RepoBench, a long-range eval for code generation](https://ollama.com/assets/mchiang0610/test1/f5ea9604-669b-4de0-957d-41245e33636c)\n\n![Benchmarks](https://ollama.com/assets/mchiang0610/test1/e42a01d3-4f36-4d60-a0c8-74ad10159cdd)\n\n![FIM benchmarks](https://ollama.com/assets/mchiang0610/test1/8ca203e2-7bfd-4081-98c8-1ecc3cc46ef8)\n\n### Reference\n\n[Mistral AI - Codestral: Hello, World](https://mistral.ai/news/codestral/)\n\nWrite Preview \n\n\\# Codestral !\\[Codestral Hello World\\](https://ollama.com/assets/mchiang0610/test1/76bfd7f0-fccd-431b-95fe-dddf5a422dcf) Codestral is Mistral AI's first-ever code model designed for code generation tasks. It is a 22B model. ### Fluent in 80+ programming languages Codestral is trained on a dataset of over 80 programming languages, including Python, Java, C, C++, JavaScript, Swift, Fortran and Bash. The model can complete coding functions, write tests, and complete any partial code using a fill-in-the-middle mechanism. ### Benchmarks !\\[With its larger context window of 32k (compared to 4k, 8k or 16k for competitors), Codestral outperforms all other models in RepoBench, a long-range eval for code generation\\](https://ollama.com/assets/mchiang0610/test1/f5ea9604-669b-4de0-957d-41245e33636c) !\\[Benchmarks\\](https://ollama.com/assets/mchiang0610/test1/e42a01d3-4f36-4d60-a0c8-74ad10159cdd) !\\[FIM benchmarks\\](https://ollama.com/assets/mchiang0610/test1/8ca203e2-7bfd-4081-98c8-1ecc3cc46ef8) ### Reference \\[Mistral AI - Codestral: Hello, World\\](https://mistral.ai/news/codestral/) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "codestral:latest",
+        "size": "codestral:latest",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:v0.1",
+        "size": "codestral:v0.1",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b",
+        "size": "codestral:22b",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q2_K",
+        "size": "codestral:22b-v0.1-q2_K",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q3_K_S",
+        "size": "codestral:22b-v0.1-q3_K_S",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q3_K_M",
+        "size": "codestral:22b-v0.1-q3_K_M",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q3_K_L",
+        "size": "codestral:22b-v0.1-q3_K_L",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q4_0",
+        "size": "codestral:22b-v0.1-q4_0",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q4_1",
+        "size": "codestral:22b-v0.1-q4_1",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q4_K_S",
+        "size": "codestral:22b-v0.1-q4_K_S",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q4_K_M",
+        "size": "codestral:22b-v0.1-q4_K_M",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q5_0",
+        "size": "codestral:22b-v0.1-q5_0",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q5_1",
+        "size": "codestral:22b-v0.1-q5_1",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q5_K_S",
+        "size": "codestral:22b-v0.1-q5_K_S",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q5_K_M",
+        "size": "codestral:22b-v0.1-q5_K_M",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q6_K",
+        "size": "codestral:22b-v0.1-q6_K",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "codestral:22b-v0.1-q8_0",
+        "size": "codestral:22b-v0.1-q8_0",
+        "updated": "Text input • \n                    1 year ago"
       }
     ]
   },
@@ -26295,7 +26336,7 @@
     "name": "sqlcoder",
     "link": "https://ollama.com/library/sqlcoder",
     "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
-    "pullCount": "994.9K",
+    "pullCount": "995.2K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -26550,7 +26591,7 @@
     "name": "wizardcoder",
     "link": "https://ollama.com/library/wizardcoder",
     "description": "State-of-the-art code generation model",
-    "pullCount": "986.3K",
+    "pullCount": "986.6K",
     "updated": "2 years ago",
     "size": [
       "33b"
@@ -26899,7 +26940,7 @@
     "name": "yi-coder",
     "link": "https://ollama.com/library/yi-coder",
     "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
-    "pullCount": "984K",
+    "pullCount": "984.3K",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -27249,7 +27290,7 @@
     "name": "stablelm2",
     "link": "https://ollama.com/library/stablelm2",
     "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
-    "pullCount": "972.2K",
+    "pullCount": "972.5K",
     "updated": "2 years ago",
     "size": [
       "1.6b",
@@ -27681,10 +27722,190 @@
     ]
   },
   {
+    "name": "granite3-dense",
+    "link": "https://ollama.com/library/granite3-dense",
+    "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
+    "pullCount": "969.6K",
+    "updated": "1 year ago",
+    "size": [
+      "2b",
+      "8b"
+    ],
+    "capabilities": "tools",
+    "readme": "## Readme\n\n![An illustration of Ollama holding a beautiful flower with the IBM Rebus logo of the Eye, Bee and M, made by Paul Rand.](https://ollama.com/assets/library/granite3-dense/e2955da9-fee8-45d1-81ed-fe313f4e83eb)\n\n### Granite dense models\n\nThe IBM Granite **2B** and **8B** models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing. Granite-8B-Instruct now rivals Llama 3.1 8B-Instruct across both OpenLLM Leaderboard v1 and OpenLLM Leaderboard v2 benchmarks.\n\n**They are designed to support tool-based use cases** and for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.\n\n## Parameter Sizes\n\n**2B:**\n\n`ollama run granite3-dense:2b`\n\n**8B:**\n\n`ollama run granite3-dense:8b`\n\n## Supported Languages\n\nEnglish, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, Chinese (Simplified)\n\n### Capabilities\n\n* Summarization\n* Text classification\n* Text extraction\n* Question-answering\n* Retrieval Augmented Generation (RAG)\n* Code related\n* Function-calling\n* Multilingual dialog use cases\n\n### Granite mixture of experts models\n\nThe Granite mixture of experts models are available in **1B and 3B** parameter sizes designed for **low latency usage**.\n\n[See model page](https://ollama.com/library/granite3-moe)\n\n### Learn more\n\n* **Developers:** IBM Research\n* **GitHub Repository:** [ibm-granite/granite-3.0-language-models](https://github.com/ibm-granite/granite-3.0-language-models)\n* **Website**: [Granite Docs](https://www.ibm.com/granite/docs/)\n* **Release Date**: October 21st, 2024\n* **License:** [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).\n\nWrite Preview \n\n!\\[An illustration of Ollama holding a beautiful flower with the IBM Rebus logo of the Eye, Bee and M, made by Paul Rand.\\](https://ollama.com/assets/library/granite3-dense/e2955da9-fee8-45d1-81ed-fe313f4e83eb) ### Granite dense models The IBM Granite \\*\\*2B\\*\\* and \\*\\*8B\\*\\* models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM's initial testing. Granite-8B-Instruct now rivals Llama 3.1 8B-Instruct across both OpenLLM Leaderboard v1 and OpenLLM Leaderboard v2 benchmarks. \\*\\*They are designed to support tool-based use cases\\*\\* and for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing. ## Parameter Sizes \\*\\*2B:\\*\\* \\`ollama run granite3-dense:2b\\` \\*\\*8B:\\*\\* \\`ollama run granite3-dense:8b\\` ## Supported Languages English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, Chinese (Simplified) ### Capabilities \\* Summarization \\* Text classification \\* Text extraction \\* Question-answering \\* Retrieval Augmented Generation (RAG) \\* Code related \\* Function-calling \\* Multilingual dialog use cases ### Granite mixture of experts models The Granite mixture of experts models are available in \\*\\*1B and 3B\\*\\* parameter sizes designed for \\*\\*low latency usage\\*\\*. \\[See model page\\](https://ollama.com/library/granite3-moe) ### Learn more - \\*\\*Developers:\\*\\* IBM Research - \\*\\*GitHub Repository:\\*\\* \\[ibm-granite/granite-3.0-language-models\\](https://github.com/ibm-granite/granite-3.0-language-models) - \\*\\*Website\\*\\*: \\[Granite Docs\\](https://www.ibm.com/granite/docs/) - \\*\\*Release Date\\*\\*: October 21st, 2024 - \\*\\*License:\\*\\* \\[Apache 2.0\\](https://www.apache.org/licenses/LICENSE-2.0). \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "granite3-dense:latest",
+        "size": "granite3-dense:latest",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b",
+        "size": "granite3-dense:2b",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b",
+        "size": "granite3-dense:8b",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q2_K",
+        "size": "granite3-dense:2b-instruct-q2_K",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q3_K_S",
+        "size": "granite3-dense:2b-instruct-q3_K_S",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q3_K_M",
+        "size": "granite3-dense:2b-instruct-q3_K_M",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q3_K_L",
+        "size": "granite3-dense:2b-instruct-q3_K_L",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q4_0",
+        "size": "granite3-dense:2b-instruct-q4_0",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q4_1",
+        "size": "granite3-dense:2b-instruct-q4_1",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q4_K_S",
+        "size": "granite3-dense:2b-instruct-q4_K_S",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q4_K_M",
+        "size": "granite3-dense:2b-instruct-q4_K_M",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q5_0",
+        "size": "granite3-dense:2b-instruct-q5_0",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q5_1",
+        "size": "granite3-dense:2b-instruct-q5_1",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q5_K_S",
+        "size": "granite3-dense:2b-instruct-q5_K_S",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q5_K_M",
+        "size": "granite3-dense:2b-instruct-q5_K_M",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q6_K",
+        "size": "granite3-dense:2b-instruct-q6_K",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-q8_0",
+        "size": "granite3-dense:2b-instruct-q8_0",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:2b-instruct-fp16",
+        "size": "granite3-dense:2b-instruct-fp16",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q2_K",
+        "size": "granite3-dense:8b-instruct-q2_K",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q3_K_S",
+        "size": "granite3-dense:8b-instruct-q3_K_S",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q3_K_M",
+        "size": "granite3-dense:8b-instruct-q3_K_M",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q3_K_L",
+        "size": "granite3-dense:8b-instruct-q3_K_L",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q4_0",
+        "size": "granite3-dense:8b-instruct-q4_0",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q4_1",
+        "size": "granite3-dense:8b-instruct-q4_1",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q4_K_S",
+        "size": "granite3-dense:8b-instruct-q4_K_S",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q4_K_M",
+        "size": "granite3-dense:8b-instruct-q4_K_M",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q5_0",
+        "size": "granite3-dense:8b-instruct-q5_0",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q5_1",
+        "size": "granite3-dense:8b-instruct-q5_1",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q5_K_S",
+        "size": "granite3-dense:8b-instruct-q5_K_S",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q5_K_M",
+        "size": "granite3-dense:8b-instruct-q5_K_M",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q6_K",
+        "size": "granite3-dense:8b-instruct-q6_K",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-q8_0",
+        "size": "granite3-dense:8b-instruct-q8_0",
+        "updated": "Text input • \n                    1 year ago"
+      },
+      {
+        "name": "granite3-dense:8b-instruct-fp16",
+        "size": "granite3-dense:8b-instruct-fp16",
+        "updated": "Text input • \n                    1 year ago"
+      }
+    ]
+  },
+  {
     "name": "llama3-chatqa",
     "link": "https://ollama.com/library/llama3-chatqa",
     "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
-    "pullCount": "969.3K",
+    "pullCount": "969.5K",
     "updated": "2 years ago",
     "size": [
       "8b",
@@ -27871,190 +28092,10 @@
     ]
   },
   {
-    "name": "granite3-dense",
-    "link": "https://ollama.com/library/granite3-dense",
-    "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
-    "pullCount": "969.2K",
-    "updated": "1 year ago",
-    "size": [
-      "2b",
-      "8b"
-    ],
-    "capabilities": "tools",
-    "readme": "## Readme\n\n![An illustration of Ollama holding a beautiful flower with the IBM Rebus logo of the Eye, Bee and M, made by Paul Rand.](https://ollama.com/assets/library/granite3-dense/e2955da9-fee8-45d1-81ed-fe313f4e83eb)\n\n### Granite dense models\n\nThe IBM Granite **2B** and **8B** models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing. Granite-8B-Instruct now rivals Llama 3.1 8B-Instruct across both OpenLLM Leaderboard v1 and OpenLLM Leaderboard v2 benchmarks.\n\n**They are designed to support tool-based use cases** and for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.\n\n## Parameter Sizes\n\n**2B:**\n\n`ollama run granite3-dense:2b`\n\n**8B:**\n\n`ollama run granite3-dense:8b`\n\n## Supported Languages\n\nEnglish, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, Chinese (Simplified)\n\n### Capabilities\n\n* Summarization\n* Text classification\n* Text extraction\n* Question-answering\n* Retrieval Augmented Generation (RAG)\n* Code related\n* Function-calling\n* Multilingual dialog use cases\n\n### Granite mixture of experts models\n\nThe Granite mixture of experts models are available in **1B and 3B** parameter sizes designed for **low latency usage**.\n\n[See model page](https://ollama.com/library/granite3-moe)\n\n### Learn more\n\n* **Developers:** IBM Research\n* **GitHub Repository:** [ibm-granite/granite-3.0-language-models](https://github.com/ibm-granite/granite-3.0-language-models)\n* **Website**: [Granite Docs](https://www.ibm.com/granite/docs/)\n* **Release Date**: October 21st, 2024\n* **License:** [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).\n\nWrite Preview \n\n!\\[An illustration of Ollama holding a beautiful flower with the IBM Rebus logo of the Eye, Bee and M, made by Paul Rand.\\](https://ollama.com/assets/library/granite3-dense/e2955da9-fee8-45d1-81ed-fe313f4e83eb) ### Granite dense models The IBM Granite \\*\\*2B\\*\\* and \\*\\*8B\\*\\* models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM's initial testing. Granite-8B-Instruct now rivals Llama 3.1 8B-Instruct across both OpenLLM Leaderboard v1 and OpenLLM Leaderboard v2 benchmarks. \\*\\*They are designed to support tool-based use cases\\*\\* and for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing. ## Parameter Sizes \\*\\*2B:\\*\\* \\`ollama run granite3-dense:2b\\` \\*\\*8B:\\*\\* \\`ollama run granite3-dense:8b\\` ## Supported Languages English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, Chinese (Simplified) ### Capabilities \\* Summarization \\* Text classification \\* Text extraction \\* Question-answering \\* Retrieval Augmented Generation (RAG) \\* Code related \\* Function-calling \\* Multilingual dialog use cases ### Granite mixture of experts models The Granite mixture of experts models are available in \\*\\*1B and 3B\\*\\* parameter sizes designed for \\*\\*low latency usage\\*\\*. \\[See model page\\](https://ollama.com/library/granite3-moe) ### Learn more - \\*\\*Developers:\\*\\* IBM Research - \\*\\*GitHub Repository:\\*\\* \\[ibm-granite/granite-3.0-language-models\\](https://github.com/ibm-granite/granite-3.0-language-models) - \\*\\*Website\\*\\*: \\[Granite Docs\\](https://www.ibm.com/granite/docs/) - \\*\\*Release Date\\*\\*: October 21st, 2024 - \\*\\*License:\\*\\* \\[Apache 2.0\\](https://www.apache.org/licenses/LICENSE-2.0). \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "granite3-dense:latest",
-        "size": "granite3-dense:latest",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b",
-        "size": "granite3-dense:2b",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b",
-        "size": "granite3-dense:8b",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q2_K",
-        "size": "granite3-dense:2b-instruct-q2_K",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q3_K_S",
-        "size": "granite3-dense:2b-instruct-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q3_K_M",
-        "size": "granite3-dense:2b-instruct-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q3_K_L",
-        "size": "granite3-dense:2b-instruct-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q4_0",
-        "size": "granite3-dense:2b-instruct-q4_0",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q4_1",
-        "size": "granite3-dense:2b-instruct-q4_1",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q4_K_S",
-        "size": "granite3-dense:2b-instruct-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q4_K_M",
-        "size": "granite3-dense:2b-instruct-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q5_0",
-        "size": "granite3-dense:2b-instruct-q5_0",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q5_1",
-        "size": "granite3-dense:2b-instruct-q5_1",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q5_K_S",
-        "size": "granite3-dense:2b-instruct-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q5_K_M",
-        "size": "granite3-dense:2b-instruct-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q6_K",
-        "size": "granite3-dense:2b-instruct-q6_K",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-q8_0",
-        "size": "granite3-dense:2b-instruct-q8_0",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:2b-instruct-fp16",
-        "size": "granite3-dense:2b-instruct-fp16",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q2_K",
-        "size": "granite3-dense:8b-instruct-q2_K",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q3_K_S",
-        "size": "granite3-dense:8b-instruct-q3_K_S",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q3_K_M",
-        "size": "granite3-dense:8b-instruct-q3_K_M",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q3_K_L",
-        "size": "granite3-dense:8b-instruct-q3_K_L",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q4_0",
-        "size": "granite3-dense:8b-instruct-q4_0",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q4_1",
-        "size": "granite3-dense:8b-instruct-q4_1",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q4_K_S",
-        "size": "granite3-dense:8b-instruct-q4_K_S",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q4_K_M",
-        "size": "granite3-dense:8b-instruct-q4_K_M",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q5_0",
-        "size": "granite3-dense:8b-instruct-q5_0",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q5_1",
-        "size": "granite3-dense:8b-instruct-q5_1",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q5_K_S",
-        "size": "granite3-dense:8b-instruct-q5_K_S",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q5_K_M",
-        "size": "granite3-dense:8b-instruct-q5_K_M",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q6_K",
-        "size": "granite3-dense:8b-instruct-q6_K",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-q8_0",
-        "size": "granite3-dense:8b-instruct-q8_0",
-        "updated": "Text input • \n                    1 year ago"
-      },
-      {
-        "name": "granite3-dense:8b-instruct-fp16",
-        "size": "granite3-dense:8b-instruct-fp16",
-        "updated": "Text input • \n                    1 year ago"
-      }
-    ]
-  },
-  {
     "name": "granite3.1-dense",
     "link": "https://ollama.com/library/granite3.1-dense",
     "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
-    "pullCount": "966.6K",
+    "pullCount": "966.9K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -28234,7 +28275,7 @@
     "name": "llama-guard3",
     "link": "https://ollama.com/library/llama-guard3",
     "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
-    "pullCount": "955.9K",
+    "pullCount": "956.4K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -28414,7 +28455,7 @@
     "name": "dolphincoder",
     "link": "https://ollama.com/library/dolphincoder",
     "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-    "pullCount": "954.2K",
+    "pullCount": "954.4K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -28604,7 +28645,7 @@
     "name": "devstral",
     "link": "https://ollama.com/library/devstral",
     "description": "Devstral: the best open source model for coding agents",
-    "pullCount": "951.8K",
+    "pullCount": "952.5K",
     "updated": "11 months ago",
     "size": [
       "24b"
@@ -28643,7 +28684,7 @@
     "name": "wizard-math",
     "link": "https://ollama.com/library/wizard-math",
     "description": "Model focused on math and logic problems",
-    "pullCount": "949.9K",
+    "pullCount": "950.1K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -28979,7 +29020,7 @@
     "name": "llama3-gradient",
     "link": "https://ollama.com/library/llama3-gradient",
     "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
-    "pullCount": "948.9K",
+    "pullCount": "949.1K",
     "updated": "2 years ago",
     "size": [
       "8b",
@@ -29169,7 +29210,7 @@
     "name": "phi3.5",
     "link": "https://ollama.com/library/phi3.5",
     "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-    "pullCount": "945.7K",
+    "pullCount": "946.5K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -29268,7 +29309,7 @@
     "name": "samantha-mistral",
     "link": "https://ollama.com/library/samantha-mistral",
     "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
-    "pullCount": "943.1K",
+    "pullCount": "943.3K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -29527,7 +29568,7 @@
     "name": "llama3-groq-tool-use",
     "link": "https://ollama.com/library/llama3-groq-tool-use",
     "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
-    "pullCount": "941.6K",
+    "pullCount": "941.9K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -29707,7 +29748,7 @@
     "name": "internlm2",
     "link": "https://ollama.com/library/internlm2",
     "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
-    "pullCount": "938.6K",
+    "pullCount": "938.8K",
     "updated": "1 year ago",
     "size": [
       "1m1.8b",
@@ -30048,7 +30089,7 @@
     "name": "aya-expanse",
     "link": "https://ollama.com/library/aya-expanse",
     "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
-    "pullCount": "935.4K",
+    "pullCount": "936K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -30228,7 +30269,7 @@
     "name": "starling-lm",
     "link": "https://ollama.com/library/starling-lm",
     "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
-    "pullCount": "924.7K",
+    "pullCount": "924.9K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -30422,7 +30463,7 @@
     "name": "solar",
     "link": "https://ollama.com/library/solar",
     "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
-    "pullCount": "921.7K",
+    "pullCount": "921.8K",
     "updated": "2 years ago",
     "size": [
       "10.7b"
@@ -30596,7 +30637,7 @@
     "name": "phind-codellama",
     "link": "https://ollama.com/library/phind-codellama",
     "description": "Code generation model based on Code Llama.",
-    "pullCount": "919.5K",
+    "pullCount": "919.6K",
     "updated": "2 years ago",
     "size": [
       "34b"
@@ -30855,7 +30896,7 @@
     "name": "granite3.2-vision",
     "link": "https://ollama.com/library/granite3.2-vision",
     "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
-    "pullCount": "918.2K",
+    "pullCount": "918.8K",
     "updated": "1 year ago",
     "size": [
       "2b"
@@ -30894,7 +30935,7 @@
     "name": "xwinlm",
     "link": "https://ollama.com/library/xwinlm",
     "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
-    "pullCount": "914.2K",
+    "pullCount": "914.3K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -31309,7 +31350,7 @@
     "name": "granite3-moe",
     "link": "https://ollama.com/library/granite3-moe",
     "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
-    "pullCount": "908K",
+    "pullCount": "908.1K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -32280,7 +32321,7 @@
     "name": "reader-lm",
     "link": "https://ollama.com/library/reader-lm",
     "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
-    "pullCount": "881.7K",
+    "pullCount": "881.8K",
     "updated": "1 year ago",
     "size": [
       "0.5b",
@@ -32460,7 +32501,7 @@
     "name": "shieldgemma",
     "link": "https://ollama.com/library/shieldgemma",
     "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
-    "pullCount": "876.8K",
+    "pullCount": "876.9K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -32721,7 +32762,7 @@
     "name": "deepcoder",
     "link": "https://ollama.com/library/deepcoder",
     "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
-    "pullCount": "873.4K",
+    "pullCount": "873.6K",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -33137,7 +33178,7 @@
     "name": "nexusraven",
     "link": "https://ollama.com/library/nexusraven",
     "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
-    "pullCount": "858.3K",
+    "pullCount": "858.4K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -33311,7 +33352,7 @@
     "name": "paraphrase-multilingual",
     "link": "https://ollama.com/library/paraphrase-multilingual",
     "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
-    "pullCount": "855.3K",
+    "pullCount": "856.9K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -33338,7 +33379,7 @@
     "name": "devstral-small-2",
     "link": "https://ollama.com/library/devstral-small-2",
     "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-    "pullCount": "852.2K",
+    "pullCount": "853.3K",
     "updated": "5 months ago",
     "size": [
       "24b"
@@ -33382,7 +33423,7 @@
     "name": "bakllava",
     "link": "https://ollama.com/library/bakllava",
     "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
-    "pullCount": "851.8K",
+    "pullCount": "851.9K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -33858,7 +33899,7 @@
     "name": "command-r-plus",
     "link": "https://ollama.com/library/command-r-plus",
     "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
-    "pullCount": "768.4K",
+    "pullCount": "768.5K",
     "updated": "1 year ago",
     "size": [
       "104b"
@@ -33977,7 +34018,7 @@
     "name": "mistral-small3.1",
     "link": "https://ollama.com/library/mistral-small3.1",
     "description": "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance.",
-    "pullCount": "746.9K",
+    "pullCount": "747.2K",
     "updated": "1 year ago",
     "size": [
       "24b"
@@ -34016,7 +34057,7 @@
     "name": "exaone-deep",
     "link": "https://ollama.com/library/exaone-deep",
     "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
-    "pullCount": "741.6K",
+    "pullCount": "741.7K",
     "updated": "1 year ago",
     "size": [
       "2.4b",
@@ -34222,7 +34263,7 @@
     "name": "tinydolphin",
     "link": "https://ollama.com/library/tinydolphin",
     "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-    "pullCount": "692.9K",
+    "pullCount": "693.1K",
     "updated": "2 years ago",
     "size": [
       "1.1b"
@@ -34326,7 +34367,7 @@
     "name": "deepseek-v3.1",
     "link": "https://ollama.com/library/deepseek-v3.1",
     "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
-    "pullCount": "692.6K",
+    "pullCount": "693K",
     "updated": "8 months ago",
     "size": [
       "671b"
@@ -34380,7 +34421,7 @@
     "name": "nemotron-mini",
     "link": "https://ollama.com/library/nemotron-mini",
     "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
-    "pullCount": "674.7K",
+    "pullCount": "674.9K",
     "updated": "1 year ago",
     "size": [
       "4b"
@@ -34479,7 +34520,7 @@
     "name": "codegeex4",
     "link": "https://ollama.com/library/codegeex4",
     "description": "A versatile model for AI software development scenarios, including code completion.",
-    "pullCount": "660.7K",
+    "pullCount": "660.8K",
     "updated": "1 year ago",
     "size": [
       "9b"
@@ -34677,7 +34718,7 @@
     "name": "wizardlm-uncensored",
     "link": "https://ollama.com/library/wizardlm-uncensored",
     "description": "Uncensored version of Wizard LM model",
-    "pullCount": "617K",
+    "pullCount": "617.1K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -34781,7 +34822,7 @@
     "name": "nemotron3",
     "link": "https://ollama.com/library/nemotron3",
     "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-    "pullCount": "597.4K",
+    "pullCount": "598K",
     "updated": "1 month ago",
     "size": [
       "33b"
@@ -34815,7 +34856,7 @@
     "name": "opencoder",
     "link": "https://ollama.com/library/opencoder",
     "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-    "pullCount": "597.2K",
+    "pullCount": "597.3K",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -34974,7 +35015,7 @@
     "name": "nemotron",
     "link": "https://ollama.com/library/nemotron",
     "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
-    "pullCount": "582.4K",
+    "pullCount": "582.5K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -35182,7 +35223,7 @@
     "name": "athene-v2",
     "link": "https://ollama.com/library/athene-v2",
     "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
-    "pullCount": "566.7K",
+    "pullCount": "566.8K",
     "updated": "1 year ago",
     "size": [
       "72b"
@@ -35385,7 +35426,7 @@
     "name": "qwen3-next",
     "link": "https://ollama.com/library/qwen3-next",
     "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
-    "pullCount": "561.8K",
+    "pullCount": "562K",
     "updated": "5 months ago",
     "size": [
       "80b"
@@ -35396,47 +35437,47 @@
       {
         "name": "qwen3-next:latest",
         "size": "qwen3-next:latest",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "qwen3-next:80b",
         "size": "qwen3-next:80b",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "qwen3-next:80b-a3b-instruct-q4_K_M",
         "size": "qwen3-next:80b-a3b-instruct-q4_K_M",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "qwen3-next:80b-a3b-instruct-q8_0",
         "size": "qwen3-next:80b-a3b-instruct-q8_0",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "qwen3-next:80b-a3b-instruct-fp16",
         "size": "qwen3-next:80b-a3b-instruct-fp16",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "qwen3-next:80b-a3b-thinking",
         "size": "qwen3-next:80b-a3b-thinking",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "qwen3-next:80b-a3b-thinking-q4_K_M",
         "size": "qwen3-next:80b-a3b-thinking-q4_K_M",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "qwen3-next:80b-a3b-thinking-q8_0",
         "size": "qwen3-next:80b-a3b-thinking-q8_0",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "qwen3-next:80b-a3b-thinking-fp16",
         "size": "qwen3-next:80b-a3b-thinking-fp16",
-        "updated": "Text input • \n                    5 months ago"
+        "updated": "Text input • \n                    6 months ago"
       },
       {
         "name": "qwen3-next:80b-cloud",
@@ -35558,7 +35599,7 @@
     "name": "medllama2",
     "link": "https://ollama.com/library/medllama2",
     "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
-    "pullCount": "543.8K",
+    "pullCount": "543.9K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -35969,7 +36010,7 @@
     "name": "mathstral",
     "link": "https://ollama.com/library/mathstral",
     "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
-    "pullCount": "523.9K",
+    "pullCount": "524K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -36573,7 +36614,7 @@
     "name": "exaone3.5",
     "link": "https://ollama.com/library/exaone3.5",
     "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
-    "pullCount": "507.9K",
+    "pullCount": "508.1K",
     "updated": "1 year ago",
     "size": [
       "2.4b",
@@ -36654,7 +36695,7 @@
     "name": "duckdb-nsql",
     "link": "https://ollama.com/library/duckdb-nsql",
     "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
-    "pullCount": "505.3K",
+    "pullCount": "505.4K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -36753,7 +36794,7 @@
     "name": "bespoke-minicheck",
     "link": "https://ollama.com/library/bespoke-minicheck",
     "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
-    "pullCount": "504.1K",
+    "pullCount": "504.2K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -37342,7 +37383,7 @@
     "name": "rnj-1",
     "link": "https://ollama.com/library/rnj-1",
     "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
-    "pullCount": "472.5K",
+    "pullCount": "472.8K",
     "updated": "5 months ago",
     "size": [
       "8b"
@@ -37386,7 +37427,7 @@
     "name": "nemotron-3-nano",
     "link": "https://ollama.com/library/nemotron-3-nano",
     "description": "Nemotron-3-Nano is a new Standard for Efficient, Open, and Intelligent Agentic Models, now updated with a 4B parameter count model.",
-    "pullCount": "468.7K",
+    "pullCount": "470K",
     "updated": "2 months ago",
     "size": [
       "4b",
@@ -37538,7 +37579,7 @@
     "name": "deepseek-ocr",
     "link": "https://ollama.com/library/deepseek-ocr",
     "description": "DeepSeek-OCR is a vision-language model that can perform token-efficient OCR.",
-    "pullCount": "455.8K",
+    "pullCount": "456.6K",
     "updated": "6 months ago",
     "size": [
       "3b"
@@ -37567,7 +37608,7 @@
     "name": "granite3.2",
     "link": "https://ollama.com/library/granite3.2",
     "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
-    "pullCount": "436.2K",
+    "pullCount": "436.3K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -37627,7 +37668,7 @@
     "name": "olmo-3",
     "link": "https://ollama.com/library/olmo-3",
     "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-    "pullCount": "432.7K",
+    "pullCount": "432.9K",
     "updated": "5 months ago",
     "size": [
       "7b",
@@ -37717,7 +37758,7 @@
     "name": "r1-1776",
     "link": "https://ollama.com/library/r1-1776",
     "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-    "pullCount": "405.4K",
+    "pullCount": "405.5K",
     "updated": "1 year ago",
     "size": [
       "70b",
@@ -37777,7 +37818,7 @@
     "name": "snowflake-arctic-embed2",
     "link": "https://ollama.com/library/snowflake-arctic-embed2",
     "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-    "pullCount": "401.5K",
+    "pullCount": "402.1K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -37804,7 +37845,7 @@
     "name": "sailor2",
     "link": "https://ollama.com/library/sailor2",
     "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
-    "pullCount": "392.1K",
+    "pullCount": "392.2K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -37945,7 +37986,7 @@
     "name": "granite-embedding",
     "link": "https://ollama.com/library/granite-embedding",
     "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
-    "pullCount": "330.4K",
+    "pullCount": "330.5K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -38052,7 +38093,7 @@
     "name": "dbrx",
     "link": "https://ollama.com/library/dbrx",
     "description": "DBRX is an open, general-purpose LLM created by Databricks.",
-    "pullCount": "311K",
+    "pullCount": "311.1K",
     "updated": "2 years ago",
     "size": [
       "132b"
@@ -38101,7 +38142,7 @@
     "name": "kimi-k2.5",
     "link": "https://ollama.com/library/kimi-k2.5",
     "description": "Kimi K2.5 is an open-source, native multimodal agentic model that seamlessly integrates vision and language understanding with advanced agentic capabilities, instant and thinking modes, as well as conversational and agentic paradigms.",
-    "pullCount": "307.2K",
+    "pullCount": "308.3K",
     "updated": "4 months ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
@@ -38118,7 +38159,7 @@
     "name": "llava-phi3",
     "link": "https://ollama.com/library/llava-phi3",
     "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
-    "pullCount": "286.2K",
+    "pullCount": "286.4K",
     "updated": "2 years ago",
     "size": [
       "3.8b"
@@ -38152,7 +38193,7 @@
     "name": "kimi-k2.6",
     "link": "https://ollama.com/library/kimi-k2.6",
     "description": "Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration.",
-    "pullCount": "279.7K",
+    "pullCount": "281.5K",
     "updated": "1 month ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
@@ -38218,7 +38259,7 @@
     "name": "olmo-3.1",
     "link": "https://ollama.com/library/olmo-3.1",
     "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-    "pullCount": "275.5K",
+    "pullCount": "275.6K",
     "updated": "5 months ago",
     "size": [
       "32b"
@@ -38282,7 +38323,7 @@
     "name": "phi4-mini-reasoning",
     "link": "https://ollama.com/library/phi4-mini-reasoning",
     "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
-    "pullCount": "270.7K",
+    "pullCount": "270.9K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -38321,7 +38362,7 @@
     "name": "bge-large",
     "link": "https://ollama.com/library/bge-large",
     "description": "Embedding model from BAAI mapping texts to vectors.",
-    "pullCount": "267.2K",
+    "pullCount": "267.4K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -38348,7 +38389,7 @@
     "name": "command-r7b",
     "link": "https://ollama.com/library/command-r7b",
     "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
-    "pullCount": "263K",
+    "pullCount": "263.3K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -38387,7 +38428,7 @@
     "name": "nomic-embed-text-v2-moe",
     "link": "https://ollama.com/library/nomic-embed-text-v2-moe",
     "description": "nomic-embed-text-v2-moe is a multilingual MoE text embedding model that excels at multilingual retrieval.",
-    "pullCount": "260.4K",
+    "pullCount": "262.7K",
     "updated": "5 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -38404,7 +38445,7 @@
     "name": "smallthinker",
     "link": "https://ollama.com/library/smallthinker",
     "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-    "pullCount": "247K",
+    "pullCount": "247.1K",
     "updated": "1 year ago",
     "size": [
       "3b"
@@ -38443,7 +38484,7 @@
     "name": "devstral-2",
     "link": "https://ollama.com/library/devstral-2",
     "description": "123B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-    "pullCount": "230.7K",
+    "pullCount": "231.1K",
     "updated": "5 months ago",
     "size": [
       "123b"
@@ -38487,7 +38528,7 @@
     "name": "alfred",
     "link": "https://ollama.com/library/alfred",
     "description": "A robust conversational model designed to be used for both chat and instruct use cases.",
-    "pullCount": "229.8K",
+    "pullCount": "229.9K",
     "updated": "2 years ago",
     "size": [
       "40b"
@@ -38614,7 +38655,7 @@
     "name": "cogito-2.1",
     "link": "https://ollama.com/library/cogito-2.1",
     "description": "The Cogito v2.1 LLMs are instruction tuned generative models. All models are released under MIT license for commercial use.",
-    "pullCount": "194.9K",
+    "pullCount": "195K",
     "updated": "6 months ago",
     "size": [
       "671b"
@@ -38697,7 +38738,7 @@
     "name": "functiongemma",
     "link": "https://ollama.com/library/functiongemma",
     "description": "FunctionGemma is a specialized version of Google's Gemma 3 270M model fine-tuned explicitly for function calling.",
-    "pullCount": "162.6K",
+    "pullCount": "162.9K",
     "updated": "5 months ago",
     "size": null,
     "capabilities": "tools",
@@ -38729,7 +38770,7 @@
     "name": "gpt-oss-safeguard",
     "link": "https://ollama.com/library/gpt-oss-safeguard",
     "description": "gpt-oss-safeguard-20b and gpt-oss-safeguard-120b are safety reasoning models built-upon gpt-oss",
-    "pullCount": "142.7K",
+    "pullCount": "142.8K",
     "updated": "7 months ago",
     "size": [
       "20b",
@@ -38759,7 +38800,7 @@
     "name": "granite4.1",
     "link": "https://ollama.com/library/granite4.1",
     "description": "IBM Granite Models are a family of enterprise-ready, open foundation models that support multilingual capabilities, coding, retrieval-augmented generation (RAG), tool use, and structured JSON output. Released under Apache 2.0 license.",
-    "pullCount": "123.2K",
+    "pullCount": "125.1K",
     "updated": "2 weeks ago",
     "size": [
       "3b",
@@ -39015,7 +39056,7 @@
     "name": "nemotron-cascade-2",
     "link": "https://ollama.com/library/nemotron-cascade-2",
     "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
-    "pullCount": "120K",
+    "pullCount": "120.3K",
     "updated": "2 months ago",
     "size": [
       "30b"
@@ -39044,7 +39085,7 @@
     "name": "deepseek-v4-flash",
     "link": "https://ollama.com/library/deepseek-v4-flash",
     "description": "DeepSeek-V4-Flash is a preview of the DeepSeek-V4 series, a Mixture-of-Experts model with 284B total parameters and 13B activated, built for efficient reasoning across a 1M-token context window.",
-    "pullCount": "101K",
+    "pullCount": "102.5K",
     "updated": "1 month ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -39061,7 +39102,7 @@
     "name": "deepseek-v4-pro",
     "link": "https://ollama.com/library/deepseek-v4-pro",
     "description": "DeepSeek-V4-Pro is a frontier Mixture-of-Experts model with a 1M-token context window and three reasoning modes.",
-    "pullCount": "93.2K",
+    "pullCount": "99.8K",
     "updated": "1 month ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -39078,7 +39119,7 @@
     "name": "kimi-k2",
     "link": "https://ollama.com/library/kimi-k2",
     "description": "A state-of-the-art mixture-of-experts (MoE) language model. Kimi K2-Instruct-0905 demonstrates significant improvements in performance on public benchmarks and real-world coding agent tasks.",
-    "pullCount": "75.2K",
+    "pullCount": "75.4K",
     "updated": "8 months ago",
     "size": null,
     "capabilities": "tools",
@@ -39095,7 +39136,7 @@
     "name": "mistral-large-3",
     "link": "https://ollama.com/library/mistral-large-3",
     "description": "A general-purpose multimodal mixture-of-experts model for production-grade tasks and enterprise workloads.",
-    "pullCount": "60.1K",
+    "pullCount": "60.3K",
     "updated": "6 months ago",
     "size": null,
     "capabilities": "visiontools",
@@ -39112,7 +39153,7 @@
     "name": "medgemma",
     "link": "https://ollama.com/library/medgemma",
     "description": "MedGemma is a collection of Gemma 3 variants that are trained for performance on medical text and image comprehension.",
-    "pullCount": "37K",
+    "pullCount": "37.4K",
     "updated": "1 month ago",
     "size": [
       "4b",
@@ -39172,7 +39213,7 @@
     "name": "mistral-medium-3.5",
     "link": "https://ollama.com/library/mistral-medium-3.5",
     "description": "Mistral Medium 3.5 is the first flagship model of Mistral AI that merged instruction-following, reasoning, and coding in a single set of 128B weights.",
-    "pullCount": "30.2K",
+    "pullCount": "30.6K",
     "updated": "4 weeks ago",
     "size": [
       "128b"
@@ -39211,7 +39252,7 @@
     "name": "medgemma1.5",
     "link": "https://ollama.com/library/medgemma1.5",
     "description": "MedGemma 1.5 4B is an updated version of the MedGemma 4B model.",
-    "pullCount": "19.9K",
+    "pullCount": "20.1K",
     "updated": "1 month ago",
     "size": [
       "4b"
@@ -39247,10 +39288,27 @@
     ]
   },
   {
+    "name": "minimax-m3",
+    "link": "https://ollama.com/library/minimax-m3",
+    "description": "MiniMax M3: Coding & Agentic Frontier. 1M context window. Native Multimodality.",
+    "pullCount": "17K",
+    "updated": "3 days ago",
+    "size": null,
+    "capabilities": "visiontoolsthinking",
+    "readme": "## Readme\n\n> Ollama’s Cloud is officially licensed with MiniMax for commercial usage\n> \n> In partnership with MiniMax, the M3 model on Ollama’s Cloud is US-based with zero data retention.\n\n### Highlights\n\n* MiniMax M3 achieves top-tier performance on coding and agentic benchmarks, with autonomous task decomposition, tool invocation, and multi-step reasoning capabilities — providing a reliable foundation for AI coding assistants and automated workflows.\n* Powered by the proprietary MiniMax Sparse Attention (MSA) architecture, M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding.\n* A natively multimodal model. The entire data pipeline was rebuilt to scale pretraining data to 100T+, with multimodal training from step zero achieving deep alignment between textual and visual semantic spaces. Multimodal is a native core capability, not a superficial add-on.\n* On BrowseComp, M3 scores 83.5, surpassing Opus 4.7 (79.3), demonstrating strong autonomous browsing and information retrieval capabilities.\n* Until now, only a handful of closed-source models could simultaneously achieve frontier coding capabilities, million-token context, and Multimodal. M3 is the first to bring complete frontier capability to the open world.\n\n### Benchmark\n\n![Benchmark](/assets/library/minimax-m3/3d512ace-b6bf-4e00-8bc0-cbe9ff79627b)\n\n### Architecture\n\nMiniMax Sparse Attention (MSA) Architecture\n\n![image.png](/assets/library/minimax-m3/de272c65-0490-4e05-93e4-4150d5763817)\n\nThe MSA architecture enables native ultra-long context pretraining. M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens, delivering excellent inference latency and throughput at extreme context lengths. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding.\n\n![Full benchmarks](/assets/library/minimax-m3/a998096b-a024-4971-be2b-5aeae3cacbe1)\n\n### Reference\n\n[MiniMax M3 blog](https://www.minimax.io/models/text/m3)\n\nWrite Preview \n\n\\> Ollama's Cloud is officially licensed with MiniMax for commercial usage > In partnership with MiniMax, the M3 model on Ollama's Cloud is US-based with zero data retention. ### Highlights - MiniMax M3 achieves top-tier performance on coding and agentic benchmarks, with autonomous task decomposition, tool invocation, and multi-step reasoning capabilities — providing a reliable foundation for AI coding assistants and automated workflows. - Powered by the proprietary MiniMax Sparse Attention (MSA) architecture, M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding. - A natively multimodal model. The entire data pipeline was rebuilt to scale pretraining data to 100T+, with multimodal training from step zero achieving deep alignment between textual and visual semantic spaces. Multimodal is a native core capability, not a superficial add-on. - On BrowseComp, M3 scores 83.5, surpassing Opus 4.7 (79.3), demonstrating strong autonomous browsing and information retrieval capabilities. - Until now, only a handful of closed-source models could simultaneously achieve frontier coding capabilities, million-token context, and Multimodal. M3 is the first to bring complete frontier capability to the open world. ### Benchmark !\\[Benchmark\\](/assets/library/minimax-m3/3d512ace-b6bf-4e00-8bc0-cbe9ff79627b) ### Architecture MiniMax Sparse Attention (MSA) Architecture !\\[image.png\\](/assets/library/minimax-m3/de272c65-0490-4e05-93e4-4150d5763817) The MSA architecture enables native ultra-long context pretraining. M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens, delivering excellent inference latency and throughput at extreme context lengths. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding. !\\[Full benchmarks\\](/assets/library/minimax-m3/a998096b-a024-4971-be2b-5aeae3cacbe1) ### Reference \\[MiniMax M3 blog\\](https://www.minimax.io/models/text/m3) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": [
+      {
+        "name": "minimax-m3:cloud",
+        "size": "minimax-m3:cloud",
+        "updated": "Text, Image input • \n                    3 days ago"
+      }
+    ]
+  },
+  {
     "name": "laguna-xs.2",
     "link": "https://ollama.com/library/laguna-xs.2",
     "description": "Laguna XS.2 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine.",
-    "pullCount": "14.2K",
+    "pullCount": "14.4K",
     "updated": "1 month ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -39294,28 +39352,11 @@
     ]
   },
   {
-    "name": "minimax-m3",
-    "link": "https://ollama.com/library/minimax-m3",
-    "description": "MiniMax M3: Coding & Agentic Frontier. 1M context window. Native Multimodality.",
-    "pullCount": "13.1K",
-    "updated": "2 days ago",
-    "size": null,
-    "capabilities": "visiontoolsthinking",
-    "readme": "## Readme\n\n> Ollama’s Cloud is officially licensed with MiniMax for commercial usage\n> \n> In partnership with MiniMax, the M3 model on Ollama’s Cloud is US-based with zero data retention.\n\n### Highlights\n\n* MiniMax M3 achieves top-tier performance on coding and agentic benchmarks, with autonomous task decomposition, tool invocation, and multi-step reasoning capabilities — providing a reliable foundation for AI coding assistants and automated workflows.\n* Powered by the proprietary MiniMax Sparse Attention (MSA) architecture, M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding.\n* A natively multimodal model. The entire data pipeline was rebuilt to scale pretraining data to 100T+, with multimodal training from step zero achieving deep alignment between textual and visual semantic spaces. Multimodal is a native core capability, not a superficial add-on.\n* On BrowseComp, M3 scores 83.5, surpassing Opus 4.7 (79.3), demonstrating strong autonomous browsing and information retrieval capabilities.\n* Until now, only a handful of closed-source models could simultaneously achieve frontier coding capabilities, million-token context, and Multimodal. M3 is the first to bring complete frontier capability to the open world.\n\n### Benchmark\n\n![Benchmark](/assets/library/minimax-m3/3d512ace-b6bf-4e00-8bc0-cbe9ff79627b)\n\n### Architecture\n\nMiniMax Sparse Attention (MSA) Architecture\n\n![image.png](/assets/library/minimax-m3/de272c65-0490-4e05-93e4-4150d5763817)\n\nThe MSA architecture enables native ultra-long context pretraining. M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens, delivering excellent inference latency and throughput at extreme context lengths. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding.\n\n![Full benchmarks](/assets/library/minimax-m3/a998096b-a024-4971-be2b-5aeae3cacbe1)\n\n### Reference\n\n[MiniMax M3 blog](https://www.minimax.io/models/text/m3)\n\nWrite Preview \n\n\\> Ollama's Cloud is officially licensed with MiniMax for commercial usage > In partnership with MiniMax, the M3 model on Ollama's Cloud is US-based with zero data retention. ### Highlights - MiniMax M3 achieves top-tier performance on coding and agentic benchmarks, with autonomous task decomposition, tool invocation, and multi-step reasoning capabilities — providing a reliable foundation for AI coding assistants and automated workflows. - Powered by the proprietary MiniMax Sparse Attention (MSA) architecture, M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding. - A natively multimodal model. The entire data pipeline was rebuilt to scale pretraining data to 100T+, with multimodal training from step zero achieving deep alignment between textual and visual semantic spaces. Multimodal is a native core capability, not a superficial add-on. - On BrowseComp, M3 scores 83.5, surpassing Opus 4.7 (79.3), demonstrating strong autonomous browsing and information retrieval capabilities. - Until now, only a handful of closed-source models could simultaneously achieve frontier coding capabilities, million-token context, and Multimodal. M3 is the first to bring complete frontier capability to the open world. ### Benchmark !\\[Benchmark\\](/assets/library/minimax-m3/3d512ace-b6bf-4e00-8bc0-cbe9ff79627b) ### Architecture MiniMax Sparse Attention (MSA) Architecture !\\[image.png\\](/assets/library/minimax-m3/de272c65-0490-4e05-93e4-4150d5763817) The MSA architecture enables native ultra-long context pretraining. M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens, delivering excellent inference latency and throughput at extreme context lengths. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding. !\\[Full benchmarks\\](/assets/library/minimax-m3/a998096b-a024-4971-be2b-5aeae3cacbe1) ### Reference \\[MiniMax M3 blog\\](https://www.minimax.io/models/text/m3) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": [
-      {
-        "name": "minimax-m3:cloud",
-        "size": "minimax-m3:cloud",
-        "updated": "Text, Image input • \n                    2 days ago"
-      }
-    ]
-  },
-  {
     "name": "lfm2.5",
     "link": "https://ollama.com/library/lfm2.5",
     "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
-    "pullCount": "763",
-    "updated": "2 days ago",
+    "pullCount": "3,343",
+    "updated": "3 days ago",
     "size": [
       "8b"
     ],
@@ -39325,27 +39366,27 @@
       {
         "name": "lfm2.5:latest",
         "size": "lfm2.5:latest",
-        "updated": "Text input • \n                    2 days ago"
+        "updated": "Text input • \n                    3 days ago"
       },
       {
         "name": "lfm2.5:8b",
         "size": "lfm2.5:8b",
-        "updated": "Text input • \n                    2 days ago"
+        "updated": "Text input • \n                    3 days ago"
       },
       {
         "name": "lfm2.5:8b-a1b-q4_K_M",
         "size": "lfm2.5:8b-a1b-q4_K_M",
-        "updated": "Text input • \n                    2 days ago"
+        "updated": "Text input • \n                    3 days ago"
       },
       {
         "name": "lfm2.5:8b-a1b-q8_0",
         "size": "lfm2.5:8b-a1b-q8_0",
-        "updated": "Text input • \n                    2 days ago"
+        "updated": "Text input • \n                    3 days ago"
       },
       {
         "name": "lfm2.5:8b-a1b-bf16",
         "size": "lfm2.5:8b-a1b-bf16",
-        "updated": "Text input • \n                    2 days ago"
+        "updated": "Text input • \n                    3 days ago"
       }
     ]
   }
