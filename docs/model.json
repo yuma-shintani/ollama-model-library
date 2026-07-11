@@ -18,7 +18,7 @@
     "name": "deepseek-r1",
     "link": "https://ollama.com/library/deepseek-r1",
     "description": "DeepSeek-R1 is a family of open reasoning models with performance approaching that of leading models, such as O3 and Gemini 2.5 Pro.",
-    "pullCount": "89.4M",
+    "pullCount": "89.5M",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -37,7 +37,7 @@
     "name": "nomic-embed-text",
     "link": "https://ollama.com/library/nomic-embed-text",
     "description": "A high-performing open embedding model with a large token context window.",
-    "pullCount": "77.8M",
+    "pullCount": "77.9M",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "embedding",
@@ -48,7 +48,7 @@
     "name": "llama3.2",
     "link": "https://ollama.com/library/llama3.2",
     "description": "Meta's Llama 3.2 goes small with 1B and 3B models.",
-    "pullCount": "75.8M",
+    "pullCount": "75.9M",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -62,7 +62,7 @@
     "name": "gemma3",
     "link": "https://ollama.com/library/gemma3",
     "description": "The current, most capable model that runs on a single GPU.",
-    "pullCount": "38.4M",
+    "pullCount": "38.5M",
     "updated": "7 months ago",
     "size": [
       "270m1b",
@@ -191,7 +191,7 @@
     "name": "gemma4",
     "link": "https://ollama.com/library/gemma4",
     "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
-    "pullCount": "17.4M",
+    "pullCount": "17.6M",
     "updated": "1 week ago",
     "size": [
       "e2b",
@@ -208,7 +208,7 @@
     "name": "qwen3.5",
     "link": "https://ollama.com/library/qwen3.5",
     "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-    "pullCount": "15.2M",
+    "pullCount": "15.3M",
     "updated": "1 month ago",
     "size": [
       "0.8b",
@@ -242,7 +242,7 @@
     "name": "mxbai-embed-large",
     "link": "https://ollama.com/library/mxbai-embed-large",
     "description": "State-of-the-art large embedding model from mixedbread.ai",
-    "pullCount": "12.3M",
+    "pullCount": "12.4M",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "embedding",
@@ -291,21 +291,6 @@
     "tags": []
   },
   {
-    "name": "llama2",
-    "link": "https://ollama.com/library/llama2",
-    "description": "Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.",
-    "pullCount": "7.2M",
-    "updated": "2 years ago",
-    "size": [
-      "7b",
-      "13b",
-      "70b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\n![](https://github.com/jmorganca/ollama/assets/3325447/286e4e13-0b2b-43a4-9b07-23a50d3a3d33)\n\nLlama 2 is released by Meta Platforms, Inc. This model is trained on 2 trillion tokens, and by default supports a context length of 4096\\. Llama 2 Chat models are fine-tuned on over 1 million human annotations, and are made for chat.\n\n### CLI\n\nOpen the terminal and run `ollama run llama2`\n\n### API\n\nExample using curl:\n\n```\ncurl -X POST http://localhost:11434/api/generate -d '{\n  \"model\": \"llama2\",\n  \"prompt\":\"Why is the sky blue?\"\n }'\n\n```\n\n[API documentation](https://github.com/jmorganca/ollama/blob/main/docs/api.md)\n\n## Memory requirements\n\n* 7b models generally require at least 8GB of RAM\n* 13b models generally require at least 16GB of RAM\n* 70b models generally require at least 64GB of RAM\n\nIf you run into issues with higher quantization levels, try using the q4 model or shut down any other programs that are using a lot of memory.\n\n## Model variants\n\n**Chat** is fine-tuned for chat/dialogue use cases. These are the default in Ollama, and for models tagged with -chat in the tags tab.\n\n_Example: `ollama run llama2`_\n\n**Pre-trained** is without the chat fine-tuning. This is tagged as -text in the tags tab.\n\n_Example: `ollama run llama2:text`_\n\nBy default, Ollama uses 4-bit quantization. To try other quantization levels, please try the other tags. The number after the q represents the number of bits used for quantization (i.e. q4 means 4-bit quantization). The higher the number, the more accurate the model is, but the slower it runs, and the more memory it requires.\n\n## References\n\n[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288)\n\n[Meta’s Hugging Face repo](https://huggingface.co/meta-llama)\n\nWrite Preview \n\n<img src=\"https://github.com/jmorganca/ollama/assets/3325447/286e4e13-0b2b-43a4-9b07-23a50d3a3d33\" width=\"360\" /> Llama 2 is released by Meta Platforms, Inc. This model is trained on 2 trillion tokens, and by default supports a context length of 4096\\. Llama 2 Chat models are fine-tuned on over 1 million human annotations, and are made for chat. ### CLI Open the terminal and run \\`ollama run llama2\\` ### API Example using curl: \\`\\`\\`bash curl -X POST http://localhost:11434/api/generate -d '{ \"model\": \"llama2\", \"prompt\":\"Why is the sky blue?\" }' \\`\\`\\` \\[API documentation\\](https://github.com/jmorganca/ollama/blob/main/docs/api.md) ## Memory requirements - 7b models generally require at least 8GB of RAM - 13b models generally require at least 16GB of RAM - 70b models generally require at least 64GB of RAM If you run into issues with higher quantization levels, try using the q4 model or shut down any other programs that are using a lot of memory. ## Model variants \\*\\*Chat\\*\\* is fine-tuned for chat/dialogue use cases. These are the default in Ollama, and for models tagged with -chat in the tags tab. \\*Example: \\`ollama run llama2\\`\\* \\*\\*Pre-trained\\*\\* is without the chat fine-tuning. This is tagged as -text in the tags tab. \\*Example: \\`ollama run llama2:text\\`\\* By default, Ollama uses 4-bit quantization. To try other quantization levels, please try the other tags. The number after the q represents the number of bits used for quantization (i.e. q4 means 4-bit quantization). The higher the number, the more accurate the model is, but the slower it runs, and the more memory it requires. ## References \\[Llama 2: Open Foundation and Fine-Tuned Chat Models\\](https://arxiv.org/abs/2307.09288) \\[Meta's Hugging Face repo\\](https://huggingface.co/meta-llama) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "qwen",
     "link": "https://ollama.com/library/qwen",
     "description": "Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters",
@@ -323,6 +308,21 @@
     ],
     "capabilities": "",
     "readme": "## Readme\n\nQwen 2 is now available [here](https://ollama.com/library/qwen2).\n\n![](https://github.com/jmorganca/ollama/assets/251292/160726a3-a986-427d-b1df-3b75357903a4)\n\nQwen is a series of transformer-based large language models by Alibaba Cloud, pre-trained on a large volume of data, including web texts, books, code, etc.\n\n### New in Qwen 1.5\n\n* 6 model sizes, including 0.5B, 1.8B, 4B (default), 7B, 14B, 32B (new) and 72B  \n   * `ollama run qwen:0.5b`  \n   * `ollama run qwen:1.8b`  \n   * `ollama run qwen:4b`  \n   * `ollama run qwen:7b`  \n   * `ollama run qwen:14b`  \n   * `ollama run qwen:32b`  \n   * `ollama run qwen:72b`  \n   * `ollama run qwen:110b`\n* Significant performance improvement in human preference for chat models\n* Multilingual support of both base and chat models\n* Stable support of 32K context length for models of all sizes\n\nThe original Qwen model is offered in four different parameter sizes: 1.8B, 7B, 14B, and 72B.\n\n## Features\n\n* **Low-cost deployment**: the minimum memory requirement for inference is less than 2GB.\n* **Large-scale high-quality training corpora**: Models are pre-trained on over 2.2 trillion tokens, including Chinese, English, multilingual texts, code, and mathematics, covering general and professional fields. The distribution of the pre-training corpus has been optimized through a large number of ablation experiments.\n* **Good performance**: Qwen supports long context lengths (8K on the `1.8b`, `7b` and `14b` parameter models, and 32K on the `72b` parameter model), and significantly surpasses existing open-source models of similar scale on multiple Chinese and English downstream evaluation tasks (including common-sense, reasoning, code, mathematics, etc.), and even surpasses some larger-scale models in several benchmarks.\n* **More comprehensive vocabulary coverage**: Compared with other open-source models based on Chinese and English vocabularies, Qwen uses a vocabulary of over 150K tokens. This vocabulary is more friendly to multiple languages, enabling users to directly further enhance the capability for certain languages without expanding the vocabulary.\n* **System prompt**: Qwen can realize role playing, language style transfer, task setting, and behavior-setting by using a system prompt.\n\n## Reference\n\n[GitHub](https://github.com/QwenLM/Qwen)\n\n[Hugging Face](https://huggingface.co/Qwen)\n\nWrite Preview \n\nQwen 2 is now available \\[here\\](https://ollama.com/library/qwen2). <img src=\"https://github.com/jmorganca/ollama/assets/251292/160726a3-a986-427d-b1df-3b75357903a4\" width=\"280\" /> Qwen is a series of transformer-based large language models by Alibaba Cloud, pre-trained on a large volume of data, including web texts, books, code, etc. ### New in Qwen 1.5 - 6 model sizes, including 0.5B, 1.8B, 4B (default), 7B, 14B, 32B (new) and 72B \\* \\`ollama run qwen:0.5b\\` \\* \\`ollama run qwen:1.8b\\` \\* \\`ollama run qwen:4b\\` \\* \\`ollama run qwen:7b\\` \\* \\`ollama run qwen:14b\\` \\* \\`ollama run qwen:32b\\` \\* \\`ollama run qwen:72b\\` \\* \\`ollama run qwen:110b\\` - Significant performance improvement in human preference for chat models - Multilingual support of both base and chat models - Stable support of 32K context length for models of all sizes The original Qwen model is offered in four different parameter sizes: 1.8B, 7B, 14B, and 72B. ## Features \\* \\*\\*Low-cost deployment\\*\\*: the minimum memory requirement for inference is less than 2GB. \\* \\*\\*Large-scale high-quality training corpora\\*\\*: Models are pre-trained on over 2.2 trillion tokens, including Chinese, English, multilingual texts, code, and mathematics, covering general and professional fields. The distribution of the pre-training corpus has been optimized through a large number of ablation experiments. \\* \\*\\*Good performance\\*\\*: Qwen supports long context lengths (8K on the \\`1.8b\\`, \\`7b\\` and \\`14b\\` parameter models, and 32K on the \\`72b\\` parameter model), and significantly surpasses existing open-source models of similar scale on multiple Chinese and English downstream evaluation tasks (including common-sense, reasoning, code, mathematics, etc.), and even surpasses some larger-scale models in several benchmarks. \\* \\*\\*More comprehensive vocabulary coverage\\*\\*: Compared with other open-source models based on Chinese and English vocabularies, Qwen uses a vocabulary of over 150K tokens. This vocabulary is more friendly to multiple languages, enabling users to directly further enhance the capability for certain languages without expanding the vocabulary. \\* \\*\\*System prompt\\*\\*: Qwen can realize role playing, language style transfer, task setting, and behavior-setting by using a system prompt. ## Reference \\[GitHub\\](https://github.com/QwenLM/Qwen) \\[Hugging Face\\](https://huggingface.co/Qwen) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
+    "name": "llama2",
+    "link": "https://ollama.com/library/llama2",
+    "description": "Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.",
+    "pullCount": "7.2M",
+    "updated": "2 years ago",
+    "size": [
+      "7b",
+      "13b",
+      "70b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\n![](https://github.com/jmorganca/ollama/assets/3325447/286e4e13-0b2b-43a4-9b07-23a50d3a3d33)\n\nLlama 2 is released by Meta Platforms, Inc. This model is trained on 2 trillion tokens, and by default supports a context length of 4096\\. Llama 2 Chat models are fine-tuned on over 1 million human annotations, and are made for chat.\n\n### CLI\n\nOpen the terminal and run `ollama run llama2`\n\n### API\n\nExample using curl:\n\n```\ncurl -X POST http://localhost:11434/api/generate -d '{\n  \"model\": \"llama2\",\n  \"prompt\":\"Why is the sky blue?\"\n }'\n\n```\n\n[API documentation](https://github.com/jmorganca/ollama/blob/main/docs/api.md)\n\n## Memory requirements\n\n* 7b models generally require at least 8GB of RAM\n* 13b models generally require at least 16GB of RAM\n* 70b models generally require at least 64GB of RAM\n\nIf you run into issues with higher quantization levels, try using the q4 model or shut down any other programs that are using a lot of memory.\n\n## Model variants\n\n**Chat** is fine-tuned for chat/dialogue use cases. These are the default in Ollama, and for models tagged with -chat in the tags tab.\n\n_Example: `ollama run llama2`_\n\n**Pre-trained** is without the chat fine-tuning. This is tagged as -text in the tags tab.\n\n_Example: `ollama run llama2:text`_\n\nBy default, Ollama uses 4-bit quantization. To try other quantization levels, please try the other tags. The number after the q represents the number of bits used for quantization (i.e. q4 means 4-bit quantization). The higher the number, the more accurate the model is, but the slower it runs, and the more memory it requires.\n\n## References\n\n[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288)\n\n[Meta’s Hugging Face repo](https://huggingface.co/meta-llama)\n\nWrite Preview \n\n<img src=\"https://github.com/jmorganca/ollama/assets/3325447/286e4e13-0b2b-43a4-9b07-23a50d3a3d33\" width=\"360\" /> Llama 2 is released by Meta Platforms, Inc. This model is trained on 2 trillion tokens, and by default supports a context length of 4096\\. Llama 2 Chat models are fine-tuned on over 1 million human annotations, and are made for chat. ### CLI Open the terminal and run \\`ollama run llama2\\` ### API Example using curl: \\`\\`\\`bash curl -X POST http://localhost:11434/api/generate -d '{ \"model\": \"llama2\", \"prompt\":\"Why is the sky blue?\" }' \\`\\`\\` \\[API documentation\\](https://github.com/jmorganca/ollama/blob/main/docs/api.md) ## Memory requirements - 7b models generally require at least 8GB of RAM - 13b models generally require at least 16GB of RAM - 70b models generally require at least 64GB of RAM If you run into issues with higher quantization levels, try using the q4 model or shut down any other programs that are using a lot of memory. ## Model variants \\*\\*Chat\\*\\* is fine-tuned for chat/dialogue use cases. These are the default in Ollama, and for models tagged with -chat in the tags tab. \\*Example: \\`ollama run llama2\\`\\* \\*\\*Pre-trained\\*\\* is without the chat fine-tuning. This is tagged as -text in the tags tab. \\*Example: \\`ollama run llama2:text\\`\\* By default, Ollama uses 4-bit quantization. To try other quantization levels, please try the other tags. The number after the q represents the number of bits used for quantization (i.e. q4 means 4-bit quantization). The higher the number, the more accurate the model is, but the slower it runs, and the more memory it requires. ## References \\[Llama 2: Open Foundation and Fine-Tuned Chat Models\\](https://arxiv.org/abs/2307.09288) \\[Meta's Hugging Face repo\\](https://huggingface.co/meta-llama) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -519,6 +519,20 @@
     "tags": []
   },
   {
+    "name": "qwen3.6",
+    "link": "https://ollama.com/library/qwen3.6",
+    "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+    "pullCount": "3.8M",
+    "updated": "1 month ago",
+    "size": [
+      "27b",
+      "35b"
+    ],
+    "capabilities": "visiontoolsthinking",
+    "readme": "## Readme\n\n![](/assets/library/qwen3.6/a4dafb1d-29c1-46bc-81ca-a8a6db6b55b3)\n\nFollowing the February release of the Qwen3.5 series, we’re pleased to share the first open-weight variant of Qwen3.6\\. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience.\n\n### Qwen3.6 Highlights\n\nThis release delivers substantial upgrades, particularly in\n\n* Agentic Coding: the model now handles frontend workflows and repository-level reasoning with greater fluency and precision.\n* Thinking Preservation: we’ve introduced a new option to retain reasoning context from historical messages, streamlining iterative development and reducing overhead.\n\n![qwen3.6_35b_a3b_score.png](/assets/library/qwen3.6/4d333c77-e6ad-4047-8724-f38c68cc5b28)\n\nWrite Preview \n\n<img src=\"/assets/library/qwen3.6/a4dafb1d-29c1-46bc-81ca-a8a6db6b55b3\" width=\"360\" /> Following the February release of the Qwen3.5 series, we're pleased to share the first open-weight variant of Qwen3.6\\. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience. ### Qwen3.6 Highlights This release delivers substantial upgrades, particularly in - Agentic Coding: the model now handles frontend workflows and repository-level reasoning with greater fluency and precision. - Thinking Preservation: we've introduced a new option to retain reasoning context from historical messages, streamlining iterative development and reducing overhead. !\\[qwen3.6\\_35b\\_a3b\\_score.png\\](/assets/library/qwen3.6/4d333c77-e6ad-4047-8724-f38c68cc5b28) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "olmo2",
     "link": "https://ollama.com/library/olmo2",
     "description": "OLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks.",
@@ -530,20 +544,6 @@
     ],
     "capabilities": "",
     "readme": "## Readme\n\n> Note: this model requires [Ollama 0.5.5](https://github.com/ollama/ollama/releases/tag/v0.5.5)\n\n![1732650119-wide-4x.webp](/assets/library/olmo2/71e694b3-a4fe-4bd1-8338-684506f85e8d)\n\nOLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks.\n\n## References\n\n[Blog post](https://allenai.org/blog/olmo2)\n\nWrite Preview \n\n\\> Note: this model requires \\[Ollama 0.5.5\\](https://github.com/ollama/ollama/releases/tag/v0.5.5) !\\[1732650119-wide-4x.webp\\](/assets/library/olmo2/71e694b3-a4fe-4bd1-8338-684506f85e8d) OLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks. ## References \\[Blog post\\](https://allenai.org/blog/olmo2) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
-    "name": "qwen3.6",
-    "link": "https://ollama.com/library/qwen3.6",
-    "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
-    "pullCount": "3.7M",
-    "updated": "1 month ago",
-    "size": [
-      "27b",
-      "35b"
-    ],
-    "capabilities": "visiontoolsthinking",
-    "readme": "## Readme\n\n![](/assets/library/qwen3.6/a4dafb1d-29c1-46bc-81ca-a8a6db6b55b3)\n\nFollowing the February release of the Qwen3.5 series, we’re pleased to share the first open-weight variant of Qwen3.6\\. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience.\n\n### Qwen3.6 Highlights\n\nThis release delivers substantial upgrades, particularly in\n\n* Agentic Coding: the model now handles frontend workflows and repository-level reasoning with greater fluency and precision.\n* Thinking Preservation: we’ve introduced a new option to retain reasoning context from historical messages, streamlining iterative development and reducing overhead.\n\n![qwen3.6_35b_a3b_score.png](/assets/library/qwen3.6/4d333c77-e6ad-4047-8724-f38c68cc5b28)\n\nWrite Preview \n\n<img src=\"/assets/library/qwen3.6/a4dafb1d-29c1-46bc-81ca-a8a6db6b55b3\" width=\"360\" /> Following the February release of the Qwen3.5 series, we're pleased to share the first open-weight variant of Qwen3.6\\. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience. ### Qwen3.6 Highlights This release delivers substantial upgrades, particularly in - Agentic Coding: the model now handles frontend workflows and repository-level reasoning with greater fluency and precision. - Thinking Preservation: we've introduced a new option to retain reasoning context from historical messages, streamlining iterative development and reducing overhead. !\\[qwen3.6\\_35b\\_a3b\\_score.png\\](/assets/library/qwen3.6/4d333c77-e6ad-4047-8724-f38c68cc5b28) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -571,17 +571,6 @@
     "tags": []
   },
   {
-    "name": "snowflake-arctic-embed",
-    "link": "https://ollama.com/library/snowflake-arctic-embed",
-    "description": "A suite of text embedding models by Snowflake, optimized for performance.",
-    "pullCount": "3.1M",
-    "updated": "2 years ago",
-    "size": null,
-    "capabilities": "embedding",
-    "readme": "## Readme\n\n![](https://github.com/ollama/ollama/assets/251292/115f484a-1911-46e9-902f-65a70f84e1d0)\n\n`snowflake-arctic-embed` is a suite of text embedding models that focuses on creating high-quality retrieval models optimized for performance.\n\nThe models are trained by leveraging existing open-source text representation models, such as bert-base-uncased, and are trained in a multi-stage pipeline to optimize their retrieval performance.\n\nThis model is available in 5 parameter sizes:\n\n* `snowflake-arctic-embed:335m` (default)\n* `snowflake-arctic-embed:137m`\n* `snowflake-arctic-embed:110m`\n* `snowflake-arctic-embed:33m`\n* `snowflake-arctic-embed:22m`\n\n## Reference\n\n[Blog Post](https://www.snowflake.com/blog/introducing-snowflake-arctic-embed-snowflakes-state-of-the-art-text-embedding-family-of-models/)\n\n[HuggingFace](https://huggingface.co/Snowflake)\n\nWrite Preview \n\n<img src=\"https://github.com/ollama/ollama/assets/251292/115f484a-1911-46e9-902f-65a70f84e1d0\" width=\"320\" /> \\`snowflake-arctic-embed\\` is a suite of text embedding models that focuses on creating high-quality retrieval models optimized for performance. The models are trained by leveraging existing open-source text representation models, such as bert-base-uncased, and are trained in a multi-stage pipeline to optimize their retrieval performance. This model is available in 5 parameter sizes: \\* \\`snowflake-arctic-embed:335m\\` (default) \\* \\`snowflake-arctic-embed:137m\\` \\* \\`snowflake-arctic-embed:110m\\` \\* \\`snowflake-arctic-embed:33m\\` \\* \\`snowflake-arctic-embed:22m\\` ## Reference \\[Blog Post\\](https://www.snowflake.com/blog/introducing-snowflake-arctic-embed-snowflakes-state-of-the-art-text-embedding-family-of-models/) \\[HuggingFace\\](https://huggingface.co/Snowflake) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "qwen2.5vl",
     "link": "https://ollama.com/library/qwen2.5vl",
     "description": "Flagship vision-language model of Qwen and also a significant leap from the previous Qwen2-VL.",
@@ -595,6 +584,17 @@
     ],
     "capabilities": "vision",
     "readme": "## Readme\n\n> Note: this model requires Ollama 0.7.0\\. [Download Ollama](https://ollama.com/download)\n\n![](/assets/library/qwen2.5vl/7bd5aad3-d5c5-43b1-b915-1e85a378f1c4)\n\nQwen2.5-VL, the new flagship vision-language model of Qwen and also a significant leap from the previous Qwen2-VL.\n\nThe key features include:\n\n* **Understand things visually:** Qwen2.5-VL is not only proficient in recognizing common objects such as flowers, birds, fish, and insects, but it is highly capable of analyzing texts, charts, icons, graphics, and layouts within images.\n* **Being agentic:** Qwen2.5-VL directly plays as a visual agent that can reason and dynamically direct tools, which is capable of computer use and phone use.\n* **Capable of visual localization in different formats:** Qwen2.5-VL can accurately localize objects in an image by generating bounding boxes or points, and it can provide stable JSON outputs for coordinates and attributes.\n* **Generating structured outputs:** for data like scans of invoices, forms, tables, etc. Qwen2.5-VL supports structured outputs of their contents, benefiting usages in finance, commerce, etc.\n\n## Performance\n\nWe evaluate our models with the SOTA models as well as the best models of similar model sizes. In terms of the flagship model Qwen2.5-VL-72B-Instruct, it achieves competitive performance in a series of benchmarks covering domains and tasks, including college-level problems, math, document understanding, general question answering, math, and visual agent. Notably, Qwen2.5-VL achieves significant advantages in understanding documents and diagrams, and it is capable of playing as a visual agent without task-specific fine tuning.\n\n![image.png](/assets/library/qwen2.5vl/440a5a81-c4e4-4b5e-aa3d-f75ab2ad04cc)\n\nIn terms of smaller models, Qwen2.5-VL-7B-Instruct outperforms GPT-4o-mini in a number of tasks, and Qwen2.5-VL-3B, which is a solution for edge AI, even outperforms the 7B model of our previous version Qwen2-VL.\n\n![image.png](/assets/library/qwen2.5vl/533ec184-7b82-4bcf-a4ab-af9a41ac0810)\n\n![image.png](/assets/library/qwen2.5vl/c90b8e4b-d023-4953-9cd5-e515324ca73c)\n\n## References\n\n[Blog](https://qwenlm.github.io/blog/qwen2.5-vl/)\n\n[Qwen2.5-VL Technical Report](https://arxiv.org/abs/2502.13923)\n\nWrite Preview \n\n\\> Note: this model requires Ollama 0.7.0\\. \\[Download Ollama\\](https://ollama.com/download) <img src=\"/assets/library/qwen2.5vl/7bd5aad3-d5c5-43b1-b915-1e85a378f1c4\" width=\"280\" /> Qwen2.5-VL, the new flagship vision-language model of Qwen and also a significant leap from the previous Qwen2-VL. The key features include: - \\*\\*Understand things visually:\\*\\* Qwen2.5-VL is not only proficient in recognizing common objects such as flowers, birds, fish, and insects, but it is highly capable of analyzing texts, charts, icons, graphics, and layouts within images. - \\*\\*Being agentic:\\*\\* Qwen2.5-VL directly plays as a visual agent that can reason and dynamically direct tools, which is capable of computer use and phone use. - \\*\\*Capable of visual localization in different formats:\\*\\* Qwen2.5-VL can accurately localize objects in an image by generating bounding boxes or points, and it can provide stable JSON outputs for coordinates and attributes. - \\*\\*Generating structured outputs:\\*\\* for data like scans of invoices, forms, tables, etc. Qwen2.5-VL supports structured outputs of their contents, benefiting usages in finance, commerce, etc. ## Performance We evaluate our models with the SOTA models as well as the best models of similar model sizes. In terms of the flagship model Qwen2.5-VL-72B-Instruct, it achieves competitive performance in a series of benchmarks covering domains and tasks, including college-level problems, math, document understanding, general question answering, math, and visual agent. Notably, Qwen2.5-VL achieves significant advantages in understanding documents and diagrams, and it is capable of playing as a visual agent without task-specific fine tuning. !\\[image.png\\](/assets/library/qwen2.5vl/440a5a81-c4e4-4b5e-aa3d-f75ab2ad04cc) In terms of smaller models, Qwen2.5-VL-7B-Instruct outperforms GPT-4o-mini in a number of tasks, and Qwen2.5-VL-3B, which is a solution for edge AI, even outperforms the 7B model of our previous version Qwen2-VL. !\\[image.png\\](/assets/library/qwen2.5vl/533ec184-7b82-4bcf-a4ab-af9a41ac0810) !\\[image.png\\](/assets/library/qwen2.5vl/c90b8e4b-d023-4953-9cd5-e515324ca73c) ## References \\[Blog\\](https://qwenlm.github.io/blog/qwen2.5-vl/) \\[Qwen2.5-VL Technical Report\\](https://arxiv.org/abs/2502.13923) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
+    "name": "snowflake-arctic-embed",
+    "link": "https://ollama.com/library/snowflake-arctic-embed",
+    "description": "A suite of text embedding models by Snowflake, optimized for performance.",
+    "pullCount": "3.1M",
+    "updated": "2 years ago",
+    "size": null,
+    "capabilities": "embedding",
+    "readme": "## Readme\n\n![](https://github.com/ollama/ollama/assets/251292/115f484a-1911-46e9-902f-65a70f84e1d0)\n\n`snowflake-arctic-embed` is a suite of text embedding models that focuses on creating high-quality retrieval models optimized for performance.\n\nThe models are trained by leveraging existing open-source text representation models, such as bert-base-uncased, and are trained in a multi-stage pipeline to optimize their retrieval performance.\n\nThis model is available in 5 parameter sizes:\n\n* `snowflake-arctic-embed:335m` (default)\n* `snowflake-arctic-embed:137m`\n* `snowflake-arctic-embed:110m`\n* `snowflake-arctic-embed:33m`\n* `snowflake-arctic-embed:22m`\n\n## Reference\n\n[Blog Post](https://www.snowflake.com/blog/introducing-snowflake-arctic-embed-snowflakes-state-of-the-art-text-embedding-family-of-models/)\n\n[HuggingFace](https://huggingface.co/Snowflake)\n\nWrite Preview \n\n<img src=\"https://github.com/ollama/ollama/assets/251292/115f484a-1911-46e9-902f-65a70f84e1d0\" width=\"320\" /> \\`snowflake-arctic-embed\\` is a suite of text embedding models that focuses on creating high-quality retrieval models optimized for performance. The models are trained by leveraging existing open-source text representation models, such as bert-base-uncased, and are trained in a multi-stage pipeline to optimize their retrieval performance. This model is available in 5 parameter sizes: \\* \\`snowflake-arctic-embed:335m\\` (default) \\* \\`snowflake-arctic-embed:137m\\` \\* \\`snowflake-arctic-embed:110m\\` \\* \\`snowflake-arctic-embed:33m\\` \\* \\`snowflake-arctic-embed:22m\\` ## Reference \\[Blog Post\\](https://www.snowflake.com/blog/introducing-snowflake-arctic-embed-snowflakes-state-of-the-art-text-embedding-family-of-models/) \\[HuggingFace\\](https://huggingface.co/Snowflake) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -779,6 +779,17 @@
     "tags": []
   },
   {
+    "name": "minimax-m2.7",
+    "link": "https://ollama.com/library/minimax-m2.7",
+    "description": "MiniMax's M2-series model for coding, agentic workflows, and professional productivity.",
+    "pullCount": "2.3M",
+    "updated": "3 months ago",
+    "size": null,
+    "capabilities": "toolsthinking",
+    "readme": "## Readme\n\n> Ollama’s cloud is officially licensed with MiniMax for commercial usage\n\n![logo](/assets/library/minimax-m2.7/61a451bd-290c-4802-9f2e-f63cb4ab6c68)\n\nMiniMax M2.7 is the first model in the M2-series to deeply participate in its own evolution, capable of building complex agent harnesses and completing highly elaborate productivity tasks through Agent Teams, complex Skills, and dynamic tool search.\n\n### Highlights\n\n* **Professional software engineering**. M2.7 delivers outstanding performance in real-world engineering scenarios including end-to-end project delivery, log analysis and bug troubleshooting, code security, and machine learning. On SWE-Pro it scored 56.22%, matching GPT-5.3-Codex and nearly approaching Opus’s best level. On VIBE-Pro (55.6%) and Terminal Bench 2 (57.0%), it demonstrates deep understanding of complex engineering systems.\n* **Professional work and complex environments**. In the GDPval-AA evaluation across 45 models, M2.7 achieved an ELO score of 1495, the highest among open-source models. It handles complex editing in Excel, PPT, and Word with multi-round high-fidelity revisions, and maintains a 97% skill adherence rate across 40 complex skills (each exceeding 2,000 tokens). On Toolathon, M2.7 reached 46.3% accuracy, a global top-tier result.\n* **Character consistency and entertainment**. M2.7 possesses excellent character consistency and emotional intelligence. MiniMax has open-sourced OpenRoom, a Web GUI interaction system where conversation drives real-time visual feedback and scene interactions with characters proactively engaging their environment.\n\n![benchmark overview](/assets/library/minimax-m2.7/16c931f9-54ad-4605-8d05-4ac517f5a607)\n\n### Benchmarks\n\n**Software Engineering**\n\nM2.7 reaches the level of state-of-the-art models across real-world programming tasks spanning multiple languages and system-level comprehension.\n\n| Benchmark        | M2.7   | Notes                           |\n| ---------------- | ------ | ------------------------------- |\n| SWE-Pro          | 56.22% | Matches GPT-5.3-Codex           |\n| VIBE-Pro         | 55.6%  | Nearly on par with Opus 4.6     |\n| Terminal Bench 2 | 57.0%  | Deep system-level understanding |\n| SWE Multilingual | 76.5   | Multi-language engineering      |\n| Multi SWE Bench  | 52.7   | Multi-repo tasks                |\n| NL2Repo          | 39.8   | Natural language to repository  |\n\n**Professional Work & Office**\n\n| Benchmark                   | M2.7  | Notes                            |\n| --------------------------- | ----- | -------------------------------- |\n| GDPval-AA (ELO)             | 1495  | Highest among open-source models |\n| Toolathon                   | 46.3% | Global top tier                  |\n| MM Claw                     | 62.7% | Close to Sonnet 4.6              |\n| Skill Adherence (40 skills) | 97%   | Each skill >2,000 tokens         |\n\n**Machine Learning (MLE Bench Lite)**\n\nIn exploratory self-evolution tests across 22 ML competitions, M2.7 achieved an average medal rate of 66.6% across three 24-hour autonomous runs, second only to Opus 4.6 (75.7%) and GPT-5.4 (71.2%), tying with Gemini 3.1.\n\n### Reference\n\n* [MiniMax M2.7 announcement](https://www.minimax.io/news/minimax-m27-en)\n\nWrite Preview \n\n\\> Ollama's cloud is officially licensed with MiniMax for commercial usage !\\[logo\\](/assets/library/minimax-m2.7/61a451bd-290c-4802-9f2e-f63cb4ab6c68) MiniMax M2.7 is the first model in the M2-series to deeply participate in its own evolution, capable of building complex agent harnesses and completing highly elaborate productivity tasks through Agent Teams, complex Skills, and dynamic tool search. ### Highlights - \\*\\*Professional software engineering\\*\\*. M2.7 delivers outstanding performance in real-world engineering scenarios including end-to-end project delivery, log analysis and bug troubleshooting, code security, and machine learning. On SWE-Pro it scored 56.22%, matching GPT-5.3-Codex and nearly approaching Opus's best level. On VIBE-Pro (55.6%) and Terminal Bench 2 (57.0%), it demonstrates deep understanding of complex engineering systems. - \\*\\*Professional work and complex environments\\*\\*. In the GDPval-AA evaluation across 45 models, M2.7 achieved an ELO score of 1495, the highest among open-source models. It handles complex editing in Excel, PPT, and Word with multi-round high-fidelity revisions, and maintains a 97% skill adherence rate across 40 complex skills (each exceeding 2,000 tokens). On Toolathon, M2.7 reached 46.3% accuracy, a global top-tier result. - \\*\\*Character consistency and entertainment\\*\\*. M2.7 possesses excellent character consistency and emotional intelligence. MiniMax has open-sourced OpenRoom, a Web GUI interaction system where conversation drives real-time visual feedback and scene interactions with characters proactively engaging their environment. !\\[benchmark overview\\](/assets/library/minimax-m2.7/16c931f9-54ad-4605-8d05-4ac517f5a607) ### Benchmarks \\*\\*Software Engineering\\*\\* M2.7 reaches the level of state-of-the-art models across real-world programming tasks spanning multiple languages and system-level comprehension. | Benchmark | M2.7 | Notes | |---|---|---| | SWE-Pro | 56.22% | Matches GPT-5.3-Codex | | VIBE-Pro | 55.6% | Nearly on par with Opus 4.6 | | Terminal Bench 2 | 57.0% | Deep system-level understanding | | SWE Multilingual | 76.5 | Multi-language engineering | | Multi SWE Bench | 52.7 | Multi-repo tasks | | NL2Repo | 39.8 | Natural language to repository | \\*\\*Professional Work & Office\\*\\* | Benchmark | M2.7 | Notes | |---|---|---| | GDPval-AA (ELO) | 1495 | Highest among open-source models | | Toolathon | 46.3% | Global top tier | | MM Claw | 62.7% | Close to Sonnet 4.6 | | Skill Adherence (40 skills) | 97% | Each skill >2,000 tokens | \\*\\*Machine Learning (MLE Bench Lite)\\*\\* In exploratory self-evolution tests across 22 ML competitions, M2.7 achieved an average medal rate of 66.6% across three 24-hour autonomous runs, second only to Opus 4.6 (75.7%) and GPT-5.4 (71.2%), tying with Gemini 3.1\\. ### Reference \\* \\[MiniMax M2.7 announcement\\](https://www.minimax.io/news/minimax-m27-en) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "mistral-small3.2",
     "link": "https://ollama.com/library/mistral-small3.2",
     "description": "An update to Mistral Small that improves on function calling, instruction following, and less repetition errors.",
@@ -789,17 +800,6 @@
     ],
     "capabilities": "visiontools",
     "readme": "## Readme\n\n![](/assets/library/mistral-small3.2/cec4138e-e20c-4d5b-910f-56f8647dbda1)\n\nMistral-Small-3.2-24B-Instruct-2506 is a minor update of Mistral-Small-3.1-24B-Instruct-2503.\n\nSmall-3.2 improves in the following categories:\n\n* **Instruction following**: Small-3.2 is better at following precise instructions\n* **Repetition errors**: Small-3.2 produces less infinite generations or repetitive answers\n* **Function calling**: Small-3.2’s function calling template is more robust (see here and examples)\n\nIn all other categories Small-3.2 should match or slightly improve compared to Mistral-Small-3.1-24B-Instruct-2503.\n\n## References\n\n[Hugging Face](https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506)\n\nWrite Preview \n\n<img src=\"/assets/library/mistral-small3.2/cec4138e-e20c-4d5b-910f-56f8647dbda1\" width=\"140\" /> Mistral-Small-3.2-24B-Instruct-2506 is a minor update of Mistral-Small-3.1-24B-Instruct-2503\\. Small-3.2 improves in the following categories: \\* \\*\\*Instruction following\\*\\*: Small-3.2 is better at following precise instructions \\* \\*\\*Repetition errors\\*\\*: Small-3.2 produces less infinite generations or repetitive answers \\* \\*\\*Function calling\\*\\*: Small-3.2's function calling template is more robust (see here and examples) In all other categories Small-3.2 should match or slightly improve compared to Mistral-Small-3.1-24B-Instruct-2503\\. ## References \\[Hugging Face\\](https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
-    "name": "minimax-m2.7",
-    "link": "https://ollama.com/library/minimax-m2.7",
-    "description": "MiniMax's M2-series model for coding, agentic workflows, and professional productivity.",
-    "pullCount": "2.3M",
-    "updated": "3 months ago",
-    "size": null,
-    "capabilities": "toolsthinking",
-    "readme": "## Readme\n\n> Ollama’s cloud is officially licensed with MiniMax for commercial usage\n\n![logo](/assets/library/minimax-m2.7/61a451bd-290c-4802-9f2e-f63cb4ab6c68)\n\nMiniMax M2.7 is the first model in the M2-series to deeply participate in its own evolution, capable of building complex agent harnesses and completing highly elaborate productivity tasks through Agent Teams, complex Skills, and dynamic tool search.\n\n### Highlights\n\n* **Professional software engineering**. M2.7 delivers outstanding performance in real-world engineering scenarios including end-to-end project delivery, log analysis and bug troubleshooting, code security, and machine learning. On SWE-Pro it scored 56.22%, matching GPT-5.3-Codex and nearly approaching Opus’s best level. On VIBE-Pro (55.6%) and Terminal Bench 2 (57.0%), it demonstrates deep understanding of complex engineering systems.\n* **Professional work and complex environments**. In the GDPval-AA evaluation across 45 models, M2.7 achieved an ELO score of 1495, the highest among open-source models. It handles complex editing in Excel, PPT, and Word with multi-round high-fidelity revisions, and maintains a 97% skill adherence rate across 40 complex skills (each exceeding 2,000 tokens). On Toolathon, M2.7 reached 46.3% accuracy, a global top-tier result.\n* **Character consistency and entertainment**. M2.7 possesses excellent character consistency and emotional intelligence. MiniMax has open-sourced OpenRoom, a Web GUI interaction system where conversation drives real-time visual feedback and scene interactions with characters proactively engaging their environment.\n\n![benchmark overview](/assets/library/minimax-m2.7/16c931f9-54ad-4605-8d05-4ac517f5a607)\n\n### Benchmarks\n\n**Software Engineering**\n\nM2.7 reaches the level of state-of-the-art models across real-world programming tasks spanning multiple languages and system-level comprehension.\n\n| Benchmark        | M2.7   | Notes                           |\n| ---------------- | ------ | ------------------------------- |\n| SWE-Pro          | 56.22% | Matches GPT-5.3-Codex           |\n| VIBE-Pro         | 55.6%  | Nearly on par with Opus 4.6     |\n| Terminal Bench 2 | 57.0%  | Deep system-level understanding |\n| SWE Multilingual | 76.5   | Multi-language engineering      |\n| Multi SWE Bench  | 52.7   | Multi-repo tasks                |\n| NL2Repo          | 39.8   | Natural language to repository  |\n\n**Professional Work & Office**\n\n| Benchmark                   | M2.7  | Notes                            |\n| --------------------------- | ----- | -------------------------------- |\n| GDPval-AA (ELO)             | 1495  | Highest among open-source models |\n| Toolathon                   | 46.3% | Global top tier                  |\n| MM Claw                     | 62.7% | Close to Sonnet 4.6              |\n| Skill Adherence (40 skills) | 97%   | Each skill >2,000 tokens         |\n\n**Machine Learning (MLE Bench Lite)**\n\nIn exploratory self-evolution tests across 22 ML competitions, M2.7 achieved an average medal rate of 66.6% across three 24-hour autonomous runs, second only to Opus 4.6 (75.7%) and GPT-5.4 (71.2%), tying with Gemini 3.1.\n\n### Reference\n\n* [MiniMax M2.7 announcement](https://www.minimax.io/news/minimax-m27-en)\n\nWrite Preview \n\n\\> Ollama's cloud is officially licensed with MiniMax for commercial usage !\\[logo\\](/assets/library/minimax-m2.7/61a451bd-290c-4802-9f2e-f63cb4ab6c68) MiniMax M2.7 is the first model in the M2-series to deeply participate in its own evolution, capable of building complex agent harnesses and completing highly elaborate productivity tasks through Agent Teams, complex Skills, and dynamic tool search. ### Highlights - \\*\\*Professional software engineering\\*\\*. M2.7 delivers outstanding performance in real-world engineering scenarios including end-to-end project delivery, log analysis and bug troubleshooting, code security, and machine learning. On SWE-Pro it scored 56.22%, matching GPT-5.3-Codex and nearly approaching Opus's best level. On VIBE-Pro (55.6%) and Terminal Bench 2 (57.0%), it demonstrates deep understanding of complex engineering systems. - \\*\\*Professional work and complex environments\\*\\*. In the GDPval-AA evaluation across 45 models, M2.7 achieved an ELO score of 1495, the highest among open-source models. It handles complex editing in Excel, PPT, and Word with multi-round high-fidelity revisions, and maintains a 97% skill adherence rate across 40 complex skills (each exceeding 2,000 tokens). On Toolathon, M2.7 reached 46.3% accuracy, a global top-tier result. - \\*\\*Character consistency and entertainment\\*\\*. M2.7 possesses excellent character consistency and emotional intelligence. MiniMax has open-sourced OpenRoom, a Web GUI interaction system where conversation drives real-time visual feedback and scene interactions with characters proactively engaging their environment. !\\[benchmark overview\\](/assets/library/minimax-m2.7/16c931f9-54ad-4605-8d05-4ac517f5a607) ### Benchmarks \\*\\*Software Engineering\\*\\* M2.7 reaches the level of state-of-the-art models across real-world programming tasks spanning multiple languages and system-level comprehension. | Benchmark | M2.7 | Notes | |---|---|---| | SWE-Pro | 56.22% | Matches GPT-5.3-Codex | | VIBE-Pro | 55.6% | Nearly on par with Opus 4.6 | | Terminal Bench 2 | 57.0% | Deep system-level understanding | | SWE Multilingual | 76.5 | Multi-language engineering | | Multi SWE Bench | 52.7 | Multi-repo tasks | | NL2Repo | 39.8 | Natural language to repository | \\*\\*Professional Work & Office\\*\\* | Benchmark | M2.7 | Notes | |---|---|---| | GDPval-AA (ELO) | 1495 | Highest among open-source models | | Toolathon | 46.3% | Global top tier | | MM Claw | 62.7% | Close to Sonnet 4.6 | | Skill Adherence (40 skills) | 97% | Each skill >2,000 tokens | \\*\\*Machine Learning (MLE Bench Lite)\\*\\* In exploratory self-evolution tests across 22 ML competitions, M2.7 achieved an average medal rate of 66.6% across three 24-hour autonomous runs, second only to Opus 4.6 (75.7%) and GPT-5.4 (71.2%), tying with Gemini 3.1\\. ### Reference \\* \\[MiniMax M2.7 announcement\\](https://www.minimax.io/news/minimax-m27-en) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -1067,7 +1067,7 @@
     "name": "command-r",
     "link": "https://ollama.com/library/command-r",
     "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
-    "pullCount": "1.4M",
+    "pullCount": "1.5M",
     "updated": "1 year ago",
     "size": [
       "35b"
@@ -1106,17 +1106,6 @@
     "tags": []
   },
   {
-    "name": "embeddinggemma",
-    "link": "https://ollama.com/library/embeddinggemma",
-    "description": "EmbeddingGemma is a 300M parameter embedding model from Google.",
-    "pullCount": "1.4M",
-    "updated": "10 months ago",
-    "size": null,
-    "capabilities": "embedding",
-    "readme": "## Readme\n\n![image.png](/assets/library/embeddinggemma/9a20d963-4bf1-4177-9568-ca5d53a2d14e)\n\n> This model requires [Ollama v0.11.10](https://github.com/ollama/ollama/releases/tag/v0.11.10) or later\n\n**EmbeddingGemma** is a 300M parameter, state-of-the-art for its size, open embedding model from Google, built from Gemma 3 (with T5Gemma initialization) and the same research and technology used to create Gemini models. EmbeddingGemma produces vector representations of text, making it well-suited for search and retrieval tasks, including classification, clustering, and semantic similarity search. This model was trained with data in 100+ spoken languages.\n\nThe small size and on-device focus makes it possible to deploy in environments with limited resources such as mobile phones, laptops, or desktops, democratizing access to state of the art AI models and helping foster innovation for everyone.\n\n### Benchmark\n\n![image.png](/assets/library/embeddinggemma/59a205f6-1711-4db4-8026-96d23fa2c9da)\n\n#### Training Dataset\n\nThis model was trained on a dataset of text data that includes a wide variety of sources totaling approximately 320 billion tokens. Here are the key components:\n\n* **Web Documents**: A diverse collection of web text ensures the model is exposed to a broad range of linguistic styles, topics, and vocabulary. The training dataset includes content in over 100 languages.\n* **Code and Technical Documents**: Exposing the model to code and technical documentation helps it learn the structure and patterns of programming languages and specialized scientific content, which improves its understanding of code and technical questions.\n* **Synthetic and Task-Specific Data**: Synthetically training data helps to teach the model specific skills. This includes curated data for tasks like information retrieval, classification, and sentiment analysis, which helps to fine-tune its performance for common embedding applications.\n\nThe combination of these diverse data sources is crucial for training a powerful multilingual embedding model that can handle a wide variety of different tasks and data formats.\n\n### Reference\n\n[Documentation](https://ai.google.dev/gemma/docs/embeddinggemma)\n\nWrite Preview \n\n!\\[image.png\\](/assets/library/embeddinggemma/9a20d963-4bf1-4177-9568-ca5d53a2d14e) > This model requires \\[Ollama v0.11.10\\](https://github.com/ollama/ollama/releases/tag/v0.11.10) or later \\*\\*EmbeddingGemma\\*\\* is a 300M parameter, state-of-the-art for its size, open embedding model from Google, built from Gemma 3 (with T5Gemma initialization) and the same research and technology used to create Gemini models. EmbeddingGemma produces vector representations of text, making it well-suited for search and retrieval tasks, including classification, clustering, and semantic similarity search. This model was trained with data in 100+ spoken languages. The small size and on-device focus makes it possible to deploy in environments with limited resources such as mobile phones, laptops, or desktops, democratizing access to state of the art AI models and helping foster innovation for everyone. ### Benchmark !\\[image.png\\](/assets/library/embeddinggemma/59a205f6-1711-4db4-8026-96d23fa2c9da) #### Training Dataset This model was trained on a dataset of text data that includes a wide variety of sources totaling approximately 320 billion tokens. Here are the key components: - \\*\\*Web Documents\\*\\*: A diverse collection of web text ensures the model is exposed to a broad range of linguistic styles, topics, and vocabulary. The training dataset includes content in over 100 languages. - \\*\\*Code and Technical Documents\\*\\*: Exposing the model to code and technical documentation helps it learn the structure and patterns of programming languages and specialized scientific content, which improves its understanding of code and technical questions. - \\*\\*Synthetic and Task-Specific Data\\*\\*: Synthetically training data helps to teach the model specific skills. This includes curated data for tasks like information retrieval, classification, and sentiment analysis, which helps to fine-tune its performance for common embedding applications. The combination of these diverse data sources is crucial for training a powerful multilingual embedding model that can handle a wide variety of different tasks and data formats. ### Reference \\[Documentation\\](https://ai.google.dev/gemma/docs/embeddinggemma) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "moondream",
     "link": "https://ollama.com/library/moondream",
     "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
@@ -1127,6 +1116,17 @@
     ],
     "capabilities": "vision",
     "readme": "## Readme\n\n# 🌔 moondream 2\n\n> Moondream 2 requires Ollama 0.1.33 or later\n\n_“a tiny vision language model that kicks ass and runs anywhere”_\n\n### Limitations\n\n* The model may generate inaccurate statements, and struggle to understand intricate or nuanced instructions.\n* The model may not be free from societal biases. Users should be aware of this and exercise caution and critical thinking when using the model.\n* The model may generate offensive, inappropriate, or hurtful content if it is prompted to do so.\n\n## References\n\n[GitHub](https://github.com/vikhyat/moondream)\n\n[Hugging Face](https://huggingface.co/vikhyatk/moondream2)\n\nWrite Preview \n\n\\# 🌔 moondream 2 > Moondream 2 requires Ollama 0.1.33 or later \\_\"a tiny vision language model that kicks ass and runs anywhere\"\\_ ### Limitations \\* The model may generate inaccurate statements, and struggle to understand intricate or nuanced instructions. \\* The model may not be free from societal biases. Users should be aware of this and exercise caution and critical thinking when using the model. \\* The model may generate offensive, inappropriate, or hurtful content if it is prompted to do so. ## References \\[GitHub\\](https://github.com/vikhyat/moondream) \\[Hugging Face\\](https://huggingface.co/vikhyatk/moondream2) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
+    "name": "embeddinggemma",
+    "link": "https://ollama.com/library/embeddinggemma",
+    "description": "EmbeddingGemma is a 300M parameter embedding model from Google.",
+    "pullCount": "1.4M",
+    "updated": "10 months ago",
+    "size": null,
+    "capabilities": "embedding",
+    "readme": "## Readme\n\n![image.png](/assets/library/embeddinggemma/9a20d963-4bf1-4177-9568-ca5d53a2d14e)\n\n> This model requires [Ollama v0.11.10](https://github.com/ollama/ollama/releases/tag/v0.11.10) or later\n\n**EmbeddingGemma** is a 300M parameter, state-of-the-art for its size, open embedding model from Google, built from Gemma 3 (with T5Gemma initialization) and the same research and technology used to create Gemini models. EmbeddingGemma produces vector representations of text, making it well-suited for search and retrieval tasks, including classification, clustering, and semantic similarity search. This model was trained with data in 100+ spoken languages.\n\nThe small size and on-device focus makes it possible to deploy in environments with limited resources such as mobile phones, laptops, or desktops, democratizing access to state of the art AI models and helping foster innovation for everyone.\n\n### Benchmark\n\n![image.png](/assets/library/embeddinggemma/59a205f6-1711-4db4-8026-96d23fa2c9da)\n\n#### Training Dataset\n\nThis model was trained on a dataset of text data that includes a wide variety of sources totaling approximately 320 billion tokens. Here are the key components:\n\n* **Web Documents**: A diverse collection of web text ensures the model is exposed to a broad range of linguistic styles, topics, and vocabulary. The training dataset includes content in over 100 languages.\n* **Code and Technical Documents**: Exposing the model to code and technical documentation helps it learn the structure and patterns of programming languages and specialized scientific content, which improves its understanding of code and technical questions.\n* **Synthetic and Task-Specific Data**: Synthetically training data helps to teach the model specific skills. This includes curated data for tasks like information retrieval, classification, and sentiment analysis, which helps to fine-tune its performance for common embedding applications.\n\nThe combination of these diverse data sources is crucial for training a powerful multilingual embedding model that can handle a wide variety of different tasks and data formats.\n\n### Reference\n\n[Documentation](https://ai.google.dev/gemma/docs/embeddinggemma)\n\nWrite Preview \n\n!\\[image.png\\](/assets/library/embeddinggemma/9a20d963-4bf1-4177-9568-ca5d53a2d14e) > This model requires \\[Ollama v0.11.10\\](https://github.com/ollama/ollama/releases/tag/v0.11.10) or later \\*\\*EmbeddingGemma\\*\\* is a 300M parameter, state-of-the-art for its size, open embedding model from Google, built from Gemma 3 (with T5Gemma initialization) and the same research and technology used to create Gemini models. EmbeddingGemma produces vector representations of text, making it well-suited for search and retrieval tasks, including classification, clustering, and semantic similarity search. This model was trained with data in 100+ spoken languages. The small size and on-device focus makes it possible to deploy in environments with limited resources such as mobile phones, laptops, or desktops, democratizing access to state of the art AI models and helping foster innovation for everyone. ### Benchmark !\\[image.png\\](/assets/library/embeddinggemma/59a205f6-1711-4db4-8026-96d23fa2c9da) #### Training Dataset This model was trained on a dataset of text data that includes a wide variety of sources totaling approximately 320 billion tokens. Here are the key components: - \\*\\*Web Documents\\*\\*: A diverse collection of web text ensures the model is exposed to a broad range of linguistic styles, topics, and vocabulary. The training dataset includes content in over 100 languages. - \\*\\*Code and Technical Documents\\*\\*: Exposing the model to code and technical documentation helps it learn the structure and patterns of programming languages and specialized scientific content, which improves its understanding of code and technical questions. - \\*\\*Synthetic and Task-Specific Data\\*\\*: Synthetically training data helps to teach the model specific skills. This includes curated data for tasks like information retrieval, classification, and sentiment analysis, which helps to fine-tune its performance for common embedding applications. The combination of these diverse data sources is crucial for training a powerful multilingual embedding model that can handle a wide variety of different tasks and data formats. ### Reference \\[Documentation\\](https://ai.google.dev/gemma/docs/embeddinggemma) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -1237,6 +1237,20 @@
     "tags": []
   },
   {
+    "name": "sqlcoder",
+    "link": "https://ollama.com/library/sqlcoder",
+    "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
+    "pullCount": "1.2M",
+    "updated": "2 years ago",
+    "size": [
+      "7b",
+      "15b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\n![](https://docs.defog.ai/img/logo.svg)\n\nSQLCoder is a 15B parameter model that is fine-tuned on a base StarCoder model. It slightly outperforms gpt-3.5-turbo for natural language to SQL generation tasks on the sql-eval framework, and outperforms popular open-source models. It also significantly outperforms text-davinci-003, a model that’s more than 10 times its size.\n\nThis 15B completion model generally requires at least 16GB of RAM.\n\n## Usage\n\n### CLI\n\n```\nollama run sqlcoder \n\n```\n\nTry the following prompt using triple quotes for multi-line input:\n\nNote: change the {question} to a SQL question you want to answer. Ex.) ‘which products generate the most sales.\\`\n\n```\n\"\"\" \n### Instructions:\nYour task is to convert a question into a SQL query, given a Postgres database schema.\nAdhere to these rules:\n- **Deliberately go through the question and database schema word by word** to appropriately answer the question\n- **Use Table Aliases** to prevent ambiguity. For example, `SELECT table1.col1, table2.col1 FROM table1 JOIN table2 ON table1.id = table2.id`.\n- When creating a ratio, always cast the numerator as float\n\n### Input:\nGenerate a SQL query that answers the question `{question}`.\nThis query will run on a database whose schema is represented in this string:\nCREATE TABLE products (\n  product_id INTEGER PRIMARY KEY, -- Unique ID for each product\n  name VARCHAR(50), -- Name of the product\n  price DECIMAL(10,2), -- Price of each unit of the product\n  quantity INTEGER  -- Current quantity in stock\n);\n\nCREATE TABLE customers (\n   customer_id INTEGER PRIMARY KEY, -- Unique ID for each customer\n   name VARCHAR(50), -- Name of the customer\n   address VARCHAR(100) -- Mailing address of the customer\n);\n\nCREATE TABLE salespeople (\n  salesperson_id INTEGER PRIMARY KEY, -- Unique ID for each salesperson\n  name VARCHAR(50), -- Name of the salesperson\n  region VARCHAR(50) -- Geographic sales region\n);\n\nCREATE TABLE sales (\n  sale_id INTEGER PRIMARY KEY, -- Unique ID for each sale\n  product_id INTEGER, -- ID of product sold\n  customer_id INTEGER,  -- ID of customer who made purchase\n  salesperson_id INTEGER, -- ID of salesperson who made the sale\n  sale_date DATE, -- Date the sale occurred\n  quantity INTEGER -- Quantity of product sold\n);\n\nCREATE TABLE product_suppliers (\n  supplier_id INTEGER PRIMARY KEY, -- Unique ID for each supplier\n  product_id INTEGER, -- Product ID supplied\n  supply_price DECIMAL(10,2) -- Unit price charged by supplier\n);\n\n-- sales.product_id can be joined with products.product_id\n-- sales.customer_id can be joined with customers.customer_id\n-- sales.salesperson_id can be joined with salespeople.salesperson_id\n-- product_suppliers.product_id can be joined with products.product_id\n\n### Response:\nBased on your instructions, here is the SQL query I have generated to answer the question `{question}`:\n```sql\n\"\"\"\n\n```\n\n**Example output:**\n\n```\nSELECT customers.customer_id,\n       products.product_id,\n       (SUM(sales.quantity * product_suppliers.supply_price)) / (SELECT \nSUM(quantity)\n                                                                FROM sales\n                                                                WHERE \nsales.salesperson_id = '{chosen_salesperson}') as profit\nFROM   sales\n  INNER JOIN customers on sales.customer_id = customers.customer_id\n  INNER JOIN products on sales.product_id = products.product_id\n  INNER JOIN product_suppliers on products.product_id = \nproduct_suppliers.product_id\nWHERE  sales.salesperson_id = '{chosen_salesperson}'\nGROUP BY customers.customer_id, products.product_id\nHAVING COUNT(DISTINCT sales.sale_date) >= {min_days}\n  AND (SELECT SUM(quantity * product_suppliers.supply_price)\n     FROM   sales\n     WHERE  sales.salesperson_id = '{chosen_salesperson}'\n        and sales.customer_id = customers.customer_id\n        and sales.product_id = products.product_id) >= {min_total}\nORDER BY profit DESC;\n```\n\n\n### Reasoning\n\nThe query is broken down into two parts: the first one fetches information\nabout each sale made by a specific salesman (`{chosen_salesperson}`), and \ngroups it by customer ID, product ID, and calculates how much money was \nearned from each sale. The second part then filters out these results that\noccurred after a certain number of days (determined by the variable \n`min_days`) and had an amount of money equal to or more than a certain \nvalue (determined by the variable `min_total`). Finally, the query orders \nthe results in descending order based on the ratio between earned money \nand total money.\n\nThe first part relies on several tables from the database: salespeople, \nproducts, customers, sales, and product_suppliers. The salespeople table \ncontains information about each salesperson's ID; the products table \ncontains information about each product's name and price; the customers \ntable contains information about each customer's address; the sales table \ncontains information about each sale, including the quantity sold, the ID \nof the product sold, and the ID of the customer who made the purchase; and\nthe product_suppliers table contains information about the unit price \ncharged by each supplier.\n\nThe variables in the query can be interpreted as follows:\n\n- `{chosen_salesperson}` is a placeholder for the name of the salesman \nwhose performance is being evaluated. This value should be replaced with \nan actual salesman's name or ID number.\n- `min_days` is the minimum number of days that must have passed since the\nsale in order to qualify for inclusion in the calculation. For example, if\nthis variable were set to 30, then only sales made 30 days after the start\ndate would be included in the calculation. This value should also be \nreplaced with an integer representing the minimum number of days.\n- `min_total` is a threshold amount that must have been earned by the \nsalesman for the sale to qualify for inclusion in the calculation. For \nexample, if this variable were set to 1000, then only sales worth at least\n$1000 would be included in the calculation. This value should also be \nreplaced with an integer representing the minimum amount of money that \nmust have been earned.\n\nThe output is a table containing three columns: customer ID, product ID, \nand profit per unit price (calculated as the total money earned divided by\nthe quantity sold). The rows in this table are sorted in descending order \nbased on the ratio between earned money and total money. Rows that don't \nmeet both of these conditions will be dropped from the output.\n\n## Example\n\n```\nInput:\nmin_days = 30\nmin_total = 1000\nchosen_salesperson = '<NAME>'\n\nOutput:\n  customer_id | product_id |         profit\n-------------+----------------------------+-----------------\n  987         |     456    | 2.1             \n  1029        |    1357    | 1.91            \n  89          |    1234    | 0.59            \n```\n\n## License\n\nThe database is released under the [Open Database \nLicense](https://opendatacommons.org/licenses/odbl/1-0/).\n\n```\n\n## References\n\n[Hugging Face](https://huggingface.co/defog/sqlcoder)\n\nWrite Preview \n\n<img src=\"https://docs.defog.ai/img/logo.svg\" width=\"330px\" /> SQLCoder is a 15B parameter model that is fine-tuned on a base StarCoder model. It slightly outperforms gpt-3.5-turbo for natural language to SQL generation tasks on the sql-eval framework, and outperforms popular open-source models. It also significantly outperforms text-davinci-003, a model that's more than 10 times its size. This 15B completion model generally requires at least 16GB of RAM. ## Usage ### CLI \\`\\`\\` ollama run sqlcoder \\`\\`\\` Try the following prompt using triple quotes for multi-line input: Note: change the {question} to a SQL question you want to answer. Ex.) 'which products generate the most sales.\\` \\`\\`\\` \"\"\" ### Instructions: Your task is to convert a question into a SQL query, given a Postgres database schema. Adhere to these rules: - \\*\\*Deliberately go through the question and database schema word by word\\*\\* to appropriately answer the question - \\*\\*Use Table Aliases\\*\\* to prevent ambiguity. For example, \\`SELECT table1.col1, table2.col1 FROM table1 JOIN table2 ON table1.id = table2.id\\`. - When creating a ratio, always cast the numerator as float ### Input: Generate a SQL query that answers the question \\`{question}\\`. This query will run on a database whose schema is represented in this string: CREATE TABLE products ( product\\_id INTEGER PRIMARY KEY, -- Unique ID for each product name VARCHAR(50), -- Name of the product price DECIMAL(10,2), -- Price of each unit of the product quantity INTEGER -- Current quantity in stock ); CREATE TABLE customers ( customer\\_id INTEGER PRIMARY KEY, -- Unique ID for each customer name VARCHAR(50), -- Name of the customer address VARCHAR(100) -- Mailing address of the customer ); CREATE TABLE salespeople ( salesperson\\_id INTEGER PRIMARY KEY, -- Unique ID for each salesperson name VARCHAR(50), -- Name of the salesperson region VARCHAR(50) -- Geographic sales region ); CREATE TABLE sales ( sale\\_id INTEGER PRIMARY KEY, -- Unique ID for each sale product\\_id INTEGER, -- ID of product sold customer\\_id INTEGER, -- ID of customer who made purchase salesperson\\_id INTEGER, -- ID of salesperson who made the sale sale\\_date DATE, -- Date the sale occurred quantity INTEGER -- Quantity of product sold ); CREATE TABLE product\\_suppliers ( supplier\\_id INTEGER PRIMARY KEY, -- Unique ID for each supplier product\\_id INTEGER, -- Product ID supplied supply\\_price DECIMAL(10,2) -- Unit price charged by supplier ); -- sales.product\\_id can be joined with products.product\\_id -- sales.customer\\_id can be joined with customers.customer\\_id -- sales.salesperson\\_id can be joined with salespeople.salesperson\\_id -- product\\_suppliers.product\\_id can be joined with products.product\\_id ### Response: Based on your instructions, here is the SQL query I have generated to answer the question \\`{question}\\`: \\`\\`\\`sql \"\"\" \\`\\`\\` \\*\\*Example output:\\*\\* \\`\\`\\`\\` SELECT customers.customer\\_id, products.product\\_id, (SUM(sales.quantity \\* product\\_suppliers.supply\\_price)) / (SELECT SUM(quantity) FROM sales WHERE sales.salesperson\\_id = '{chosen\\_salesperson}') as profit FROM sales INNER JOIN customers on sales.customer\\_id = customers.customer\\_id INNER JOIN products on sales.product\\_id = products.product\\_id INNER JOIN product\\_suppliers on products.product\\_id = product\\_suppliers.product\\_id WHERE sales.salesperson\\_id = '{chosen\\_salesperson}' GROUP BY customers.customer\\_id, products.product\\_id HAVING COUNT(DISTINCT sales.sale\\_date) >= {min\\_days} AND (SELECT SUM(quantity \\* product\\_suppliers.supply\\_price) FROM sales WHERE sales.salesperson\\_id = '{chosen\\_salesperson}' and sales.customer\\_id = customers.customer\\_id and sales.product\\_id = products.product\\_id) >= {min\\_total} ORDER BY profit DESC; \\`\\`\\` ### Reasoning The query is broken down into two parts: the first one fetches information about each sale made by a specific salesman (\\`{chosen\\_salesperson}\\`), and groups it by customer ID, product ID, and calculates how much money was earned from each sale. The second part then filters out these results that occurred after a certain number of days (determined by the variable \\`min\\_days\\`) and had an amount of money equal to or more than a certain value (determined by the variable \\`min\\_total\\`). Finally, the query orders the results in descending order based on the ratio between earned money and total money. The first part relies on several tables from the database: salespeople, products, customers, sales, and product\\_suppliers. The salespeople table contains information about each salesperson's ID; the products table contains information about each product's name and price; the customers table contains information about each customer's address; the sales table contains information about each sale, including the quantity sold, the ID of the product sold, and the ID of the customer who made the purchase; and the product\\_suppliers table contains information about the unit price charged by each supplier. The variables in the query can be interpreted as follows: - \\`{chosen\\_salesperson}\\` is a placeholder for the name of the salesman whose performance is being evaluated. This value should be replaced with an actual salesman's name or ID number. - \\`min\\_days\\` is the minimum number of days that must have passed since the sale in order to qualify for inclusion in the calculation. For example, if this variable were set to 30, then only sales made 30 days after the start date would be included in the calculation. This value should also be replaced with an integer representing the minimum number of days. - \\`min\\_total\\` is a threshold amount that must have been earned by the salesman for the sale to qualify for inclusion in the calculation. For example, if this variable were set to 1000, then only sales worth at least $1000 would be included in the calculation. This value should also be replaced with an integer representing the minimum amount of money that must have been earned. The output is a table containing three columns: customer ID, product ID, and profit per unit price (calculated as the total money earned divided by the quantity sold). The rows in this table are sorted in descending order based on the ratio between earned money and total money. Rows that don't meet both of these conditions will be dropped from the output. ## Example \\`\\`\\` Input: min\\_days = 30 min\\_total = 1000 chosen\\_salesperson = '<NAME>' Output: customer\\_id | product\\_id | profit -------------+----------------------------+----------------- 987 | 456 | 2.1 1029 | 1357 | 1.91 89 | 1234 | 0.59 \\`\\`\\` ## License The database is released under the \\[Open Database License\\](https://opendatacommons.org/licenses/odbl/1-0/). \\`\\`\\`\\` ## References \\[Hugging Face\\](https://huggingface.co/defog/sqlcoder) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "zephyr",
     "link": "https://ollama.com/library/zephyr",
     "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
@@ -1276,20 +1290,6 @@
     ],
     "capabilities": "tools",
     "readme": "## Readme\n\n![](https://ollama.com/assets/library/mistral-large/1b9ab956-d5ea-4927-a54a-3f969021d3db)\n\nMistral-Large-Instruct-2411 is an advanced dense Large Language Model (LLM) of 123B parameters with state-of-the-art reasoning, knowledge and coding capabilities.\n\n### Key features\n\n* Multi-lingual by design: Dozens of languages supported, including English, French, German, Spanish, Italian, Chinese, Japanese, Korean, Portuguese, Dutch and Polish.\n* Proficient in coding: Trained on 80+ coding languages such as Python, Java, C, C++, JavacScript, and Bash. Also trained on more specific languages such as Swift and Fortran.\n* Agentic-centric: Best-in-class agentic capabilities with native function calling and JSON outputting.\n* Advanced Reasoning: State-of-the-art mathematical and reasoning capabilities.\n* Mistral Research License: Allows usage and modification for research and non-commercial usages.\n* Large Context: A large 128k context window.\n\n## References\n\n[Blog post](https://mistral.ai/news/mistral-large-2407/)\n\n[Hugging Face](https://huggingface.co/mistralai/Mistral-Large-Instruct-2411)\n\nWrite Preview \n\n<img src=\"https://ollama.com/assets/library/mistral-large/1b9ab956-d5ea-4927-a54a-3f969021d3db\" width=\"320\" /> Mistral-Large-Instruct-2411 is an advanced dense Large Language Model (LLM) of 123B parameters with state-of-the-art reasoning, knowledge and coding capabilities. ### Key features \\* Multi-lingual by design: Dozens of languages supported, including English, French, German, Spanish, Italian, Chinese, Japanese, Korean, Portuguese, Dutch and Polish. \\* Proficient in coding: Trained on 80+ coding languages such as Python, Java, C, C++, JavacScript, and Bash. Also trained on more specific languages such as Swift and Fortran. \\* Agentic-centric: Best-in-class agentic capabilities with native function calling and JSON outputting. \\* Advanced Reasoning: State-of-the-art mathematical and reasoning capabilities. \\* Mistral Research License: Allows usage and modification for research and non-commercial usages. \\* Large Context: A large 128k context window. ## References \\[Blog post\\](https://mistral.ai/news/mistral-large-2407/) \\[Hugging Face\\](https://huggingface.co/mistralai/Mistral-Large-Instruct-2411) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
-    "name": "sqlcoder",
-    "link": "https://ollama.com/library/sqlcoder",
-    "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
-    "pullCount": "1.2M",
-    "updated": "2 years ago",
-    "size": [
-      "7b",
-      "15b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\n![](https://docs.defog.ai/img/logo.svg)\n\nSQLCoder is a 15B parameter model that is fine-tuned on a base StarCoder model. It slightly outperforms gpt-3.5-turbo for natural language to SQL generation tasks on the sql-eval framework, and outperforms popular open-source models. It also significantly outperforms text-davinci-003, a model that’s more than 10 times its size.\n\nThis 15B completion model generally requires at least 16GB of RAM.\n\n## Usage\n\n### CLI\n\n```\nollama run sqlcoder \n\n```\n\nTry the following prompt using triple quotes for multi-line input:\n\nNote: change the {question} to a SQL question you want to answer. Ex.) ‘which products generate the most sales.\\`\n\n```\n\"\"\" \n### Instructions:\nYour task is to convert a question into a SQL query, given a Postgres database schema.\nAdhere to these rules:\n- **Deliberately go through the question and database schema word by word** to appropriately answer the question\n- **Use Table Aliases** to prevent ambiguity. For example, `SELECT table1.col1, table2.col1 FROM table1 JOIN table2 ON table1.id = table2.id`.\n- When creating a ratio, always cast the numerator as float\n\n### Input:\nGenerate a SQL query that answers the question `{question}`.\nThis query will run on a database whose schema is represented in this string:\nCREATE TABLE products (\n  product_id INTEGER PRIMARY KEY, -- Unique ID for each product\n  name VARCHAR(50), -- Name of the product\n  price DECIMAL(10,2), -- Price of each unit of the product\n  quantity INTEGER  -- Current quantity in stock\n);\n\nCREATE TABLE customers (\n   customer_id INTEGER PRIMARY KEY, -- Unique ID for each customer\n   name VARCHAR(50), -- Name of the customer\n   address VARCHAR(100) -- Mailing address of the customer\n);\n\nCREATE TABLE salespeople (\n  salesperson_id INTEGER PRIMARY KEY, -- Unique ID for each salesperson\n  name VARCHAR(50), -- Name of the salesperson\n  region VARCHAR(50) -- Geographic sales region\n);\n\nCREATE TABLE sales (\n  sale_id INTEGER PRIMARY KEY, -- Unique ID for each sale\n  product_id INTEGER, -- ID of product sold\n  customer_id INTEGER,  -- ID of customer who made purchase\n  salesperson_id INTEGER, -- ID of salesperson who made the sale\n  sale_date DATE, -- Date the sale occurred\n  quantity INTEGER -- Quantity of product sold\n);\n\nCREATE TABLE product_suppliers (\n  supplier_id INTEGER PRIMARY KEY, -- Unique ID for each supplier\n  product_id INTEGER, -- Product ID supplied\n  supply_price DECIMAL(10,2) -- Unit price charged by supplier\n);\n\n-- sales.product_id can be joined with products.product_id\n-- sales.customer_id can be joined with customers.customer_id\n-- sales.salesperson_id can be joined with salespeople.salesperson_id\n-- product_suppliers.product_id can be joined with products.product_id\n\n### Response:\nBased on your instructions, here is the SQL query I have generated to answer the question `{question}`:\n```sql\n\"\"\"\n\n```\n\n**Example output:**\n\n```\nSELECT customers.customer_id,\n       products.product_id,\n       (SUM(sales.quantity * product_suppliers.supply_price)) / (SELECT \nSUM(quantity)\n                                                                FROM sales\n                                                                WHERE \nsales.salesperson_id = '{chosen_salesperson}') as profit\nFROM   sales\n  INNER JOIN customers on sales.customer_id = customers.customer_id\n  INNER JOIN products on sales.product_id = products.product_id\n  INNER JOIN product_suppliers on products.product_id = \nproduct_suppliers.product_id\nWHERE  sales.salesperson_id = '{chosen_salesperson}'\nGROUP BY customers.customer_id, products.product_id\nHAVING COUNT(DISTINCT sales.sale_date) >= {min_days}\n  AND (SELECT SUM(quantity * product_suppliers.supply_price)\n     FROM   sales\n     WHERE  sales.salesperson_id = '{chosen_salesperson}'\n        and sales.customer_id = customers.customer_id\n        and sales.product_id = products.product_id) >= {min_total}\nORDER BY profit DESC;\n```\n\n\n### Reasoning\n\nThe query is broken down into two parts: the first one fetches information\nabout each sale made by a specific salesman (`{chosen_salesperson}`), and \ngroups it by customer ID, product ID, and calculates how much money was \nearned from each sale. The second part then filters out these results that\noccurred after a certain number of days (determined by the variable \n`min_days`) and had an amount of money equal to or more than a certain \nvalue (determined by the variable `min_total`). Finally, the query orders \nthe results in descending order based on the ratio between earned money \nand total money.\n\nThe first part relies on several tables from the database: salespeople, \nproducts, customers, sales, and product_suppliers. The salespeople table \ncontains information about each salesperson's ID; the products table \ncontains information about each product's name and price; the customers \ntable contains information about each customer's address; the sales table \ncontains information about each sale, including the quantity sold, the ID \nof the product sold, and the ID of the customer who made the purchase; and\nthe product_suppliers table contains information about the unit price \ncharged by each supplier.\n\nThe variables in the query can be interpreted as follows:\n\n- `{chosen_salesperson}` is a placeholder for the name of the salesman \nwhose performance is being evaluated. This value should be replaced with \nan actual salesman's name or ID number.\n- `min_days` is the minimum number of days that must have passed since the\nsale in order to qualify for inclusion in the calculation. For example, if\nthis variable were set to 30, then only sales made 30 days after the start\ndate would be included in the calculation. This value should also be \nreplaced with an integer representing the minimum number of days.\n- `min_total` is a threshold amount that must have been earned by the \nsalesman for the sale to qualify for inclusion in the calculation. For \nexample, if this variable were set to 1000, then only sales worth at least\n$1000 would be included in the calculation. This value should also be \nreplaced with an integer representing the minimum amount of money that \nmust have been earned.\n\nThe output is a table containing three columns: customer ID, product ID, \nand profit per unit price (calculated as the total money earned divided by\nthe quantity sold). The rows in this table are sorted in descending order \nbased on the ratio between earned money and total money. Rows that don't \nmeet both of these conditions will be dropped from the output.\n\n## Example\n\n```\nInput:\nmin_days = 30\nmin_total = 1000\nchosen_salesperson = '<NAME>'\n\nOutput:\n  customer_id | product_id |         profit\n-------------+----------------------------+-----------------\n  987         |     456    | 2.1             \n  1029        |    1357    | 1.91            \n  89          |    1234    | 0.59            \n```\n\n## License\n\nThe database is released under the [Open Database \nLicense](https://opendatacommons.org/licenses/odbl/1-0/).\n\n```\n\n## References\n\n[Hugging Face](https://huggingface.co/defog/sqlcoder)\n\nWrite Preview \n\n<img src=\"https://docs.defog.ai/img/logo.svg\" width=\"330px\" /> SQLCoder is a 15B parameter model that is fine-tuned on a base StarCoder model. It slightly outperforms gpt-3.5-turbo for natural language to SQL generation tasks on the sql-eval framework, and outperforms popular open-source models. It also significantly outperforms text-davinci-003, a model that's more than 10 times its size. This 15B completion model generally requires at least 16GB of RAM. ## Usage ### CLI \\`\\`\\` ollama run sqlcoder \\`\\`\\` Try the following prompt using triple quotes for multi-line input: Note: change the {question} to a SQL question you want to answer. Ex.) 'which products generate the most sales.\\` \\`\\`\\` \"\"\" ### Instructions: Your task is to convert a question into a SQL query, given a Postgres database schema. Adhere to these rules: - \\*\\*Deliberately go through the question and database schema word by word\\*\\* to appropriately answer the question - \\*\\*Use Table Aliases\\*\\* to prevent ambiguity. For example, \\`SELECT table1.col1, table2.col1 FROM table1 JOIN table2 ON table1.id = table2.id\\`. - When creating a ratio, always cast the numerator as float ### Input: Generate a SQL query that answers the question \\`{question}\\`. This query will run on a database whose schema is represented in this string: CREATE TABLE products ( product\\_id INTEGER PRIMARY KEY, -- Unique ID for each product name VARCHAR(50), -- Name of the product price DECIMAL(10,2), -- Price of each unit of the product quantity INTEGER -- Current quantity in stock ); CREATE TABLE customers ( customer\\_id INTEGER PRIMARY KEY, -- Unique ID for each customer name VARCHAR(50), -- Name of the customer address VARCHAR(100) -- Mailing address of the customer ); CREATE TABLE salespeople ( salesperson\\_id INTEGER PRIMARY KEY, -- Unique ID for each salesperson name VARCHAR(50), -- Name of the salesperson region VARCHAR(50) -- Geographic sales region ); CREATE TABLE sales ( sale\\_id INTEGER PRIMARY KEY, -- Unique ID for each sale product\\_id INTEGER, -- ID of product sold customer\\_id INTEGER, -- ID of customer who made purchase salesperson\\_id INTEGER, -- ID of salesperson who made the sale sale\\_date DATE, -- Date the sale occurred quantity INTEGER -- Quantity of product sold ); CREATE TABLE product\\_suppliers ( supplier\\_id INTEGER PRIMARY KEY, -- Unique ID for each supplier product\\_id INTEGER, -- Product ID supplied supply\\_price DECIMAL(10,2) -- Unit price charged by supplier ); -- sales.product\\_id can be joined with products.product\\_id -- sales.customer\\_id can be joined with customers.customer\\_id -- sales.salesperson\\_id can be joined with salespeople.salesperson\\_id -- product\\_suppliers.product\\_id can be joined with products.product\\_id ### Response: Based on your instructions, here is the SQL query I have generated to answer the question \\`{question}\\`: \\`\\`\\`sql \"\"\" \\`\\`\\` \\*\\*Example output:\\*\\* \\`\\`\\`\\` SELECT customers.customer\\_id, products.product\\_id, (SUM(sales.quantity \\* product\\_suppliers.supply\\_price)) / (SELECT SUM(quantity) FROM sales WHERE sales.salesperson\\_id = '{chosen\\_salesperson}') as profit FROM sales INNER JOIN customers on sales.customer\\_id = customers.customer\\_id INNER JOIN products on sales.product\\_id = products.product\\_id INNER JOIN product\\_suppliers on products.product\\_id = product\\_suppliers.product\\_id WHERE sales.salesperson\\_id = '{chosen\\_salesperson}' GROUP BY customers.customer\\_id, products.product\\_id HAVING COUNT(DISTINCT sales.sale\\_date) >= {min\\_days} AND (SELECT SUM(quantity \\* product\\_suppliers.supply\\_price) FROM sales WHERE sales.salesperson\\_id = '{chosen\\_salesperson}' and sales.customer\\_id = customers.customer\\_id and sales.product\\_id = products.product\\_id) >= {min\\_total} ORDER BY profit DESC; \\`\\`\\` ### Reasoning The query is broken down into two parts: the first one fetches information about each sale made by a specific salesman (\\`{chosen\\_salesperson}\\`), and groups it by customer ID, product ID, and calculates how much money was earned from each sale. The second part then filters out these results that occurred after a certain number of days (determined by the variable \\`min\\_days\\`) and had an amount of money equal to or more than a certain value (determined by the variable \\`min\\_total\\`). Finally, the query orders the results in descending order based on the ratio between earned money and total money. The first part relies on several tables from the database: salespeople, products, customers, sales, and product\\_suppliers. The salespeople table contains information about each salesperson's ID; the products table contains information about each product's name and price; the customers table contains information about each customer's address; the sales table contains information about each sale, including the quantity sold, the ID of the product sold, and the ID of the customer who made the purchase; and the product\\_suppliers table contains information about the unit price charged by each supplier. The variables in the query can be interpreted as follows: - \\`{chosen\\_salesperson}\\` is a placeholder for the name of the salesman whose performance is being evaluated. This value should be replaced with an actual salesman's name or ID number. - \\`min\\_days\\` is the minimum number of days that must have passed since the sale in order to qualify for inclusion in the calculation. For example, if this variable were set to 30, then only sales made 30 days after the start date would be included in the calculation. This value should also be replaced with an integer representing the minimum number of days. - \\`min\\_total\\` is a threshold amount that must have been earned by the salesman for the sale to qualify for inclusion in the calculation. For example, if this variable were set to 1000, then only sales worth at least $1000 would be included in the calculation. This value should also be replaced with an integer representing the minimum amount of money that must have been earned. The output is a table containing three columns: customer ID, product ID, and profit per unit price (calculated as the total money earned divided by the quantity sold). The rows in this table are sorted in descending order based on the ratio between earned money and total money. Rows that don't meet both of these conditions will be dropped from the output. ## Example \\`\\`\\` Input: min\\_days = 30 min\\_total = 1000 chosen\\_salesperson = '<NAME>' Output: customer\\_id | product\\_id | profit -------------+----------------------------+----------------- 987 | 456 | 2.1 1029 | 1357 | 1.91 89 | 1234 | 0.59 \\`\\`\\` ## License The database is released under the \\[Open Database License\\](https://opendatacommons.org/licenses/odbl/1-0/). \\`\\`\\`\\` ## References \\[Hugging Face\\](https://huggingface.co/defog/sqlcoder) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -1599,7 +1599,7 @@
     "name": "stablelm2",
     "link": "https://ollama.com/library/stablelm2",
     "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
-    "pullCount": "996.1K",
+    "pullCount": "997.4K",
     "updated": "2 years ago",
     "size": [
       "1.6b",
@@ -1613,7 +1613,7 @@
     "name": "granite3-dense",
     "link": "https://ollama.com/library/granite3-dense",
     "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
-    "pullCount": "983.4K",
+    "pullCount": "984.1K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -1627,7 +1627,7 @@
     "name": "llama3-chatqa",
     "link": "https://ollama.com/library/llama3-chatqa",
     "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
-    "pullCount": "983.3K",
+    "pullCount": "983.9K",
     "updated": "2 years ago",
     "size": [
       "8b",
@@ -1641,7 +1641,7 @@
     "name": "granite3.1-dense",
     "link": "https://ollama.com/library/granite3.1-dense",
     "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
-    "pullCount": "981.2K",
+    "pullCount": "981.8K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -1655,7 +1655,7 @@
     "name": "llama-guard3",
     "link": "https://ollama.com/library/llama-guard3",
     "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
-    "pullCount": "978.6K",
+    "pullCount": "979.6K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -1669,7 +1669,7 @@
     "name": "devstral",
     "link": "https://ollama.com/library/devstral",
     "description": "Devstral: the best open source model for coding agents",
-    "pullCount": "977.4K",
+    "pullCount": "978K",
     "updated": "1 year ago",
     "size": [
       "24b"
@@ -1682,7 +1682,7 @@
     "name": "phi3.5",
     "link": "https://ollama.com/library/phi3.5",
     "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-    "pullCount": "976.9K",
+    "pullCount": "977.7K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -1695,7 +1695,7 @@
     "name": "dolphincoder",
     "link": "https://ollama.com/library/dolphincoder",
     "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-    "pullCount": "968.5K",
+    "pullCount": "969.2K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1709,7 +1709,7 @@
     "name": "wizard-math",
     "link": "https://ollama.com/library/wizard-math",
     "description": "Model focused on math and logic problems",
-    "pullCount": "968.1K",
+    "pullCount": "969.1K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1724,7 +1724,7 @@
     "name": "llama3-gradient",
     "link": "https://ollama.com/library/llama3-gradient",
     "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
-    "pullCount": "961.1K",
+    "pullCount": "961.8K",
     "updated": "2 years ago",
     "size": [
       "8b",
@@ -1738,7 +1738,7 @@
     "name": "aya-expanse",
     "link": "https://ollama.com/library/aya-expanse",
     "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
-    "pullCount": "958.7K",
+    "pullCount": "959.7K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -1752,7 +1752,7 @@
     "name": "samantha-mistral",
     "link": "https://ollama.com/library/samantha-mistral",
     "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
-    "pullCount": "957.8K",
+    "pullCount": "958.5K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -1765,7 +1765,7 @@
     "name": "internlm2",
     "link": "https://ollama.com/library/internlm2",
     "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
-    "pullCount": "956K",
+    "pullCount": "957K",
     "updated": "1 year ago",
     "size": [
       "1m1.8b",
@@ -1780,7 +1780,7 @@
     "name": "llama3-groq-tool-use",
     "link": "https://ollama.com/library/llama3-groq-tool-use",
     "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
-    "pullCount": "954.8K",
+    "pullCount": "955.4K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -1794,7 +1794,7 @@
     "name": "granite3.2-vision",
     "link": "https://ollama.com/library/granite3.2-vision",
     "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
-    "pullCount": "939.4K",
+    "pullCount": "939.9K",
     "updated": "1 year ago",
     "size": [
       "2b"
@@ -1807,7 +1807,7 @@
     "name": "starling-lm",
     "link": "https://ollama.com/library/starling-lm",
     "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
-    "pullCount": "935.2K",
+    "pullCount": "935.7K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -1820,7 +1820,7 @@
     "name": "xwinlm",
     "link": "https://ollama.com/library/xwinlm",
     "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
-    "pullCount": "931.1K",
+    "pullCount": "932.2K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1831,23 +1831,10 @@
     "tags": []
   },
   {
-    "name": "solar",
-    "link": "https://ollama.com/library/solar",
-    "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
-    "pullCount": "930.9K",
-    "updated": "2 years ago",
-    "size": [
-      "10.7b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\n![](https://github.com/jmorganca/ollama/assets/251292/1867051c-434e-4873-a074-3fa7bc111423)\n\nSolar is the first open-source 10.7 billion parameter language model. It’s compact, yet remarkably powerful, and demonstrates state-of-the-art performance in models with parameters under 30B.\n\nThis model leverages the Llama 2 architecture and employs the Depth Up-Scaling technique, integrating Mistral 7B weights into upscaled layers.\n\nOn the H6 benchmark, this model outperforms models with up to 30B parameters, even the Mixtral 8X7B model.\n\n## References\n\n[HuggingFace](https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0)\n\n[Upstage AI](https://www.upstage.ai)\n\nWrite Preview \n\n<img src=\"https://github.com/jmorganca/ollama/assets/251292/1867051c-434e-4873-a074-3fa7bc111423\" width=\"200\" /> Solar is the first open-source 10.7 billion parameter language model. It's compact, yet remarkably powerful, and demonstrates state-of-the-art performance in models with parameters under 30B. This model leverages the Llama 2 architecture and employs the Depth Up-Scaling technique, integrating Mistral 7B weights into upscaled layers. On the H6 benchmark, this model outperforms models with up to 30B parameters, even the Mixtral 8X7B model. ## References \\[HuggingFace\\](https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0) \\[Upstage AI\\](https://www.upstage.ai) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "phind-codellama",
     "link": "https://ollama.com/library/phind-codellama",
     "description": "Code generation model based on Code Llama.",
-    "pullCount": "930.8K",
+    "pullCount": "931.5K",
     "updated": "2 years ago",
     "size": [
       "34b"
@@ -1857,10 +1844,23 @@
     "tags": []
   },
   {
+    "name": "solar",
+    "link": "https://ollama.com/library/solar",
+    "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
+    "pullCount": "931.4K",
+    "updated": "2 years ago",
+    "size": [
+      "10.7b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\n![](https://github.com/jmorganca/ollama/assets/251292/1867051c-434e-4873-a074-3fa7bc111423)\n\nSolar is the first open-source 10.7 billion parameter language model. It’s compact, yet remarkably powerful, and demonstrates state-of-the-art performance in models with parameters under 30B.\n\nThis model leverages the Llama 2 architecture and employs the Depth Up-Scaling technique, integrating Mistral 7B weights into upscaled layers.\n\nOn the H6 benchmark, this model outperforms models with up to 30B parameters, even the Mixtral 8X7B model.\n\n## References\n\n[HuggingFace](https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0)\n\n[Upstage AI](https://www.upstage.ai)\n\nWrite Preview \n\n<img src=\"https://github.com/jmorganca/ollama/assets/251292/1867051c-434e-4873-a074-3fa7bc111423\" width=\"200\" /> Solar is the first open-source 10.7 billion parameter language model. It's compact, yet remarkably powerful, and demonstrates state-of-the-art performance in models with parameters under 30B. This model leverages the Llama 2 architecture and employs the Depth Up-Scaling technique, integrating Mistral 7B weights into upscaled layers. On the H6 benchmark, this model outperforms models with up to 30B parameters, even the Mixtral 8X7B model. ## References \\[HuggingFace\\](https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0) \\[Upstage AI\\](https://www.upstage.ai) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "yarn-llama2",
     "link": "https://ollama.com/library/yarn-llama2",
     "description": "An extension of Llama 2 that supports a context of up to 128k tokens.",
-    "pullCount": "919.5K",
+    "pullCount": "920.4K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1874,7 +1874,7 @@
     "name": "granite3-moe",
     "link": "https://ollama.com/library/granite3-moe",
     "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
-    "pullCount": "916.9K",
+    "pullCount": "917.4K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -1888,7 +1888,7 @@
     "name": "paraphrase-multilingual",
     "link": "https://ollama.com/library/paraphrase-multilingual",
     "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
-    "pullCount": "913.3K",
+    "pullCount": "914.9K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -1896,10 +1896,23 @@
     "tags": []
   },
   {
+    "name": "devstral-small-2",
+    "link": "https://ollama.com/library/devstral-small-2",
+    "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
+    "pullCount": "901.1K",
+    "updated": "6 months ago",
+    "size": [
+      "24b"
+    ],
+    "capabilities": "visiontools",
+    "readme": "## Readme\n\n![](/assets/library/devstral-2/22065d6d-626a-4fc8-af4c-2efe10844651)\n\n> Note: this model requires Ollama 0.13.3 or later. [Download Ollama](https://ollama.com/download)\n\n# Devstral Small 2\n\nDevstral is an agentic LLM for software engineering tasks. **Devstral 2** models excel at using tools to explore codebases, editing multiple files and power software engineering agents.  \nThe model achieves remarkable performance on SWE-bench.\n\n**[24B model](https://ollama.com/library/devstral-small-2)**\n\n```\nollama run devstral-small-2\n\n```\n\n### Key Features\n\nThe Devstral 2 Instruct model offers the following capabilities:\n\n* **Agentic Coding**: Devstral is designed to excel at agentic coding tasks, making it a great choice for software engineering agents.\n* **Improved Performance**: Devstral 2 is a step-up compared to its predecessors.\n* **Better Generalization**: Generalises better to diverse prompts and coding environments.\n\n### Use Cases\n\nAI Code Assistants, Agentic Coding, and Software Engineering Tasks. Leveraging advanced AI capabilities for complex tool integration and deep codebase understanding in coding environments.\n\n### Benchmark Results\n\n| Model/Benchmark      | Size (B Tokens) | SWE Bench Verified | SWE Bench Multilingual | Terminal Bench |\n| -------------------- | --------------- | ------------------ | ---------------------- | -------------- |\n| **Devstral 2**       | 123             | 72.2%              | 61.3%                  | 40.5%          |\n| **Devstral Small 2** | 24              | 65.8%              | 51.6%                  | 32.0%          |\n| DeepSeek v3.2        | 671             | 73.1%              | 70.2%                  | 46.4%          |\n| Kimi K2 Thinking     | 1000            | 71.3%              | 61.1%                  | 35.7%          |\n| MiniMax M2           | 230             | 69.4%              | 56.5%                  | 30.0%          |\n| GLM 4.6              | 455             | 68.0%              | –                      | 40.5%          |\n| Qwen 3 Coder Plus    | 480             | 69.6%              | 54.7%                  | 37.5%          |\n| Gemini 3 Pro         | –               | 76.2%              | –                      | 54.2%          |\n| Claude Sonnet 4.5    | –               | 77.2%              | 68.0%                  | 42.8%          |\n| GPT 5.1 Codex Max    | –               | 77.9%              | –                      | 58.1%          |\n| GPT 5.1 Codex High   | –               | 73.7%              | –                      | 52.8%          |\n\n### License\n\n**[Devstral Small 2 - 24B](https://ollama.com/library/devstral-small-2)**\n\nApache 2.0\n\n### Reference\n\n[Devstral 2](https://ollama.com/library/devstral-2)\n\nWrite Preview \n\n<img src=\"/assets/library/devstral-2/22065d6d-626a-4fc8-af4c-2efe10844651\" width=\"72\" /> > Note: this model requires Ollama 0.13.3 or later. \\[Download Ollama\\](https://ollama.com/download) # Devstral Small 2 Devstral is an agentic LLM for software engineering tasks. \\*\\*Devstral 2\\*\\* models excel at using tools to explore codebases, editing multiple files and power software engineering agents. The model achieves remarkable performance on SWE-bench. \\*\\*\\[24B model\\](https://ollama.com/library/devstral-small-2)\\*\\* \\`\\`\\` ollama run devstral-small-2 \\`\\`\\` ### Key Features The Devstral 2 Instruct model offers the following capabilities: - \\*\\*Agentic Coding\\*\\*: Devstral is designed to excel at agentic coding tasks, making it a great choice for software engineering agents. - \\*\\*Improved Performance\\*\\*: Devstral 2 is a step-up compared to its predecessors. - \\*\\*Better Generalization\\*\\*: Generalises better to diverse prompts and coding environments. ### Use Cases AI Code Assistants, Agentic Coding, and Software Engineering Tasks. Leveraging advanced AI capabilities for complex tool integration and deep codebase understanding in coding environments. ### Benchmark Results | Model/Benchmark | Size (B Tokens) | SWE Bench Verified | SWE Bench Multilingual | Terminal Bench | |-------------------------------|-----------------|--------------------|------------------------|----------------| | \\*\\*Devstral 2\\*\\* | 123 | 72.2% | 61.3% | 40.5% | | \\*\\*Devstral Small 2\\*\\* | 24 | 65.8% | 51.6% | 32.0% | | | | | | | | DeepSeek v3.2 | 671 | 73.1% | 70.2% | 46.4% | | Kimi K2 Thinking | 1000 | 71.3% | 61.1% | 35.7% | | MiniMax M2 | 230 | 69.4% | 56.5% | 30.0% | | GLM 4.6 | 455 | 68.0% | -- | 40.5% | | Qwen 3 Coder Plus | 480 | 69.6% | 54.7% | 37.5% | | Gemini 3 Pro | -- | 76.2% | -- | 54.2% | | Claude Sonnet 4.5 | -- | 77.2% | 68.0% | 42.8% | | GPT 5.1 Codex Max | -- | 77.9% | -- | 58.1% | | GPT 5.1 Codex High | -- | 73.7% | -- | 52.8% | ### License \\*\\*\\[Devstral Small 2 - 24B\\](https://ollama.com/library/devstral-small-2)\\*\\* Apache 2.0 ### Reference \\[Devstral 2\\](https://ollama.com/library/devstral-2) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "orca2",
     "link": "https://ollama.com/library/orca2",
     "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
-    "pullCount": "900.1K",
+    "pullCount": "900.6K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1910,23 +1923,10 @@
     "tags": []
   },
   {
-    "name": "devstral-small-2",
-    "link": "https://ollama.com/library/devstral-small-2",
-    "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-    "pullCount": "899.8K",
-    "updated": "6 months ago",
-    "size": [
-      "24b"
-    ],
-    "capabilities": "visiontools",
-    "readme": "## Readme\n\n![](/assets/library/devstral-2/22065d6d-626a-4fc8-af4c-2efe10844651)\n\n> Note: this model requires Ollama 0.13.3 or later. [Download Ollama](https://ollama.com/download)\n\n# Devstral Small 2\n\nDevstral is an agentic LLM for software engineering tasks. **Devstral 2** models excel at using tools to explore codebases, editing multiple files and power software engineering agents.  \nThe model achieves remarkable performance on SWE-bench.\n\n**[24B model](https://ollama.com/library/devstral-small-2)**\n\n```\nollama run devstral-small-2\n\n```\n\n### Key Features\n\nThe Devstral 2 Instruct model offers the following capabilities:\n\n* **Agentic Coding**: Devstral is designed to excel at agentic coding tasks, making it a great choice for software engineering agents.\n* **Improved Performance**: Devstral 2 is a step-up compared to its predecessors.\n* **Better Generalization**: Generalises better to diverse prompts and coding environments.\n\n### Use Cases\n\nAI Code Assistants, Agentic Coding, and Software Engineering Tasks. Leveraging advanced AI capabilities for complex tool integration and deep codebase understanding in coding environments.\n\n### Benchmark Results\n\n| Model/Benchmark      | Size (B Tokens) | SWE Bench Verified | SWE Bench Multilingual | Terminal Bench |\n| -------------------- | --------------- | ------------------ | ---------------------- | -------------- |\n| **Devstral 2**       | 123             | 72.2%              | 61.3%                  | 40.5%          |\n| **Devstral Small 2** | 24              | 65.8%              | 51.6%                  | 32.0%          |\n| DeepSeek v3.2        | 671             | 73.1%              | 70.2%                  | 46.4%          |\n| Kimi K2 Thinking     | 1000            | 71.3%              | 61.1%                  | 35.7%          |\n| MiniMax M2           | 230             | 69.4%              | 56.5%                  | 30.0%          |\n| GLM 4.6              | 455             | 68.0%              | –                      | 40.5%          |\n| Qwen 3 Coder Plus    | 480             | 69.6%              | 54.7%                  | 37.5%          |\n| Gemini 3 Pro         | –               | 76.2%              | –                      | 54.2%          |\n| Claude Sonnet 4.5    | –               | 77.2%              | 68.0%                  | 42.8%          |\n| GPT 5.1 Codex Max    | –               | 77.9%              | –                      | 58.1%          |\n| GPT 5.1 Codex High   | –               | 73.7%              | –                      | 52.8%          |\n\n### License\n\n**[Devstral Small 2 - 24B](https://ollama.com/library/devstral-small-2)**\n\nApache 2.0\n\n### Reference\n\n[Devstral 2](https://ollama.com/library/devstral-2)\n\nWrite Preview \n\n<img src=\"/assets/library/devstral-2/22065d6d-626a-4fc8-af4c-2efe10844651\" width=\"72\" /> > Note: this model requires Ollama 0.13.3 or later. \\[Download Ollama\\](https://ollama.com/download) # Devstral Small 2 Devstral is an agentic LLM for software engineering tasks. \\*\\*Devstral 2\\*\\* models excel at using tools to explore codebases, editing multiple files and power software engineering agents. The model achieves remarkable performance on SWE-bench. \\*\\*\\[24B model\\](https://ollama.com/library/devstral-small-2)\\*\\* \\`\\`\\` ollama run devstral-small-2 \\`\\`\\` ### Key Features The Devstral 2 Instruct model offers the following capabilities: - \\*\\*Agentic Coding\\*\\*: Devstral is designed to excel at agentic coding tasks, making it a great choice for software engineering agents. - \\*\\*Improved Performance\\*\\*: Devstral 2 is a step-up compared to its predecessors. - \\*\\*Better Generalization\\*\\*: Generalises better to diverse prompts and coding environments. ### Use Cases AI Code Assistants, Agentic Coding, and Software Engineering Tasks. Leveraging advanced AI capabilities for complex tool integration and deep codebase understanding in coding environments. ### Benchmark Results | Model/Benchmark | Size (B Tokens) | SWE Bench Verified | SWE Bench Multilingual | Terminal Bench | |-------------------------------|-----------------|--------------------|------------------------|----------------| | \\*\\*Devstral 2\\*\\* | 123 | 72.2% | 61.3% | 40.5% | | \\*\\*Devstral Small 2\\*\\* | 24 | 65.8% | 51.6% | 32.0% | | | | | | | | DeepSeek v3.2 | 671 | 73.1% | 70.2% | 46.4% | | Kimi K2 Thinking | 1000 | 71.3% | 61.1% | 35.7% | | MiniMax M2 | 230 | 69.4% | 56.5% | 30.0% | | GLM 4.6 | 455 | 68.0% | -- | 40.5% | | Qwen 3 Coder Plus | 480 | 69.6% | 54.7% | 37.5% | | Gemini 3 Pro | -- | 76.2% | -- | 54.2% | | Claude Sonnet 4.5 | -- | 77.2% | 68.0% | 42.8% | | GPT 5.1 Codex Max | -- | 77.9% | -- | 58.1% | | GPT 5.1 Codex High | -- | 73.7% | -- | 52.8% | ### License \\*\\*\\[Devstral Small 2 - 24B\\](https://ollama.com/library/devstral-small-2)\\*\\* Apache 2.0 ### Reference \\[Devstral 2\\](https://ollama.com/library/devstral-2) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "stable-beluga",
     "link": "https://ollama.com/library/stable-beluga",
     "description": "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.",
-    "pullCount": "894.3K",
+    "pullCount": "895K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1941,7 +1941,7 @@
     "name": "reader-lm",
     "link": "https://ollama.com/library/reader-lm",
     "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
-    "pullCount": "890.7K",
+    "pullCount": "891.3K",
     "updated": "1 year ago",
     "size": [
       "0.5b",
@@ -1955,7 +1955,7 @@
     "name": "shieldgemma",
     "link": "https://ollama.com/library/shieldgemma",
     "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
-    "pullCount": "888.2K",
+    "pullCount": "888.9K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -1970,7 +1970,7 @@
     "name": "deepcoder",
     "link": "https://ollama.com/library/deepcoder",
     "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
-    "pullCount": "883.7K",
+    "pullCount": "884K",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -1984,7 +1984,7 @@
     "name": "llama-pro",
     "link": "https://ollama.com/library/llama-pro",
     "description": "An expansion of Llama 2 that specializes in integrating both general language understanding and domain-specific knowledge, particularly in programming and mathematics.",
-    "pullCount": "875.6K",
+    "pullCount": "876K",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "",
@@ -1995,7 +1995,7 @@
     "name": "yarn-mistral",
     "link": "https://ollama.com/library/yarn-mistral",
     "description": "An extension of Mistral to support context windows of 64K or 128K.",
-    "pullCount": "869.1K",
+    "pullCount": "869.5K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2008,7 +2008,7 @@
     "name": "nexusraven",
     "link": "https://ollama.com/library/nexusraven",
     "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
-    "pullCount": "865K",
+    "pullCount": "865.4K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2021,7 +2021,7 @@
     "name": "bakllava",
     "link": "https://ollama.com/library/bakllava",
     "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
-    "pullCount": "860.5K",
+    "pullCount": "860.8K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2034,7 +2034,7 @@
     "name": "wizardlm",
     "link": "https://ollama.com/library/wizardlm",
     "description": "General use model based on Llama 2.",
-    "pullCount": "851.3K",
+    "pullCount": "852.3K",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "",
@@ -2045,7 +2045,7 @@
     "name": "command-r-plus",
     "link": "https://ollama.com/library/command-r-plus",
     "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
-    "pullCount": "775K",
+    "pullCount": "775.3K",
     "updated": "1 year ago",
     "size": [
       "104b"
@@ -2058,7 +2058,7 @@
     "name": "mistral-small3.1",
     "link": "https://ollama.com/library/mistral-small3.1",
     "description": "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance.",
-    "pullCount": "759.9K",
+    "pullCount": "760.3K",
     "updated": "1 year ago",
     "size": [
       "24b"
@@ -2071,7 +2071,7 @@
     "name": "meditron",
     "link": "https://ollama.com/library/meditron",
     "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
-    "pullCount": "750.4K",
+    "pullCount": "752.2K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -2085,7 +2085,7 @@
     "name": "exaone-deep",
     "link": "https://ollama.com/library/exaone-deep",
     "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
-    "pullCount": "746.6K",
+    "pullCount": "746.9K",
     "updated": "1 year ago",
     "size": [
       "2.4b",
@@ -2100,7 +2100,7 @@
     "name": "deepseek-v3.1",
     "link": "https://ollama.com/library/deepseek-v3.1",
     "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
-    "pullCount": "705.6K",
+    "pullCount": "705.8K",
     "updated": "7 months ago",
     "size": [
       "671b"
@@ -2113,7 +2113,7 @@
     "name": "tinydolphin",
     "link": "https://ollama.com/library/tinydolphin",
     "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-    "pullCount": "701.7K",
+    "pullCount": "702K",
     "updated": "2 years ago",
     "size": [
       "1.1b"
@@ -2126,7 +2126,7 @@
     "name": "nemotron-mini",
     "link": "https://ollama.com/library/nemotron-mini",
     "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
-    "pullCount": "683.6K",
+    "pullCount": "684K",
     "updated": "1 year ago",
     "size": [
       "4b"
@@ -2139,7 +2139,7 @@
     "name": "codegeex4",
     "link": "https://ollama.com/library/codegeex4",
     "description": "A versatile model for AI software development scenarios, including code completion.",
-    "pullCount": "666.3K",
+    "pullCount": "666.6K",
     "updated": "2 years ago",
     "size": [
       "9b"
@@ -2152,7 +2152,7 @@
     "name": "mistral-openorca",
     "link": "https://ollama.com/library/mistral-openorca",
     "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
-    "pullCount": "660.8K",
+    "pullCount": "661.1K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2165,7 +2165,7 @@
     "name": "wizardlm-uncensored",
     "link": "https://ollama.com/library/wizardlm-uncensored",
     "description": "Uncensored version of Wizard LM model",
-    "pullCount": "623.2K",
+    "pullCount": "623.5K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2178,7 +2178,7 @@
     "name": "nemotron3",
     "link": "https://ollama.com/library/nemotron3",
     "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-    "pullCount": "615.5K",
+    "pullCount": "615.9K",
     "updated": "2 months ago",
     "size": [
       "33b"
@@ -2191,7 +2191,7 @@
     "name": "opencoder",
     "link": "https://ollama.com/library/opencoder",
     "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-    "pullCount": "606.8K",
+    "pullCount": "607K",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -2205,7 +2205,7 @@
     "name": "reflection",
     "link": "https://ollama.com/library/reflection",
     "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
-    "pullCount": "597.2K",
+    "pullCount": "597.5K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -2215,23 +2215,10 @@
     "tags": []
   },
   {
-    "name": "nemotron",
-    "link": "https://ollama.com/library/nemotron",
-    "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
-    "pullCount": "592.3K",
-    "updated": "1 year ago",
-    "size": [
-      "70b"
-    ],
-    "capabilities": "tools",
-    "readme": "## Readme\n\n![](https://ollama.com/assets/library/nemotron-mini/4e0ea563-a507-45e7-ad0b-b083918ec11b)\n\nLlama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.\n\nThis model was trained using RLHF (specifically, REINFORCE), [Llama-3.1-Nemotron-70B-Reward](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Reward) and [HelpSteer2-Preference prompts](https://huggingface.co/datasets/nvidia/HelpSteer2) on a [Llama-3.1-70B-Instruct](https://ai.meta.com/blog/meta-llama-3-1/) model as the initial policy.\n\n```\n$ ollama run nemotron\n>>> How many r in strawberry?\nA sweet question!\n\nLet's count the \"R\"s in \"strawberry\":\n\n1. S\n2. T\n3. R\n4. A\n5. W\n6. B\n7. E\n8. R\n9. R\n10. Y\n\nThere are **3** \"R\"s in the word \"strawberry\".\n\n```\n\n## Reference\n\n[Hugging Face](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF)\n\nWrite Preview \n\n<img src=\"https://ollama.com/assets/library/nemotron-mini/4e0ea563-a507-45e7-ad0b-b083918ec11b\" width=\"320\" /> Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries. This model was trained using RLHF (specifically, REINFORCE), \\[Llama-3.1-Nemotron-70B-Reward\\](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Reward) and \\[HelpSteer2-Preference prompts\\](https://huggingface.co/datasets/nvidia/HelpSteer2) on a \\[Llama-3.1-70B-Instruct\\](https://ai.meta.com/blog/meta-llama-3-1/) model as the initial policy. \\`\\`\\` $ ollama run nemotron >>> How many r in strawberry? A sweet question! Let's count the \"R\"s in \"strawberry\": 1\\. S 2\\. T 3\\. R 4\\. A 5\\. W 6\\. B 7\\. E 8\\. R 9\\. R 10\\. Y There are \\*\\*3\\*\\* \"R\"s in the word \"strawberry\". \\`\\`\\` ## Reference \\[Hugging Face\\](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "medllama2",
     "link": "https://ollama.com/library/medllama2",
     "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
-    "pullCount": "592.1K",
+    "pullCount": "593.8K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2241,10 +2228,23 @@
     "tags": []
   },
   {
+    "name": "nemotron",
+    "link": "https://ollama.com/library/nemotron",
+    "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
+    "pullCount": "592.6K",
+    "updated": "1 year ago",
+    "size": [
+      "70b"
+    ],
+    "capabilities": "tools",
+    "readme": "## Readme\n\n![](https://ollama.com/assets/library/nemotron-mini/4e0ea563-a507-45e7-ad0b-b083918ec11b)\n\nLlama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.\n\nThis model was trained using RLHF (specifically, REINFORCE), [Llama-3.1-Nemotron-70B-Reward](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Reward) and [HelpSteer2-Preference prompts](https://huggingface.co/datasets/nvidia/HelpSteer2) on a [Llama-3.1-70B-Instruct](https://ai.meta.com/blog/meta-llama-3-1/) model as the initial policy.\n\n```\n$ ollama run nemotron\n>>> How many r in strawberry?\nA sweet question!\n\nLet's count the \"R\"s in \"strawberry\":\n\n1. S\n2. T\n3. R\n4. A\n5. W\n6. B\n7. E\n8. R\n9. R\n10. Y\n\nThere are **3** \"R\"s in the word \"strawberry\".\n\n```\n\n## Reference\n\n[Hugging Face](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF)\n\nWrite Preview \n\n<img src=\"https://ollama.com/assets/library/nemotron-mini/4e0ea563-a507-45e7-ad0b-b083918ec11b\" width=\"320\" /> Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries. This model was trained using RLHF (specifically, REINFORCE), \\[Llama-3.1-Nemotron-70B-Reward\\](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Reward) and \\[HelpSteer2-Preference prompts\\](https://huggingface.co/datasets/nvidia/HelpSteer2) on a \\[Llama-3.1-70B-Instruct\\](https://ai.meta.com/blog/meta-llama-3-1/) model as the initial policy. \\`\\`\\` $ ollama run nemotron >>> How many r in strawberry? A sweet question! Let's count the \"R\"s in \"strawberry\": 1\\. S 2\\. T 3\\. R 4\\. A 5\\. W 6\\. B 7\\. E 8\\. R 9\\. R 10\\. Y There are \\*\\*3\\*\\* \"R\"s in the word \"strawberry\". \\`\\`\\` ## Reference \\[Hugging Face\\](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "nemotron-3-nano",
     "link": "https://ollama.com/library/nemotron-3-nano",
     "description": "Nemotron-3-Nano is a new Standard for Efficient, Open, and Intelligent Agentic Models, now updated with a 4B parameter count model.",
-    "pullCount": "577.8K",
+    "pullCount": "579.4K",
     "updated": "3 months ago",
     "size": [
       "4b",
@@ -2258,7 +2258,7 @@
     "name": "qwen3-next",
     "link": "https://ollama.com/library/qwen3-next",
     "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
-    "pullCount": "571.8K",
+    "pullCount": "572K",
     "updated": "7 months ago",
     "size": [
       "80b"
@@ -2271,7 +2271,7 @@
     "name": "nous-hermes2-mixtral",
     "link": "https://ollama.com/library/nous-hermes2-mixtral",
     "description": "The Nous Hermes 2 model from Nous Research, now trained over Mixtral.",
-    "pullCount": "571.6K",
+    "pullCount": "571.9K",
     "updated": "1 year ago",
     "size": [
       "8x7b"
@@ -2284,7 +2284,7 @@
     "name": "codeup",
     "link": "https://ollama.com/library/codeup",
     "description": "Great code generation model based on Llama2.",
-    "pullCount": "571.2K",
+    "pullCount": "571.5K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2297,7 +2297,7 @@
     "name": "athene-v2",
     "link": "https://ollama.com/library/athene-v2",
     "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
-    "pullCount": "570.8K",
+    "pullCount": "571K",
     "updated": "1 year ago",
     "size": [
       "72b"
@@ -2310,7 +2310,7 @@
     "name": "megadolphin",
     "link": "https://ollama.com/library/megadolphin",
     "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
-    "pullCount": "549.8K",
+    "pullCount": "550.1K",
     "updated": "2 years ago",
     "size": [
       "120b"
@@ -2323,7 +2323,7 @@
     "name": "everythinglm",
     "link": "https://ollama.com/library/everythinglm",
     "description": "Uncensored Llama2 based model with support for a 16K context window.",
-    "pullCount": "546.5K",
+    "pullCount": "546.7K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2336,7 +2336,7 @@
     "name": "solar-pro",
     "link": "https://ollama.com/library/solar-pro",
     "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
-    "pullCount": "539.1K",
+    "pullCount": "539.4K",
     "updated": "1 year ago",
     "size": [
       "22b"
@@ -2349,7 +2349,7 @@
     "name": "magicoder",
     "link": "https://ollama.com/library/magicoder",
     "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
-    "pullCount": "537.1K",
+    "pullCount": "537.3K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2362,7 +2362,7 @@
     "name": "mathstral",
     "link": "https://ollama.com/library/mathstral",
     "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
-    "pullCount": "529.4K",
+    "pullCount": "529.7K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -2375,7 +2375,7 @@
     "name": "exaone3.5",
     "link": "https://ollama.com/library/exaone3.5",
     "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
-    "pullCount": "521.4K",
+    "pullCount": "522.1K",
     "updated": "1 year ago",
     "size": [
       "2.4b",
@@ -2387,23 +2387,10 @@
     "tags": []
   },
   {
-    "name": "notus",
-    "link": "https://ollama.com/library/notus",
-    "description": "A 7B chat model fine-tuned with high-quality data and based on Zephyr.",
-    "pullCount": "520.8K",
-    "updated": "2 years ago",
-    "size": [
-      "7b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\n![](https://github.com/jmorganca/ollama/assets/251292/4d57573b-8a00-46ea-8d62-e1e6f0bd1411)\n\nNotus is a model by [Argilla](https://argilla.io/), fine-tuned from [Zephyr](https://ollama.ai/library/zephyr) using a high-quality dataset.\n\n## References\n\n[HuggingFace](https://huggingface.co/argilla/notus-7b-v1)\n\n[Argilla](https://argilla.io/)\n\nWrite Preview \n\n<img src=\"https://github.com/jmorganca/ollama/assets/251292/4d57573b-8a00-46ea-8d62-e1e6f0bd1411\" width=\"280\" /> Notus is a model by \\[Argilla\\](https://argilla.io/), fine-tuned from \\[Zephyr\\](https://ollama.ai/library/zephyr) using a high-quality dataset. ## References \\[HuggingFace\\](https://huggingface.co/argilla/notus-7b-v1) \\[Argilla\\](https://argilla.io/) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "falcon2",
     "link": "https://ollama.com/library/falcon2",
     "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
-    "pullCount": "520.7K",
+    "pullCount": "521K",
     "updated": "2 years ago",
     "size": [
       "11b"
@@ -2413,10 +2400,23 @@
     "tags": []
   },
   {
+    "name": "notus",
+    "link": "https://ollama.com/library/notus",
+    "description": "A 7B chat model fine-tuned with high-quality data and based on Zephyr.",
+    "pullCount": "521K",
+    "updated": "2 years ago",
+    "size": [
+      "7b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\n![](https://github.com/jmorganca/ollama/assets/251292/4d57573b-8a00-46ea-8d62-e1e6f0bd1411)\n\nNotus is a model by [Argilla](https://argilla.io/), fine-tuned from [Zephyr](https://ollama.ai/library/zephyr) using a high-quality dataset.\n\n## References\n\n[HuggingFace](https://huggingface.co/argilla/notus-7b-v1)\n\n[Argilla](https://argilla.io/)\n\nWrite Preview \n\n<img src=\"https://github.com/jmorganca/ollama/assets/251292/4d57573b-8a00-46ea-8d62-e1e6f0bd1411\" width=\"280\" /> Notus is a model by \\[Argilla\\](https://argilla.io/), fine-tuned from \\[Zephyr\\](https://ollama.ai/library/zephyr) using a high-quality dataset. ## References \\[HuggingFace\\](https://huggingface.co/argilla/notus-7b-v1) \\[Argilla\\](https://argilla.io/) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "notux",
     "link": "https://ollama.com/library/notux",
     "description": "A top-performing mixture of experts model, fine-tuned with high-quality data.",
-    "pullCount": "519.9K",
+    "pullCount": "520.2K",
     "updated": "2 years ago",
     "size": [
       "8x7b"
@@ -2429,7 +2429,7 @@
     "name": "stablelm-zephyr",
     "link": "https://ollama.com/library/stablelm-zephyr",
     "description": "A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware.",
-    "pullCount": "514.7K",
+    "pullCount": "514.9K",
     "updated": "2 years ago",
     "size": [
       "3b"
@@ -2442,7 +2442,7 @@
     "name": "nuextract",
     "link": "https://ollama.com/library/nuextract",
     "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
-    "pullCount": "513.9K",
+    "pullCount": "514.2K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -2455,7 +2455,7 @@
     "name": "bespoke-minicheck",
     "link": "https://ollama.com/library/bespoke-minicheck",
     "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
-    "pullCount": "509.5K",
+    "pullCount": "509.8K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -2468,7 +2468,7 @@
     "name": "duckdb-nsql",
     "link": "https://ollama.com/library/duckdb-nsql",
     "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
-    "pullCount": "509.3K",
+    "pullCount": "509.5K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2481,7 +2481,7 @@
     "name": "mistrallite",
     "link": "https://ollama.com/library/mistrallite",
     "description": "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.",
-    "pullCount": "506K",
+    "pullCount": "506.3K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2494,7 +2494,7 @@
     "name": "firefunction-v2",
     "link": "https://ollama.com/library/firefunction-v2",
     "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
-    "pullCount": "504K",
+    "pullCount": "504.3K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -2507,7 +2507,7 @@
     "name": "wizard-vicuna",
     "link": "https://ollama.com/library/wizard-vicuna",
     "description": "Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj.",
-    "pullCount": "500.1K",
+    "pullCount": "500.4K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2520,7 +2520,7 @@
     "name": "open-orca-platypus2",
     "link": "https://ollama.com/library/open-orca-platypus2",
     "description": "Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation.",
-    "pullCount": "492.4K",
+    "pullCount": "492.7K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2533,7 +2533,7 @@
     "name": "deepseek-ocr",
     "link": "https://ollama.com/library/deepseek-ocr",
     "description": "DeepSeek-OCR is a vision-language model that can perform token-efficient OCR.",
-    "pullCount": "485.7K",
+    "pullCount": "486.4K",
     "updated": "7 months ago",
     "size": [
       "3b"
@@ -2546,7 +2546,7 @@
     "name": "rnj-1",
     "link": "https://ollama.com/library/rnj-1",
     "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
-    "pullCount": "484.5K",
+    "pullCount": "484.6K",
     "updated": "7 months ago",
     "size": [
       "8b"
@@ -2559,7 +2559,7 @@
     "name": "codebooga",
     "link": "https://ollama.com/library/codebooga",
     "description": "A high-performing code instruct model created by merging two existing code models.",
-    "pullCount": "479.9K",
+    "pullCount": "480.1K",
     "updated": "2 years ago",
     "size": [
       "34b"
@@ -2572,7 +2572,7 @@
     "name": "nomic-embed-text-v2-moe",
     "link": "https://ollama.com/library/nomic-embed-text-v2-moe",
     "description": "nomic-embed-text-v2-moe is a multilingual MoE text embedding model that excels at multilingual retrieval.",
-    "pullCount": "469K",
+    "pullCount": "474.3K",
     "updated": "7 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -2583,7 +2583,7 @@
     "name": "goliath",
     "link": "https://ollama.com/library/goliath",
     "description": "A language model created by combining two fine-tuned Llama 2 70B models into one.",
-    "pullCount": "463.5K",
+    "pullCount": "463.7K",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "",
@@ -2594,7 +2594,7 @@
     "name": "granite3.2",
     "link": "https://ollama.com/library/granite3.2",
     "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
-    "pullCount": "441.2K",
+    "pullCount": "441.4K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -2608,7 +2608,7 @@
     "name": "olmo-3",
     "link": "https://ollama.com/library/olmo-3",
     "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-    "pullCount": "439.9K",
+    "pullCount": "440K",
     "updated": "6 months ago",
     "size": [
       "7b",
@@ -2622,7 +2622,7 @@
     "name": "snowflake-arctic-embed2",
     "link": "https://ollama.com/library/snowflake-arctic-embed2",
     "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-    "pullCount": "422.2K",
+    "pullCount": "422.4K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -2633,7 +2633,7 @@
     "name": "r1-1776",
     "link": "https://ollama.com/library/r1-1776",
     "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-    "pullCount": "408.6K",
+    "pullCount": "408.7K",
     "updated": "1 year ago",
     "size": [
       "70b",
@@ -2647,7 +2647,7 @@
     "name": "sailor2",
     "link": "https://ollama.com/library/sailor2",
     "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
-    "pullCount": "396.1K",
+    "pullCount": "396.3K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -2662,7 +2662,7 @@
     "name": "tulu3",
     "link": "https://ollama.com/library/tulu3",
     "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
-    "pullCount": "368.8K",
+    "pullCount": "368.9K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -2676,7 +2676,7 @@
     "name": "kimi-k2.6",
     "link": "https://ollama.com/library/kimi-k2.6",
     "description": "Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration.",
-    "pullCount": "366.9K",
+    "pullCount": "368.9K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
@@ -2687,7 +2687,7 @@
     "name": "kimi-k2.5",
     "link": "https://ollama.com/library/kimi-k2.5",
     "description": "Kimi K2.5 is an open-source, native multimodal agentic model that seamlessly integrates vision and language understanding with advanced agentic capabilities, instant and thinking modes, as well as conversational and agentic paradigms.",
-    "pullCount": "352K",
+    "pullCount": "353.2K",
     "updated": "5 months ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
@@ -2698,7 +2698,7 @@
     "name": "granite-embedding",
     "link": "https://ollama.com/library/granite-embedding",
     "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
-    "pullCount": "337.3K",
+    "pullCount": "337.5K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -2709,7 +2709,7 @@
     "name": "granite3-guardian",
     "link": "https://ollama.com/library/granite3-guardian",
     "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
-    "pullCount": "322.2K",
+    "pullCount": "322.4K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -2723,7 +2723,7 @@
     "name": "dbrx",
     "link": "https://ollama.com/library/dbrx",
     "description": "DBRX is an open, general-purpose LLM created by Databricks.",
-    "pullCount": "313.1K",
+    "pullCount": "313.2K",
     "updated": "2 years ago",
     "size": [
       "132b"
@@ -2736,7 +2736,7 @@
     "name": "llava-phi3",
     "link": "https://ollama.com/library/llava-phi3",
     "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
-    "pullCount": "293.1K",
+    "pullCount": "293.3K",
     "updated": "2 years ago",
     "size": [
       "3.8b"
@@ -2746,23 +2746,10 @@
     "tags": []
   },
   {
-    "name": "olmo-3.1",
-    "link": "https://ollama.com/library/olmo-3.1",
-    "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-    "pullCount": "279.8K",
-    "updated": "6 months ago",
-    "size": [
-      "32b"
-    ],
-    "capabilities": "tools",
-    "readme": "## Readme\n\n![Olmo3.png](/assets/library/olmo-3.1/8d27e58b-a05f-4ffd-94d2-cd61a48e7303)\n\nOlmo 3.1 models are available either as a 32B parameter thinking or instruct model. It has long chain-of-thought thinking to improve reasoning tasks like math and coding.\n\nOlmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets. Allen AI team is releasing all code, checkpoints, logs, and associated training details.\n\n### Models\n\n**Olmo 3.1 Instruct 32B**\n\n```\nollama run olmo-3.1:32b-instruct\n\n```\n\n**Olmo 3.1 Think 32B**\n\n```\nollama run olmo-3.1:32b-think\n\n```\n\n### Benchmark\n\n| Benchmark          | Olmo 3.1 32B Think | Olmo 3 Think 32B | Qwen 3 32B | Qwen 3 VL 32B Thinking | Qwen 2.5 32B | Gemma 3 27B Instruct | Gemma 2 27B Instruct | Olmo 2 32B Instruct | DeepSeek-R1-Distill-Qwen-32B |\n| ------------------ | ------------------ | ---------------- | ---------- | ---------------------- | ------------ | -------------------- | -------------------- | ------------------- | ---------------------------- |\n| **Math**           |                    |                  |            |                        |              |                      |                      |                     |                              |\n| MATH               | 96.2               | 96.1             | 95.4       | 96.7                   | 80.2         | 87.4                 | 51.5                 | 49.2                | 92.6                         |\n| AIME 2024          | 80.6               | 76.8             | 80.8       | 86.3                   | 15.7         | 28.9                 | 4.7                  | 4.6                 | 70.3                         |\n| AIME 2025          | 78.1               | 72.5             | 70.9       | 78.8                   | 13.4         | 22.9                 | 0.9                  | 0.9                 | 56.3                         |\n| OMEGA              | 53.4               | 50.8             | 47.7       | 50.8                   | 19.2         | 24.0                 | 9.1                  | 9.8                 | 38.9                         |\n| **Reasoning**      |                    |                  |            |                        |              |                      |                      |                     |                              |\n| BigBenchHard       | 88.6               | 89.8             | 90.6       | 91.1                   | 80.9         | 82.4                 | 66.0                 | 65.6                | 89.7                         |\n| ZebraLogic         | 80.1               | 76.0             | 88.3       | 96.1                   | 24.1         | 24.8                 | 17.2                 | 13.3                | 69.4                         |\n| AGI Eval English   | 89.2               | 88.2             | 90.0       | 92.2                   | 78.9         | 76.9                 | 70.9                 | 68.4                | 88.1                         |\n| **Coding**         |                    |                  |            |                        |              |                      |                      |                     |                              |\n| HumanEvalPlus      | 91.5               | 91.4             | 91.2       | 90.6                   | 82.6         | 79.2                 | 67.5                 | 44.4                | 92.3                         |\n| MBPP+              | 68.3               | 68.0             | 70.6       | 66.2                   | 66.6         | 65.7                 | 61.2                 | 49.0                | 70.1                         |\n| LiveCodeBench v3   | 83.3               | 83.5             | 90.2       | 84.8                   | 49.9         | 39.0                 | 28.7                 | 10.6                | 79.5                         |\n| **IF**             |                    |                  |            |                        |              |                      |                      |                     |                              |\n| IFEval             | 93.8               | 89.0             | 86.5       | 85.5                   | 81.9         | 85.4                 | 62.1                 | 85.8                | 78.7                         |\n| IFBench            | 68.1               | 47.6             | 37.3       | 55.1                   | 36.7         | 31.3                 | 27.8                 | 36.4                | 23.8                         |\n| **Knowledge & QA** |                    |                  |            |                        |              |                      |                      |                     |                              |\n| MMLU               | 86.4               | 85.4             | 88.8       | 90.1                   | 84.6         | 74.6                 | 76.1                 | 77.1                | 88.0                         |\n| PopQA              | 30.9               | 31.9             | 30.7       | 32.2                   | 28.0         | 30.2                 | 30.4                 | 37.2                | 26.7                         |\n| GPQA               | 57.5               | 58.1             | 67.3       | 67.4                   | 44.6         | 45.0                 | 39.9                 | 36.4                | 61.8                         |\n| **Chat**           |                    |                  |            |                        |              |                      |                      |                     |                              |\n| AlpacaEval 2 LC    | 69.1               | 74.2             | 75.6       | 80.9                   | 81.9         | 65.5                 | 39.8                 | 38.0                | 26.2                         |\n| **Safety**         | 83.6               | 68.8             | 69.0       | 82.7                   | 81.9         | 68.6                 | 74.3                 | 83.8                | 63.6                         |\n\nWrite Preview \n\n!\\[Olmo3.png\\](/assets/library/olmo-3.1/8d27e58b-a05f-4ffd-94d2-cd61a48e7303) Olmo 3.1 models are available either as a 32B parameter thinking or instruct model. It has long chain-of-thought thinking to improve reasoning tasks like math and coding. Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets. Allen AI team is releasing all code, checkpoints, logs, and associated training details. ### Models \\*\\*Olmo 3.1 Instruct 32B\\*\\* \\`\\`\\` ollama run olmo-3.1:32b-instruct \\`\\`\\` \\*\\*Olmo 3.1 Think 32B\\*\\* \\`\\`\\` ollama run olmo-3.1:32b-think \\`\\`\\` ### Benchmark | Benchmark | Olmo 3.1 32B Think | Olmo 3 Think 32B | Qwen 3 32B | Qwen 3 VL 32B Thinking | Qwen 2.5 32B | Gemma 3 27B Instruct | Gemma 2 27B Instruct | Olmo 2 32B Instruct | DeepSeek-R1-Distill-Qwen-32B | |-----------|---------------------:|-----------------:|-----------:|------------------------:|-------------:|----------------------:|----------------------:|---------------------:|----------------------------:| | \\*\\*Math\\*\\* | | | | | | | | | | | MATH | 96.2 | 96.1 | 95.4 | 96.7 | 80.2 | 87.4 | 51.5 | 49.2 | 92.6 | | AIME 2024 | 80.6 | 76.8 | 80.8 | 86.3 | 15.7 | 28.9 | 4.7 | 4.6 | 70.3 | | AIME 2025 | 78.1 | 72.5 | 70.9 | 78.8 | 13.4 | 22.9 | 0.9 | 0.9 | 56.3 | | OMEGA | 53.4 | 50.8 | 47.7 | 50.8 | 19.2 | 24.0 | 9.1 | 9.8 | 38.9 | | \\*\\*Reasoning\\*\\* | | | | | | | | | | | BigBenchHard | 88.6 | 89.8 | 90.6 | 91.1 | 80.9 | 82.4 | 66.0 | 65.6 | 89.7 | | ZebraLogic | 80.1 | 76.0 | 88.3 | 96.1 | 24.1 | 24.8 | 17.2 | 13.3 | 69.4 | | AGI Eval English | 89.2 | 88.2 | 90.0 | 92.2 | 78.9 | 76.9 | 70.9 | 68.4 | 88.1 | | \\*\\*Coding\\*\\* | | | | | | | | | | | HumanEvalPlus | 91.5 | 91.4 | 91.2 | 90.6 | 82.6 | 79.2 | 67.5 | 44.4 | 92.3 | | MBPP+ | 68.3 | 68.0 | 70.6 | 66.2 | 66.6 | 65.7 | 61.2 | 49.0 | 70.1 | | LiveCodeBench v3 | 83.3 | 83.5 | 90.2 | 84.8 | 49.9 | 39.0 | 28.7 | 10.6 | 79.5 | | \\*\\*IF\\*\\* | | | | | | | | | | | IFEval | 93.8 | 89.0 | 86.5 | 85.5 | 81.9 | 85.4 | 62.1 | 85.8 | 78.7 | | IFBench | 68.1 | 47.6 | 37.3 | 55.1 | 36.7 | 31.3 | 27.8 | 36.4 | 23.8 | | \\*\\*Knowledge & QA\\*\\* | | | | | | | | | | | MMLU | 86.4 | 85.4 | 88.8 | 90.1 | 84.6 | 74.6 | 76.1 | 77.1 | 88.0 | | PopQA | 30.9 | 31.9 | 30.7 | 32.2 | 28.0 | 30.2 | 30.4 | 37.2 | 26.7 | | GPQA | 57.5 | 58.1 | 67.3 | 67.4 | 44.6 | 45.0 | 39.9 | 36.4 | 61.8 | | \\*\\*Chat\\*\\* | | | | | | | | | | | AlpacaEval 2 LC | 69.1 | 74.2 | 75.6 | 80.9 | 81.9 | 65.5 | 39.8 | 38.0 | 26.2 | | \\*\\*Safety\\*\\* | 83.6 | 68.8 | 69.0 | 82.7 | 81.9 | 68.6 | 74.3 | 83.8 | 63.6 | \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "phi4-mini-reasoning",
     "link": "https://ollama.com/library/phi4-mini-reasoning",
     "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
-    "pullCount": "279.6K",
+    "pullCount": "279.9K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -2772,10 +2759,23 @@
     "tags": []
   },
   {
+    "name": "olmo-3.1",
+    "link": "https://ollama.com/library/olmo-3.1",
+    "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
+    "pullCount": "279.9K",
+    "updated": "6 months ago",
+    "size": [
+      "32b"
+    ],
+    "capabilities": "tools",
+    "readme": "## Readme\n\n![Olmo3.png](/assets/library/olmo-3.1/8d27e58b-a05f-4ffd-94d2-cd61a48e7303)\n\nOlmo 3.1 models are available either as a 32B parameter thinking or instruct model. It has long chain-of-thought thinking to improve reasoning tasks like math and coding.\n\nOlmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets. Allen AI team is releasing all code, checkpoints, logs, and associated training details.\n\n### Models\n\n**Olmo 3.1 Instruct 32B**\n\n```\nollama run olmo-3.1:32b-instruct\n\n```\n\n**Olmo 3.1 Think 32B**\n\n```\nollama run olmo-3.1:32b-think\n\n```\n\n### Benchmark\n\n| Benchmark          | Olmo 3.1 32B Think | Olmo 3 Think 32B | Qwen 3 32B | Qwen 3 VL 32B Thinking | Qwen 2.5 32B | Gemma 3 27B Instruct | Gemma 2 27B Instruct | Olmo 2 32B Instruct | DeepSeek-R1-Distill-Qwen-32B |\n| ------------------ | ------------------ | ---------------- | ---------- | ---------------------- | ------------ | -------------------- | -------------------- | ------------------- | ---------------------------- |\n| **Math**           |                    |                  |            |                        |              |                      |                      |                     |                              |\n| MATH               | 96.2               | 96.1             | 95.4       | 96.7                   | 80.2         | 87.4                 | 51.5                 | 49.2                | 92.6                         |\n| AIME 2024          | 80.6               | 76.8             | 80.8       | 86.3                   | 15.7         | 28.9                 | 4.7                  | 4.6                 | 70.3                         |\n| AIME 2025          | 78.1               | 72.5             | 70.9       | 78.8                   | 13.4         | 22.9                 | 0.9                  | 0.9                 | 56.3                         |\n| OMEGA              | 53.4               | 50.8             | 47.7       | 50.8                   | 19.2         | 24.0                 | 9.1                  | 9.8                 | 38.9                         |\n| **Reasoning**      |                    |                  |            |                        |              |                      |                      |                     |                              |\n| BigBenchHard       | 88.6               | 89.8             | 90.6       | 91.1                   | 80.9         | 82.4                 | 66.0                 | 65.6                | 89.7                         |\n| ZebraLogic         | 80.1               | 76.0             | 88.3       | 96.1                   | 24.1         | 24.8                 | 17.2                 | 13.3                | 69.4                         |\n| AGI Eval English   | 89.2               | 88.2             | 90.0       | 92.2                   | 78.9         | 76.9                 | 70.9                 | 68.4                | 88.1                         |\n| **Coding**         |                    |                  |            |                        |              |                      |                      |                     |                              |\n| HumanEvalPlus      | 91.5               | 91.4             | 91.2       | 90.6                   | 82.6         | 79.2                 | 67.5                 | 44.4                | 92.3                         |\n| MBPP+              | 68.3               | 68.0             | 70.6       | 66.2                   | 66.6         | 65.7                 | 61.2                 | 49.0                | 70.1                         |\n| LiveCodeBench v3   | 83.3               | 83.5             | 90.2       | 84.8                   | 49.9         | 39.0                 | 28.7                 | 10.6                | 79.5                         |\n| **IF**             |                    |                  |            |                        |              |                      |                      |                     |                              |\n| IFEval             | 93.8               | 89.0             | 86.5       | 85.5                   | 81.9         | 85.4                 | 62.1                 | 85.8                | 78.7                         |\n| IFBench            | 68.1               | 47.6             | 37.3       | 55.1                   | 36.7         | 31.3                 | 27.8                 | 36.4                | 23.8                         |\n| **Knowledge & QA** |                    |                  |            |                        |              |                      |                      |                     |                              |\n| MMLU               | 86.4               | 85.4             | 88.8       | 90.1                   | 84.6         | 74.6                 | 76.1                 | 77.1                | 88.0                         |\n| PopQA              | 30.9               | 31.9             | 30.7       | 32.2                   | 28.0         | 30.2                 | 30.4                 | 37.2                | 26.7                         |\n| GPQA               | 57.5               | 58.1             | 67.3       | 67.4                   | 44.6         | 45.0                 | 39.9                 | 36.4                | 61.8                         |\n| **Chat**           |                    |                  |            |                        |              |                      |                      |                     |                              |\n| AlpacaEval 2 LC    | 69.1               | 74.2             | 75.6       | 80.9                   | 81.9         | 65.5                 | 39.8                 | 38.0                | 26.2                         |\n| **Safety**         | 83.6               | 68.8             | 69.0       | 82.7                   | 81.9         | 68.6                 | 74.3                 | 83.8                | 63.6                         |\n\nWrite Preview \n\n!\\[Olmo3.png\\](/assets/library/olmo-3.1/8d27e58b-a05f-4ffd-94d2-cd61a48e7303) Olmo 3.1 models are available either as a 32B parameter thinking or instruct model. It has long chain-of-thought thinking to improve reasoning tasks like math and coding. Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets. Allen AI team is releasing all code, checkpoints, logs, and associated training details. ### Models \\*\\*Olmo 3.1 Instruct 32B\\*\\* \\`\\`\\` ollama run olmo-3.1:32b-instruct \\`\\`\\` \\*\\*Olmo 3.1 Think 32B\\*\\* \\`\\`\\` ollama run olmo-3.1:32b-think \\`\\`\\` ### Benchmark | Benchmark | Olmo 3.1 32B Think | Olmo 3 Think 32B | Qwen 3 32B | Qwen 3 VL 32B Thinking | Qwen 2.5 32B | Gemma 3 27B Instruct | Gemma 2 27B Instruct | Olmo 2 32B Instruct | DeepSeek-R1-Distill-Qwen-32B | |-----------|---------------------:|-----------------:|-----------:|------------------------:|-------------:|----------------------:|----------------------:|---------------------:|----------------------------:| | \\*\\*Math\\*\\* | | | | | | | | | | | MATH | 96.2 | 96.1 | 95.4 | 96.7 | 80.2 | 87.4 | 51.5 | 49.2 | 92.6 | | AIME 2024 | 80.6 | 76.8 | 80.8 | 86.3 | 15.7 | 28.9 | 4.7 | 4.6 | 70.3 | | AIME 2025 | 78.1 | 72.5 | 70.9 | 78.8 | 13.4 | 22.9 | 0.9 | 0.9 | 56.3 | | OMEGA | 53.4 | 50.8 | 47.7 | 50.8 | 19.2 | 24.0 | 9.1 | 9.8 | 38.9 | | \\*\\*Reasoning\\*\\* | | | | | | | | | | | BigBenchHard | 88.6 | 89.8 | 90.6 | 91.1 | 80.9 | 82.4 | 66.0 | 65.6 | 89.7 | | ZebraLogic | 80.1 | 76.0 | 88.3 | 96.1 | 24.1 | 24.8 | 17.2 | 13.3 | 69.4 | | AGI Eval English | 89.2 | 88.2 | 90.0 | 92.2 | 78.9 | 76.9 | 70.9 | 68.4 | 88.1 | | \\*\\*Coding\\*\\* | | | | | | | | | | | HumanEvalPlus | 91.5 | 91.4 | 91.2 | 90.6 | 82.6 | 79.2 | 67.5 | 44.4 | 92.3 | | MBPP+ | 68.3 | 68.0 | 70.6 | 66.2 | 66.6 | 65.7 | 61.2 | 49.0 | 70.1 | | LiveCodeBench v3 | 83.3 | 83.5 | 90.2 | 84.8 | 49.9 | 39.0 | 28.7 | 10.6 | 79.5 | | \\*\\*IF\\*\\* | | | | | | | | | | | IFEval | 93.8 | 89.0 | 86.5 | 85.5 | 81.9 | 85.4 | 62.1 | 85.8 | 78.7 | | IFBench | 68.1 | 47.6 | 37.3 | 55.1 | 36.7 | 31.3 | 27.8 | 36.4 | 23.8 | | \\*\\*Knowledge & QA\\*\\* | | | | | | | | | | | MMLU | 86.4 | 85.4 | 88.8 | 90.1 | 84.6 | 74.6 | 76.1 | 77.1 | 88.0 | | PopQA | 30.9 | 31.9 | 30.7 | 32.2 | 28.0 | 30.2 | 30.4 | 37.2 | 26.7 | | GPQA | 57.5 | 58.1 | 67.3 | 67.4 | 44.6 | 45.0 | 39.9 | 36.4 | 61.8 | | \\*\\*Chat\\*\\* | | | | | | | | | | | AlpacaEval 2 LC | 69.1 | 74.2 | 75.6 | 80.9 | 81.9 | 65.5 | 39.8 | 38.0 | 26.2 | | \\*\\*Safety\\*\\* | 83.6 | 68.8 | 69.0 | 82.7 | 81.9 | 68.6 | 74.3 | 83.8 | 63.6 | \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "deepseek-v2.5",
     "link": "https://ollama.com/library/deepseek-v2.5",
     "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
-    "pullCount": "279.5K",
+    "pullCount": "279.6K",
     "updated": "1 year ago",
     "size": [
       "236b"
@@ -2788,7 +2788,7 @@
     "name": "command-r7b",
     "link": "https://ollama.com/library/command-r7b",
     "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
-    "pullCount": "276.2K",
+    "pullCount": "276.6K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -2801,7 +2801,7 @@
     "name": "bge-large",
     "link": "https://ollama.com/library/bge-large",
     "description": "Embedding model from BAAI mapping texts to vectors.",
-    "pullCount": "273.9K",
+    "pullCount": "274.1K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -2812,7 +2812,7 @@
     "name": "devstral-2",
     "link": "https://ollama.com/library/devstral-2",
     "description": "123B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-    "pullCount": "251.4K",
+    "pullCount": "252.2K",
     "updated": "7 months ago",
     "size": [
       "123b"
@@ -2825,7 +2825,7 @@
     "name": "smallthinker",
     "link": "https://ollama.com/library/smallthinker",
     "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-    "pullCount": "250.3K",
+    "pullCount": "250.4K",
     "updated": "1 year ago",
     "size": [
       "3b"
@@ -2838,7 +2838,7 @@
     "name": "granite4.1",
     "link": "https://ollama.com/library/granite4.1",
     "description": "IBM Granite Models are a family of enterprise-ready, open foundation models that support multilingual capabilities, coding, retrieval-augmented generation (RAG), tool use, and structured JSON output. Released under Apache 2.0 license.",
-    "pullCount": "234.8K",
+    "pullCount": "237.4K",
     "updated": "1 month ago",
     "size": [
       "3b",
@@ -2853,7 +2853,7 @@
     "name": "alfred",
     "link": "https://ollama.com/library/alfred",
     "description": "A robust conversational model designed to be used for both chat and instruct use cases.",
-    "pullCount": "232.1K",
+    "pullCount": "232.2K",
     "updated": "2 years ago",
     "size": [
       "40b"
@@ -2866,7 +2866,7 @@
     "name": "ornith",
     "link": "https://ollama.com/library/ornith",
     "description": "A self-improving family of open-source models for agentic coding",
-    "pullCount": "224.6K",
+    "pullCount": "229.3K",
     "updated": "1 week ago",
     "size": [
       "9b",
@@ -2880,7 +2880,7 @@
     "name": "command-a",
     "link": "https://ollama.com/library/command-a",
     "description": "111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI",
-    "pullCount": "219.6K",
+    "pullCount": "219.8K",
     "updated": "1 year ago",
     "size": [
       "111b"
@@ -2893,7 +2893,7 @@
     "name": "deepseek-v4-flash",
     "link": "https://ollama.com/library/deepseek-v4-flash",
     "description": "DeepSeek-V4-Flash is a preview of the DeepSeek-V4 series, a Mixture-of-Experts model with 284B total parameters and 13B activated, built for efficient reasoning across a 1M-token context window.",
-    "pullCount": "213K",
+    "pullCount": "216.9K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -2904,7 +2904,7 @@
     "name": "minimax-m3",
     "link": "https://ollama.com/library/minimax-m3",
     "description": "MiniMax M3: Coding & Agentic Frontier. 1M context window. Native Multimodality.",
-    "pullCount": "210.4K",
+    "pullCount": "216.8K",
     "updated": "1 month ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
@@ -2915,7 +2915,7 @@
     "name": "deepseek-v4-pro",
     "link": "https://ollama.com/library/deepseek-v4-pro",
     "description": "DeepSeek-V4-Pro is a frontier Mixture-of-Experts model with a large context window and three reasoning modes.",
-    "pullCount": "208.5K",
+    "pullCount": "212.7K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -2926,7 +2926,7 @@
     "name": "marco-o1",
     "link": "https://ollama.com/library/marco-o1",
     "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
-    "pullCount": "206.7K",
+    "pullCount": "206.8K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -2939,7 +2939,7 @@
     "name": "cogito-2.1",
     "link": "https://ollama.com/library/cogito-2.1",
     "description": "The Cogito v2.1 LLMs are instruction tuned generative models. All models are released under MIT license for commercial use.",
-    "pullCount": "201.1K",
+    "pullCount": "201.2K",
     "updated": "7 months ago",
     "size": [
       "671b"
@@ -2952,7 +2952,7 @@
     "name": "command-r7b-arabic",
     "link": "https://ollama.com/library/command-r7b-arabic",
     "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
-    "pullCount": "196.3K",
+    "pullCount": "196.4K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -2965,7 +2965,7 @@
     "name": "glm-5.2",
     "link": "https://ollama.com/library/glm-5.2",
     "description": "GLM-5.2 is Z.ai’s flagship model for the era of long-horizon tasks.",
-    "pullCount": "191.3K",
+    "pullCount": "196K",
     "updated": "3 weeks ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -2976,7 +2976,7 @@
     "name": "functiongemma",
     "link": "https://ollama.com/library/functiongemma",
     "description": "FunctionGemma is a specialized version of Google's Gemma 3 270M model fine-tuned explicitly for function calling.",
-    "pullCount": "171K",
+    "pullCount": "171.3K",
     "updated": "6 months ago",
     "size": null,
     "capabilities": "tools",
@@ -2987,7 +2987,7 @@
     "name": "mistral-medium-3.5",
     "link": "https://ollama.com/library/mistral-medium-3.5",
     "description": "Mistral Medium 3.5 is the first flagship model of Mistral AI that merged instruction-following, reasoning, and coding in a single set of 128B weights.",
-    "pullCount": "156.5K",
+    "pullCount": "159.9K",
     "updated": "2 months ago",
     "size": [
       "128b"
@@ -2997,24 +2997,10 @@
     "tags": []
   },
   {
-    "name": "gpt-oss-safeguard",
-    "link": "https://ollama.com/library/gpt-oss-safeguard",
-    "description": "gpt-oss-safeguard-20b and gpt-oss-safeguard-120b are safety reasoning models built-upon gpt-oss",
-    "pullCount": "147K",
-    "updated": "8 months ago",
-    "size": [
-      "20b",
-      "120b"
-    ],
-    "capabilities": "toolsthinking",
-    "readme": "## Readme\n\n### Get started\n\n**20B:**\n\n```\nollama run gpt-oss-safeguard:20b\n\n```\n\nThis model is designed to fit into GPUs with 16GB of VRAM. (21B parameters with 3.6B active parameters).\n\n**120B:**\n\n```\nollama run gpt-oss-safeguard:120b\n\n```\n\nThis model is designed to fit into a single NVIDIA H100 GPU (117B parameters with 5.1B active parameters).\n\n### Highlights\n\n* **Trained to reason about safety** : Trained and tuned for safety reasoning to accommodate use cases like LLM input-output filtering, online content labeling and offline labeling for Trust and Safety use cases.\n* **Bring your own policy:** Interprets your written policy, so it generalizes across products and use cases with minimal engineering.\n* **Reasoned decisions, not just scores:** Gain complete access to the model’s reasoning process, facilitating easier debugging and increased trust in policy decisions. Keep in mind Raw CoT is meant for developers and safety practitioners. It’s not intended for exposure to general users or use cases outside of safety contexts.\n* **Configurable reasoning effort:** Easily adjust the reasoning effort (low, medium, high) based on your specific use case and latency needs.\n* **Permissive Apache 2.0 license:** Build freely without copyleft restrictions or patent risk—ideal for experimentation, customization, and commercial deployment.\n\n### Join the ROOST Model Community\n\ngpt-oss-safeguard is a model partner of the [Robust Open Online Safety Tools (ROOST)](http://roost.tools/) Model Community. The ROOST Model Community (RMC) is a group of safety practitioners exploring open source AI models to protect online spaces. As an RMC model partner, OpenAI is committed to incorporating user feedback and jointly iterating on future releases in pursuit of open safety. Visit the [RMC GitHub repo](https://github.com/roostorg/open-models) to learn more about this partnership and how to get involved.\n\n### References\n\n* [OpenAI blog](https://openai.com/index/introducing-gpt-oss-safeguard/)\n* OpenAI [gpt-oss-safeguard developer cookbook](https://cookbook.openai.com/articles/gpt-oss-safeguard-guide)\n* ROOST’s [model community repository](https://github.com/roostorg/open-models) on GitHub\n\nWrite Preview \n\n\\### Get started \\*\\*20B:\\*\\* \\`\\`\\` ollama run gpt-oss-safeguard:20b \\`\\`\\` This model is designed to fit into GPUs with 16GB of VRAM. (21B parameters with 3.6B active parameters). \\*\\*120B:\\*\\* \\`\\`\\` ollama run gpt-oss-safeguard:120b \\`\\`\\` This model is designed to fit into a single NVIDIA H100 GPU (117B parameters with 5.1B active parameters). ### Highlights \\* \\*\\*Trained to reason about safety\\*\\* : Trained and tuned for safety reasoning to accommodate use cases like LLM input-output filtering, online content labeling and offline labeling for Trust and Safety use cases. \\* \\*\\*Bring your own policy:\\*\\* Interprets your written policy, so it generalizes across products and use cases with minimal engineering. \\* \\*\\*Reasoned decisions, not just scores:\\*\\* Gain complete access to the model’s reasoning process, facilitating easier debugging and increased trust in policy decisions. Keep in mind Raw CoT is meant for developers and safety practitioners. It’s not intended for exposure to general users or use cases outside of safety contexts. \\* \\*\\*Configurable reasoning effort:\\*\\* Easily adjust the reasoning effort (low, medium, high) based on your specific use case and latency needs. \\* \\*\\*Permissive Apache 2.0 license:\\*\\* Build freely without copyleft restrictions or patent risk—ideal for experimentation, customization, and commercial deployment. ### Join the ROOST Model Community gpt-oss-safeguard is a model partner of the \\[Robust Open Online Safety Tools (ROOST)\\](http://roost.tools/) Model Community. The ROOST Model Community (RMC) is a group of safety practitioners exploring open source AI models to protect online spaces. As an RMC model partner, OpenAI is committed to incorporating user feedback and jointly iterating on future releases in pursuit of open safety. Visit the \\[RMC GitHub repo\\](https://github.com/roostorg/open-models) to learn more about this partnership and how to get involved. ### References \\* \\[OpenAI blog\\](https://openai.com/index/introducing-gpt-oss-safeguard/) \\* OpenAI \\[gpt-oss-safeguard developer cookbook\\](https://cookbook.openai.com/articles/gpt-oss-safeguard-guide) \\* ROOST’s \\[model community repository\\](https://github.com/roostorg/open-models) on GitHub \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "medgemma",
     "link": "https://ollama.com/library/medgemma",
     "description": "MedGemma is a collection of Gemma 3 variants that are trained for performance on medical text and image comprehension.",
-    "pullCount": "145.2K",
+    "pullCount": "148.9K",
     "updated": "2 months ago",
     "size": [
       "4b",
@@ -3025,10 +3011,24 @@
     "tags": []
   },
   {
+    "name": "gpt-oss-safeguard",
+    "link": "https://ollama.com/library/gpt-oss-safeguard",
+    "description": "gpt-oss-safeguard-20b and gpt-oss-safeguard-120b are safety reasoning models built-upon gpt-oss",
+    "pullCount": "147.1K",
+    "updated": "8 months ago",
+    "size": [
+      "20b",
+      "120b"
+    ],
+    "capabilities": "toolsthinking",
+    "readme": "## Readme\n\n### Get started\n\n**20B:**\n\n```\nollama run gpt-oss-safeguard:20b\n\n```\n\nThis model is designed to fit into GPUs with 16GB of VRAM. (21B parameters with 3.6B active parameters).\n\n**120B:**\n\n```\nollama run gpt-oss-safeguard:120b\n\n```\n\nThis model is designed to fit into a single NVIDIA H100 GPU (117B parameters with 5.1B active parameters).\n\n### Highlights\n\n* **Trained to reason about safety** : Trained and tuned for safety reasoning to accommodate use cases like LLM input-output filtering, online content labeling and offline labeling for Trust and Safety use cases.\n* **Bring your own policy:** Interprets your written policy, so it generalizes across products and use cases with minimal engineering.\n* **Reasoned decisions, not just scores:** Gain complete access to the model’s reasoning process, facilitating easier debugging and increased trust in policy decisions. Keep in mind Raw CoT is meant for developers and safety practitioners. It’s not intended for exposure to general users or use cases outside of safety contexts.\n* **Configurable reasoning effort:** Easily adjust the reasoning effort (low, medium, high) based on your specific use case and latency needs.\n* **Permissive Apache 2.0 license:** Build freely without copyleft restrictions or patent risk—ideal for experimentation, customization, and commercial deployment.\n\n### Join the ROOST Model Community\n\ngpt-oss-safeguard is a model partner of the [Robust Open Online Safety Tools (ROOST)](http://roost.tools/) Model Community. The ROOST Model Community (RMC) is a group of safety practitioners exploring open source AI models to protect online spaces. As an RMC model partner, OpenAI is committed to incorporating user feedback and jointly iterating on future releases in pursuit of open safety. Visit the [RMC GitHub repo](https://github.com/roostorg/open-models) to learn more about this partnership and how to get involved.\n\n### References\n\n* [OpenAI blog](https://openai.com/index/introducing-gpt-oss-safeguard/)\n* OpenAI [gpt-oss-safeguard developer cookbook](https://cookbook.openai.com/articles/gpt-oss-safeguard-guide)\n* ROOST’s [model community repository](https://github.com/roostorg/open-models) on GitHub\n\nWrite Preview \n\n\\### Get started \\*\\*20B:\\*\\* \\`\\`\\` ollama run gpt-oss-safeguard:20b \\`\\`\\` This model is designed to fit into GPUs with 16GB of VRAM. (21B parameters with 3.6B active parameters). \\*\\*120B:\\*\\* \\`\\`\\` ollama run gpt-oss-safeguard:120b \\`\\`\\` This model is designed to fit into a single NVIDIA H100 GPU (117B parameters with 5.1B active parameters). ### Highlights \\* \\*\\*Trained to reason about safety\\*\\* : Trained and tuned for safety reasoning to accommodate use cases like LLM input-output filtering, online content labeling and offline labeling for Trust and Safety use cases. \\* \\*\\*Bring your own policy:\\*\\* Interprets your written policy, so it generalizes across products and use cases with minimal engineering. \\* \\*\\*Reasoned decisions, not just scores:\\*\\* Gain complete access to the model’s reasoning process, facilitating easier debugging and increased trust in policy decisions. Keep in mind Raw CoT is meant for developers and safety practitioners. It’s not intended for exposure to general users or use cases outside of safety contexts. \\* \\*\\*Configurable reasoning effort:\\*\\* Easily adjust the reasoning effort (low, medium, high) based on your specific use case and latency needs. \\* \\*\\*Permissive Apache 2.0 license:\\*\\* Build freely without copyleft restrictions or patent risk—ideal for experimentation, customization, and commercial deployment. ### Join the ROOST Model Community gpt-oss-safeguard is a model partner of the \\[Robust Open Online Safety Tools (ROOST)\\](http://roost.tools/) Model Community. The ROOST Model Community (RMC) is a group of safety practitioners exploring open source AI models to protect online spaces. As an RMC model partner, OpenAI is committed to incorporating user feedback and jointly iterating on future releases in pursuit of open safety. Visit the \\[RMC GitHub repo\\](https://github.com/roostorg/open-models) to learn more about this partnership and how to get involved. ### References \\* \\[OpenAI blog\\](https://openai.com/index/introducing-gpt-oss-safeguard/) \\* OpenAI \\[gpt-oss-safeguard developer cookbook\\](https://cookbook.openai.com/articles/gpt-oss-safeguard-guide) \\* ROOST’s \\[model community repository\\](https://github.com/roostorg/open-models) on GitHub \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "nemotron-cascade-2",
     "link": "https://ollama.com/library/nemotron-cascade-2",
     "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
-    "pullCount": "131.2K",
+    "pullCount": "131.5K",
     "updated": "3 months ago",
     "size": [
       "30b"
@@ -3041,8 +3041,8 @@
     "name": "kimi-k2.7-code",
     "link": "https://ollama.com/library/kimi-k2.7-code",
     "description": "Kimi K2.7 Code is Moonshot AI's coding-focused agentic model built upon Kimi K2.6, with substantial improvements on real-world long-horizon coding tasks and roughly 30% lower thinking-token usage.",
-    "pullCount": "101.8K",
-    "updated": "3 weeks ago",
+    "pullCount": "106.6K",
+    "updated": "4 weeks ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
     "readme": "## Readme\n\n![](/assets/library/kimi-k2.5/3e4026fd-dc73-4a59-9322-7f015a92925e)\n\nKimi K2.7 Code is a coding-focused agentic model built upon Kimi K2.6\\. With substantial improvements on real-world long-horizon coding tasks, it strengthens end-to-end task completion across complex software engineering workflows while improving token efficiency, reducing thinking-token usage by approximately 30% compared with Kimi K2.6.\n\n### Key Features\n\n* **Long-horizon coding**: Substantial gains on realistic, end-to-end software engineering tasks across 10+ programming languages and a full production tech stack, spanning backend services, infrastructure, performance engineering, systems programming, security, frontend, and ML/data engineering.\n* **Improved token efficiency**: Reduces thinking-token usage by approximately 30% compared with Kimi K2.6, while improving task completion on complex workflows.\n* **Stronger agentic tool use**: Improved performance on multi-step tool calling and MCP-based environments, with interleaved thinking preserved across turns (`preserve_thinking`) for coherent multi-step coding sessions.\n* **Native multimodal**: Supports image and video input via the MoonViT vision encoder, with a 256K token context window.\n\n### Benchmarks\n\n| Benchmark            | Kimi K2.6 | Kimi K2.7 Code | GPT-5.5 | Claude Opus 4.8 |\n| -------------------- | --------- | -------------- | ------- | --------------- |\n| **Coding**           |           |                |         |                 |\n| Kimi Code Bench v2   | 50.9      | 62.0           | 69.0    | 67.4            |\n| Program Bench        | 48.3      | 53.6           | 69.1    | 63.8            |\n| MLS Bench Lite       | 26.7      | 35.1           | 35.5    | 42.8            |\n| **Agentic**          |           |                |         |                 |\n| Kimi Claw 24⁄7 Bench | 42.9      | 46.9           | 52.8    | 50.4            |\n| MCP Atlas            | 69.4      | 76.0           | 79.4    | 81.3            |\n| MCP Mark Verified    | 72.8      | 81.1           | 92.9    | 76.4            |\n\n### Reference\n\n* [Hugging Face](https://huggingface.co/moonshotai/Kimi-K2.7-Code)\n\nWrite Preview \n\n<img src=\"/assets/library/kimi-k2.5/3e4026fd-dc73-4a59-9322-7f015a92925e\" width=\"180\" /> Kimi K2.7 Code is a coding-focused agentic model built upon Kimi K2.6\\. With substantial improvements on real-world long-horizon coding tasks, it strengthens end-to-end task completion across complex software engineering workflows while improving token efficiency, reducing thinking-token usage by approximately 30% compared with Kimi K2.6\\. ### Key Features - \\*\\*Long-horizon coding\\*\\*: Substantial gains on realistic, end-to-end software engineering tasks across 10+ programming languages and a full production tech stack, spanning backend services, infrastructure, performance engineering, systems programming, security, frontend, and ML/data engineering. - \\*\\*Improved token efficiency\\*\\*: Reduces thinking-token usage by approximately 30% compared with Kimi K2.6, while improving task completion on complex workflows. - \\*\\*Stronger agentic tool use\\*\\*: Improved performance on multi-step tool calling and MCP-based environments, with interleaved thinking preserved across turns (\\`preserve\\_thinking\\`) for coherent multi-step coding sessions. - \\*\\*Native multimodal\\*\\*: Supports image and video input via the MoonViT vision encoder, with a 256K token context window. ### Benchmarks | Benchmark | Kimi K2.6 | Kimi K2.7 Code | GPT-5.5 | Claude Opus 4.8 | | -------------------- | --------- | -------------- | ------- | --------------- | | \\*\\*Coding\\*\\* | | | | | | Kimi Code Bench v2 | 50.9 | 62.0 | 69.0 | 67.4 | | Program Bench | 48.3 | 53.6 | 69.1 | 63.8 | | MLS Bench Lite | 26.7 | 35.1 | 35.5 | 42.8 | | \\*\\*Agentic\\*\\* | | | | | | Kimi Claw 24/7 Bench | 42.9 | 46.9 | 52.8 | 50.4 | | MCP Atlas | 69.4 | 76.0 | 79.4 | 81.3 | | MCP Mark Verified | 72.8 | 81.1 | 92.9 | 76.4 | ### Reference - \\[Hugging Face\\](https://huggingface.co/moonshotai/Kimi-K2.7-Code) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
@@ -3052,7 +3052,7 @@
     "name": "mistral-large-3",
     "link": "https://ollama.com/library/mistral-large-3",
     "description": "A general-purpose multimodal mixture-of-experts model for production-grade tasks and enterprise workloads.",
-    "pullCount": "72.4K",
+    "pullCount": "73K",
     "updated": "7 months ago",
     "size": null,
     "capabilities": "visiontools",
@@ -3063,7 +3063,7 @@
     "name": "medgemma1.5",
     "link": "https://ollama.com/library/medgemma1.5",
     "description": "MedGemma 1.5 4B is an updated version of the MedGemma 4B model.",
-    "pullCount": "69.7K",
+    "pullCount": "71.3K",
     "updated": "2 months ago",
     "size": [
       "4b"
@@ -3076,7 +3076,7 @@
     "name": "lfm2.5",
     "link": "https://ollama.com/library/lfm2.5",
     "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
-    "pullCount": "45.8K",
+    "pullCount": "46.4K",
     "updated": "1 month ago",
     "size": [
       "8b"
@@ -3089,7 +3089,7 @@
     "name": "nemotron-3-ultra",
     "link": "https://ollama.com/library/nemotron-3-ultra",
     "description": "NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.",
-    "pullCount": "22.6K",
+    "pullCount": "23.1K",
     "updated": "1 month ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -3100,7 +3100,7 @@
     "name": "north-mini-code-1.0",
     "link": "https://ollama.com/library/north-mini-code-1.0",
     "description": "North Mini Code is Cohere's first model for developers — a 30B Mixture-of-Experts model with 3B active parameters, built for agentic software engineering.",
-    "pullCount": "21.4K",
+    "pullCount": "22.1K",
     "updated": "3 weeks ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -3111,7 +3111,7 @@
     "name": "laguna-xs.2",
     "link": "https://ollama.com/library/laguna-xs.2",
     "description": "Laguna XS.2 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine.",
-    "pullCount": "20.3K",
+    "pullCount": "20.5K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -3122,7 +3122,7 @@
     "name": "laguna-xs-2.1",
     "link": "https://ollama.com/library/laguna-xs-2.1",
     "description": "Laguna XS 2.1 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine.",
-    "pullCount": "16.3K",
+    "pullCount": "20.1K",
     "updated": "1 week ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -3133,7 +3133,7 @@
     "name": "minicpm-v4.6",
     "link": "https://ollama.com/library/minicpm-v4.6",
     "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-    "pullCount": "13.7K",
+    "pullCount": "14.1K",
     "updated": "1 month ago",
     "size": [
       "1b"
@@ -3146,7 +3146,7 @@
     "name": "minicpm-v4.5",
     "link": "https://ollama.com/library/minicpm-v4.5",
     "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-    "pullCount": "9,859",
+    "pullCount": "10.2K",
     "updated": "1 month ago",
     "size": [
       "8b"
@@ -3159,8 +3159,8 @@
     "name": "granite4.1-guardian",
     "link": "https://ollama.com/library/granite4.1-guardian",
     "description": "Granite Guardian 4.1 is a specialized safety and judging model from IBM Research that evaluates whether LLM prompts and responses meet specified harm criteria.",
-    "pullCount": "3,069",
-    "updated": "4 weeks ago",
+    "pullCount": "3,225",
+    "updated": "1 month ago",
     "size": [
       "8b"
     ],
