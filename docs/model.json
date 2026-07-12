@@ -37,7 +37,7 @@
     "name": "nomic-embed-text",
     "link": "https://ollama.com/library/nomic-embed-text",
     "description": "A high-performing open embedding model with a large token context window.",
-    "pullCount": "77.9M",
+    "pullCount": "78M",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "embedding",
@@ -48,7 +48,7 @@
     "name": "llama3.2",
     "link": "https://ollama.com/library/llama3.2",
     "description": "Meta's Llama 3.2 goes small with 1B and 3B models.",
-    "pullCount": "75.9M",
+    "pullCount": "76.1M",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -78,7 +78,7 @@
     "name": "qwen2.5",
     "link": "https://ollama.com/library/qwen2.5",
     "description": "Qwen2.5 models are pretrained on Alibaba's latest large-scale dataset, encompassing up to 18 trillion tokens. The model supports up to 128K tokens and has multilingual support.",
-    "pullCount": "34.4M",
+    "pullCount": "34.5M",
     "updated": "1 year ago",
     "size": [
       "0.5b",
@@ -97,7 +97,7 @@
     "name": "qwen3",
     "link": "https://ollama.com/library/qwen3",
     "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models.",
-    "pullCount": "32M",
+    "pullCount": "32.1M",
     "updated": "9 months ago",
     "size": [
       "0.6b",
@@ -117,7 +117,7 @@
     "name": "mistral",
     "link": "https://ollama.com/library/mistral",
     "description": "The 7B model released by Mistral AI, updated to version 0.3.",
-    "pullCount": "30.9M",
+    "pullCount": "31M",
     "updated": "12 months ago",
     "size": [
       "7b"
@@ -130,7 +130,7 @@
     "name": "gemma2",
     "link": "https://ollama.com/library/gemma2",
     "description": "Google Gemma 2 is a high-performing and efficient model available in three sizes: 2B, 9B, and 27B.",
-    "pullCount": "27.4M",
+    "pullCount": "27.5M",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -159,7 +159,7 @@
     "name": "qwen2.5-coder",
     "link": "https://ollama.com/library/qwen2.5-coder",
     "description": "The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.",
-    "pullCount": "18.3M",
+    "pullCount": "18.4M",
     "updated": "1 year ago",
     "size": [
       "0.5b",
@@ -191,7 +191,7 @@
     "name": "gemma4",
     "link": "https://ollama.com/library/gemma4",
     "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
-    "pullCount": "17.6M",
+    "pullCount": "17.7M",
     "updated": "1 week ago",
     "size": [
       "e2b",
@@ -329,7 +329,7 @@
     "name": "qwen3-coder",
     "link": "https://ollama.com/library/qwen3-coder",
     "description": "Alibaba's performant long context models for agentic and coding tasks.",
-    "pullCount": "7.1M",
+    "pullCount": "7.2M",
     "updated": "9 months ago",
     "size": [
       "30b",
@@ -343,7 +343,7 @@
     "name": "glm-ocr",
     "link": "https://ollama.com/library/glm-ocr",
     "description": "GLM-OCR is a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture.",
-    "pullCount": "6M",
+    "pullCount": "6.1M",
     "updated": "5 months ago",
     "size": null,
     "capabilities": "visiontools",
@@ -761,21 +761,10 @@
     "link": "https://ollama.com/library/glm-5",
     "description": "A strong reasoning and agentic model from Z.ai with 744B total parameters (40B active), built for complex systems engineering and long-horizon tasks.",
     "pullCount": "2.3M",
-    "updated": "4 months ago",
+    "updated": "5 months ago",
     "size": null,
     "capabilities": "toolsthinking",
     "readme": "## Readme\n\n![](/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a)\n\nGLM-5 is a mixture-of-experts model from [Z.ai](https://z.ai) with 744B total parameters and 40B active parameters. It scales up from GLM-4.5’s 355B parameters and is designed for complex reasoning, coding, and agentic tasks.\n\nThe model uses DeepSeek Sparse Attention (DSA) to reduce deployment costs while preserving long-context capacity, and was post-trained using a novel asynchronous RL infrastructure for improved training efficiency.\n\n### Key capabilities\n\n* **Reasoning and math:** Scores 92.7% on AIME 2026 I and 86.0% on GPQA-Diamond\n* **Coding:** Achieves 77.8% on SWE-bench Verified and 73.3% on SWE-bench Multilingual\n* **Agentic tasks:** 62.0 on BrowseComp and 56.2 on Terminal-Bench 2.0\n* **Long context:** Supports up to 128K+ context through DSA optimization\n* **Multilingual:** Supports English and Chinese\n\n### Benchmarks\n\n![](/assets/library/glm-5/b0e27be4-2f36-4ca3-a7fc-78e965c385bb)\n\n### Footnote\n\n* **Humanity’s Last Exam (HLE) & other reasoning tasks**: We evaluate with a maximum generation length of 131,072 tokens (`temperature=1.0, top_p=0.95, max_new_tokens=131072`). By default, we report the text-only subset; results marked with \\* are from the full set. We use GPT-5.2 (medium) as the judge model. For HLE-with-tools, we use a maximum context length of 202,752 tokens.\n* **SWE-bench & SWE-bench Multilingual**: We run the SWE-bench suite with OpenHands using a tailored instruction prompt. Settings: `temperature=0.7, top_p=0.95, max_new_tokens=16384`, with a 200K context window.\n* **BrowserComp**: Without context management, we retain details from the most recent 5 turns. With context management, we use the same discard-all strategy as DeepSeek-v3.2 and Kimi K2.5.\n* **Terminal-Bench 2.0 (Terminus 2)**: We evaluate with the Terminus framework using `timeout=2h, temperature=0.7, top_p=1.0, max_new_tokens=8192`, with a 128K context window. Resource limits are capped at 16 CPUs and 32 GB RAM.\n* **Terminal-Bench 2.0 (Claude Code)**: We evaluate in Claude Code 2.1.14 (think mode, default effort) with `temperature=1.0, top_p=0.95, max_new_tokens=65536`. We remove wall-clock time limits due to generation speed, while preserving per-task CPU and memory constraints. Scores are averaged over 5 runs. We fix environment issues introduced by Claude Code and also report results on a verified Terminal-Bench 2.0 dataset that resolves ambiguous instructions (see: <https://huggingface.co/datasets/zai-org/terminal-bench-2-verified>).\n* **CyberGym**: We evaluate in Claude Code 2.1.18 (think mode, no web tools) with (`temperature=1.0, top_p=1.0, max_new_tokens=32000`) and a 250-minute timeout per task. Results are single-run Pass@1 over 1,507 tasks.\n* **MCP-Atlas**: All models are evaluated in think mode on the 500-task public subset with a 10-minute timeout per task. We use Gemini 3 Pro as the judge model.\n* **τ²-bench**: We add a small prompt adjustment in Retail and Telecom to avoid failures caused by premature user termination. For Airline, we apply the domain fixes proposed in the Claude Opus 4.5 system card.\n* **Vending Bench 2**: Runs are conducted independently by [Andon Labs](https://andonlabs.com/evals/vending-bench-2).\n\n### Supported languages\n\n* English\n* Chinese\n\n### License\n\n[MIT](https://opensource.org/licenses/MIT)\n\n### Reference\n\n* [Z.ai Technical Blog](https://z.ai/blog/glm-5)\n* [GLM-5 on Hugging Face](https://huggingface.co/zai-org/GLM-5)\n\nWrite Preview \n\n<img src=\"/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a\" width=\"128\" /> GLM-5 is a mixture-of-experts model from \\[Z.ai\\](https://z.ai) with 744B total parameters and 40B active parameters. It scales up from GLM-4.5's 355B parameters and is designed for complex reasoning, coding, and agentic tasks. The model uses DeepSeek Sparse Attention (DSA) to reduce deployment costs while preserving long-context capacity, and was post-trained using a novel asynchronous RL infrastructure for improved training efficiency. ### Key capabilities \\* \\*\\*Reasoning and math:\\*\\* Scores 92.7% on AIME 2026 I and 86.0% on GPQA-Diamond \\* \\*\\*Coding:\\*\\* Achieves 77.8% on SWE-bench Verified and 73.3% on SWE-bench Multilingual \\* \\*\\*Agentic tasks:\\*\\* 62.0 on BrowseComp and 56.2 on Terminal-Bench 2.0 \\* \\*\\*Long context:\\*\\* Supports up to 128K+ context through DSA optimization \\* \\*\\*Multilingual:\\*\\* Supports English and Chinese ### Benchmarks !\\[Ollama screenshot 2026-02-11 at 14.37.11@2x.png\\](/assets/library/glm-5/b0e27be4-2f36-4ca3-a7fc-78e965c385bb) ### Footnote \\* \\*\\*Humanity’s Last Exam (HLE) & other reasoning tasks\\*\\*: We evaluate with a maximum generation length of 131,072 tokens (\\`temperature=1.0, top\\_p=0.95, max\\_new\\_tokens=131072\\`). By default, we report the text-only subset; results marked with \\* are from the full set. We use GPT-5.2 (medium) as the judge model. For HLE-with-tools, we use a maximum context length of 202,752 tokens. \\* \\*\\*SWE-bench & SWE-bench Multilingual\\*\\*: We run the SWE-bench suite with OpenHands using a tailored instruction prompt. Settings: \\`temperature=0.7, top\\_p=0.95, max\\_new\\_tokens=16384\\`, with a 200K context window. \\* \\*\\*BrowserComp\\*\\*: Without context management, we retain details from the most recent 5 turns. With context management, we use the same discard-all strategy as DeepSeek-v3.2 and Kimi K2.5\\. \\* \\*\\*Terminal-Bench 2.0 (Terminus 2)\\*\\*: We evaluate with the Terminus framework using \\`timeout=2h, temperature=0.7, top\\_p=1.0, max\\_new\\_tokens=8192\\`, with a 128K context window. Resource limits are capped at 16 CPUs and 32 GB RAM. \\* \\*\\*Terminal-Bench 2.0 (Claude Code)\\*\\*: We evaluate in Claude Code 2.1.14 (think mode, default effort) with \\`temperature=1.0, top\\_p=0.95, max\\_new\\_tokens=65536\\`. We remove wall-clock time limits due to generation speed, while preserving per-task CPU and memory constraints. Scores are averaged over 5 runs. We fix environment issues introduced by Claude Code and also report results on a verified Terminal-Bench 2.0 dataset that resolves ambiguous instructions (see: \\[https://huggingface.co/datasets/zai-org/terminal-bench-2-verified\\](https://huggingface.co/datasets/zai-org/terminal-bench-2-verified)). \\* \\*\\*CyberGym\\*\\*: We evaluate in Claude Code 2.1.18 (think mode, no web tools) with (\\`temperature=1.0, top\\_p=1.0, max\\_new\\_tokens=32000\\`) and a 250-minute timeout per task. Results are single-run Pass@1 over 1,507 tasks. \\* \\*\\*MCP-Atlas\\*\\*: All models are evaluated in think mode on the 500-task public subset with a 10-minute timeout per task. We use Gemini 3 Pro as the judge model. \\* \\*\\*τ²-bench\\*\\*: We add a small prompt adjustment in Retail and Telecom to avoid failures caused by premature user termination. For Airline, we apply the domain fixes proposed in the Claude Opus 4.5 system card. \\* \\*\\*Vending Bench 2\\*\\*: Runs are conducted independently by \\[Andon Labs\\](https://andonlabs.com/evals/vending-bench-2). ### Supported languages \\* English \\* Chinese ### License \\[MIT\\](https://opensource.org/licenses/MIT) ### Reference \\* \\[Z.ai Technical Blog\\](https://z.ai/blog/glm-5) \\* \\[GLM-5 on Hugging Face\\](https://huggingface.co/zai-org/GLM-5) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
-    "name": "minimax-m2.5",
-    "link": "https://ollama.com/library/minimax-m2.5",
-    "description": "MiniMax-M2.5 is a state-of-the-art large language model designed for real-world productivity and coding tasks.",
-    "pullCount": "2.3M",
-    "updated": "4 months ago",
-    "size": null,
-    "capabilities": "toolsthinking",
-    "readme": "## Readme\n\n![logo](/assets/library/minimax-m2.5/7bf8b4e2-abdc-4f35-af56-ac075749d26c)\n\nMiniMax M2.5 is the fastest-improving model series for coding and agentic workflows, trained with large-scale reinforcement learning across hundreds of thousands of real-world environments.\n\n### Highlights\n\n* **Coding**. Trained on large-scale RL across 10+ languages (Python, Go, C, C++, TypeScript, Rust, Kotlin, Java, JavaScript, PHP, Lua, Dart, Ruby) and hundreds of thousands of real environments, M2.5 develops native “spec behavior”—planning architecture, structure, and design before writing code. It handles the full development lifecycle: system design from zero, environment setup, feature iteration, code review, and testing across Web, Android, iOS, Windows, and Mac.\n* **Leading agent performance**. M2.5 achieves 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp—reaching a level comparable to the Claude Opus series on coding tasks. In search and tool-use tasks, the model demonstrates higher decision maturity—solving problems in fewer rounds with better token efficiency, saving roughly 20% in tool-call rounds compared to M2.1.\n* **37% faster task completion**. Through improved task decomposition and more efficient chain-of-thought reasoning, M2.5 completes complex agentic tasks significantly faster. On SWE-Bench Verified, end-to-end runtime dropped from 31.3 minutes (M2.1) to 22.8 minutes—on par with Claude Opus 4.6’s 22.9 minutes—while also consuming fewer tokens per task (3.52M vs 3.72M).\n\n![m2.5 benchmark](/assets/library/minimax-m2.5/d0fc55de-dbe8-4a30-8bb7-545cd0d9da04)\n\n### Benchmarks\n\n**Coding**\n\nM2.5 represents a significant step up from M2.1, reaching performance comparable to the Claude Opus series on core software engineering tasks.\n\n![image.png](/assets/library/minimax-m2.5/65275c3b-5ed8-4d1f-940a-407b65bbdd78)\n\nMiniMax tested performance on the SWE-Bench Verified evaluation set using different coding agent harnesses.\n\nOn Droid: 79.7(M2.5) > 78.9(Opus 4.6)\n\nOn OpenCode: 76.1(M2.5) > 75.9(Opus 4.6)\n\n**Search and tool calling**\n\n![image.png](/assets/library/minimax-m2.5/38ae04b3-e0c8-4643-9c16-7b1d9d30b03c)\n\n### Office & Productivity\n\nM2.5 was trained in collaboration with domain experts in finance, law, and social sciences to produce genuinely deliverable outputs. In evaluations on advanced office tasks—including Word documents, PowerPoint presentations, and Excel financial modeling—M2.5 achieved a 59.0% average win rate against mainstream models using pairwise comparison (GDPval-MM framework).\n\nAdditional internal benchmarks include MEWC (based on Microsoft Excel World Championship problems, 2021–2026) and Finance Modeling (expert-constructed financial modeling tasks scored via rubrics). Detailed scores for these benchmarks are available as charts in the [original blog post](https://www.minimax.io/news/minimax-m25).\n\n### Reference\n\n* [MiniMax M2.5 announcement](https://www.minimax.io/news/minimax-m25)\n\nWrite Preview \n\n!\\[logo\\](/assets/library/minimax-m2.5/7bf8b4e2-abdc-4f35-af56-ac075749d26c) MiniMax M2.5 is the fastest-improving model series for coding and agentic workflows, trained with large-scale reinforcement learning across hundreds of thousands of real-world environments. ### Highlights - \\*\\*Coding\\*\\*. Trained on large-scale RL across 10+ languages (Python, Go, C, C++, TypeScript, Rust, Kotlin, Java, JavaScript, PHP, Lua, Dart, Ruby) and hundreds of thousands of real environments, M2.5 develops native \"spec behavior\"—planning architecture, structure, and design before writing code. It handles the full development lifecycle: system design from zero, environment setup, feature iteration, code review, and testing across Web, Android, iOS, Windows, and Mac. - \\*\\*Leading agent performance\\*\\*. M2.5 achieves 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp—reaching a level comparable to the Claude Opus series on coding tasks. In search and tool-use tasks, the model demonstrates higher decision maturity—solving problems in fewer rounds with better token efficiency, saving roughly 20% in tool-call rounds compared to M2.1\\. - \\*\\*37% faster task completion\\*\\*. Through improved task decomposition and more efficient chain-of-thought reasoning, M2.5 completes complex agentic tasks significantly faster. On SWE-Bench Verified, end-to-end runtime dropped from 31.3 minutes (M2.1) to 22.8 minutes—on par with Claude Opus 4.6's 22.9 minutes—while also consuming fewer tokens per task (3.52M vs 3.72M). !\\[m2.5 benchmark\\](/assets/library/minimax-m2.5/d0fc55de-dbe8-4a30-8bb7-545cd0d9da04) ### Benchmarks \\*\\*Coding\\*\\* M2.5 represents a significant step up from M2.1, reaching performance comparable to the Claude Opus series on core software engineering tasks. !\\[image.png\\](/assets/library/minimax-m2.5/65275c3b-5ed8-4d1f-940a-407b65bbdd78) MiniMax tested performance on the SWE-Bench Verified evaluation set using different coding agent harnesses. On Droid: 79.7(M2.5) > 78.9(Opus 4.6) On OpenCode: 76.1(M2.5) > 75.9(Opus 4.6) \\*\\*Search and tool calling\\*\\* !\\[image.png\\](/assets/library/minimax-m2.5/38ae04b3-e0c8-4643-9c16-7b1d9d30b03c) ### Office & Productivity M2.5 was trained in collaboration with domain experts in finance, law, and social sciences to produce genuinely deliverable outputs. In evaluations on advanced office tasks—including Word documents, PowerPoint presentations, and Excel financial modeling—M2.5 achieved a 59.0% average win rate against mainstream models using pairwise comparison (GDPval-MM framework). Additional internal benchmarks include MEWC (based on Microsoft Excel World Championship problems, 2021–2026) and Finance Modeling (expert-constructed financial modeling tasks scored via rubrics). Detailed scores for these benchmarks are available as charts in the \\[original blog post\\](https://www.minimax.io/news/minimax-m25). ### Reference \\* \\[MiniMax M2.5 announcement\\](https://www.minimax.io/news/minimax-m25) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -787,6 +776,17 @@
     "size": null,
     "capabilities": "toolsthinking",
     "readme": "## Readme\n\n> Ollama’s cloud is officially licensed with MiniMax for commercial usage\n\n![logo](/assets/library/minimax-m2.7/61a451bd-290c-4802-9f2e-f63cb4ab6c68)\n\nMiniMax M2.7 is the first model in the M2-series to deeply participate in its own evolution, capable of building complex agent harnesses and completing highly elaborate productivity tasks through Agent Teams, complex Skills, and dynamic tool search.\n\n### Highlights\n\n* **Professional software engineering**. M2.7 delivers outstanding performance in real-world engineering scenarios including end-to-end project delivery, log analysis and bug troubleshooting, code security, and machine learning. On SWE-Pro it scored 56.22%, matching GPT-5.3-Codex and nearly approaching Opus’s best level. On VIBE-Pro (55.6%) and Terminal Bench 2 (57.0%), it demonstrates deep understanding of complex engineering systems.\n* **Professional work and complex environments**. In the GDPval-AA evaluation across 45 models, M2.7 achieved an ELO score of 1495, the highest among open-source models. It handles complex editing in Excel, PPT, and Word with multi-round high-fidelity revisions, and maintains a 97% skill adherence rate across 40 complex skills (each exceeding 2,000 tokens). On Toolathon, M2.7 reached 46.3% accuracy, a global top-tier result.\n* **Character consistency and entertainment**. M2.7 possesses excellent character consistency and emotional intelligence. MiniMax has open-sourced OpenRoom, a Web GUI interaction system where conversation drives real-time visual feedback and scene interactions with characters proactively engaging their environment.\n\n![benchmark overview](/assets/library/minimax-m2.7/16c931f9-54ad-4605-8d05-4ac517f5a607)\n\n### Benchmarks\n\n**Software Engineering**\n\nM2.7 reaches the level of state-of-the-art models across real-world programming tasks spanning multiple languages and system-level comprehension.\n\n| Benchmark        | M2.7   | Notes                           |\n| ---------------- | ------ | ------------------------------- |\n| SWE-Pro          | 56.22% | Matches GPT-5.3-Codex           |\n| VIBE-Pro         | 55.6%  | Nearly on par with Opus 4.6     |\n| Terminal Bench 2 | 57.0%  | Deep system-level understanding |\n| SWE Multilingual | 76.5   | Multi-language engineering      |\n| Multi SWE Bench  | 52.7   | Multi-repo tasks                |\n| NL2Repo          | 39.8   | Natural language to repository  |\n\n**Professional Work & Office**\n\n| Benchmark                   | M2.7  | Notes                            |\n| --------------------------- | ----- | -------------------------------- |\n| GDPval-AA (ELO)             | 1495  | Highest among open-source models |\n| Toolathon                   | 46.3% | Global top tier                  |\n| MM Claw                     | 62.7% | Close to Sonnet 4.6              |\n| Skill Adherence (40 skills) | 97%   | Each skill >2,000 tokens         |\n\n**Machine Learning (MLE Bench Lite)**\n\nIn exploratory self-evolution tests across 22 ML competitions, M2.7 achieved an average medal rate of 66.6% across three 24-hour autonomous runs, second only to Opus 4.6 (75.7%) and GPT-5.4 (71.2%), tying with Gemini 3.1.\n\n### Reference\n\n* [MiniMax M2.7 announcement](https://www.minimax.io/news/minimax-m27-en)\n\nWrite Preview \n\n\\> Ollama's cloud is officially licensed with MiniMax for commercial usage !\\[logo\\](/assets/library/minimax-m2.7/61a451bd-290c-4802-9f2e-f63cb4ab6c68) MiniMax M2.7 is the first model in the M2-series to deeply participate in its own evolution, capable of building complex agent harnesses and completing highly elaborate productivity tasks through Agent Teams, complex Skills, and dynamic tool search. ### Highlights - \\*\\*Professional software engineering\\*\\*. M2.7 delivers outstanding performance in real-world engineering scenarios including end-to-end project delivery, log analysis and bug troubleshooting, code security, and machine learning. On SWE-Pro it scored 56.22%, matching GPT-5.3-Codex and nearly approaching Opus's best level. On VIBE-Pro (55.6%) and Terminal Bench 2 (57.0%), it demonstrates deep understanding of complex engineering systems. - \\*\\*Professional work and complex environments\\*\\*. In the GDPval-AA evaluation across 45 models, M2.7 achieved an ELO score of 1495, the highest among open-source models. It handles complex editing in Excel, PPT, and Word with multi-round high-fidelity revisions, and maintains a 97% skill adherence rate across 40 complex skills (each exceeding 2,000 tokens). On Toolathon, M2.7 reached 46.3% accuracy, a global top-tier result. - \\*\\*Character consistency and entertainment\\*\\*. M2.7 possesses excellent character consistency and emotional intelligence. MiniMax has open-sourced OpenRoom, a Web GUI interaction system where conversation drives real-time visual feedback and scene interactions with characters proactively engaging their environment. !\\[benchmark overview\\](/assets/library/minimax-m2.7/16c931f9-54ad-4605-8d05-4ac517f5a607) ### Benchmarks \\*\\*Software Engineering\\*\\* M2.7 reaches the level of state-of-the-art models across real-world programming tasks spanning multiple languages and system-level comprehension. | Benchmark | M2.7 | Notes | |---|---|---| | SWE-Pro | 56.22% | Matches GPT-5.3-Codex | | VIBE-Pro | 55.6% | Nearly on par with Opus 4.6 | | Terminal Bench 2 | 57.0% | Deep system-level understanding | | SWE Multilingual | 76.5 | Multi-language engineering | | Multi SWE Bench | 52.7 | Multi-repo tasks | | NL2Repo | 39.8 | Natural language to repository | \\*\\*Professional Work & Office\\*\\* | Benchmark | M2.7 | Notes | |---|---|---| | GDPval-AA (ELO) | 1495 | Highest among open-source models | | Toolathon | 46.3% | Global top tier | | MM Claw | 62.7% | Close to Sonnet 4.6 | | Skill Adherence (40 skills) | 97% | Each skill >2,000 tokens | \\*\\*Machine Learning (MLE Bench Lite)\\*\\* In exploratory self-evolution tests across 22 ML competitions, M2.7 achieved an average medal rate of 66.6% across three 24-hour autonomous runs, second only to Opus 4.6 (75.7%) and GPT-5.4 (71.2%), tying with Gemini 3.1\\. ### Reference \\* \\[MiniMax M2.7 announcement\\](https://www.minimax.io/news/minimax-m27-en) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
+    "name": "minimax-m2.5",
+    "link": "https://ollama.com/library/minimax-m2.5",
+    "description": "MiniMax-M2.5 is a state-of-the-art large language model designed for real-world productivity and coding tasks.",
+    "pullCount": "2.3M",
+    "updated": "4 months ago",
+    "size": null,
+    "capabilities": "toolsthinking",
+    "readme": "## Readme\n\n![logo](/assets/library/minimax-m2.5/7bf8b4e2-abdc-4f35-af56-ac075749d26c)\n\nMiniMax M2.5 is the fastest-improving model series for coding and agentic workflows, trained with large-scale reinforcement learning across hundreds of thousands of real-world environments.\n\n### Highlights\n\n* **Coding**. Trained on large-scale RL across 10+ languages (Python, Go, C, C++, TypeScript, Rust, Kotlin, Java, JavaScript, PHP, Lua, Dart, Ruby) and hundreds of thousands of real environments, M2.5 develops native “spec behavior”—planning architecture, structure, and design before writing code. It handles the full development lifecycle: system design from zero, environment setup, feature iteration, code review, and testing across Web, Android, iOS, Windows, and Mac.\n* **Leading agent performance**. M2.5 achieves 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp—reaching a level comparable to the Claude Opus series on coding tasks. In search and tool-use tasks, the model demonstrates higher decision maturity—solving problems in fewer rounds with better token efficiency, saving roughly 20% in tool-call rounds compared to M2.1.\n* **37% faster task completion**. Through improved task decomposition and more efficient chain-of-thought reasoning, M2.5 completes complex agentic tasks significantly faster. On SWE-Bench Verified, end-to-end runtime dropped from 31.3 minutes (M2.1) to 22.8 minutes—on par with Claude Opus 4.6’s 22.9 minutes—while also consuming fewer tokens per task (3.52M vs 3.72M).\n\n![m2.5 benchmark](/assets/library/minimax-m2.5/d0fc55de-dbe8-4a30-8bb7-545cd0d9da04)\n\n### Benchmarks\n\n**Coding**\n\nM2.5 represents a significant step up from M2.1, reaching performance comparable to the Claude Opus series on core software engineering tasks.\n\n![image.png](/assets/library/minimax-m2.5/65275c3b-5ed8-4d1f-940a-407b65bbdd78)\n\nMiniMax tested performance on the SWE-Bench Verified evaluation set using different coding agent harnesses.\n\nOn Droid: 79.7(M2.5) > 78.9(Opus 4.6)\n\nOn OpenCode: 76.1(M2.5) > 75.9(Opus 4.6)\n\n**Search and tool calling**\n\n![image.png](/assets/library/minimax-m2.5/38ae04b3-e0c8-4643-9c16-7b1d9d30b03c)\n\n### Office & Productivity\n\nM2.5 was trained in collaboration with domain experts in finance, law, and social sciences to produce genuinely deliverable outputs. In evaluations on advanced office tasks—including Word documents, PowerPoint presentations, and Excel financial modeling—M2.5 achieved a 59.0% average win rate against mainstream models using pairwise comparison (GDPval-MM framework).\n\nAdditional internal benchmarks include MEWC (based on Microsoft Excel World Championship problems, 2021–2026) and Finance Modeling (expert-constructed financial modeling tasks scored via rubrics). Detailed scores for these benchmarks are available as charts in the [original blog post](https://www.minimax.io/news/minimax-m25).\n\n### Reference\n\n* [MiniMax M2.5 announcement](https://www.minimax.io/news/minimax-m25)\n\nWrite Preview \n\n!\\[logo\\](/assets/library/minimax-m2.5/7bf8b4e2-abdc-4f35-af56-ac075749d26c) MiniMax M2.5 is the fastest-improving model series for coding and agentic workflows, trained with large-scale reinforcement learning across hundreds of thousands of real-world environments. ### Highlights - \\*\\*Coding\\*\\*. Trained on large-scale RL across 10+ languages (Python, Go, C, C++, TypeScript, Rust, Kotlin, Java, JavaScript, PHP, Lua, Dart, Ruby) and hundreds of thousands of real environments, M2.5 develops native \"spec behavior\"—planning architecture, structure, and design before writing code. It handles the full development lifecycle: system design from zero, environment setup, feature iteration, code review, and testing across Web, Android, iOS, Windows, and Mac. - \\*\\*Leading agent performance\\*\\*. M2.5 achieves 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp—reaching a level comparable to the Claude Opus series on coding tasks. In search and tool-use tasks, the model demonstrates higher decision maturity—solving problems in fewer rounds with better token efficiency, saving roughly 20% in tool-call rounds compared to M2.1\\. - \\*\\*37% faster task completion\\*\\*. Through improved task decomposition and more efficient chain-of-thought reasoning, M2.5 completes complex agentic tasks significantly faster. On SWE-Bench Verified, end-to-end runtime dropped from 31.3 minutes (M2.1) to 22.8 minutes—on par with Claude Opus 4.6's 22.9 minutes—while also consuming fewer tokens per task (3.52M vs 3.72M). !\\[m2.5 benchmark\\](/assets/library/minimax-m2.5/d0fc55de-dbe8-4a30-8bb7-545cd0d9da04) ### Benchmarks \\*\\*Coding\\*\\* M2.5 represents a significant step up from M2.1, reaching performance comparable to the Claude Opus series on core software engineering tasks. !\\[image.png\\](/assets/library/minimax-m2.5/65275c3b-5ed8-4d1f-940a-407b65bbdd78) MiniMax tested performance on the SWE-Bench Verified evaluation set using different coding agent harnesses. On Droid: 79.7(M2.5) > 78.9(Opus 4.6) On OpenCode: 76.1(M2.5) > 75.9(Opus 4.6) \\*\\*Search and tool calling\\*\\* !\\[image.png\\](/assets/library/minimax-m2.5/38ae04b3-e0c8-4643-9c16-7b1d9d30b03c) ### Office & Productivity M2.5 was trained in collaboration with domain experts in finance, law, and social sciences to produce genuinely deliverable outputs. In evaluations on advanced office tasks—including Word documents, PowerPoint presentations, and Excel financial modeling—M2.5 achieved a 59.0% average win rate against mainstream models using pairwise comparison (GDPval-MM framework). Additional internal benchmarks include MEWC (based on Microsoft Excel World Championship problems, 2021–2026) and Finance Modeling (expert-constructed financial modeling tasks scored via rubrics). Detailed scores for these benchmarks are available as charts in the \\[original blog post\\](https://www.minimax.io/news/minimax-m25). ### Reference \\* \\[MiniMax M2.5 announcement\\](https://www.minimax.io/news/minimax-m25) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -1159,7 +1159,7 @@
     "link": "https://ollama.com/library/ministral-3",
     "description": "The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware.",
     "pullCount": "1.3M",
-    "updated": "6 months ago",
+    "updated": "7 months ago",
     "size": [
       "3b",
       "8b",
@@ -1167,19 +1167,6 @@
     ],
     "capabilities": "visiontools",
     "readme": "## Readme\n\n![](/assets/library/ministral-3/83fa3859-d87f-492c-bd81-596cfbceeccb)\n\n> This model requires [Ollama 0.13.1](https://github.com/ollama/ollama/releases/tag/v0.13.1-rc1), which is currently in pre-release.\n\nThe Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware.\n\nThe Ministral 3 models offer the following capabilities:\n\n* Vision: Enables the model to analyze images and provide insights based on visual content, in addition to text.\n* Multilingual: Supports dozens of languages, including English, French, Spanish, German, Italian, Portuguese, Dutch, Chinese, Japanese, Korean, Arabic.\n* System Prompt: Maintains strong adherence and support for system prompts.\n* Agentic: Offers best-in-class agentic capabilities with native function calling and JSON outputting.\n* Edge-Optimized: Delivers best-in-class performance at a small scale, deployable anywhere.\n* Apache 2.0 License: Open-source license allowing usage and modification for both commercial and non-commercial purposes.\n* Large Context Window: Supports a 256k context window.\n\n![gpqa](/assets/library/ministral-3/e7c21288-12be-484a-9860-348900545e0b)\n\n**Ministral 14B** ![Ministral 14B](/assets/library/ministral-3/ea92b94b-5804-48c1-b9d0-78b54aba1ed4)\n\n**Ministral 8B** ![Ministral 8B](/assets/library/ministral-3/6329dd14-6ef4-4791-870e-cc1dd3fb1b71)\n\n**Ministral 3B** ![Ministral 3B](/assets/library/ministral-3/dac29f36-ba47-42b3-af92-550faeb97556)\n\nWrite Preview \n\n<img src=\"/assets/library/ministral-3/83fa3859-d87f-492c-bd81-596cfbceeccb\" width=\"120\" /> > This model requires \\[Ollama 0.13.1\\](https://github.com/ollama/ollama/releases/tag/v0.13.1-rc1), which is currently in pre-release. The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware. The Ministral 3 models offer the following capabilities: \\* Vision: Enables the model to analyze images and provide insights based on visual content, in addition to text. \\* Multilingual: Supports dozens of languages, including English, French, Spanish, German, Italian, Portuguese, Dutch, Chinese, Japanese, Korean, Arabic. \\* System Prompt: Maintains strong adherence and support for system prompts. \\* Agentic: Offers best-in-class agentic capabilities with native function calling and JSON outputting. \\* Edge-Optimized: Delivers best-in-class performance at a small scale, deployable anywhere. \\* Apache 2.0 License: Open-source license allowing usage and modification for both commercial and non-commercial purposes. \\* Large Context Window: Supports a 256k context window. !\\[gpqa\\](/assets/library/ministral-3/e7c21288-12be-484a-9860-348900545e0b) \\*\\*Ministral 14B\\*\\* !\\[Ministral 14B\\](/assets/library/ministral-3/ea92b94b-5804-48c1-b9d0-78b54aba1ed4) \\*\\*Ministral 8B\\*\\* !\\[Ministral 8B\\](/assets/library/ministral-3/6329dd14-6ef4-4791-870e-cc1dd3fb1b71) \\*\\*Ministral 3B\\*\\* !\\[Ministral 3B\\](/assets/library/ministral-3/dac29f36-ba47-42b3-af92-550faeb97556) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
-    "name": "codestral",
-    "link": "https://ollama.com/library/codestral",
-    "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
-    "pullCount": "1.3M",
-    "updated": "1 year ago",
-    "size": [
-      "22b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\n# Codestral\n\n![Codestral Hello World](https://ollama.com/assets/mchiang0610/test1/76bfd7f0-fccd-431b-95fe-dddf5a422dcf)\n\nCodestral is Mistral AI’s first-ever code model designed for code generation tasks. It is a 22B model.\n\n### Fluent in 80+ programming languages\n\nCodestral is trained on a dataset of over 80 programming languages, including Python, Java, C, C++, JavaScript, Swift, Fortran and Bash.\n\nThe model can complete coding functions, write tests, and complete any partial code using a fill-in-the-middle mechanism.\n\n### Benchmarks\n\n![With its larger context window of 32k (compared to 4k, 8k or 16k for competitors), Codestral outperforms all other models in RepoBench, a long-range eval for code generation](https://ollama.com/assets/mchiang0610/test1/f5ea9604-669b-4de0-957d-41245e33636c)\n\n![Benchmarks](https://ollama.com/assets/mchiang0610/test1/e42a01d3-4f36-4d60-a0c8-74ad10159cdd)\n\n![FIM benchmarks](https://ollama.com/assets/mchiang0610/test1/8ca203e2-7bfd-4081-98c8-1ecc3cc46ef8)\n\n### Reference\n\n[Mistral AI - Codestral: Hello, World](https://mistral.ai/news/codestral/)\n\nWrite Preview \n\n\\# Codestral !\\[Codestral Hello World\\](https://ollama.com/assets/mchiang0610/test1/76bfd7f0-fccd-431b-95fe-dddf5a422dcf) Codestral is Mistral AI's first-ever code model designed for code generation tasks. It is a 22B model. ### Fluent in 80+ programming languages Codestral is trained on a dataset of over 80 programming languages, including Python, Java, C, C++, JavaScript, Swift, Fortran and Bash. The model can complete coding functions, write tests, and complete any partial code using a fill-in-the-middle mechanism. ### Benchmarks !\\[With its larger context window of 32k (compared to 4k, 8k or 16k for competitors), Codestral outperforms all other models in RepoBench, a long-range eval for code generation\\](https://ollama.com/assets/mchiang0610/test1/f5ea9604-669b-4de0-957d-41245e33636c) !\\[Benchmarks\\](https://ollama.com/assets/mchiang0610/test1/e42a01d3-4f36-4d60-a0c8-74ad10159cdd) !\\[FIM benchmarks\\](https://ollama.com/assets/mchiang0610/test1/8ca203e2-7bfd-4081-98c8-1ecc3cc46ef8) ### Reference \\[Mistral AI - Codestral: Hello, World\\](https://mistral.ai/news/codestral/) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -1195,6 +1182,19 @@
     ],
     "capabilities": "",
     "readme": "## Readme\n\n![yi](https://github.com/jmorganca/ollama/assets/251292/ac83ff77-b8aa-4dae-a619-d9603ef2edaa)\n\nYi is a series of large language models trained on a high-quality corpus of 3 trillion tokens that support both the English and Chinese languages.\n\n## References\n\n[HuggingFace](https://huggingface.co/01-ai/Yi-34B)\n\nWrite Preview \n\n<img src=\"https://github.com/jmorganca/ollama/assets/251292/ac83ff77-b8aa-4dae-a619-d9603ef2edaa\" alt=\"yi\" width=\"200\" /> Yi is a series of large language models trained on a high-quality corpus of 3 trillion tokens that support both the English and Chinese languages. ## References \\[HuggingFace\\](https://huggingface.co/01-ai/Yi-34B) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
+    "name": "codestral",
+    "link": "https://ollama.com/library/codestral",
+    "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
+    "pullCount": "1.3M",
+    "updated": "1 year ago",
+    "size": [
+      "22b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\n# Codestral\n\n![Codestral Hello World](https://ollama.com/assets/mchiang0610/test1/76bfd7f0-fccd-431b-95fe-dddf5a422dcf)\n\nCodestral is Mistral AI’s first-ever code model designed for code generation tasks. It is a 22B model.\n\n### Fluent in 80+ programming languages\n\nCodestral is trained on a dataset of over 80 programming languages, including Python, Java, C, C++, JavaScript, Swift, Fortran and Bash.\n\nThe model can complete coding functions, write tests, and complete any partial code using a fill-in-the-middle mechanism.\n\n### Benchmarks\n\n![With its larger context window of 32k (compared to 4k, 8k or 16k for competitors), Codestral outperforms all other models in RepoBench, a long-range eval for code generation](https://ollama.com/assets/mchiang0610/test1/f5ea9604-669b-4de0-957d-41245e33636c)\n\n![Benchmarks](https://ollama.com/assets/mchiang0610/test1/e42a01d3-4f36-4d60-a0c8-74ad10159cdd)\n\n![FIM benchmarks](https://ollama.com/assets/mchiang0610/test1/8ca203e2-7bfd-4081-98c8-1ecc3cc46ef8)\n\n### Reference\n\n[Mistral AI - Codestral: Hello, World](https://mistral.ai/news/codestral/)\n\nWrite Preview \n\n\\# Codestral !\\[Codestral Hello World\\](https://ollama.com/assets/mchiang0610/test1/76bfd7f0-fccd-431b-95fe-dddf5a422dcf) Codestral is Mistral AI's first-ever code model designed for code generation tasks. It is a 22B model. ### Fluent in 80+ programming languages Codestral is trained on a dataset of over 80 programming languages, including Python, Java, C, C++, JavaScript, Swift, Fortran and Bash. The model can complete coding functions, write tests, and complete any partial code using a fill-in-the-middle mechanism. ### Benchmarks !\\[With its larger context window of 32k (compared to 4k, 8k or 16k for competitors), Codestral outperforms all other models in RepoBench, a long-range eval for code generation\\](https://ollama.com/assets/mchiang0610/test1/f5ea9604-669b-4de0-957d-41245e33636c) !\\[Benchmarks\\](https://ollama.com/assets/mchiang0610/test1/e42a01d3-4f36-4d60-a0c8-74ad10159cdd) !\\[FIM benchmarks\\](https://ollama.com/assets/mchiang0610/test1/8ca203e2-7bfd-4081-98c8-1ecc3cc46ef8) ### Reference \\[Mistral AI - Codestral: Hello, World\\](https://mistral.ai/news/codestral/) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -1405,19 +1405,6 @@
     "tags": []
   },
   {
-    "name": "lfm2",
-    "link": "https://ollama.com/library/lfm2",
-    "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-    "pullCount": "1.1M",
-    "updated": "4 months ago",
-    "size": [
-      "24b"
-    ],
-    "capabilities": "tools",
-    "readme": "## Readme\n\n![image.png](/assets/library/lfm2/ddca3f1a-b232-44eb-ba95-236f15edd6a6)\n\nLFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.\n\n* **Best-in-class efficiency**: A 24B MoE model with only 2B active parameters per token, fitting in 32 GB of RAM for deployment on consumer laptops and desktops.\n* **Fast edge inference**: 112 tok/s decode on AMD CPU, 293 tok/s on H100\\. Fits in 32B GB of RAM.\n* **Predictable scaling**: Quality improves log-linearly from 350M to 24B total parameters, confirming the LFM2 hybrid architecture scales reliably across nearly two orders of magnitude.\n\n![image.png](/assets/library/lfm2/276ea517-7960-43b4-bc4d-d0d2dcbaf97b)\n\nWrite Preview \n\n!\\[image.png\\](/assets/library/lfm2/ddca3f1a-b232-44eb-ba95-236f15edd6a6) LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient. - \\*\\*Best-in-class efficiency\\*\\*: A 24B MoE model with only 2B active parameters per token, fitting in 32 GB of RAM for deployment on consumer laptops and desktops. - \\*\\*Fast edge inference\\*\\*: 112 tok/s decode on AMD CPU, 293 tok/s on H100\\. Fits in 32B GB of RAM. - \\*\\*Predictable scaling\\*\\*: Quality improves log-linearly from 350M to 24B total parameters, confirming the LFM2 hybrid architecture scales reliably across nearly two orders of magnitude. !\\[image.png\\](/assets/library/lfm2/276ea517-7960-43b4-bc4d-d0d2dcbaf97b) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "vicuna",
     "link": "https://ollama.com/library/vicuna",
     "description": "General use chat model based on Llama and Llama 2 with 2K to 16K context sizes.",
@@ -1430,6 +1417,19 @@
     ],
     "capabilities": "",
     "readme": "## Readme\n\nVicuna is a chat assistant model. It includes 3 different variants in 3 different sizes. v1.3 is trained by fine-tuning Llama and has a context size of 2048 tokens. v1.5 is trained by fine-tuning Llama 2 and has a context size of 2048 tokens. v1.5-16k is trained by fine-tuning Llama 2 and has a context size of 16k tokens. All three variants are trained using conversations collected from ShareGPT.\n\n## Example prompts\n\n```\nWhat is the meaning of life? Explain it in 5 paragraphs.\n\n```\n\n## References\n\n[HuggingFace](https://huggingface.co/lmsys)\n\nWrite Preview \n\nVicuna is a chat assistant model. It includes 3 different variants in 3 different sizes. v1.3 is trained by fine-tuning Llama and has a context size of 2048 tokens. v1.5 is trained by fine-tuning Llama 2 and has a context size of 2048 tokens. v1.5-16k is trained by fine-tuning Llama 2 and has a context size of 16k tokens. All three variants are trained using conversations collected from ShareGPT. ## Example prompts \\`\\`\\` What is the meaning of life? Explain it in 5 paragraphs. \\`\\`\\` ## References \\[HuggingFace\\](https://huggingface.co/lmsys) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
+    "name": "lfm2",
+    "link": "https://ollama.com/library/lfm2",
+    "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+    "pullCount": "1.1M",
+    "updated": "4 months ago",
+    "size": [
+      "24b"
+    ],
+    "capabilities": "tools",
+    "readme": "## Readme\n\n![image.png](/assets/library/lfm2/ddca3f1a-b232-44eb-ba95-236f15edd6a6)\n\nLFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.\n\n* **Best-in-class efficiency**: A 24B MoE model with only 2B active parameters per token, fitting in 32 GB of RAM for deployment on consumer laptops and desktops.\n* **Fast edge inference**: 112 tok/s decode on AMD CPU, 293 tok/s on H100\\. Fits in 32B GB of RAM.\n* **Predictable scaling**: Quality improves log-linearly from 350M to 24B total parameters, confirming the LFM2 hybrid architecture scales reliably across nearly two orders of magnitude.\n\n![image.png](/assets/library/lfm2/276ea517-7960-43b4-bc4d-d0d2dcbaf97b)\n\nWrite Preview \n\n!\\[image.png\\](/assets/library/lfm2/ddca3f1a-b232-44eb-ba95-236f15edd6a6) LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient. - \\*\\*Best-in-class efficiency\\*\\*: A 24B MoE model with only 2B active parameters per token, fitting in 32 GB of RAM for deployment on consumer laptops and desktops. - \\*\\*Fast edge inference\\*\\*: 112 tok/s decode on AMD CPU, 293 tok/s on H100\\. Fits in 32B GB of RAM. - \\*\\*Predictable scaling\\*\\*: Quality improves log-linearly from 350M to 24B total parameters, confirming the LFM2 hybrid architecture scales reliably across nearly two orders of magnitude. !\\[image.png\\](/assets/library/lfm2/276ea517-7960-43b4-bc4d-d0d2dcbaf97b) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -1599,7 +1599,7 @@
     "name": "stablelm2",
     "link": "https://ollama.com/library/stablelm2",
     "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
-    "pullCount": "997.4K",
+    "pullCount": "998.7K",
     "updated": "2 years ago",
     "size": [
       "1.6b",
@@ -1613,7 +1613,7 @@
     "name": "granite3-dense",
     "link": "https://ollama.com/library/granite3-dense",
     "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
-    "pullCount": "984.1K",
+    "pullCount": "984.8K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -1627,7 +1627,7 @@
     "name": "llama3-chatqa",
     "link": "https://ollama.com/library/llama3-chatqa",
     "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
-    "pullCount": "983.9K",
+    "pullCount": "984.6K",
     "updated": "2 years ago",
     "size": [
       "8b",
@@ -1641,7 +1641,7 @@
     "name": "granite3.1-dense",
     "link": "https://ollama.com/library/granite3.1-dense",
     "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
-    "pullCount": "981.8K",
+    "pullCount": "982.5K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -1655,7 +1655,7 @@
     "name": "llama-guard3",
     "link": "https://ollama.com/library/llama-guard3",
     "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
-    "pullCount": "979.6K",
+    "pullCount": "980.4K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -1669,7 +1669,7 @@
     "name": "devstral",
     "link": "https://ollama.com/library/devstral",
     "description": "Devstral: the best open source model for coding agents",
-    "pullCount": "978K",
+    "pullCount": "978.7K",
     "updated": "1 year ago",
     "size": [
       "24b"
@@ -1682,7 +1682,7 @@
     "name": "phi3.5",
     "link": "https://ollama.com/library/phi3.5",
     "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-    "pullCount": "977.7K",
+    "pullCount": "978.4K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -1692,24 +1692,10 @@
     "tags": []
   },
   {
-    "name": "dolphincoder",
-    "link": "https://ollama.com/library/dolphincoder",
-    "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-    "pullCount": "969.2K",
-    "updated": "2 years ago",
-    "size": [
-      "7b",
-      "15b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\n![](https://github.com/ollama/ollama/assets/251292/6a5a5656-abb9-4235-99e0-7f1161ff2657)\n\nBased on the StarCoder2 7B and 15B models, this Dolphin fine-tune excels at coding.\n\n## Reference\n\n[HuggingFace](https://huggingface.co/cognitivecomputations)\n\nWrite Preview \n\n<img src=\"https://github.com/ollama/ollama/assets/251292/6a5a5656-abb9-4235-99e0-7f1161ff2657\" width=\"320\" /> Based on the StarCoder2 7B and 15B models, this Dolphin fine-tune excels at coding. ## Reference \\[HuggingFace\\](https://huggingface.co/cognitivecomputations) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "wizard-math",
     "link": "https://ollama.com/library/wizard-math",
     "description": "Model focused on math and logic problems",
-    "pullCount": "969.1K",
+    "pullCount": "970.1K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1721,10 +1707,24 @@
     "tags": []
   },
   {
+    "name": "dolphincoder",
+    "link": "https://ollama.com/library/dolphincoder",
+    "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
+    "pullCount": "969.9K",
+    "updated": "2 years ago",
+    "size": [
+      "7b",
+      "15b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\n![](https://github.com/ollama/ollama/assets/251292/6a5a5656-abb9-4235-99e0-7f1161ff2657)\n\nBased on the StarCoder2 7B and 15B models, this Dolphin fine-tune excels at coding.\n\n## Reference\n\n[HuggingFace](https://huggingface.co/cognitivecomputations)\n\nWrite Preview \n\n<img src=\"https://github.com/ollama/ollama/assets/251292/6a5a5656-abb9-4235-99e0-7f1161ff2657\" width=\"320\" /> Based on the StarCoder2 7B and 15B models, this Dolphin fine-tune excels at coding. ## Reference \\[HuggingFace\\](https://huggingface.co/cognitivecomputations) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "llama3-gradient",
     "link": "https://ollama.com/library/llama3-gradient",
     "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
-    "pullCount": "961.8K",
+    "pullCount": "962.4K",
     "updated": "2 years ago",
     "size": [
       "8b",
@@ -1738,7 +1738,7 @@
     "name": "aya-expanse",
     "link": "https://ollama.com/library/aya-expanse",
     "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
-    "pullCount": "959.7K",
+    "pullCount": "960.8K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -1752,7 +1752,7 @@
     "name": "samantha-mistral",
     "link": "https://ollama.com/library/samantha-mistral",
     "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
-    "pullCount": "958.5K",
+    "pullCount": "959.3K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -1765,7 +1765,7 @@
     "name": "internlm2",
     "link": "https://ollama.com/library/internlm2",
     "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
-    "pullCount": "957K",
+    "pullCount": "958K",
     "updated": "1 year ago",
     "size": [
       "1m1.8b",
@@ -1780,7 +1780,7 @@
     "name": "llama3-groq-tool-use",
     "link": "https://ollama.com/library/llama3-groq-tool-use",
     "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
-    "pullCount": "955.4K",
+    "pullCount": "956K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -1794,7 +1794,7 @@
     "name": "granite3.2-vision",
     "link": "https://ollama.com/library/granite3.2-vision",
     "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
-    "pullCount": "939.9K",
+    "pullCount": "940.6K",
     "updated": "1 year ago",
     "size": [
       "2b"
@@ -1807,7 +1807,7 @@
     "name": "starling-lm",
     "link": "https://ollama.com/library/starling-lm",
     "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
-    "pullCount": "935.7K",
+    "pullCount": "936.3K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -1820,7 +1820,7 @@
     "name": "xwinlm",
     "link": "https://ollama.com/library/xwinlm",
     "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
-    "pullCount": "932.2K",
+    "pullCount": "933.2K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1834,7 +1834,7 @@
     "name": "phind-codellama",
     "link": "https://ollama.com/library/phind-codellama",
     "description": "Code generation model based on Code Llama.",
-    "pullCount": "931.5K",
+    "pullCount": "932.1K",
     "updated": "2 years ago",
     "size": [
       "34b"
@@ -1847,7 +1847,7 @@
     "name": "solar",
     "link": "https://ollama.com/library/solar",
     "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
-    "pullCount": "931.4K",
+    "pullCount": "931.9K",
     "updated": "2 years ago",
     "size": [
       "10.7b"
@@ -1860,7 +1860,7 @@
     "name": "yarn-llama2",
     "link": "https://ollama.com/library/yarn-llama2",
     "description": "An extension of Llama 2 that supports a context of up to 128k tokens.",
-    "pullCount": "920.4K",
+    "pullCount": "921.3K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1874,7 +1874,7 @@
     "name": "granite3-moe",
     "link": "https://ollama.com/library/granite3-moe",
     "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
-    "pullCount": "917.4K",
+    "pullCount": "917.9K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -1888,7 +1888,7 @@
     "name": "paraphrase-multilingual",
     "link": "https://ollama.com/library/paraphrase-multilingual",
     "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
-    "pullCount": "914.9K",
+    "pullCount": "916.4K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -1899,8 +1899,8 @@
     "name": "devstral-small-2",
     "link": "https://ollama.com/library/devstral-small-2",
     "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-    "pullCount": "901.1K",
-    "updated": "6 months ago",
+    "pullCount": "902.3K",
+    "updated": "7 months ago",
     "size": [
       "24b"
     ],
@@ -1912,7 +1912,7 @@
     "name": "orca2",
     "link": "https://ollama.com/library/orca2",
     "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
-    "pullCount": "900.6K",
+    "pullCount": "901.1K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1926,7 +1926,7 @@
     "name": "stable-beluga",
     "link": "https://ollama.com/library/stable-beluga",
     "description": "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.",
-    "pullCount": "895K",
+    "pullCount": "895.7K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1941,7 +1941,7 @@
     "name": "reader-lm",
     "link": "https://ollama.com/library/reader-lm",
     "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
-    "pullCount": "891.3K",
+    "pullCount": "891.8K",
     "updated": "1 year ago",
     "size": [
       "0.5b",
@@ -1955,7 +1955,7 @@
     "name": "shieldgemma",
     "link": "https://ollama.com/library/shieldgemma",
     "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
-    "pullCount": "888.9K",
+    "pullCount": "889.6K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -1970,7 +1970,7 @@
     "name": "deepcoder",
     "link": "https://ollama.com/library/deepcoder",
     "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
-    "pullCount": "884K",
+    "pullCount": "884.3K",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -1984,7 +1984,7 @@
     "name": "llama-pro",
     "link": "https://ollama.com/library/llama-pro",
     "description": "An expansion of Llama 2 that specializes in integrating both general language understanding and domain-specific knowledge, particularly in programming and mathematics.",
-    "pullCount": "876K",
+    "pullCount": "876.5K",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "",
@@ -1995,7 +1995,7 @@
     "name": "yarn-mistral",
     "link": "https://ollama.com/library/yarn-mistral",
     "description": "An extension of Mistral to support context windows of 64K or 128K.",
-    "pullCount": "869.5K",
+    "pullCount": "870K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2008,7 +2008,7 @@
     "name": "nexusraven",
     "link": "https://ollama.com/library/nexusraven",
     "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
-    "pullCount": "865.4K",
+    "pullCount": "865.8K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2021,7 +2021,7 @@
     "name": "bakllava",
     "link": "https://ollama.com/library/bakllava",
     "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
-    "pullCount": "860.8K",
+    "pullCount": "861.2K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2034,7 +2034,7 @@
     "name": "wizardlm",
     "link": "https://ollama.com/library/wizardlm",
     "description": "General use model based on Llama 2.",
-    "pullCount": "852.3K",
+    "pullCount": "853.2K",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "",
@@ -2045,7 +2045,7 @@
     "name": "command-r-plus",
     "link": "https://ollama.com/library/command-r-plus",
     "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
-    "pullCount": "775.3K",
+    "pullCount": "775.6K",
     "updated": "1 year ago",
     "size": [
       "104b"
@@ -2058,7 +2058,7 @@
     "name": "mistral-small3.1",
     "link": "https://ollama.com/library/mistral-small3.1",
     "description": "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance.",
-    "pullCount": "760.3K",
+    "pullCount": "760.6K",
     "updated": "1 year ago",
     "size": [
       "24b"
@@ -2071,7 +2071,7 @@
     "name": "meditron",
     "link": "https://ollama.com/library/meditron",
     "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
-    "pullCount": "752.2K",
+    "pullCount": "753.9K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -2085,7 +2085,7 @@
     "name": "exaone-deep",
     "link": "https://ollama.com/library/exaone-deep",
     "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
-    "pullCount": "746.9K",
+    "pullCount": "747.1K",
     "updated": "1 year ago",
     "size": [
       "2.4b",
@@ -2100,7 +2100,7 @@
     "name": "deepseek-v3.1",
     "link": "https://ollama.com/library/deepseek-v3.1",
     "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
-    "pullCount": "705.8K",
+    "pullCount": "706K",
     "updated": "7 months ago",
     "size": [
       "671b"
@@ -2113,7 +2113,7 @@
     "name": "tinydolphin",
     "link": "https://ollama.com/library/tinydolphin",
     "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-    "pullCount": "702K",
+    "pullCount": "702.3K",
     "updated": "2 years ago",
     "size": [
       "1.1b"
@@ -2126,7 +2126,7 @@
     "name": "nemotron-mini",
     "link": "https://ollama.com/library/nemotron-mini",
     "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
-    "pullCount": "684K",
+    "pullCount": "684.3K",
     "updated": "1 year ago",
     "size": [
       "4b"
@@ -2139,7 +2139,7 @@
     "name": "codegeex4",
     "link": "https://ollama.com/library/codegeex4",
     "description": "A versatile model for AI software development scenarios, including code completion.",
-    "pullCount": "666.6K",
+    "pullCount": "666.8K",
     "updated": "2 years ago",
     "size": [
       "9b"
@@ -2152,7 +2152,7 @@
     "name": "mistral-openorca",
     "link": "https://ollama.com/library/mistral-openorca",
     "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
-    "pullCount": "661.1K",
+    "pullCount": "661.3K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2165,7 +2165,7 @@
     "name": "wizardlm-uncensored",
     "link": "https://ollama.com/library/wizardlm-uncensored",
     "description": "Uncensored version of Wizard LM model",
-    "pullCount": "623.5K",
+    "pullCount": "623.8K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2178,7 +2178,7 @@
     "name": "nemotron3",
     "link": "https://ollama.com/library/nemotron3",
     "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-    "pullCount": "615.9K",
+    "pullCount": "616.1K",
     "updated": "2 months ago",
     "size": [
       "33b"
@@ -2191,7 +2191,7 @@
     "name": "opencoder",
     "link": "https://ollama.com/library/opencoder",
     "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-    "pullCount": "607K",
+    "pullCount": "607.2K",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -2205,7 +2205,7 @@
     "name": "reflection",
     "link": "https://ollama.com/library/reflection",
     "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
-    "pullCount": "597.5K",
+    "pullCount": "597.8K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -2218,7 +2218,7 @@
     "name": "medllama2",
     "link": "https://ollama.com/library/medllama2",
     "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
-    "pullCount": "593.8K",
+    "pullCount": "595.5K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2231,7 +2231,7 @@
     "name": "nemotron",
     "link": "https://ollama.com/library/nemotron",
     "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
-    "pullCount": "592.6K",
+    "pullCount": "592.9K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -2244,7 +2244,7 @@
     "name": "nemotron-3-nano",
     "link": "https://ollama.com/library/nemotron-3-nano",
     "description": "Nemotron-3-Nano is a new Standard for Efficient, Open, and Intelligent Agentic Models, now updated with a 4B parameter count model.",
-    "pullCount": "579.4K",
+    "pullCount": "581K",
     "updated": "3 months ago",
     "size": [
       "4b",
@@ -2258,7 +2258,7 @@
     "name": "qwen3-next",
     "link": "https://ollama.com/library/qwen3-next",
     "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
-    "pullCount": "572K",
+    "pullCount": "572.1K",
     "updated": "7 months ago",
     "size": [
       "80b"
@@ -2271,7 +2271,7 @@
     "name": "nous-hermes2-mixtral",
     "link": "https://ollama.com/library/nous-hermes2-mixtral",
     "description": "The Nous Hermes 2 model from Nous Research, now trained over Mixtral.",
-    "pullCount": "571.9K",
+    "pullCount": "572.1K",
     "updated": "1 year ago",
     "size": [
       "8x7b"
@@ -2284,7 +2284,7 @@
     "name": "codeup",
     "link": "https://ollama.com/library/codeup",
     "description": "Great code generation model based on Llama2.",
-    "pullCount": "571.5K",
+    "pullCount": "571.7K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2297,7 +2297,7 @@
     "name": "athene-v2",
     "link": "https://ollama.com/library/athene-v2",
     "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
-    "pullCount": "571K",
+    "pullCount": "571.2K",
     "updated": "1 year ago",
     "size": [
       "72b"
@@ -2310,7 +2310,7 @@
     "name": "megadolphin",
     "link": "https://ollama.com/library/megadolphin",
     "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
-    "pullCount": "550.1K",
+    "pullCount": "550.3K",
     "updated": "2 years ago",
     "size": [
       "120b"
@@ -2323,7 +2323,7 @@
     "name": "everythinglm",
     "link": "https://ollama.com/library/everythinglm",
     "description": "Uncensored Llama2 based model with support for a 16K context window.",
-    "pullCount": "546.7K",
+    "pullCount": "547K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2336,7 +2336,7 @@
     "name": "solar-pro",
     "link": "https://ollama.com/library/solar-pro",
     "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
-    "pullCount": "539.4K",
+    "pullCount": "539.6K",
     "updated": "1 year ago",
     "size": [
       "22b"
@@ -2349,7 +2349,7 @@
     "name": "magicoder",
     "link": "https://ollama.com/library/magicoder",
     "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
-    "pullCount": "537.3K",
+    "pullCount": "537.5K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2362,7 +2362,7 @@
     "name": "mathstral",
     "link": "https://ollama.com/library/mathstral",
     "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
-    "pullCount": "529.7K",
+    "pullCount": "529.9K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -2375,7 +2375,7 @@
     "name": "exaone3.5",
     "link": "https://ollama.com/library/exaone3.5",
     "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
-    "pullCount": "522.1K",
+    "pullCount": "522.7K",
     "updated": "1 year ago",
     "size": [
       "2.4b",
@@ -2390,7 +2390,7 @@
     "name": "falcon2",
     "link": "https://ollama.com/library/falcon2",
     "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
-    "pullCount": "521K",
+    "pullCount": "521.3K",
     "updated": "2 years ago",
     "size": [
       "11b"
@@ -2403,7 +2403,7 @@
     "name": "notus",
     "link": "https://ollama.com/library/notus",
     "description": "A 7B chat model fine-tuned with high-quality data and based on Zephyr.",
-    "pullCount": "521K",
+    "pullCount": "521.2K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2416,7 +2416,7 @@
     "name": "notux",
     "link": "https://ollama.com/library/notux",
     "description": "A top-performing mixture of experts model, fine-tuned with high-quality data.",
-    "pullCount": "520.2K",
+    "pullCount": "520.4K",
     "updated": "2 years ago",
     "size": [
       "8x7b"
@@ -2429,7 +2429,7 @@
     "name": "stablelm-zephyr",
     "link": "https://ollama.com/library/stablelm-zephyr",
     "description": "A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware.",
-    "pullCount": "514.9K",
+    "pullCount": "515.1K",
     "updated": "2 years ago",
     "size": [
       "3b"
@@ -2442,7 +2442,7 @@
     "name": "nuextract",
     "link": "https://ollama.com/library/nuextract",
     "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
-    "pullCount": "514.2K",
+    "pullCount": "514.4K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -2455,7 +2455,7 @@
     "name": "bespoke-minicheck",
     "link": "https://ollama.com/library/bespoke-minicheck",
     "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
-    "pullCount": "509.8K",
+    "pullCount": "510K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -2468,7 +2468,7 @@
     "name": "duckdb-nsql",
     "link": "https://ollama.com/library/duckdb-nsql",
     "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
-    "pullCount": "509.5K",
+    "pullCount": "509.7K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2481,7 +2481,7 @@
     "name": "mistrallite",
     "link": "https://ollama.com/library/mistrallite",
     "description": "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.",
-    "pullCount": "506.3K",
+    "pullCount": "506.5K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2494,7 +2494,7 @@
     "name": "firefunction-v2",
     "link": "https://ollama.com/library/firefunction-v2",
     "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
-    "pullCount": "504.3K",
+    "pullCount": "504.6K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -2507,7 +2507,7 @@
     "name": "wizard-vicuna",
     "link": "https://ollama.com/library/wizard-vicuna",
     "description": "Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj.",
-    "pullCount": "500.4K",
+    "pullCount": "500.6K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2520,7 +2520,7 @@
     "name": "open-orca-platypus2",
     "link": "https://ollama.com/library/open-orca-platypus2",
     "description": "Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation.",
-    "pullCount": "492.7K",
+    "pullCount": "492.9K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2533,7 +2533,7 @@
     "name": "deepseek-ocr",
     "link": "https://ollama.com/library/deepseek-ocr",
     "description": "DeepSeek-OCR is a vision-language model that can perform token-efficient OCR.",
-    "pullCount": "486.4K",
+    "pullCount": "487K",
     "updated": "7 months ago",
     "size": [
       "3b"
@@ -2546,7 +2546,7 @@
     "name": "rnj-1",
     "link": "https://ollama.com/library/rnj-1",
     "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
-    "pullCount": "484.6K",
+    "pullCount": "484.8K",
     "updated": "7 months ago",
     "size": [
       "8b"
@@ -2559,7 +2559,7 @@
     "name": "codebooga",
     "link": "https://ollama.com/library/codebooga",
     "description": "A high-performing code instruct model created by merging two existing code models.",
-    "pullCount": "480.1K",
+    "pullCount": "480.3K",
     "updated": "2 years ago",
     "size": [
       "34b"
@@ -2572,7 +2572,7 @@
     "name": "nomic-embed-text-v2-moe",
     "link": "https://ollama.com/library/nomic-embed-text-v2-moe",
     "description": "nomic-embed-text-v2-moe is a multilingual MoE text embedding model that excels at multilingual retrieval.",
-    "pullCount": "474.3K",
+    "pullCount": "479.1K",
     "updated": "7 months ago",
     "size": null,
     "capabilities": "embedding",
@@ -2583,7 +2583,7 @@
     "name": "goliath",
     "link": "https://ollama.com/library/goliath",
     "description": "A language model created by combining two fine-tuned Llama 2 70B models into one.",
-    "pullCount": "463.7K",
+    "pullCount": "463.9K",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "",
@@ -2594,7 +2594,7 @@
     "name": "granite3.2",
     "link": "https://ollama.com/library/granite3.2",
     "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
-    "pullCount": "441.4K",
+    "pullCount": "441.6K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -2608,7 +2608,7 @@
     "name": "olmo-3",
     "link": "https://ollama.com/library/olmo-3",
     "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-    "pullCount": "440K",
+    "pullCount": "440.1K",
     "updated": "6 months ago",
     "size": [
       "7b",
@@ -2622,7 +2622,7 @@
     "name": "snowflake-arctic-embed2",
     "link": "https://ollama.com/library/snowflake-arctic-embed2",
     "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-    "pullCount": "422.4K",
+    "pullCount": "422.6K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -2633,7 +2633,7 @@
     "name": "r1-1776",
     "link": "https://ollama.com/library/r1-1776",
     "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-    "pullCount": "408.7K",
+    "pullCount": "408.9K",
     "updated": "1 year ago",
     "size": [
       "70b",
@@ -2647,7 +2647,7 @@
     "name": "sailor2",
     "link": "https://ollama.com/library/sailor2",
     "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
-    "pullCount": "396.3K",
+    "pullCount": "396.4K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -2659,10 +2659,21 @@
     "tags": []
   },
   {
+    "name": "kimi-k2.6",
+    "link": "https://ollama.com/library/kimi-k2.6",
+    "description": "Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration.",
+    "pullCount": "370.8K",
+    "updated": "2 months ago",
+    "size": null,
+    "capabilities": "visiontoolsthinking",
+    "readme": "## Readme\n\n![](/assets/library/kimi-k2.5/3e4026fd-dc73-4a59-9322-7f015a92925e)\n\nKimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration.\n\n### Key Features\n\n* **Long-Horizon Coding**: K2.6 achieves significant improvements on complex, end-to-end coding tasks, generalizing robustly across programming languages (Rust, Go, Python) and domains spanning front-end, DevOps, and performance optimization.\n* **Coding-Driven Design**: K2.6 is capable of transforming simple prompts and visual inputs into production-ready interfaces and lightweight full-stack workflows, generating structured layouts, interactive elements, and rich animations with deliberate aesthetic precision.\n* **Elevated Agent Swarm**: Scaling horizontally to 300 sub-agents executing 4,000 coordinated steps, K2.6 can dynamically decompose tasks into parallel, domain-specialized subtasks, delivering end-to-end outputs from documents to websites to spreadsheets in a single autonomous run.\n* **Proactive & Open Orchestration**: For autonomous tasks, K2.6 demonstrates strong performance in powering persistent, 24⁄7 background agents that proactively manage schedules, execute code, and orchestrate cross-platform operations without human oversight.\n\n![kimi-k2.6-benchmark.png](/assets/library/kimi-k2.6/fe7d2616-16f4-4517-a67e-511280252a1e)\n\nWrite Preview \n\n<img src=\"/assets/library/kimi-k2.5/3e4026fd-dc73-4a59-9322-7f015a92925e\" width=\"180\" /> Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration. ### Key Features - \\*\\*Long-Horizon Coding\\*\\*: K2.6 achieves significant improvements on complex, end-to-end coding tasks, generalizing robustly across programming languages (Rust, Go, Python) and domains spanning front-end, DevOps, and performance optimization. - \\*\\*Coding-Driven Design\\*\\*: K2.6 is capable of transforming simple prompts and visual inputs into production-ready interfaces and lightweight full-stack workflows, generating structured layouts, interactive elements, and rich animations with deliberate aesthetic precision. - \\*\\*Elevated Agent Swarm\\*\\*: Scaling horizontally to 300 sub-agents executing 4,000 coordinated steps, K2.6 can dynamically decompose tasks into parallel, domain-specialized subtasks, delivering end-to-end outputs from documents to websites to spreadsheets in a single autonomous run. - \\*\\*Proactive & Open Orchestration\\*\\*: For autonomous tasks, K2.6 demonstrates strong performance in powering persistent, 24/7 background agents that proactively manage schedules, execute code, and orchestrate cross-platform operations without human oversight. !\\[kimi-k2.6-benchmark.png\\](/assets/library/kimi-k2.6/fe7d2616-16f4-4517-a67e-511280252a1e) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "tulu3",
     "link": "https://ollama.com/library/tulu3",
     "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
-    "pullCount": "368.9K",
+    "pullCount": "369.1K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -2673,21 +2684,10 @@
     "tags": []
   },
   {
-    "name": "kimi-k2.6",
-    "link": "https://ollama.com/library/kimi-k2.6",
-    "description": "Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration.",
-    "pullCount": "368.9K",
-    "updated": "2 months ago",
-    "size": null,
-    "capabilities": "visiontoolsthinking",
-    "readme": "## Readme\n\n![](/assets/library/kimi-k2.5/3e4026fd-dc73-4a59-9322-7f015a92925e)\n\nKimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration.\n\n### Key Features\n\n* **Long-Horizon Coding**: K2.6 achieves significant improvements on complex, end-to-end coding tasks, generalizing robustly across programming languages (Rust, Go, Python) and domains spanning front-end, DevOps, and performance optimization.\n* **Coding-Driven Design**: K2.6 is capable of transforming simple prompts and visual inputs into production-ready interfaces and lightweight full-stack workflows, generating structured layouts, interactive elements, and rich animations with deliberate aesthetic precision.\n* **Elevated Agent Swarm**: Scaling horizontally to 300 sub-agents executing 4,000 coordinated steps, K2.6 can dynamically decompose tasks into parallel, domain-specialized subtasks, delivering end-to-end outputs from documents to websites to spreadsheets in a single autonomous run.\n* **Proactive & Open Orchestration**: For autonomous tasks, K2.6 demonstrates strong performance in powering persistent, 24⁄7 background agents that proactively manage schedules, execute code, and orchestrate cross-platform operations without human oversight.\n\n![kimi-k2.6-benchmark.png](/assets/library/kimi-k2.6/fe7d2616-16f4-4517-a67e-511280252a1e)\n\nWrite Preview \n\n<img src=\"/assets/library/kimi-k2.5/3e4026fd-dc73-4a59-9322-7f015a92925e\" width=\"180\" /> Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration. ### Key Features - \\*\\*Long-Horizon Coding\\*\\*: K2.6 achieves significant improvements on complex, end-to-end coding tasks, generalizing robustly across programming languages (Rust, Go, Python) and domains spanning front-end, DevOps, and performance optimization. - \\*\\*Coding-Driven Design\\*\\*: K2.6 is capable of transforming simple prompts and visual inputs into production-ready interfaces and lightweight full-stack workflows, generating structured layouts, interactive elements, and rich animations with deliberate aesthetic precision. - \\*\\*Elevated Agent Swarm\\*\\*: Scaling horizontally to 300 sub-agents executing 4,000 coordinated steps, K2.6 can dynamically decompose tasks into parallel, domain-specialized subtasks, delivering end-to-end outputs from documents to websites to spreadsheets in a single autonomous run. - \\*\\*Proactive & Open Orchestration\\*\\*: For autonomous tasks, K2.6 demonstrates strong performance in powering persistent, 24/7 background agents that proactively manage schedules, execute code, and orchestrate cross-platform operations without human oversight. !\\[kimi-k2.6-benchmark.png\\](/assets/library/kimi-k2.6/fe7d2616-16f4-4517-a67e-511280252a1e) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "kimi-k2.5",
     "link": "https://ollama.com/library/kimi-k2.5",
     "description": "Kimi K2.5 is an open-source, native multimodal agentic model that seamlessly integrates vision and language understanding with advanced agentic capabilities, instant and thinking modes, as well as conversational and agentic paradigms.",
-    "pullCount": "353.2K",
+    "pullCount": "354.4K",
     "updated": "5 months ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
@@ -2698,7 +2698,7 @@
     "name": "granite-embedding",
     "link": "https://ollama.com/library/granite-embedding",
     "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
-    "pullCount": "337.5K",
+    "pullCount": "337.7K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -2709,7 +2709,7 @@
     "name": "granite3-guardian",
     "link": "https://ollama.com/library/granite3-guardian",
     "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
-    "pullCount": "322.4K",
+    "pullCount": "322.5K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -2723,7 +2723,7 @@
     "name": "dbrx",
     "link": "https://ollama.com/library/dbrx",
     "description": "DBRX is an open, general-purpose LLM created by Databricks.",
-    "pullCount": "313.2K",
+    "pullCount": "313.3K",
     "updated": "2 years ago",
     "size": [
       "132b"
@@ -2736,7 +2736,7 @@
     "name": "llava-phi3",
     "link": "https://ollama.com/library/llava-phi3",
     "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
-    "pullCount": "293.3K",
+    "pullCount": "293.5K",
     "updated": "2 years ago",
     "size": [
       "3.8b"
@@ -2749,7 +2749,7 @@
     "name": "phi4-mini-reasoning",
     "link": "https://ollama.com/library/phi4-mini-reasoning",
     "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
-    "pullCount": "279.9K",
+    "pullCount": "280.1K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -2762,7 +2762,7 @@
     "name": "olmo-3.1",
     "link": "https://ollama.com/library/olmo-3.1",
     "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-    "pullCount": "279.9K",
+    "pullCount": "280K",
     "updated": "6 months ago",
     "size": [
       "32b"
@@ -2775,7 +2775,7 @@
     "name": "deepseek-v2.5",
     "link": "https://ollama.com/library/deepseek-v2.5",
     "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
-    "pullCount": "279.6K",
+    "pullCount": "279.7K",
     "updated": "1 year ago",
     "size": [
       "236b"
@@ -2788,7 +2788,7 @@
     "name": "command-r7b",
     "link": "https://ollama.com/library/command-r7b",
     "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
-    "pullCount": "276.6K",
+    "pullCount": "276.9K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -2801,7 +2801,7 @@
     "name": "bge-large",
     "link": "https://ollama.com/library/bge-large",
     "description": "Embedding model from BAAI mapping texts to vectors.",
-    "pullCount": "274.1K",
+    "pullCount": "274.3K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -2812,7 +2812,7 @@
     "name": "devstral-2",
     "link": "https://ollama.com/library/devstral-2",
     "description": "123B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-    "pullCount": "252.2K",
+    "pullCount": "253K",
     "updated": "7 months ago",
     "size": [
       "123b"
@@ -2825,7 +2825,7 @@
     "name": "smallthinker",
     "link": "https://ollama.com/library/smallthinker",
     "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-    "pullCount": "250.4K",
+    "pullCount": "250.5K",
     "updated": "1 year ago",
     "size": [
       "3b"
@@ -2838,7 +2838,7 @@
     "name": "granite4.1",
     "link": "https://ollama.com/library/granite4.1",
     "description": "IBM Granite Models are a family of enterprise-ready, open foundation models that support multilingual capabilities, coding, retrieval-augmented generation (RAG), tool use, and structured JSON output. Released under Apache 2.0 license.",
-    "pullCount": "237.4K",
+    "pullCount": "239.9K",
     "updated": "1 month ago",
     "size": [
       "3b",
@@ -2847,6 +2847,20 @@
     ],
     "capabilities": "tools",
     "readme": "## Readme\n\n![](https://ollama.com/assets/library/granite3.2/90c5e567-0004-425c-a17a-1b846c2b5d3d)\n\n### Granite 4 models\n\nGranite 4.1 language models are a family of state-of-the-art open foundation models featuring dense decoder-only architectures in three sizes — 3B, 8B, and 30B. They natively support multilingual capabilities, a wide range of coding tasks, retrieval-augmented generation (RAG), tool usage, and structured JSON output.\n\nOur models are trained from scratch on approximately 15 trillion tokens through a five-phase strategy designed to progressively refine data quality and model capabilities. The first two phases cover pre-training proper, before transitioning into mid-training in Phases 3 and 4 with high-quality data annealing. The fifth and final phase performs long-context extension, scaling the context window up to 512K tokens through a staged process.\n\nAll models are publicly released under the Apache 2.0 license, allowing free use for both research and commercial purposes. The data curation and training processes were specifically designed for enterprise scenarios and customization, incorporating governance, risk, and compliance (GRC) evaluations alongside IBM’s standard data clearance and document quality review procedures.\n\nWe provide both base models (checkpoints after pre-training) and instruct models (checkpoints fine-tuned for dialogue, instruction following, helpfulness, and safety).\n\n* _Please note that `instruct` models do not have the `base` qualifier in their name (e.g., `ibm-granite/granite4.1:8b` vs. `ibm-granite/granite4.1:8b-base`)._\n\n#### Running\n\nExample of running the default model (i.e., typically, this is the `Q4_K_M` quantization):\n\n```\nollama run ibm/granite4.1:8b\n\n```\n\nTo run other quantizations (e.g., `Q8_0`):\n\n```\nollama run ibm/granite4.1:8b-q8_0\n\n```\n\n#### Supported Languages\n\nSupported Languages: English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese. Users may finetune Granite 4.1 models for languages beyond these languages.\n\n#### Intended Use\n\nThis model is designed to handle general instruction-following tasks and can be integrated into AI assistants across various domains, including business applications.\n\nThe model is designed to respond to general instructions and can be used to build AI assistants for multiple domains, including business applications.\n\n#### Capabilities\n\n* Summarization\n* Text classification\n* Text extraction\n* Question-answering\n* Retrieval Augmented Generation (RAG)\n* Code related tasks\n* Function-calling tasks\n* Multilingual dialog use cases\n* Fill-In-the-Middle (FIM) code completions\n\n---\n\n#### Learn more\n\n* Developers: Granite Team, IBM\n* Website: [Granite Docs](https://www.ibm.com/granite/docs)\n* GitHub Repository: [ibm-granite/granite-4.1-language-models](https://github.com/ibm-granite/granite-4.1-language-models)\n* Release Date: April 28th, 2026\n* License: [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)\n\nWrite Preview \n\n<center><img src=\"https://ollama.com/assets/library/granite3.2/90c5e567-0004-425c-a17a-1b846c2b5d3d\" data-canonical-src=\"https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png\" width=\"200\" /></center> ### Granite 4 models Granite 4.1 language models are a family of state-of-the-art open foundation models featuring dense decoder-only architectures in three sizes — 3B, 8B, and 30B. They natively support multilingual capabilities, a wide range of coding tasks, retrieval-augmented generation (RAG), tool usage, and structured JSON output. Our models are trained from scratch on approximately 15 trillion tokens through a five-phase strategy designed to progressively refine data quality and model capabilities. The first two phases cover pre-training proper, before transitioning into mid-training in Phases 3 and 4 with high-quality data annealing. The fifth and final phase performs long-context extension, scaling the context window up to 512K tokens through a staged process. All models are publicly released under the Apache 2.0 license, allowing free use for both research and commercial purposes. The data curation and training processes were specifically designed for enterprise scenarios and customization, incorporating governance, risk, and compliance (GRC) evaluations alongside IBM's standard data clearance and document quality review procedures. We provide both base models (checkpoints after pre-training) and instruct models (checkpoints fine-tuned for dialogue, instruction following, helpfulness, and safety). - \\*Please note that \\`instruct\\` models do not have the \\`base\\` qualifier in their name (e.g., \\`ibm-granite/granite4.1:8b\\` vs. \\`ibm-granite/granite4.1:8b-base\\`).\\* #### Running Example of running the default model (i.e., typically, this is the \\`Q4\\_K\\_M\\` quantization): \\`\\`\\` ollama run ibm/granite4.1:8b \\`\\`\\` To run other quantizations (e.g., \\`Q8\\_0\\`): \\`\\`\\` ollama run ibm/granite4.1:8b-q8\\_0 \\`\\`\\` #### Supported Languages Supported Languages: English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese. Users may finetune Granite 4.1 models for languages beyond these languages. #### Intended Use This model is designed to handle general instruction-following tasks and can be integrated into AI assistants across various domains, including business applications. The model is designed to respond to general instructions and can be used to build AI assistants for multiple domains, including business applications. #### Capabilities - Summarization - Text classification - Text extraction - Question-answering - Retrieval Augmented Generation (RAG) - Code related tasks - Function-calling tasks - Multilingual dialog use cases - Fill-In-the-Middle (FIM) code completions --- #### Learn more - Developers: Granite Team, IBM - Website: \\[Granite Docs\\](https://www.ibm.com/granite/docs) - GitHub Repository: \\[ibm-granite/granite-4.1-language-models\\](https://github.com/ibm-granite/granite-4.1-language-models) - Release Date: April 28th, 2026 - License: \\[Apache 2.0\\](https://www.apache.org/licenses/LICENSE-2.0) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
+    "name": "ornith",
+    "link": "https://ollama.com/library/ornith",
+    "description": "A self-improving family of open-source models for agentic coding",
+    "pullCount": "233.5K",
+    "updated": "2 weeks ago",
+    "size": [
+      "9b",
+      "35b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\n![image.png](/assets/library/ornith/fd32d921-16eb-4fc1-a71b-65124dd4abb7)\n\nHighlights:\n\n* **State-of-the-Art Coding Agents**: Achieving state-of-the-art performance among open-source models of comparable size on coding benchmarks such as Terminal-Bench 2.1, SWE-Bench, NL2Repo and OpenClaw.\n* **Self-Improving Training Framework**: Ornith-1.0 employs RL to learn to generate not only solution rollouts, but also the scallfold that drive those rollouts. By jointly optimizing the scaffold and the resulting solution, the model discovers better search trajectories and generates higher-quality solutions.\n* **Licence**: MIT licensed, globally accessible, and free from regional limitations.\n\n### 9B\n\n```\nollama run ornith:9b\n\n```\n\n![ornith 9b benchmarks](/assets/library/ornith/afc40753-0b00-4683-87b4-2c4a12f74acc)\n\n### 35B\n\n```\nollama run ornith:35b\n\n```\n\n![ornith 35b benchmarks](/assets/library/ornith/b194b793-a9b5-4609-8625-6fabea9a1d19)\n\n## References\n\n* [Blog](https://deep-reinforce.com/ornith%5F1%5F0.html)\n\nWrite Preview \n\n!\\[image.png\\](/assets/library/ornith/fd32d921-16eb-4fc1-a71b-65124dd4abb7) Highlights: \\* \\*\\*State-of-the-Art Coding Agents\\*\\*: Achieving state-of-the-art performance among open-source models of comparable size on coding benchmarks such as Terminal-Bench 2.1, SWE-Bench, NL2Repo and OpenClaw. \\* \\*\\*Self-Improving Training Framework\\*\\*: Ornith-1.0 employs RL to learn to generate not only solution rollouts, but also the scallfold that drive those rollouts. By jointly optimizing the scaffold and the resulting solution, the model discovers better search trajectories and generates higher-quality solutions. \\* \\*\\*Licence\\*\\*: MIT licensed, globally accessible, and free from regional limitations. ### 9B \\`\\`\\` ollama run ornith:9b \\`\\`\\` !\\[ornith 9b benchmarks\\](/assets/library/ornith/afc40753-0b00-4683-87b4-2c4a12f74acc) ### 35B \\`\\`\\` ollama run ornith:35b \\`\\`\\` !\\[ornith 35b benchmarks\\](/assets/library/ornith/b194b793-a9b5-4609-8625-6fabea9a1d19) ## References - \\[Blog\\](https://deep-reinforce.com/ornith\\_1\\_0.html) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -2863,17 +2877,25 @@
     "tags": []
   },
   {
-    "name": "ornith",
-    "link": "https://ollama.com/library/ornith",
-    "description": "A self-improving family of open-source models for agentic coding",
-    "pullCount": "229.3K",
-    "updated": "1 week ago",
-    "size": [
-      "9b",
-      "35b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\n![image.png](/assets/library/ornith/fd32d921-16eb-4fc1-a71b-65124dd4abb7)\n\nHighlights:\n\n* **State-of-the-Art Coding Agents**: Achieving state-of-the-art performance among open-source models of comparable size on coding benchmarks such as Terminal-Bench 2.1, SWE-Bench, NL2Repo and OpenClaw.\n* **Self-Improving Training Framework**: Ornith-1.0 employs RL to learn to generate not only solution rollouts, but also the scallfold that drive those rollouts. By jointly optimizing the scaffold and the resulting solution, the model discovers better search trajectories and generates higher-quality solutions.\n* **Licence**: MIT licensed, globally accessible, and free from regional limitations.\n\n### 9B\n\n```\nollama run ornith:9b\n\n```\n\n![ornith 9b benchmarks](/assets/library/ornith/afc40753-0b00-4683-87b4-2c4a12f74acc)\n\n### 35B\n\n```\nollama run ornith:35b\n\n```\n\n![ornith 35b benchmarks](/assets/library/ornith/b194b793-a9b5-4609-8625-6fabea9a1d19)\n\n## References\n\n* [Blog](https://deep-reinforce.com/ornith%5F1%5F0.html)\n\nWrite Preview \n\n!\\[image.png\\](/assets/library/ornith/fd32d921-16eb-4fc1-a71b-65124dd4abb7) Highlights: \\* \\*\\*State-of-the-Art Coding Agents\\*\\*: Achieving state-of-the-art performance among open-source models of comparable size on coding benchmarks such as Terminal-Bench 2.1, SWE-Bench, NL2Repo and OpenClaw. \\* \\*\\*Self-Improving Training Framework\\*\\*: Ornith-1.0 employs RL to learn to generate not only solution rollouts, but also the scallfold that drive those rollouts. By jointly optimizing the scaffold and the resulting solution, the model discovers better search trajectories and generates higher-quality solutions. \\* \\*\\*Licence\\*\\*: MIT licensed, globally accessible, and free from regional limitations. ### 9B \\`\\`\\` ollama run ornith:9b \\`\\`\\` !\\[ornith 9b benchmarks\\](/assets/library/ornith/afc40753-0b00-4683-87b4-2c4a12f74acc) ### 35B \\`\\`\\` ollama run ornith:35b \\`\\`\\` !\\[ornith 35b benchmarks\\](/assets/library/ornith/b194b793-a9b5-4609-8625-6fabea9a1d19) ## References - \\[Blog\\](https://deep-reinforce.com/ornith\\_1\\_0.html) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "name": "minimax-m3",
+    "link": "https://ollama.com/library/minimax-m3",
+    "description": "MiniMax M3: Coding & Agentic Frontier. 1M context window. Native Multimodality.",
+    "pullCount": "222.9K",
+    "updated": "1 month ago",
+    "size": null,
+    "capabilities": "visiontoolsthinking",
+    "readme": "## Readme\n\n> Ollama’s Cloud is officially licensed with MiniMax for commercial usage\n> \n> In partnership with MiniMax, the M3 model on Ollama’s Cloud is US-based with zero data retention.\n\n### Highlights\n\n* MiniMax M3 achieves top-tier performance on coding and agentic benchmarks, with autonomous task decomposition, tool invocation, and multi-step reasoning capabilities — providing a reliable foundation for AI coding assistants and automated workflows.\n* Powered by the proprietary MiniMax Sparse Attention (MSA) architecture, M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding.\n* A natively multimodal model. The entire data pipeline was rebuilt to scale pretraining data to 100T+, with multimodal training from step zero achieving deep alignment between textual and visual semantic spaces. Multimodal is a native core capability, not a superficial add-on.\n* On BrowseComp, M3 scores 83.5, surpassing Opus 4.7 (79.3), demonstrating strong autonomous browsing and information retrieval capabilities.\n* Until now, only a handful of closed-source models could simultaneously achieve frontier coding capabilities, million-token context, and Multimodal. M3 is the first to bring complete frontier capability to the open world.\n\n### Benchmark\n\n![Benchmark](/assets/library/minimax-m3/3d512ace-b6bf-4e00-8bc0-cbe9ff79627b)\n\n### Architecture\n\nMiniMax Sparse Attention (MSA) Architecture\n\n![image.png](/assets/library/minimax-m3/de272c65-0490-4e05-93e4-4150d5763817)\n\nThe MSA architecture enables native ultra-long context pretraining. M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens, delivering excellent inference latency and throughput at extreme context lengths. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding.\n\n![Full benchmarks](/assets/library/minimax-m3/a998096b-a024-4971-be2b-5aeae3cacbe1)\n\n### Reference\n\n[MiniMax M3 blog](https://www.minimax.io/models/text/m3)\n\nWrite Preview \n\n\\> Ollama's Cloud is officially licensed with MiniMax for commercial usage > In partnership with MiniMax, the M3 model on Ollama's Cloud is US-based with zero data retention. ### Highlights - MiniMax M3 achieves top-tier performance on coding and agentic benchmarks, with autonomous task decomposition, tool invocation, and multi-step reasoning capabilities — providing a reliable foundation for AI coding assistants and automated workflows. - Powered by the proprietary MiniMax Sparse Attention (MSA) architecture, M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding. - A natively multimodal model. The entire data pipeline was rebuilt to scale pretraining data to 100T+, with multimodal training from step zero achieving deep alignment between textual and visual semantic spaces. Multimodal is a native core capability, not a superficial add-on. - On BrowseComp, M3 scores 83.5, surpassing Opus 4.7 (79.3), demonstrating strong autonomous browsing and information retrieval capabilities. - Until now, only a handful of closed-source models could simultaneously achieve frontier coding capabilities, million-token context, and Multimodal. M3 is the first to bring complete frontier capability to the open world. ### Benchmark !\\[Benchmark\\](/assets/library/minimax-m3/3d512ace-b6bf-4e00-8bc0-cbe9ff79627b) ### Architecture MiniMax Sparse Attention (MSA) Architecture !\\[image.png\\](/assets/library/minimax-m3/de272c65-0490-4e05-93e4-4150d5763817) The MSA architecture enables native ultra-long context pretraining. M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens, delivering excellent inference latency and throughput at extreme context lengths. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding. !\\[Full benchmarks\\](/assets/library/minimax-m3/a998096b-a024-4971-be2b-5aeae3cacbe1) ### Reference \\[MiniMax M3 blog\\](https://www.minimax.io/models/text/m3) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
+    "name": "deepseek-v4-flash",
+    "link": "https://ollama.com/library/deepseek-v4-flash",
+    "description": "DeepSeek-V4-Flash is a preview of the DeepSeek-V4 series, a Mixture-of-Experts model with 284B total parameters and 13B activated, built for efficient reasoning across a 1M-token context window.",
+    "pullCount": "220.8K",
+    "updated": "2 months ago",
+    "size": null,
+    "capabilities": "toolsthinking",
+    "readme": "## Readme\n\n![](/assets/library/deepseek-v3/069ccc94-63b0-41e6-b2b3-e8e56068ab1a)\n\nDeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence\n\n**DeepSeek-V4-Flash** is a preview of the DeepSeek-V4 series, a Mixture-of-Experts model with 284B total parameters and 13B activated, built for efficient reasoning across a 1M-token context window.\n\n3 Thinking modes:\n\n* No thinking: used for fast, intuitive answers\n* Thinking: used for careful logical analysis\n* Max thinking: maximum reasoning effort on the hardest problems![benchmark](/assets/library/deepseek-v4-flash/3252e416-59e1-4e1f-9a8d-4345b58ac28f)\n\n| Benchmark (Metric)          | V4-Flash Non-Think | V4-Flash High | V4-Flash Max | V4-Pro Non-Think | V4-Pro High | V4-Pro Max |\n| --------------------------- | ------------------ | ------------- | ------------ | ---------------- | ----------- | ---------- |\n| **Knowledge & Reasoning**   |                    |               |              |                  |             |            |\n| MMLU-Pro (EM)               | 83.0               | 86.4          | 86.2         | 82.9             | 87.1        | **87.5**   |\n| SimpleQA-Verified (Pass@1)  | 23.1               | 28.9          | 34.1         | 45.0             | 46.2        | **57.9**   |\n| Chinese-SimpleQA (Pass@1)   | 71.5               | 73.2          | 78.9         | 75.8             | 77.7        | **84.4**   |\n| GPQA Diamond (Pass@1)       | 71.2               | 87.4          | 88.1         | 72.9             | 89.1        | **90.1**   |\n| HLE (Pass@1)                | 8.1                | 29.4          | 34.8         | 7.7              | 34.5        | **37.7**   |\n| LiveCodeBench (Pass@1)      | 55.2               | 88.4          | 91.6         | 56.8             | 89.8        | **93.5**   |\n| Codeforces (Rating)         | \\-                 | 2816          | 3052         | \\-               | 2919        | **3206**   |\n| HMMT 2026 Feb (Pass@1)      | 40.8               | 91.9          | 94.8         | 31.7             | 94.0        | **95.2**   |\n| IMOAnswerBench (Pass@1)     | 41.9               | 85.1          | 88.4         | 35.3             | 88.0        | **89.8**   |\n| Apex (Pass@1)               | 1.0                | 19.1          | 33.0         | 0.4              | 27.4        | **38.3**   |\n| Apex Shortlist (Pass@1)     | 9.3                | 72.1          | 85.7         | 9.2              | 85.5        | **90.2**   |\n| **Long Context**            |                    |               |              |                  |             |            |\n| MRCR 1M (MMR)               | 37.5               | 76.9          | 78.7         | 44.7             | 83.3        | **83.5**   |\n| CorpusQA 1M (ACC)           | 15.5               | 59.3          | 60.5         | 35.6             | 56.5        | **62.0**   |\n| **Agentic**                 |                    |               |              |                  |             |            |\n| Terminal Bench 2.0 (Acc)    | 49.1               | 56.6          | 56.9         | 59.1             | 63.3        | **67.9**   |\n| SWE Verified (Resolved)     | 73.7               | 78.6          | 79.0         | 73.6             | 79.4        | **80.6**   |\n| SWE Pro (Resolved)          | 49.1               | 52.3          | 52.6         | 52.1             | 54.4        | **55.4**   |\n| SWE Multilingual (Resolved) | 69.7               | 70.2          | 73.3         | 69.8             | 74.1        | **76.2**   |\n| BrowseComp (Pass@1)         | \\-                 | 53.5          | 73.2         | \\-               | 80.4        | **83.4**   |\n| HLE w/ tools (Pass@1)       | \\-                 | 40.3          | 45.1         | \\-               | 44.7        | **48.2**   |\n| MCPAtlas (Pass@1)           | 64.0               | 67.4          | 69.0         | 69.4             | **74.2**    | 73.6       |\n| GDPval-AA (Elo)             | \\-                 | \\-            | 1395         | \\-               | \\-          | **1554**   |\n| Toolathlon (Pass@1)         | 40.7               | 43.5          | 47.8         | 46.3             | 49.0        | **51.8**   |\n\n### Reference\n\n[DeepSeek-V4 technical report](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash/blob/main/DeepSeek%5FV4.pdf)\n\nWrite Preview \n\n<img src=\"/assets/library/deepseek-v3/069ccc94-63b0-41e6-b2b3-e8e56068ab1a\" width=\"320\" /> DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence \\*\\*DeepSeek-V4-Flash\\*\\* is a preview of the DeepSeek-V4 series, a Mixture-of-Experts model with 284B total parameters and 13B activated, built for efficient reasoning across a 1M-token context window. 3 Thinking modes: - No thinking: used for fast, intuitive answers - Thinking: used for careful logical analysis - Max thinking: maximum reasoning effort on the hardest problems !\\[benchmark\\](/assets/library/deepseek-v4-flash/3252e416-59e1-4e1f-9a8d-4345b58ac28f) | Benchmark (Metric) | V4-Flash Non-Think | V4-Flash High | V4-Flash Max | V4-Pro Non-Think | V4-Pro High | V4-Pro Max | | :--- | :---: | :---: | :---: | :---: | :---: | :---: | | \\*\\*Knowledge & Reasoning\\*\\* | | | | | | | | MMLU-Pro (EM) | 83.0 | 86.4 | 86.2 | 82.9 | 87.1 | \\*\\*87.5\\*\\* | | SimpleQA-Verified (Pass@1) | 23.1 | 28.9 | 34.1 | 45.0 | 46.2 | \\*\\*57.9\\*\\* | | Chinese-SimpleQA (Pass@1) | 71.5 | 73.2 | 78.9 | 75.8 | 77.7 | \\*\\*84.4\\*\\* | | GPQA Diamond (Pass@1) | 71.2 | 87.4 | 88.1 | 72.9 | 89.1 | \\*\\*90.1\\*\\* | | HLE (Pass@1) | 8.1 | 29.4 | 34.8 | 7.7 | 34.5 | \\*\\*37.7\\*\\* | | LiveCodeBench (Pass@1) | 55.2 | 88.4 | 91.6 | 56.8 | 89.8 | \\*\\*93.5\\*\\* | | Codeforces (Rating) | - | 2816 | 3052 | - | 2919 | \\*\\*3206\\*\\* | | HMMT 2026 Feb (Pass@1) | 40.8 | 91.9 | 94.8 | 31.7 | 94.0 | \\*\\*95.2\\*\\* | | IMOAnswerBench (Pass@1) | 41.9 | 85.1 | 88.4 | 35.3 | 88.0 | \\*\\*89.8\\*\\* | | Apex (Pass@1) | 1.0 | 19.1 | 33.0 | 0.4 | 27.4 | \\*\\*38.3\\*\\* | | Apex Shortlist (Pass@1) | 9.3 | 72.1 | 85.7 | 9.2 | 85.5 | \\*\\*90.2\\*\\* | | \\*\\*Long Context\\*\\* | | | | | | | | MRCR 1M (MMR) | 37.5 | 76.9 | 78.7 | 44.7 | 83.3 | \\*\\*83.5\\*\\* | | CorpusQA 1M (ACC) | 15.5 | 59.3 | 60.5 | 35.6 | 56.5 | \\*\\*62.0\\*\\* | | \\*\\*Agentic\\*\\* | | | | | | | | Terminal Bench 2.0 (Acc) | 49.1 | 56.6 | 56.9 | 59.1 | 63.3 | \\*\\*67.9\\*\\* | | SWE Verified (Resolved) | 73.7 | 78.6 | 79.0 | 73.6 | 79.4 | \\*\\*80.6\\*\\* | | SWE Pro (Resolved) | 49.1 | 52.3 | 52.6 | 52.1 | 54.4 | \\*\\*55.4\\*\\* | | SWE Multilingual (Resolved) | 69.7 | 70.2 | 73.3 | 69.8 | 74.1 | \\*\\*76.2\\*\\* | | BrowseComp (Pass@1) | - | 53.5 | 73.2 | - | 80.4 | \\*\\*83.4\\*\\* | | HLE w/ tools (Pass@1) | - | 40.3 | 45.1 | - | 44.7 | \\*\\*48.2\\*\\* | | MCPAtlas (Pass@1) | 64.0 | 67.4 | 69.0 | 69.4 | \\*\\*74.2\\*\\* | 73.6 | | GDPval-AA (Elo) | - | - | 1395 | - | - | \\*\\*1554\\*\\* | | Toolathlon (Pass@1) | 40.7 | 43.5 | 47.8 | 46.3 | 49.0 | \\*\\*51.8\\*\\* | ### Reference \\[DeepSeek-V4 technical report\\](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash/blob/main/DeepSeek\\_V4.pdf) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -2890,32 +2912,10 @@
     "tags": []
   },
   {
-    "name": "deepseek-v4-flash",
-    "link": "https://ollama.com/library/deepseek-v4-flash",
-    "description": "DeepSeek-V4-Flash is a preview of the DeepSeek-V4 series, a Mixture-of-Experts model with 284B total parameters and 13B activated, built for efficient reasoning across a 1M-token context window.",
-    "pullCount": "216.9K",
-    "updated": "2 months ago",
-    "size": null,
-    "capabilities": "toolsthinking",
-    "readme": "## Readme\n\n![](/assets/library/deepseek-v3/069ccc94-63b0-41e6-b2b3-e8e56068ab1a)\n\nDeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence\n\n**DeepSeek-V4-Flash** is a preview of the DeepSeek-V4 series, a Mixture-of-Experts model with 284B total parameters and 13B activated, built for efficient reasoning across a 1M-token context window.\n\n3 Thinking modes:\n\n* No thinking: used for fast, intuitive answers\n* Thinking: used for careful logical analysis\n* Max thinking: maximum reasoning effort on the hardest problems![benchmark](/assets/library/deepseek-v4-flash/3252e416-59e1-4e1f-9a8d-4345b58ac28f)\n\n| Benchmark (Metric)          | V4-Flash Non-Think | V4-Flash High | V4-Flash Max | V4-Pro Non-Think | V4-Pro High | V4-Pro Max |\n| --------------------------- | ------------------ | ------------- | ------------ | ---------------- | ----------- | ---------- |\n| **Knowledge & Reasoning**   |                    |               |              |                  |             |            |\n| MMLU-Pro (EM)               | 83.0               | 86.4          | 86.2         | 82.9             | 87.1        | **87.5**   |\n| SimpleQA-Verified (Pass@1)  | 23.1               | 28.9          | 34.1         | 45.0             | 46.2        | **57.9**   |\n| Chinese-SimpleQA (Pass@1)   | 71.5               | 73.2          | 78.9         | 75.8             | 77.7        | **84.4**   |\n| GPQA Diamond (Pass@1)       | 71.2               | 87.4          | 88.1         | 72.9             | 89.1        | **90.1**   |\n| HLE (Pass@1)                | 8.1                | 29.4          | 34.8         | 7.7              | 34.5        | **37.7**   |\n| LiveCodeBench (Pass@1)      | 55.2               | 88.4          | 91.6         | 56.8             | 89.8        | **93.5**   |\n| Codeforces (Rating)         | \\-                 | 2816          | 3052         | \\-               | 2919        | **3206**   |\n| HMMT 2026 Feb (Pass@1)      | 40.8               | 91.9          | 94.8         | 31.7             | 94.0        | **95.2**   |\n| IMOAnswerBench (Pass@1)     | 41.9               | 85.1          | 88.4         | 35.3             | 88.0        | **89.8**   |\n| Apex (Pass@1)               | 1.0                | 19.1          | 33.0         | 0.4              | 27.4        | **38.3**   |\n| Apex Shortlist (Pass@1)     | 9.3                | 72.1          | 85.7         | 9.2              | 85.5        | **90.2**   |\n| **Long Context**            |                    |               |              |                  |             |            |\n| MRCR 1M (MMR)               | 37.5               | 76.9          | 78.7         | 44.7             | 83.3        | **83.5**   |\n| CorpusQA 1M (ACC)           | 15.5               | 59.3          | 60.5         | 35.6             | 56.5        | **62.0**   |\n| **Agentic**                 |                    |               |              |                  |             |            |\n| Terminal Bench 2.0 (Acc)    | 49.1               | 56.6          | 56.9         | 59.1             | 63.3        | **67.9**   |\n| SWE Verified (Resolved)     | 73.7               | 78.6          | 79.0         | 73.6             | 79.4        | **80.6**   |\n| SWE Pro (Resolved)          | 49.1               | 52.3          | 52.6         | 52.1             | 54.4        | **55.4**   |\n| SWE Multilingual (Resolved) | 69.7               | 70.2          | 73.3         | 69.8             | 74.1        | **76.2**   |\n| BrowseComp (Pass@1)         | \\-                 | 53.5          | 73.2         | \\-               | 80.4        | **83.4**   |\n| HLE w/ tools (Pass@1)       | \\-                 | 40.3          | 45.1         | \\-               | 44.7        | **48.2**   |\n| MCPAtlas (Pass@1)           | 64.0               | 67.4          | 69.0         | 69.4             | **74.2**    | 73.6       |\n| GDPval-AA (Elo)             | \\-                 | \\-            | 1395         | \\-               | \\-          | **1554**   |\n| Toolathlon (Pass@1)         | 40.7               | 43.5          | 47.8         | 46.3             | 49.0        | **51.8**   |\n\n### Reference\n\n[DeepSeek-V4 technical report](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash/blob/main/DeepSeek%5FV4.pdf)\n\nWrite Preview \n\n<img src=\"/assets/library/deepseek-v3/069ccc94-63b0-41e6-b2b3-e8e56068ab1a\" width=\"320\" /> DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence \\*\\*DeepSeek-V4-Flash\\*\\* is a preview of the DeepSeek-V4 series, a Mixture-of-Experts model with 284B total parameters and 13B activated, built for efficient reasoning across a 1M-token context window. 3 Thinking modes: - No thinking: used for fast, intuitive answers - Thinking: used for careful logical analysis - Max thinking: maximum reasoning effort on the hardest problems !\\[benchmark\\](/assets/library/deepseek-v4-flash/3252e416-59e1-4e1f-9a8d-4345b58ac28f) | Benchmark (Metric) | V4-Flash Non-Think | V4-Flash High | V4-Flash Max | V4-Pro Non-Think | V4-Pro High | V4-Pro Max | | :--- | :---: | :---: | :---: | :---: | :---: | :---: | | \\*\\*Knowledge & Reasoning\\*\\* | | | | | | | | MMLU-Pro (EM) | 83.0 | 86.4 | 86.2 | 82.9 | 87.1 | \\*\\*87.5\\*\\* | | SimpleQA-Verified (Pass@1) | 23.1 | 28.9 | 34.1 | 45.0 | 46.2 | \\*\\*57.9\\*\\* | | Chinese-SimpleQA (Pass@1) | 71.5 | 73.2 | 78.9 | 75.8 | 77.7 | \\*\\*84.4\\*\\* | | GPQA Diamond (Pass@1) | 71.2 | 87.4 | 88.1 | 72.9 | 89.1 | \\*\\*90.1\\*\\* | | HLE (Pass@1) | 8.1 | 29.4 | 34.8 | 7.7 | 34.5 | \\*\\*37.7\\*\\* | | LiveCodeBench (Pass@1) | 55.2 | 88.4 | 91.6 | 56.8 | 89.8 | \\*\\*93.5\\*\\* | | Codeforces (Rating) | - | 2816 | 3052 | - | 2919 | \\*\\*3206\\*\\* | | HMMT 2026 Feb (Pass@1) | 40.8 | 91.9 | 94.8 | 31.7 | 94.0 | \\*\\*95.2\\*\\* | | IMOAnswerBench (Pass@1) | 41.9 | 85.1 | 88.4 | 35.3 | 88.0 | \\*\\*89.8\\*\\* | | Apex (Pass@1) | 1.0 | 19.1 | 33.0 | 0.4 | 27.4 | \\*\\*38.3\\*\\* | | Apex Shortlist (Pass@1) | 9.3 | 72.1 | 85.7 | 9.2 | 85.5 | \\*\\*90.2\\*\\* | | \\*\\*Long Context\\*\\* | | | | | | | | MRCR 1M (MMR) | 37.5 | 76.9 | 78.7 | 44.7 | 83.3 | \\*\\*83.5\\*\\* | | CorpusQA 1M (ACC) | 15.5 | 59.3 | 60.5 | 35.6 | 56.5 | \\*\\*62.0\\*\\* | | \\*\\*Agentic\\*\\* | | | | | | | | Terminal Bench 2.0 (Acc) | 49.1 | 56.6 | 56.9 | 59.1 | 63.3 | \\*\\*67.9\\*\\* | | SWE Verified (Resolved) | 73.7 | 78.6 | 79.0 | 73.6 | 79.4 | \\*\\*80.6\\*\\* | | SWE Pro (Resolved) | 49.1 | 52.3 | 52.6 | 52.1 | 54.4 | \\*\\*55.4\\*\\* | | SWE Multilingual (Resolved) | 69.7 | 70.2 | 73.3 | 69.8 | 74.1 | \\*\\*76.2\\*\\* | | BrowseComp (Pass@1) | - | 53.5 | 73.2 | - | 80.4 | \\*\\*83.4\\*\\* | | HLE w/ tools (Pass@1) | - | 40.3 | 45.1 | - | 44.7 | \\*\\*48.2\\*\\* | | MCPAtlas (Pass@1) | 64.0 | 67.4 | 69.0 | 69.4 | \\*\\*74.2\\*\\* | 73.6 | | GDPval-AA (Elo) | - | - | 1395 | - | - | \\*\\*1554\\*\\* | | Toolathlon (Pass@1) | 40.7 | 43.5 | 47.8 | 46.3 | 49.0 | \\*\\*51.8\\*\\* | ### Reference \\[DeepSeek-V4 technical report\\](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash/blob/main/DeepSeek\\_V4.pdf) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
-    "name": "minimax-m3",
-    "link": "https://ollama.com/library/minimax-m3",
-    "description": "MiniMax M3: Coding & Agentic Frontier. 1M context window. Native Multimodality.",
-    "pullCount": "216.8K",
-    "updated": "1 month ago",
-    "size": null,
-    "capabilities": "visiontoolsthinking",
-    "readme": "## Readme\n\n> Ollama’s Cloud is officially licensed with MiniMax for commercial usage\n> \n> In partnership with MiniMax, the M3 model on Ollama’s Cloud is US-based with zero data retention.\n\n### Highlights\n\n* MiniMax M3 achieves top-tier performance on coding and agentic benchmarks, with autonomous task decomposition, tool invocation, and multi-step reasoning capabilities — providing a reliable foundation for AI coding assistants and automated workflows.\n* Powered by the proprietary MiniMax Sparse Attention (MSA) architecture, M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding.\n* A natively multimodal model. The entire data pipeline was rebuilt to scale pretraining data to 100T+, with multimodal training from step zero achieving deep alignment between textual and visual semantic spaces. Multimodal is a native core capability, not a superficial add-on.\n* On BrowseComp, M3 scores 83.5, surpassing Opus 4.7 (79.3), demonstrating strong autonomous browsing and information retrieval capabilities.\n* Until now, only a handful of closed-source models could simultaneously achieve frontier coding capabilities, million-token context, and Multimodal. M3 is the first to bring complete frontier capability to the open world.\n\n### Benchmark\n\n![Benchmark](/assets/library/minimax-m3/3d512ace-b6bf-4e00-8bc0-cbe9ff79627b)\n\n### Architecture\n\nMiniMax Sparse Attention (MSA) Architecture\n\n![image.png](/assets/library/minimax-m3/de272c65-0490-4e05-93e4-4150d5763817)\n\nThe MSA architecture enables native ultra-long context pretraining. M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens, delivering excellent inference latency and throughput at extreme context lengths. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding.\n\n![Full benchmarks](/assets/library/minimax-m3/a998096b-a024-4971-be2b-5aeae3cacbe1)\n\n### Reference\n\n[MiniMax M3 blog](https://www.minimax.io/models/text/m3)\n\nWrite Preview \n\n\\> Ollama's Cloud is officially licensed with MiniMax for commercial usage > In partnership with MiniMax, the M3 model on Ollama's Cloud is US-based with zero data retention. ### Highlights - MiniMax M3 achieves top-tier performance on coding and agentic benchmarks, with autonomous task decomposition, tool invocation, and multi-step reasoning capabilities — providing a reliable foundation for AI coding assistants and automated workflows. - Powered by the proprietary MiniMax Sparse Attention (MSA) architecture, M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding. - A natively multimodal model. The entire data pipeline was rebuilt to scale pretraining data to 100T+, with multimodal training from step zero achieving deep alignment between textual and visual semantic spaces. Multimodal is a native core capability, not a superficial add-on. - On BrowseComp, M3 scores 83.5, surpassing Opus 4.7 (79.3), demonstrating strong autonomous browsing and information retrieval capabilities. - Until now, only a handful of closed-source models could simultaneously achieve frontier coding capabilities, million-token context, and Multimodal. M3 is the first to bring complete frontier capability to the open world. ### Benchmark !\\[Benchmark\\](/assets/library/minimax-m3/3d512ace-b6bf-4e00-8bc0-cbe9ff79627b) ### Architecture MiniMax Sparse Attention (MSA) Architecture !\\[image.png\\](/assets/library/minimax-m3/de272c65-0490-4e05-93e4-4150d5763817) The MSA architecture enables native ultra-long context pretraining. M3 supports up to 1M tokens context window with a guaranteed minimum of 512K tokens, delivering excellent inference latency and throughput at extreme context lengths. The 1M context is the infrastructure for long-range Agent tasks, long-range Coding, and long-video understanding. !\\[Full benchmarks\\](/assets/library/minimax-m3/a998096b-a024-4971-be2b-5aeae3cacbe1) ### Reference \\[MiniMax M3 blog\\](https://www.minimax.io/models/text/m3) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "deepseek-v4-pro",
     "link": "https://ollama.com/library/deepseek-v4-pro",
     "description": "DeepSeek-V4-Pro is a frontier Mixture-of-Experts model with a large context window and three reasoning modes.",
-    "pullCount": "212.7K",
+    "pullCount": "217K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -2926,13 +2926,24 @@
     "name": "marco-o1",
     "link": "https://ollama.com/library/marco-o1",
     "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
-    "pullCount": "206.8K",
+    "pullCount": "206.9K",
     "updated": "1 year ago",
     "size": [
       "7b"
     ],
     "capabilities": "",
     "readme": "## Readme\n\n![](/assets/library/marco-o1/93bea833-d0c0-48b6-8ece-9c2de26cba27)\n\n* **Fine-Tuning with CoT Data:** We develop Marco-o1-CoT by performing full-parameter fine-tuning on the base model using open-source CoT dataset combined with our self-developed synthetic data.\n* **Solution Space Expansion via MCTS:** We integrate LLMs with MCTS (Marco-o1-MCTS), using the model’s output confidence to guide the search and expand the solution space.\n* **Reasoning Action Strategy:** We implement novel reasoning action strategies and a reflection mechanism (Marco-o1-MCTS mini-step), including exploring different action granularities within the MCTS framework and prompting the model to self-reflect, thereby significantly enhancing the model’s ability to solve complex problems.\n* **Application in Translation Tasks:** We are the first to apply Large Reasoning Models (LRM) to Machine Translation task, exploring inference time scaling laws in the multilingual and translation domain.\n\n## Usage\n\n```\nollama run marco-o1 \"How many Rs are in strawberry?\"\n\n```\n\nParse the resulting string between `<Output>` and `</Output>`:\n\n```\n...\n<Output>\nThere are 3 Rs in strawberry.\n</Output>\n\n```\n\n## References\n\n[GitHub](https://github.com/AIDC-AI/Marco-o1?tab=readme-ov-file)\n\n[HuggingFace](https://huggingface.co/AIDC-AI/Marco-o1)\n\nWrite Preview \n\n<img src=\"/assets/library/marco-o1/93bea833-d0c0-48b6-8ece-9c2de26cba27\" width=\"200\" /> \\* \\*\\*Fine-Tuning with CoT Data:\\*\\* We develop <ins>Marco-o1-CoT</ins> by performing full-parameter fine-tuning on the base model using open-source CoT dataset combined with our self-developed synthetic data. \\* \\*\\*Solution Space Expansion via MCTS:\\*\\* We integrate LLMs with MCTS (<ins>Marco-o1-MCTS</ins>), using the model's output confidence to guide the search and expand the solution space. \\* \\*\\*Reasoning Action Strategy:\\*\\* We implement novel reasoning action strategies and a reflection mechanism (<ins>Marco-o1-MCTS mini-step</ins>), including exploring different action granularities within the MCTS framework and prompting the model to self-reflect, thereby significantly enhancing the model's ability to solve complex problems. \\* \\*\\*Application in Translation Tasks:\\*\\* We are the first to apply Large Reasoning Models (LRM) to <ins>Machine Translation task</ins>, exploring inference time scaling laws in the multilingual and translation domain. ## Usage \\`\\`\\` ollama run marco-o1 \"How many Rs are in strawberry?\" \\`\\`\\` Parse the resulting string between \\`<Output>\\` and \\`</Output>\\`: \\`\\`\\` ... <Output> There are 3 Rs in strawberry. </Output> \\`\\`\\` ## References \\[GitHub\\](https://github.com/AIDC-AI/Marco-o1?tab=readme-ov-file) \\[HuggingFace\\](https://huggingface.co/AIDC-AI/Marco-o1) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
+    "name": "glm-5.2",
+    "link": "https://ollama.com/library/glm-5.2",
+    "description": "GLM-5.2 is Z.ai’s flagship model for the era of long-horizon tasks.",
+    "pullCount": "202K",
+    "updated": "3 weeks ago",
+    "size": null,
+    "capabilities": "toolsthinking",
+    "readme": "## Readme\n\n![](/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a)\n\nGLM-5.2 is Z.ai’s flagship model for the era of long-horizon tasks.\n\nWith a truly usable 1M-token context window, it can handle project-level engineering context, execute long-running tasks more reliably, follow engineering standards more consistently, and complete the full development workflow from requirements to multi-platform deployment in a single task.\n\n![image.png](/assets/library/glm-5.2/809da2e1-fa76-44e8-ae8b-c7730ebc90a3)\n\n## What’s new\n\n* **Solid 1M context**: A 1M-token context that stably sustains long-horizon work, not just accepts more tokens.\n* **Advanced coding with flexible effort**: Stronger coding capabilities with multiple thinking effort levels (High and Max) to balance performance against latency and compute.\n* **Pure open**: An MIT open-source license — technical access without borders.\n\n![](/assets/library/glm-5.2/cb6fe6bd-5976-4140-9bf1-ed9d803dfb94)\n\n## Built for long-horizon tasks\n\nSupporting long-horizon tasks starts with making long context engineering-usable: the model must maintain quality across long, messy coding-agent trajectories, not just accept more tokens. A 1M context is easy to claim but much harder to keep reliable under real engineering pressure. To this end, Z.AI substantially expanded 1M-context training for coding-agent scenarios — large-scale implementation, automated research, performance optimization, and complex debugging — producing a long-context system that is both wide in scope and solid in execution.\n\nThis shows up on three long-horizon coding benchmarks. On **FrontierSWE**, which measures whether an agent can complete open-ended technical projects at the scale of hours to tens of hours, GLM-5.2 trails Opus 4.8 by only 1% while edging out GPT-5.5 by 1% and Opus 4.7 by 11%. On **PostTrainBench**, where each agent is given an H100 GPU and judged by how much it improves small models through post-training, GLM-5.2 outperforms both Opus 4.7 and GPT-5.5, ranking second only to Opus 4.8\\. On **SWE-Marathon**, an ultra-long-horizon benchmark covering tasks like building compilers, optimizing kernels, and developing production-grade services, GLM-5.2 trails Opus 4.8 by 13% while remaining second only to the Opus series. Across all three, GLM-5.2 is the highest-ranked open-source model.\n\n## Stronger coding\n\n![image.png](/assets/library/glm-5.2/4e7adf9f-73bf-4f38-a9e4-029f7687012e)\n\nOn standard coding benchmarks, GLM-5.2 is the strongest open-source model, improving on GLM-5.1 by a wide margin: 81.0 vs. 62.0 on Terminal-Bench 2.1 and 62.1 vs. 58.4 on SWE-bench Pro. It also closes much of the gap to the closed-source frontier — on Terminal-Bench 2.1 (81.0) it lands within a few points of Claude Opus 4.8 (85.0) — while staying ahead of Gemini 3.1 Pro.\n\nGLM-5.2 also introduces **effort level control**, letting users explicitly balance capability against speed and cost. At comparable token budgets, GLM-5.2 delivers substantially stronger agentic coding than GLM-5.1, with capability roughly positioned between Claude Opus 4.7 and Claude Opus 4.8 under similar token consumption. The **Max** effort level allocates additional computation when higher performance is needed on challenging tasks.\n\n## Full benchmark table\n\n![full benchmark](/assets/library/glm-5.2/dfa7da24-c77b-414b-8d2e-b288e014e265)\n\nWrite Preview \n\n<img src=\"/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a\" width=\"128\" /> GLM-5.2 is Z.ai’s flagship model for the era of long-horizon tasks. With a truly usable 1M-token context window, it can handle project-level engineering context, execute long-running tasks more reliably, follow engineering standards more consistently, and complete the full development workflow from requirements to multi-platform deployment in a single task. !\\[image.png\\](/assets/library/glm-5.2/809da2e1-fa76-44e8-ae8b-c7730ebc90a3) ## What's new - \\*\\*Solid 1M context\\*\\*: A 1M-token context that stably sustains long-horizon work, not just accepts more tokens. - \\*\\*Advanced coding with flexible effort\\*\\*: Stronger coding capabilities with multiple thinking effort levels (High and Max) to balance performance against latency and compute. - \\*\\*Pure open\\*\\*: An MIT open-source license — technical access without borders. !\\[\\](/assets/library/glm-5.2/cb6fe6bd-5976-4140-9bf1-ed9d803dfb94) ## Built for long-horizon tasks Supporting long-horizon tasks starts with making long context engineering-usable: the model must maintain quality across long, messy coding-agent trajectories, not just accept more tokens. A 1M context is easy to claim but much harder to keep reliable under real engineering pressure. To this end, Z.AI substantially expanded 1M-context training for coding-agent scenarios — large-scale implementation, automated research, performance optimization, and complex debugging — producing a long-context system that is both wide in scope and solid in execution. This shows up on three long-horizon coding benchmarks. On \\*\\*FrontierSWE\\*\\*, which measures whether an agent can complete open-ended technical projects at the scale of hours to tens of hours, GLM-5.2 trails Opus 4.8 by only 1% while edging out GPT-5.5 by 1% and Opus 4.7 by 11%. On \\*\\*PostTrainBench\\*\\*, where each agent is given an H100 GPU and judged by how much it improves small models through post-training, GLM-5.2 outperforms both Opus 4.7 and GPT-5.5, ranking second only to Opus 4.8\\. On \\*\\*SWE-Marathon\\*\\*, an ultra-long-horizon benchmark covering tasks like building compilers, optimizing kernels, and developing production-grade services, GLM-5.2 trails Opus 4.8 by 13% while remaining second only to the Opus series. Across all three, GLM-5.2 is the highest-ranked open-source model. ## Stronger coding !\\[image.png\\](/assets/library/glm-5.2/4e7adf9f-73bf-4f38-a9e4-029f7687012e) On standard coding benchmarks, GLM-5.2 is the strongest open-source model, improving on GLM-5.1 by a wide margin: 81.0 vs. 62.0 on Terminal-Bench 2.1 and 62.1 vs. 58.4 on SWE-bench Pro. It also closes much of the gap to the closed-source frontier — on Terminal-Bench 2.1 (81.0) it lands within a few points of Claude Opus 4.8 (85.0) — while staying ahead of Gemini 3.1 Pro. GLM-5.2 also introduces \\*\\*effort level control\\*\\*, letting users explicitly balance capability against speed and cost. At comparable token budgets, GLM-5.2 delivers substantially stronger agentic coding than GLM-5.1, with capability roughly positioned between Claude Opus 4.7 and Claude Opus 4.8 under similar token consumption. The \\*\\*Max\\*\\* effort level allocates additional computation when higher performance is needed on challenging tasks. ## Full benchmark table !\\[full benchmark\\](/assets/library/glm-5.2/dfa7da24-c77b-414b-8d2e-b288e014e265) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -2962,21 +2973,10 @@
     "tags": []
   },
   {
-    "name": "glm-5.2",
-    "link": "https://ollama.com/library/glm-5.2",
-    "description": "GLM-5.2 is Z.ai’s flagship model for the era of long-horizon tasks.",
-    "pullCount": "196K",
-    "updated": "3 weeks ago",
-    "size": null,
-    "capabilities": "toolsthinking",
-    "readme": "## Readme\n\n![](/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a)\n\nGLM-5.2 is Z.ai’s flagship model for the era of long-horizon tasks.\n\nWith a truly usable 1M-token context window, it can handle project-level engineering context, execute long-running tasks more reliably, follow engineering standards more consistently, and complete the full development workflow from requirements to multi-platform deployment in a single task.\n\n![image.png](/assets/library/glm-5.2/809da2e1-fa76-44e8-ae8b-c7730ebc90a3)\n\n## What’s new\n\n* **Solid 1M context**: A 1M-token context that stably sustains long-horizon work, not just accepts more tokens.\n* **Advanced coding with flexible effort**: Stronger coding capabilities with multiple thinking effort levels (High and Max) to balance performance against latency and compute.\n* **Pure open**: An MIT open-source license — technical access without borders.\n\n![](/assets/library/glm-5.2/cb6fe6bd-5976-4140-9bf1-ed9d803dfb94)\n\n## Built for long-horizon tasks\n\nSupporting long-horizon tasks starts with making long context engineering-usable: the model must maintain quality across long, messy coding-agent trajectories, not just accept more tokens. A 1M context is easy to claim but much harder to keep reliable under real engineering pressure. To this end, Z.AI substantially expanded 1M-context training for coding-agent scenarios — large-scale implementation, automated research, performance optimization, and complex debugging — producing a long-context system that is both wide in scope and solid in execution.\n\nThis shows up on three long-horizon coding benchmarks. On **FrontierSWE**, which measures whether an agent can complete open-ended technical projects at the scale of hours to tens of hours, GLM-5.2 trails Opus 4.8 by only 1% while edging out GPT-5.5 by 1% and Opus 4.7 by 11%. On **PostTrainBench**, where each agent is given an H100 GPU and judged by how much it improves small models through post-training, GLM-5.2 outperforms both Opus 4.7 and GPT-5.5, ranking second only to Opus 4.8\\. On **SWE-Marathon**, an ultra-long-horizon benchmark covering tasks like building compilers, optimizing kernels, and developing production-grade services, GLM-5.2 trails Opus 4.8 by 13% while remaining second only to the Opus series. Across all three, GLM-5.2 is the highest-ranked open-source model.\n\n## Stronger coding\n\n![image.png](/assets/library/glm-5.2/4e7adf9f-73bf-4f38-a9e4-029f7687012e)\n\nOn standard coding benchmarks, GLM-5.2 is the strongest open-source model, improving on GLM-5.1 by a wide margin: 81.0 vs. 62.0 on Terminal-Bench 2.1 and 62.1 vs. 58.4 on SWE-bench Pro. It also closes much of the gap to the closed-source frontier — on Terminal-Bench 2.1 (81.0) it lands within a few points of Claude Opus 4.8 (85.0) — while staying ahead of Gemini 3.1 Pro.\n\nGLM-5.2 also introduces **effort level control**, letting users explicitly balance capability against speed and cost. At comparable token budgets, GLM-5.2 delivers substantially stronger agentic coding than GLM-5.1, with capability roughly positioned between Claude Opus 4.7 and Claude Opus 4.8 under similar token consumption. The **Max** effort level allocates additional computation when higher performance is needed on challenging tasks.\n\n## Full benchmark table\n\n![full benchmark](/assets/library/glm-5.2/dfa7da24-c77b-414b-8d2e-b288e014e265)\n\nWrite Preview \n\n<img src=\"/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a\" width=\"128\" /> GLM-5.2 is Z.ai’s flagship model for the era of long-horizon tasks. With a truly usable 1M-token context window, it can handle project-level engineering context, execute long-running tasks more reliably, follow engineering standards more consistently, and complete the full development workflow from requirements to multi-platform deployment in a single task. !\\[image.png\\](/assets/library/glm-5.2/809da2e1-fa76-44e8-ae8b-c7730ebc90a3) ## What's new - \\*\\*Solid 1M context\\*\\*: A 1M-token context that stably sustains long-horizon work, not just accepts more tokens. - \\*\\*Advanced coding with flexible effort\\*\\*: Stronger coding capabilities with multiple thinking effort levels (High and Max) to balance performance against latency and compute. - \\*\\*Pure open\\*\\*: An MIT open-source license — technical access without borders. !\\[\\](/assets/library/glm-5.2/cb6fe6bd-5976-4140-9bf1-ed9d803dfb94) ## Built for long-horizon tasks Supporting long-horizon tasks starts with making long context engineering-usable: the model must maintain quality across long, messy coding-agent trajectories, not just accept more tokens. A 1M context is easy to claim but much harder to keep reliable under real engineering pressure. To this end, Z.AI substantially expanded 1M-context training for coding-agent scenarios — large-scale implementation, automated research, performance optimization, and complex debugging — producing a long-context system that is both wide in scope and solid in execution. This shows up on three long-horizon coding benchmarks. On \\*\\*FrontierSWE\\*\\*, which measures whether an agent can complete open-ended technical projects at the scale of hours to tens of hours, GLM-5.2 trails Opus 4.8 by only 1% while edging out GPT-5.5 by 1% and Opus 4.7 by 11%. On \\*\\*PostTrainBench\\*\\*, where each agent is given an H100 GPU and judged by how much it improves small models through post-training, GLM-5.2 outperforms both Opus 4.7 and GPT-5.5, ranking second only to Opus 4.8\\. On \\*\\*SWE-Marathon\\*\\*, an ultra-long-horizon benchmark covering tasks like building compilers, optimizing kernels, and developing production-grade services, GLM-5.2 trails Opus 4.8 by 13% while remaining second only to the Opus series. Across all three, GLM-5.2 is the highest-ranked open-source model. ## Stronger coding !\\[image.png\\](/assets/library/glm-5.2/4e7adf9f-73bf-4f38-a9e4-029f7687012e) On standard coding benchmarks, GLM-5.2 is the strongest open-source model, improving on GLM-5.1 by a wide margin: 81.0 vs. 62.0 on Terminal-Bench 2.1 and 62.1 vs. 58.4 on SWE-bench Pro. It also closes much of the gap to the closed-source frontier — on Terminal-Bench 2.1 (81.0) it lands within a few points of Claude Opus 4.8 (85.0) — while staying ahead of Gemini 3.1 Pro. GLM-5.2 also introduces \\*\\*effort level control\\*\\*, letting users explicitly balance capability against speed and cost. At comparable token budgets, GLM-5.2 delivers substantially stronger agentic coding than GLM-5.1, with capability roughly positioned between Claude Opus 4.7 and Claude Opus 4.8 under similar token consumption. The \\*\\*Max\\*\\* effort level allocates additional computation when higher performance is needed on challenging tasks. ## Full benchmark table !\\[full benchmark\\](/assets/library/glm-5.2/dfa7da24-c77b-414b-8d2e-b288e014e265) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "functiongemma",
     "link": "https://ollama.com/library/functiongemma",
     "description": "FunctionGemma is a specialized version of Google's Gemma 3 270M model fine-tuned explicitly for function calling.",
-    "pullCount": "171.3K",
+    "pullCount": "171.5K",
     "updated": "6 months ago",
     "size": null,
     "capabilities": "tools",
@@ -2987,7 +2987,7 @@
     "name": "mistral-medium-3.5",
     "link": "https://ollama.com/library/mistral-medium-3.5",
     "description": "Mistral Medium 3.5 is the first flagship model of Mistral AI that merged instruction-following, reasoning, and coding in a single set of 128B weights.",
-    "pullCount": "159.9K",
+    "pullCount": "163.3K",
     "updated": "2 months ago",
     "size": [
       "128b"
@@ -3000,7 +3000,7 @@
     "name": "medgemma",
     "link": "https://ollama.com/library/medgemma",
     "description": "MedGemma is a collection of Gemma 3 variants that are trained for performance on medical text and image comprehension.",
-    "pullCount": "148.9K",
+    "pullCount": "152.4K",
     "updated": "2 months ago",
     "size": [
       "4b",
@@ -3014,7 +3014,7 @@
     "name": "gpt-oss-safeguard",
     "link": "https://ollama.com/library/gpt-oss-safeguard",
     "description": "gpt-oss-safeguard-20b and gpt-oss-safeguard-120b are safety reasoning models built-upon gpt-oss",
-    "pullCount": "147.1K",
+    "pullCount": "147.2K",
     "updated": "8 months ago",
     "size": [
       "20b",
@@ -3028,7 +3028,7 @@
     "name": "nemotron-cascade-2",
     "link": "https://ollama.com/library/nemotron-cascade-2",
     "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
-    "pullCount": "131.5K",
+    "pullCount": "131.7K",
     "updated": "3 months ago",
     "size": [
       "30b"
@@ -3041,7 +3041,7 @@
     "name": "kimi-k2.7-code",
     "link": "https://ollama.com/library/kimi-k2.7-code",
     "description": "Kimi K2.7 Code is Moonshot AI's coding-focused agentic model built upon Kimi K2.6, with substantial improvements on real-world long-horizon coding tasks and roughly 30% lower thinking-token usage.",
-    "pullCount": "106.6K",
+    "pullCount": "111K",
     "updated": "4 weeks ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
@@ -3052,7 +3052,7 @@
     "name": "mistral-large-3",
     "link": "https://ollama.com/library/mistral-large-3",
     "description": "A general-purpose multimodal mixture-of-experts model for production-grade tasks and enterprise workloads.",
-    "pullCount": "73K",
+    "pullCount": "73.5K",
     "updated": "7 months ago",
     "size": null,
     "capabilities": "visiontools",
@@ -3063,7 +3063,7 @@
     "name": "medgemma1.5",
     "link": "https://ollama.com/library/medgemma1.5",
     "description": "MedGemma 1.5 4B is an updated version of the MedGemma 4B model.",
-    "pullCount": "71.3K",
+    "pullCount": "72.9K",
     "updated": "2 months ago",
     "size": [
       "4b"
@@ -3076,7 +3076,7 @@
     "name": "lfm2.5",
     "link": "https://ollama.com/library/lfm2.5",
     "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
-    "pullCount": "46.4K",
+    "pullCount": "47K",
     "updated": "1 month ago",
     "size": [
       "8b"
@@ -3086,10 +3086,21 @@
     "tags": []
   },
   {
+    "name": "laguna-xs-2.1",
+    "link": "https://ollama.com/library/laguna-xs-2.1",
+    "description": "Laguna XS 2.1 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine.",
+    "pullCount": "23.7K",
+    "updated": "1 week ago",
+    "size": null,
+    "capabilities": "toolsthinking",
+    "readme": "## Readme\n\n> We are currently investigating an issue using Laguna XS 2.1 on macOS. This will be updated once the issue is resolved.\n\n# Laguna XS 2.1\n\nLaguna XS 2.1 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine. This model is an upgraded version of our [Laguna XS.2](https://huggingface.co/poolside/Laguna-XS.2) model with a +5.4% jump on SWE-bench Multilingual as well as stronger performance on terminal-style tasks.\n\n> For more details on how we train, including on data automixing and async off-policy agent RL, check out our recent [technical report](https://poolside.ai/assets/laguna/laguna-m1-xs2-technical-report.pdf).\n\n## Highlights\n\n* **Mixed SWA and global attention layout**: Laguna XS 2.1 uses sigmoid gating with per-layer rotary scales, enabling mixed SWA (Sliding Window Attention) and global attention layers in a 3:1 ratio (across 40 total layers)\n* **KV cache in FP8**: KV cache quantized to FP8, reducing memory per token\n* **Native reasoning support**: Interleaved thinking between tool calls with support for enabling and disabling thinking per-request\n* **Local-ready**: At 33B total parameters and 3B activated, Laguna XS 2.1 is compact enough to run on a Mac with 36 GB of RAM. Available on [Ollama](https://ollama.com/library/laguna-xs-2.1) and [llama.cpp](https://github.com/ggml-org/llama.cpp/pull/25165). High-quality FP8, NVFP4 and INT4 quantized variants available ([see the collection](https://huggingface.co/collections/poolside/laguna-xs-21))\n* **OpenMDW-1.1 license**: Use and modify the model and associated materials freely for commercial and non-commercial purposes ([learn more about OpenMDW](https://openmdw.ai/))\n\n---\n\n## Model overview\n\n* Training: pre-training, post-training and reinforcement learning stages\n* Number of parameters: 33B total with 3B activated per token\n* Optimizer: Muon\n* Layers: 40 layers (10 layers with global attention, 30 layers with sliding window attention)\n* Experts: 256 experts with 1 shared expert\n* Sliding Window: 512 tokens\n* Modality: text-to-text\n* Context window: 262,144 tokens\n* Reasoning support: interleaved thinking with preserved thinking\n\n## Benchmark results\n\n![benchmarks](https://poolside.ai/assets/laguna/laguna-xs2-1-chart.svg) \n\n| Model             | Size (total params.) | SWE-bench Verified | SWE-bench Multilingual | SWE-Bench Pro (Public Dataset) | Terminal-Bench 2.0 |\n| ----------------- | -------------------- | ------------------ | ---------------------- | ------------------------------ | ------------------ |\n| **Laguna XS 2.1** | 33B                  | 70.9%              | 63.1%                  | 47.6%                          | 37.5%              |\n| **Laguna XS.2**   | 33B                  | 69.9%              | 57.7%                  | 46.3%                          | 35.7%              |\n| Qwen3.6-35B-A3B   | 35B                  | 73.4%              | 67.2%                  | 49.5%                          | 51.5%              |\n| North Mini Code   | 30B                  | 67.6%              | \\-                     | 40.2%                          | 36.0%              |\n| MAI-Code-1-Flash  | 137B                 | 71.6%              | 65.5%                  | 51.2%                          | 54.8%              |\n| gpt-oss-120B      | 120B                 | \\-                 | \\-                     | 16.2%                          | 18.7%              |\n| Claude Haiku 4.5  | \\-                   | 73.3%              | \\-                     | 39.5%                          | 29.8%              |\n| GPT-5.4 Nano      | \\-                   | \\-                 | \\-                     | 52.4%                          | 46.3%              |\n\n_We used the highest publicly-referenced scores for all comparison models across each benchmark. In all cases these were official scores published in release blog posts or equivalent, with the exception of gpt-oss-120b and Claude Haiku 4.5 where the highest published (verified) scores for SWE-Bench Pro and Terminal-Bench 2.0 are from their respective official leaderboards._\n\nExpand for benchmarking methodologyAll benchmarking for Laguna XS 2.1 was completed using Laude Institute’s Harbor Framework with our \\[agent harness\\](https://github.com/poolsideai/pool), with a maximum of 500 steps and sandboxed execution. The same sampling parameters were used for all Laguna XS 2.1 benchmarking: temperature=1.0, top\\_k=20 and top\\_p=1, with thinking mode enabled and a context length of 256K tokens. All tasks were run in their own sandbox using 8 GB RAM/2 CPUs, with the exception of Terminal-Bench 2.0, which used 48 GB RAM/32 CPUs. Some base task images and verifiers were patched to fix infrastructure reliability issues inherent in task setup, such as rate limits on third-party dependencies in external registries used by the verifier. All four agentic benchmarks were run with patched images. We also ran a reward-hack judge post-hoc on Laguna XS 2.1 evaluation runs and did not find significant reward hacking after joint judge review and manual review. - SWE-bench Verified: mean pass@1 averaged over 4 attempts per task - SWE-bench Multilingual: mean pass@1 averaged over 4 attempts per task - SWE-Bench Pro: mean pass@1 averaged over 2 attempts per task - Terminal-Bench 2.0: mean pass@1 averaged over 5 attempts per task; 48 GB RAM/32 CPUs \n\n## Usage\n\nLaguna XS 2.1 has launch-day support in vLLM, SGLang, Transformers and Llama.cpp, and TRT-LLM thanks to the support of the team at NVIDIA.\n\nThe fastest way to get started is using OpenRouter.\n\n> We are providing free inference for a limited time for Laguna XS 2.1, as well as our larger 225B model, Laguna M.1\\. Visit our [provider page on OpenRouter](https://openrouter.ai/poolside/) to get started.\n\n### pool\n\n**pool** is a lightweight terminal-based coding agent and a dual [Agent Client Protocol](https://agentclientprotocol.com/get-started) client-server.\n\nDownload and install for macOS and Linux:\n\n```\ncurl -fsSL https://downloads.poolside.ai/pool/install.sh | bash\n\n```\n\nUse pool with Ollama with one-command setup:\n\n```\nollama pull laguna-xs-2.1\nollama launch pool --model laguna-xs-2.1\n\n```\n\n#### Feedback and issues\n\nSubmit feedback with `/feedback` and read the [full documentation on GitHub](https://github.com/poolsideai/pool).\n\n### Local deployment\n\nLaguna XS 2.1 is supported in vLLM, SGLang, Transformers and Llama.cpp, and TRT-LLM thanks to the support of the team at NVIDIA. Use Laguna-XS 2.1 with Ollama (with MLX support) and the mlx-lm framework for the best experience on your local machine.\n\n#### Ollama\n\nAvailable on the [Ollama library](https://ollama.com/library/laguna-xs-2.1).\n\n```\nollama run laguna-xs-2.1          # default — Q4_K_M (imatrix)\nollama run laguna-xs-2.1:q8_0     # higher precision\nollama run laguna-xs-2.1:bf16     # full precision\n\n```\n\nReasoning and tool-calling work out of the box via the built-in `laguna` template.\n\n> **macOS (Metal) users:** Chat (`ollama run` / `/api/chat`) works as expected on Linux/CUDA. On macOS/Metal it may currently return empty output; the root cause is not yet fully understood and we’re investigating it with the Ollama team. On a Mac, use a Linux/CUDA host, or the `/api/generate` endpoint with `\"raw\": true`.\n\n## Controlling reasoning\n\nLaguna XS 2.1 has native reasoning support and is designed to work best with _preserved thinking_, where `reasoning` content from prior assistant messages is preserved in the message history. This model will generally reason before calling tools and between tool calls.\n\nReasoning may not be generated in follow-up steps if prior thinking blocks are dropped (i.e., thinking is not preserved) when messages are reconstructed over multiple steps.\n\nExpand for example\\`\\`\\`python import json from openai import OpenAI client = OpenAI( base\\_url=\"https://openrouter.ai/api/v1\", api\\_key=\"...\", ) model = \"poolside/laguna-xs-2.1\" tools = \\[{\"type\": \"function\", \"function\": { \"name\": \"shell\", \"description\": \"Execute a bash command and return the output.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"cmd\": {\"type\": \"string\"}}, \"required\": \\[\"cmd\"\\]}, }}\\] messages = \\[ {\"role\": \"system\", \"content\": \"You are a coding agent with access to a shell tool.\"}, {\"role\": \"user\", \"content\": \"Run uname -a\"}, \\] # Thinking is enabled by default when the server sets --default-chat-template-kwargs {\"enable\\_thinking\": True} # When using OpenRouter's Chat API (https://openrouter.ai/api/v1), this flag is set by default response = client.chat.completions.create( model=model, messages=messages, tools=tools, stream=True, ) reasoning, content, tool\\_calls = \"\", \"\", \\[\\] for chunk in response: delta = chunk.choices\\[0\\].delta if hasattr(delta, \"reasoning\\_content\") and delta.reasoning\\_content: reasoning += delta.reasoning\\_content if hasattr(delta, \"content\") and delta.content: content += delta.content if hasattr(delta, \"tool\\_calls\") and delta.tool\\_calls: for tc in delta.tool\\_calls: if tc.index >= len(tool\\_calls): tool\\_calls.append({\"id\": tc.id, \"function\": {\"name\": \"\", \"arguments\": \"\"}}) if tc.function.name: tool\\_calls\\[tc.index\\]\\[\"function\"\\]\\[\"name\"\\] = tc.function.name if tc.function.arguments: tool\\_calls\\[tc.index\\]\\[\"function\"\\]\\[\"arguments\"\\] += tc.function.arguments print(f\"Reasoning: {reasoning}\\\\nContent: {content}\\\\nTool calls: {tool\\_calls}\\\\n\") # Return reasoning in the next request for best performance messages.append({ \"role\": \"assistant\", \"content\": content, \"reasoning\\_content\": reasoning, \"tool\\_calls\": \\[{\"id\": tc\\[\"id\"\\], \"type\": \"function\", \"function\": tc\\[\"function\"\\]} for tc in tool\\_calls\\] }) messages.append({ \"role\": \"tool\", \"tool\\_call\\_id\": tool\\_calls\\[0\\]\\[\"id\"\\], \"content\": json.dumps({\"stdout\": \"Darwin arm64\", \"exit\\_code\": \"0\"}) }) response = client.chat.completions.create( model=model, messages=messages, tools=tools, stream=True, ) reasoning, content = \"\", \"\" for chunk in response: delta = chunk.choices\\[0\\].delta if hasattr(delta, \"reasoning\\_content\") and delta.reasoning\\_content: reasoning += delta.reasoning\\_content if hasattr(delta, \"content\") and delta.content: content += delta.content print(f\"Reasoning: {reasoning}\\\\nContent: {content}\") \\`\\`\\` \n\n### Disabling reasoning\n\nYou can disable thinking by setting `enable_thinking` to `False` in a request or by not providing `--default-chat-template-kwargs {\"enable_thinking\": True}` or equivalent when starting the server.\n\nExpand for example\\`\\`\\`python from openai import OpenAI client = OpenAI() completion = client.chat.completions.create( model=\"poolside/laguna-xs-2.1\", messages=\\[ {\"role\": \"user\", \"content\": \"Write a retry wrapper with exponential backoff.\"} \\], extra\\_body={ \"chat\\_template\\_kwargs\": { \"enable\\_thinking\": False }, }, stream=True ) for chunk in completion: print(chunk.choices\\[0\\].delta) \\`\\`\\` \n\nFor agentic coding use cases, we recommend enabling thinking and preserving reasoning in message history as outlined in the [Controlling reasoning](#controlling-reasoning) section.\n\n## License\n\nThis model is licensed under the [OpenMDW-1.1 License](https://huggingface.co/poolside/Laguna-XS-2.1/blob/main/LICENSE.md).\n\n## Intended and Responsible Use\n\nLaguna XS 2.1 is designed for software engineering and agentic coding use cases, and you are responsible for confirming that it is appropriate for your intended application. Laguna XS 2.1 is subject to the [OpenMDW-1.1 License](https://huggingface.co/poolside/Laguna-XS-2.1/blob/main/LICENSE.md), and should be used consistently with Poolside’s [Acceptable Use Policy](https://poolside.ai/legal/acceptable-use-policy). We advise against circumventing Laguna XS 2.1 safety guardrails without implementing substantially equivalent mitigations appropriate for your use case.\n\nPlease report security vulnerabilities or safety concerns to [security@poolside.ai](mailto:security@poolside.ai).\n\nWrite Preview \n\n\\> We are currently investigating an issue using Laguna XS 2.1 on macOS. This will be updated once the issue is resolved. # Laguna XS 2.1 Laguna XS 2.1 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine. This model is an upgraded version of our \\[Laguna XS.2\\](https://huggingface.co/poolside/Laguna-XS.2) model with a +5.4% jump on SWE-bench Multilingual as well as stronger performance on terminal-style tasks. > For more details on how we train, including on data automixing and async off-policy agent RL, check out our recent \\[technical report\\](https://poolside.ai/assets/laguna/laguna-m1-xs2-technical-report.pdf). ## Highlights - \\*\\*Mixed SWA and global attention layout\\*\\*: Laguna XS 2.1 uses sigmoid gating with per-layer rotary scales, enabling mixed SWA (Sliding Window Attention) and global attention layers in a 3:1 ratio (across 40 total layers) - \\*\\*KV cache in FP8\\*\\*: KV cache quantized to FP8, reducing memory per token - \\*\\*Native reasoning support\\*\\*: Interleaved thinking between tool calls with support for enabling and disabling thinking per-request - \\*\\*Local-ready\\*\\*: At 33B total parameters and 3B activated, Laguna XS 2.1 is compact enough to run on a Mac with 36 GB of RAM. Available on \\[Ollama\\](https://ollama.com/library/laguna-xs-2.1) and \\[llama.cpp\\](https://github.com/ggml-org/llama.cpp/pull/25165). High-quality FP8, NVFP4 and INT4 quantized variants available (\\[see the collection\\](https://huggingface.co/collections/poolside/laguna-xs-21)) - \\*\\*OpenMDW-1.1 license\\*\\*: Use and modify the model and associated materials freely for commercial and non-commercial purposes (\\[learn more about OpenMDW\\](https://openmdw.ai/)) --- ## Model overview - Training: pre-training, post-training and reinforcement learning stages - Number of parameters: 33B total with 3B activated per token - Optimizer: Muon - Layers: 40 layers (10 layers with global attention, 30 layers with sliding window attention) - Experts: 256 experts with 1 shared expert - Sliding Window: 512 tokens - Modality: text-to-text - Context window: 262,144 tokens - Reasoning support: interleaved thinking with preserved thinking ## Benchmark results <p align=\"center\"> <img alt=\"benchmarks\" src=\"https://poolside.ai/assets/laguna/laguna-xs2-1-chart.svg\" width=\"800px\"> </p> | Model | Size (total params.) | SWE-bench Verified | SWE-bench Multilingual | SWE-Bench Pro (Public Dataset) | Terminal-Bench 2.0 | |---------------------------|----------------------|--------------------|------------------------|--------------------------------|--------------------| | \\*\\*Laguna XS 2.1\\*\\* | 33B | 70.9% | 63.1% | 47.6% | 37.5% | | \\*\\*Laguna XS.2\\*\\* | 33B | 69.9% | 57.7% | 46.3% | 35.7% | | Qwen3.6-35B-A3B | 35B | 73.4% | 67.2% | 49.5% | 51.5% | | North Mini Code | 30B | 67.6% | - | 40.2% | 36.0% | | MAI-Code-1-Flash | 137B | 71.6% | 65.5% | 51.2% | 54.8% | | gpt-oss-120B | 120B | - | - | 16.2% | 18.7% | | Claude Haiku 4.5 | - | 73.3% | - | 39.5% | 29.8% | | GPT-5.4 Nano | - | - | - | 52.4% | 46.3% | \\*We used the highest publicly-referenced scores for all comparison models across each benchmark. In all cases these were official scores published in release blog posts or equivalent, with the exception of gpt-oss-120b and Claude Haiku 4.5 where the highest published (verified) scores for SWE-Bench Pro and Terminal-Bench 2.0 are from their respective official leaderboards.\\* <details> <summary>Expand for benchmarking methodology</summary> All benchmarking for Laguna XS 2.1 was completed using Laude Institute’s Harbor Framework with our \\[agent harness\\](https://github.com/poolsideai/pool), with a maximum of 500 steps and sandboxed execution. The same sampling parameters were used for all Laguna XS 2.1 benchmarking: temperature=1.0, top\\_k=20 and top\\_p=1, with thinking mode enabled and a context length of 256K tokens. All tasks were run in their own sandbox using 8 GB RAM/2 CPUs, with the exception of Terminal-Bench 2.0, which used 48 GB RAM/32 CPUs. Some base task images and verifiers were patched to fix infrastructure reliability issues inherent in task setup, such as rate limits on third-party dependencies in external registries used by the verifier. All four agentic benchmarks were run with patched images. We also ran a reward-hack judge post-hoc on Laguna XS 2.1 evaluation runs and did not find significant reward hacking after joint judge review and manual review. - SWE-bench Verified: mean pass@1 averaged over 4 attempts per task - SWE-bench Multilingual: mean pass@1 averaged over 4 attempts per task - SWE-Bench Pro: mean pass@1 averaged over 2 attempts per task - Terminal-Bench 2.0: mean pass@1 averaged over 5 attempts per task; 48 GB RAM/32 CPUs </details> ## Usage Laguna XS 2.1 has launch-day support in vLLM, SGLang, Transformers and Llama.cpp, and TRT-LLM thanks to the support of the team at NVIDIA. The fastest way to get started is using OpenRouter. > We are providing free inference for a limited time for Laguna XS 2.1, as well as our larger 225B model, Laguna M.1\\. Visit our \\[provider page on OpenRouter\\](https://openrouter.ai/poolside/) to get started. ### pool \\*\\*pool\\*\\* is a lightweight terminal-based coding agent and a dual \\[Agent Client Protocol\\](https://agentclientprotocol.com/get-started) client-server. Download and install for macOS and Linux: \\`\\`\\`shell curl -fsSL https://downloads.poolside.ai/pool/install.sh | bash \\`\\`\\` Use pool with Ollama with one-command setup: \\`\\`\\`shell ollama pull laguna-xs-2.1 ollama launch pool --model laguna-xs-2.1 \\`\\`\\` #### Feedback and issues Submit feedback with \\`/feedback\\` and read the \\[full documentation on GitHub\\](https://github.com/poolsideai/pool). ### Local deployment Laguna XS 2.1 is supported in vLLM, SGLang, Transformers and Llama.cpp, and TRT-LLM thanks to the support of the team at NVIDIA. Use Laguna-XS 2.1 with Ollama (with MLX support) and the mlx-lm framework for the best experience on your local machine. #### Ollama Available on the \\[Ollama library\\](https://ollama.com/library/laguna-xs-2.1). ollama run laguna-xs-2.1 # default — Q4\\_K\\_M (imatrix) ollama run laguna-xs-2.1:q8\\_0 # higher precision ollama run laguna-xs-2.1:bf16 # full precision Reasoning and tool-calling work out of the box via the built-in \\`laguna\\` template. > \\*\\*macOS (Metal) users:\\*\\* Chat (\\`ollama run\\` / \\`/api/chat\\`) works as expected on Linux/CUDA. On macOS/Metal it may currently return empty output; the root cause is not yet fully understood and we're investigating it with the Ollama team. On a Mac, use a Linux/CUDA host, or the \\`/api/generate\\` endpoint with \\`\"raw\": true\\`. ## Controlling reasoning Laguna XS 2.1 has native reasoning support and is designed to work best with \\*preserved thinking\\*, where \\`reasoning\\` content from prior assistant messages is preserved in the message history. This model will generally reason before calling tools and between tool calls. Reasoning may not be generated in follow-up steps if prior thinking blocks are dropped (i.e., thinking is not preserved) when messages are reconstructed over multiple steps. <details> <summary>Expand for example</summary> \\`\\`\\`python import json from openai import OpenAI client = OpenAI( base\\_url=\"https://openrouter.ai/api/v1\", api\\_key=\"...\", ) model = \"poolside/laguna-xs-2.1\" tools = \\[{\"type\": \"function\", \"function\": { \"name\": \"shell\", \"description\": \"Execute a bash command and return the output.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"cmd\": {\"type\": \"string\"}}, \"required\": \\[\"cmd\"\\]}, }}\\] messages = \\[ {\"role\": \"system\", \"content\": \"You are a coding agent with access to a shell tool.\"}, {\"role\": \"user\", \"content\": \"Run uname -a\"}, \\] # Thinking is enabled by default when the server sets --default-chat-template-kwargs {\"enable\\_thinking\": True} # When using OpenRouter's Chat API (https://openrouter.ai/api/v1), this flag is set by default response = client.chat.completions.create( model=model, messages=messages, tools=tools, stream=True, ) reasoning, content, tool\\_calls = \"\", \"\", \\[\\] for chunk in response: delta = chunk.choices\\[0\\].delta if hasattr(delta, \"reasoning\\_content\") and delta.reasoning\\_content: reasoning += delta.reasoning\\_content if hasattr(delta, \"content\") and delta.content: content += delta.content if hasattr(delta, \"tool\\_calls\") and delta.tool\\_calls: for tc in delta.tool\\_calls: if tc.index >= len(tool\\_calls): tool\\_calls.append({\"id\": tc.id, \"function\": {\"name\": \"\", \"arguments\": \"\"}}) if tc.function.name: tool\\_calls\\[tc.index\\]\\[\"function\"\\]\\[\"name\"\\] = tc.function.name if tc.function.arguments: tool\\_calls\\[tc.index\\]\\[\"function\"\\]\\[\"arguments\"\\] += tc.function.arguments print(f\"Reasoning: {reasoning}\\\\nContent: {content}\\\\nTool calls: {tool\\_calls}\\\\n\") # Return reasoning in the next request for best performance messages.append({ \"role\": \"assistant\", \"content\": content, \"reasoning\\_content\": reasoning, \"tool\\_calls\": \\[{\"id\": tc\\[\"id\"\\], \"type\": \"function\", \"function\": tc\\[\"function\"\\]} for tc in tool\\_calls\\] }) messages.append({ \"role\": \"tool\", \"tool\\_call\\_id\": tool\\_calls\\[0\\]\\[\"id\"\\], \"content\": json.dumps({\"stdout\": \"Darwin arm64\", \"exit\\_code\": \"0\"}) }) response = client.chat.completions.create( model=model, messages=messages, tools=tools, stream=True, ) reasoning, content = \"\", \"\" for chunk in response: delta = chunk.choices\\[0\\].delta if hasattr(delta, \"reasoning\\_content\") and delta.reasoning\\_content: reasoning += delta.reasoning\\_content if hasattr(delta, \"content\") and delta.content: content += delta.content print(f\"Reasoning: {reasoning}\\\\nContent: {content}\") \\`\\`\\` </details> ### Disabling reasoning You can disable thinking by setting \\`enable\\_thinking\\` to \\`False\\` in a request or by not providing \\`--default-chat-template-kwargs {\"enable\\_thinking\": True}\\` or equivalent when starting the server. <details> <summary>Expand for example</summary> \\`\\`\\`python from openai import OpenAI client = OpenAI() completion = client.chat.completions.create( model=\"poolside/laguna-xs-2.1\", messages=\\[ {\"role\": \"user\", \"content\": \"Write a retry wrapper with exponential backoff.\"} \\], extra\\_body={ \"chat\\_template\\_kwargs\": { \"enable\\_thinking\": False }, }, stream=True ) for chunk in completion: print(chunk.choices\\[0\\].delta) \\`\\`\\` </details> For agentic coding use cases, we recommend enabling thinking and preserving reasoning in message history as outlined in the \\[Controlling reasoning\\](#controlling-reasoning) section. ## License This model is licensed under the \\[OpenMDW-1.1 License\\](https://huggingface.co/poolside/Laguna-XS-2.1/blob/main/LICENSE.md). ## Intended and Responsible Use Laguna XS 2.1 is designed for software engineering and agentic coding use cases, and you are responsible for confirming that it is appropriate for your intended application. Laguna XS 2.1 is subject to the \\[OpenMDW-1.1 License\\](https://huggingface.co/poolside/Laguna-XS-2.1/blob/main/LICENSE.md), and should be used consistently with Poolside's \\[Acceptable Use Policy\\](https://poolside.ai/legal/acceptable-use-policy). We advise against circumventing Laguna XS 2.1 safety guardrails without implementing substantially equivalent mitigations appropriate for your use case. Please report security vulnerabilities or safety concerns to \\[security@poolside.ai\\](mailto:security@poolside.ai). \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "nemotron-3-ultra",
     "link": "https://ollama.com/library/nemotron-3-ultra",
     "description": "NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.",
-    "pullCount": "23.1K",
+    "pullCount": "23.4K",
     "updated": "1 month ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -3100,7 +3111,7 @@
     "name": "north-mini-code-1.0",
     "link": "https://ollama.com/library/north-mini-code-1.0",
     "description": "North Mini Code is Cohere's first model for developers — a 30B Mixture-of-Experts model with 3B active parameters, built for agentic software engineering.",
-    "pullCount": "22.1K",
+    "pullCount": "22.7K",
     "updated": "3 weeks ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -3111,7 +3122,7 @@
     "name": "laguna-xs.2",
     "link": "https://ollama.com/library/laguna-xs.2",
     "description": "Laguna XS.2 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine.",
-    "pullCount": "20.5K",
+    "pullCount": "20.6K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -3119,21 +3130,10 @@
     "tags": []
   },
   {
-    "name": "laguna-xs-2.1",
-    "link": "https://ollama.com/library/laguna-xs-2.1",
-    "description": "Laguna XS 2.1 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine.",
-    "pullCount": "20.1K",
-    "updated": "1 week ago",
-    "size": null,
-    "capabilities": "toolsthinking",
-    "readme": "## Readme\n\n> We are currently investigating an issue using Laguna XS 2.1 on macOS. This will be updated once the issue is resolved.\n\n# Laguna XS 2.1\n\nLaguna XS 2.1 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine. This model is an upgraded version of our [Laguna XS.2](https://huggingface.co/poolside/Laguna-XS.2) model with a +5.4% jump on SWE-bench Multilingual as well as stronger performance on terminal-style tasks.\n\n> For more details on how we train, including on data automixing and async off-policy agent RL, check out our recent [technical report](https://poolside.ai/assets/laguna/laguna-m1-xs2-technical-report.pdf).\n\n## Highlights\n\n* **Mixed SWA and global attention layout**: Laguna XS 2.1 uses sigmoid gating with per-layer rotary scales, enabling mixed SWA (Sliding Window Attention) and global attention layers in a 3:1 ratio (across 40 total layers)\n* **KV cache in FP8**: KV cache quantized to FP8, reducing memory per token\n* **Native reasoning support**: Interleaved thinking between tool calls with support for enabling and disabling thinking per-request\n* **Local-ready**: At 33B total parameters and 3B activated, Laguna XS 2.1 is compact enough to run on a Mac with 36 GB of RAM. Available on [Ollama](https://ollama.com/library/laguna-xs-2.1) and [llama.cpp](https://github.com/ggml-org/llama.cpp/pull/25165). High-quality FP8, NVFP4 and INT4 quantized variants available ([see the collection](https://huggingface.co/collections/poolside/laguna-xs-21))\n* **OpenMDW-1.1 license**: Use and modify the model and associated materials freely for commercial and non-commercial purposes ([learn more about OpenMDW](https://openmdw.ai/))\n\n---\n\n## Model overview\n\n* Training: pre-training, post-training and reinforcement learning stages\n* Number of parameters: 33B total with 3B activated per token\n* Optimizer: Muon\n* Layers: 40 layers (10 layers with global attention, 30 layers with sliding window attention)\n* Experts: 256 experts with 1 shared expert\n* Sliding Window: 512 tokens\n* Modality: text-to-text\n* Context window: 262,144 tokens\n* Reasoning support: interleaved thinking with preserved thinking\n\n## Benchmark results\n\n![benchmarks](https://poolside.ai/assets/laguna/laguna-xs2-1-chart.svg) \n\n| Model             | Size (total params.) | SWE-bench Verified | SWE-bench Multilingual | SWE-Bench Pro (Public Dataset) | Terminal-Bench 2.0 |\n| ----------------- | -------------------- | ------------------ | ---------------------- | ------------------------------ | ------------------ |\n| **Laguna XS 2.1** | 33B                  | 70.9%              | 63.1%                  | 47.6%                          | 37.5%              |\n| **Laguna XS.2**   | 33B                  | 69.9%              | 57.7%                  | 46.3%                          | 35.7%              |\n| Qwen3.6-35B-A3B   | 35B                  | 73.4%              | 67.2%                  | 49.5%                          | 51.5%              |\n| North Mini Code   | 30B                  | 67.6%              | \\-                     | 40.2%                          | 36.0%              |\n| MAI-Code-1-Flash  | 137B                 | 71.6%              | 65.5%                  | 51.2%                          | 54.8%              |\n| gpt-oss-120B      | 120B                 | \\-                 | \\-                     | 16.2%                          | 18.7%              |\n| Claude Haiku 4.5  | \\-                   | 73.3%              | \\-                     | 39.5%                          | 29.8%              |\n| GPT-5.4 Nano      | \\-                   | \\-                 | \\-                     | 52.4%                          | 46.3%              |\n\n_We used the highest publicly-referenced scores for all comparison models across each benchmark. In all cases these were official scores published in release blog posts or equivalent, with the exception of gpt-oss-120b and Claude Haiku 4.5 where the highest published (verified) scores for SWE-Bench Pro and Terminal-Bench 2.0 are from their respective official leaderboards._\n\nExpand for benchmarking methodologyAll benchmarking for Laguna XS 2.1 was completed using Laude Institute’s Harbor Framework with our \\[agent harness\\](https://github.com/poolsideai/pool), with a maximum of 500 steps and sandboxed execution. The same sampling parameters were used for all Laguna XS 2.1 benchmarking: temperature=1.0, top\\_k=20 and top\\_p=1, with thinking mode enabled and a context length of 256K tokens. All tasks were run in their own sandbox using 8 GB RAM/2 CPUs, with the exception of Terminal-Bench 2.0, which used 48 GB RAM/32 CPUs. Some base task images and verifiers were patched to fix infrastructure reliability issues inherent in task setup, such as rate limits on third-party dependencies in external registries used by the verifier. All four agentic benchmarks were run with patched images. We also ran a reward-hack judge post-hoc on Laguna XS 2.1 evaluation runs and did not find significant reward hacking after joint judge review and manual review. - SWE-bench Verified: mean pass@1 averaged over 4 attempts per task - SWE-bench Multilingual: mean pass@1 averaged over 4 attempts per task - SWE-Bench Pro: mean pass@1 averaged over 2 attempts per task - Terminal-Bench 2.0: mean pass@1 averaged over 5 attempts per task; 48 GB RAM/32 CPUs \n\n## Usage\n\nLaguna XS 2.1 has launch-day support in vLLM, SGLang, Transformers and Llama.cpp, and TRT-LLM thanks to the support of the team at NVIDIA.\n\nThe fastest way to get started is using OpenRouter.\n\n> We are providing free inference for a limited time for Laguna XS 2.1, as well as our larger 225B model, Laguna M.1\\. Visit our [provider page on OpenRouter](https://openrouter.ai/poolside/) to get started.\n\n### pool\n\n**pool** is a lightweight terminal-based coding agent and a dual [Agent Client Protocol](https://agentclientprotocol.com/get-started) client-server.\n\nDownload and install for macOS and Linux:\n\n```\ncurl -fsSL https://downloads.poolside.ai/pool/install.sh | bash\n\n```\n\nUse pool with Ollama with one-command setup:\n\n```\nollama pull laguna-xs-2.1\nollama launch pool --model laguna-xs-2.1\n\n```\n\n#### Feedback and issues\n\nSubmit feedback with `/feedback` and read the [full documentation on GitHub](https://github.com/poolsideai/pool).\n\n### Local deployment\n\nLaguna XS 2.1 is supported in vLLM, SGLang, Transformers and Llama.cpp, and TRT-LLM thanks to the support of the team at NVIDIA. Use Laguna-XS 2.1 with Ollama (with MLX support) and the mlx-lm framework for the best experience on your local machine.\n\n#### Ollama\n\nAvailable on the [Ollama library](https://ollama.com/library/laguna-xs-2.1).\n\n```\nollama run laguna-xs-2.1          # default — Q4_K_M (imatrix)\nollama run laguna-xs-2.1:q8_0     # higher precision\nollama run laguna-xs-2.1:bf16     # full precision\n\n```\n\nReasoning and tool-calling work out of the box via the built-in `laguna` template.\n\n> **macOS (Metal) users:** Chat (`ollama run` / `/api/chat`) works as expected on Linux/CUDA. On macOS/Metal it may currently return empty output; the root cause is not yet fully understood and we’re investigating it with the Ollama team. On a Mac, use a Linux/CUDA host, or the `/api/generate` endpoint with `\"raw\": true`.\n\n## Controlling reasoning\n\nLaguna XS 2.1 has native reasoning support and is designed to work best with _preserved thinking_, where `reasoning` content from prior assistant messages is preserved in the message history. This model will generally reason before calling tools and between tool calls.\n\nReasoning may not be generated in follow-up steps if prior thinking blocks are dropped (i.e., thinking is not preserved) when messages are reconstructed over multiple steps.\n\nExpand for example\\`\\`\\`python import json from openai import OpenAI client = OpenAI( base\\_url=\"https://openrouter.ai/api/v1\", api\\_key=\"...\", ) model = \"poolside/laguna-xs-2.1\" tools = \\[{\"type\": \"function\", \"function\": { \"name\": \"shell\", \"description\": \"Execute a bash command and return the output.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"cmd\": {\"type\": \"string\"}}, \"required\": \\[\"cmd\"\\]}, }}\\] messages = \\[ {\"role\": \"system\", \"content\": \"You are a coding agent with access to a shell tool.\"}, {\"role\": \"user\", \"content\": \"Run uname -a\"}, \\] # Thinking is enabled by default when the server sets --default-chat-template-kwargs {\"enable\\_thinking\": True} # When using OpenRouter's Chat API (https://openrouter.ai/api/v1), this flag is set by default response = client.chat.completions.create( model=model, messages=messages, tools=tools, stream=True, ) reasoning, content, tool\\_calls = \"\", \"\", \\[\\] for chunk in response: delta = chunk.choices\\[0\\].delta if hasattr(delta, \"reasoning\\_content\") and delta.reasoning\\_content: reasoning += delta.reasoning\\_content if hasattr(delta, \"content\") and delta.content: content += delta.content if hasattr(delta, \"tool\\_calls\") and delta.tool\\_calls: for tc in delta.tool\\_calls: if tc.index >= len(tool\\_calls): tool\\_calls.append({\"id\": tc.id, \"function\": {\"name\": \"\", \"arguments\": \"\"}}) if tc.function.name: tool\\_calls\\[tc.index\\]\\[\"function\"\\]\\[\"name\"\\] = tc.function.name if tc.function.arguments: tool\\_calls\\[tc.index\\]\\[\"function\"\\]\\[\"arguments\"\\] += tc.function.arguments print(f\"Reasoning: {reasoning}\\\\nContent: {content}\\\\nTool calls: {tool\\_calls}\\\\n\") # Return reasoning in the next request for best performance messages.append({ \"role\": \"assistant\", \"content\": content, \"reasoning\\_content\": reasoning, \"tool\\_calls\": \\[{\"id\": tc\\[\"id\"\\], \"type\": \"function\", \"function\": tc\\[\"function\"\\]} for tc in tool\\_calls\\] }) messages.append({ \"role\": \"tool\", \"tool\\_call\\_id\": tool\\_calls\\[0\\]\\[\"id\"\\], \"content\": json.dumps({\"stdout\": \"Darwin arm64\", \"exit\\_code\": \"0\"}) }) response = client.chat.completions.create( model=model, messages=messages, tools=tools, stream=True, ) reasoning, content = \"\", \"\" for chunk in response: delta = chunk.choices\\[0\\].delta if hasattr(delta, \"reasoning\\_content\") and delta.reasoning\\_content: reasoning += delta.reasoning\\_content if hasattr(delta, \"content\") and delta.content: content += delta.content print(f\"Reasoning: {reasoning}\\\\nContent: {content}\") \\`\\`\\` \n\n### Disabling reasoning\n\nYou can disable thinking by setting `enable_thinking` to `False` in a request or by not providing `--default-chat-template-kwargs {\"enable_thinking\": True}` or equivalent when starting the server.\n\nExpand for example\\`\\`\\`python from openai import OpenAI client = OpenAI() completion = client.chat.completions.create( model=\"poolside/laguna-xs-2.1\", messages=\\[ {\"role\": \"user\", \"content\": \"Write a retry wrapper with exponential backoff.\"} \\], extra\\_body={ \"chat\\_template\\_kwargs\": { \"enable\\_thinking\": False }, }, stream=True ) for chunk in completion: print(chunk.choices\\[0\\].delta) \\`\\`\\` \n\nFor agentic coding use cases, we recommend enabling thinking and preserving reasoning in message history as outlined in the [Controlling reasoning](#controlling-reasoning) section.\n\n## License\n\nThis model is licensed under the [OpenMDW-1.1 License](https://huggingface.co/poolside/Laguna-XS-2.1/blob/main/LICENSE.md).\n\n## Intended and Responsible Use\n\nLaguna XS 2.1 is designed for software engineering and agentic coding use cases, and you are responsible for confirming that it is appropriate for your intended application. Laguna XS 2.1 is subject to the [OpenMDW-1.1 License](https://huggingface.co/poolside/Laguna-XS-2.1/blob/main/LICENSE.md), and should be used consistently with Poolside’s [Acceptable Use Policy](https://poolside.ai/legal/acceptable-use-policy). We advise against circumventing Laguna XS 2.1 safety guardrails without implementing substantially equivalent mitigations appropriate for your use case.\n\nPlease report security vulnerabilities or safety concerns to [security@poolside.ai](mailto:security@poolside.ai).\n\nWrite Preview \n\n\\> We are currently investigating an issue using Laguna XS 2.1 on macOS. This will be updated once the issue is resolved. # Laguna XS 2.1 Laguna XS 2.1 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine. This model is an upgraded version of our \\[Laguna XS.2\\](https://huggingface.co/poolside/Laguna-XS.2) model with a +5.4% jump on SWE-bench Multilingual as well as stronger performance on terminal-style tasks. > For more details on how we train, including on data automixing and async off-policy agent RL, check out our recent \\[technical report\\](https://poolside.ai/assets/laguna/laguna-m1-xs2-technical-report.pdf). ## Highlights - \\*\\*Mixed SWA and global attention layout\\*\\*: Laguna XS 2.1 uses sigmoid gating with per-layer rotary scales, enabling mixed SWA (Sliding Window Attention) and global attention layers in a 3:1 ratio (across 40 total layers) - \\*\\*KV cache in FP8\\*\\*: KV cache quantized to FP8, reducing memory per token - \\*\\*Native reasoning support\\*\\*: Interleaved thinking between tool calls with support for enabling and disabling thinking per-request - \\*\\*Local-ready\\*\\*: At 33B total parameters and 3B activated, Laguna XS 2.1 is compact enough to run on a Mac with 36 GB of RAM. Available on \\[Ollama\\](https://ollama.com/library/laguna-xs-2.1) and \\[llama.cpp\\](https://github.com/ggml-org/llama.cpp/pull/25165). High-quality FP8, NVFP4 and INT4 quantized variants available (\\[see the collection\\](https://huggingface.co/collections/poolside/laguna-xs-21)) - \\*\\*OpenMDW-1.1 license\\*\\*: Use and modify the model and associated materials freely for commercial and non-commercial purposes (\\[learn more about OpenMDW\\](https://openmdw.ai/)) --- ## Model overview - Training: pre-training, post-training and reinforcement learning stages - Number of parameters: 33B total with 3B activated per token - Optimizer: Muon - Layers: 40 layers (10 layers with global attention, 30 layers with sliding window attention) - Experts: 256 experts with 1 shared expert - Sliding Window: 512 tokens - Modality: text-to-text - Context window: 262,144 tokens - Reasoning support: interleaved thinking with preserved thinking ## Benchmark results <p align=\"center\"> <img alt=\"benchmarks\" src=\"https://poolside.ai/assets/laguna/laguna-xs2-1-chart.svg\" width=\"800px\"> </p> | Model | Size (total params.) | SWE-bench Verified | SWE-bench Multilingual | SWE-Bench Pro (Public Dataset) | Terminal-Bench 2.0 | |---------------------------|----------------------|--------------------|------------------------|--------------------------------|--------------------| | \\*\\*Laguna XS 2.1\\*\\* | 33B | 70.9% | 63.1% | 47.6% | 37.5% | | \\*\\*Laguna XS.2\\*\\* | 33B | 69.9% | 57.7% | 46.3% | 35.7% | | Qwen3.6-35B-A3B | 35B | 73.4% | 67.2% | 49.5% | 51.5% | | North Mini Code | 30B | 67.6% | - | 40.2% | 36.0% | | MAI-Code-1-Flash | 137B | 71.6% | 65.5% | 51.2% | 54.8% | | gpt-oss-120B | 120B | - | - | 16.2% | 18.7% | | Claude Haiku 4.5 | - | 73.3% | - | 39.5% | 29.8% | | GPT-5.4 Nano | - | - | - | 52.4% | 46.3% | \\*We used the highest publicly-referenced scores for all comparison models across each benchmark. In all cases these were official scores published in release blog posts or equivalent, with the exception of gpt-oss-120b and Claude Haiku 4.5 where the highest published (verified) scores for SWE-Bench Pro and Terminal-Bench 2.0 are from their respective official leaderboards.\\* <details> <summary>Expand for benchmarking methodology</summary> All benchmarking for Laguna XS 2.1 was completed using Laude Institute’s Harbor Framework with our \\[agent harness\\](https://github.com/poolsideai/pool), with a maximum of 500 steps and sandboxed execution. The same sampling parameters were used for all Laguna XS 2.1 benchmarking: temperature=1.0, top\\_k=20 and top\\_p=1, with thinking mode enabled and a context length of 256K tokens. All tasks were run in their own sandbox using 8 GB RAM/2 CPUs, with the exception of Terminal-Bench 2.0, which used 48 GB RAM/32 CPUs. Some base task images and verifiers were patched to fix infrastructure reliability issues inherent in task setup, such as rate limits on third-party dependencies in external registries used by the verifier. All four agentic benchmarks were run with patched images. We also ran a reward-hack judge post-hoc on Laguna XS 2.1 evaluation runs and did not find significant reward hacking after joint judge review and manual review. - SWE-bench Verified: mean pass@1 averaged over 4 attempts per task - SWE-bench Multilingual: mean pass@1 averaged over 4 attempts per task - SWE-Bench Pro: mean pass@1 averaged over 2 attempts per task - Terminal-Bench 2.0: mean pass@1 averaged over 5 attempts per task; 48 GB RAM/32 CPUs </details> ## Usage Laguna XS 2.1 has launch-day support in vLLM, SGLang, Transformers and Llama.cpp, and TRT-LLM thanks to the support of the team at NVIDIA. The fastest way to get started is using OpenRouter. > We are providing free inference for a limited time for Laguna XS 2.1, as well as our larger 225B model, Laguna M.1\\. Visit our \\[provider page on OpenRouter\\](https://openrouter.ai/poolside/) to get started. ### pool \\*\\*pool\\*\\* is a lightweight terminal-based coding agent and a dual \\[Agent Client Protocol\\](https://agentclientprotocol.com/get-started) client-server. Download and install for macOS and Linux: \\`\\`\\`shell curl -fsSL https://downloads.poolside.ai/pool/install.sh | bash \\`\\`\\` Use pool with Ollama with one-command setup: \\`\\`\\`shell ollama pull laguna-xs-2.1 ollama launch pool --model laguna-xs-2.1 \\`\\`\\` #### Feedback and issues Submit feedback with \\`/feedback\\` and read the \\[full documentation on GitHub\\](https://github.com/poolsideai/pool). ### Local deployment Laguna XS 2.1 is supported in vLLM, SGLang, Transformers and Llama.cpp, and TRT-LLM thanks to the support of the team at NVIDIA. Use Laguna-XS 2.1 with Ollama (with MLX support) and the mlx-lm framework for the best experience on your local machine. #### Ollama Available on the \\[Ollama library\\](https://ollama.com/library/laguna-xs-2.1). ollama run laguna-xs-2.1 # default — Q4\\_K\\_M (imatrix) ollama run laguna-xs-2.1:q8\\_0 # higher precision ollama run laguna-xs-2.1:bf16 # full precision Reasoning and tool-calling work out of the box via the built-in \\`laguna\\` template. > \\*\\*macOS (Metal) users:\\*\\* Chat (\\`ollama run\\` / \\`/api/chat\\`) works as expected on Linux/CUDA. On macOS/Metal it may currently return empty output; the root cause is not yet fully understood and we're investigating it with the Ollama team. On a Mac, use a Linux/CUDA host, or the \\`/api/generate\\` endpoint with \\`\"raw\": true\\`. ## Controlling reasoning Laguna XS 2.1 has native reasoning support and is designed to work best with \\*preserved thinking\\*, where \\`reasoning\\` content from prior assistant messages is preserved in the message history. This model will generally reason before calling tools and between tool calls. Reasoning may not be generated in follow-up steps if prior thinking blocks are dropped (i.e., thinking is not preserved) when messages are reconstructed over multiple steps. <details> <summary>Expand for example</summary> \\`\\`\\`python import json from openai import OpenAI client = OpenAI( base\\_url=\"https://openrouter.ai/api/v1\", api\\_key=\"...\", ) model = \"poolside/laguna-xs-2.1\" tools = \\[{\"type\": \"function\", \"function\": { \"name\": \"shell\", \"description\": \"Execute a bash command and return the output.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"cmd\": {\"type\": \"string\"}}, \"required\": \\[\"cmd\"\\]}, }}\\] messages = \\[ {\"role\": \"system\", \"content\": \"You are a coding agent with access to a shell tool.\"}, {\"role\": \"user\", \"content\": \"Run uname -a\"}, \\] # Thinking is enabled by default when the server sets --default-chat-template-kwargs {\"enable\\_thinking\": True} # When using OpenRouter's Chat API (https://openrouter.ai/api/v1), this flag is set by default response = client.chat.completions.create( model=model, messages=messages, tools=tools, stream=True, ) reasoning, content, tool\\_calls = \"\", \"\", \\[\\] for chunk in response: delta = chunk.choices\\[0\\].delta if hasattr(delta, \"reasoning\\_content\") and delta.reasoning\\_content: reasoning += delta.reasoning\\_content if hasattr(delta, \"content\") and delta.content: content += delta.content if hasattr(delta, \"tool\\_calls\") and delta.tool\\_calls: for tc in delta.tool\\_calls: if tc.index >= len(tool\\_calls): tool\\_calls.append({\"id\": tc.id, \"function\": {\"name\": \"\", \"arguments\": \"\"}}) if tc.function.name: tool\\_calls\\[tc.index\\]\\[\"function\"\\]\\[\"name\"\\] = tc.function.name if tc.function.arguments: tool\\_calls\\[tc.index\\]\\[\"function\"\\]\\[\"arguments\"\\] += tc.function.arguments print(f\"Reasoning: {reasoning}\\\\nContent: {content}\\\\nTool calls: {tool\\_calls}\\\\n\") # Return reasoning in the next request for best performance messages.append({ \"role\": \"assistant\", \"content\": content, \"reasoning\\_content\": reasoning, \"tool\\_calls\": \\[{\"id\": tc\\[\"id\"\\], \"type\": \"function\", \"function\": tc\\[\"function\"\\]} for tc in tool\\_calls\\] }) messages.append({ \"role\": \"tool\", \"tool\\_call\\_id\": tool\\_calls\\[0\\]\\[\"id\"\\], \"content\": json.dumps({\"stdout\": \"Darwin arm64\", \"exit\\_code\": \"0\"}) }) response = client.chat.completions.create( model=model, messages=messages, tools=tools, stream=True, ) reasoning, content = \"\", \"\" for chunk in response: delta = chunk.choices\\[0\\].delta if hasattr(delta, \"reasoning\\_content\") and delta.reasoning\\_content: reasoning += delta.reasoning\\_content if hasattr(delta, \"content\") and delta.content: content += delta.content print(f\"Reasoning: {reasoning}\\\\nContent: {content}\") \\`\\`\\` </details> ### Disabling reasoning You can disable thinking by setting \\`enable\\_thinking\\` to \\`False\\` in a request or by not providing \\`--default-chat-template-kwargs {\"enable\\_thinking\": True}\\` or equivalent when starting the server. <details> <summary>Expand for example</summary> \\`\\`\\`python from openai import OpenAI client = OpenAI() completion = client.chat.completions.create( model=\"poolside/laguna-xs-2.1\", messages=\\[ {\"role\": \"user\", \"content\": \"Write a retry wrapper with exponential backoff.\"} \\], extra\\_body={ \"chat\\_template\\_kwargs\": { \"enable\\_thinking\": False }, }, stream=True ) for chunk in completion: print(chunk.choices\\[0\\].delta) \\`\\`\\` </details> For agentic coding use cases, we recommend enabling thinking and preserving reasoning in message history as outlined in the \\[Controlling reasoning\\](#controlling-reasoning) section. ## License This model is licensed under the \\[OpenMDW-1.1 License\\](https://huggingface.co/poolside/Laguna-XS-2.1/blob/main/LICENSE.md). ## Intended and Responsible Use Laguna XS 2.1 is designed for software engineering and agentic coding use cases, and you are responsible for confirming that it is appropriate for your intended application. Laguna XS 2.1 is subject to the \\[OpenMDW-1.1 License\\](https://huggingface.co/poolside/Laguna-XS-2.1/blob/main/LICENSE.md), and should be used consistently with Poolside's \\[Acceptable Use Policy\\](https://poolside.ai/legal/acceptable-use-policy). We advise against circumventing Laguna XS 2.1 safety guardrails without implementing substantially equivalent mitigations appropriate for your use case. Please report security vulnerabilities or safety concerns to \\[security@poolside.ai\\](mailto:security@poolside.ai). \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "minicpm-v4.6",
     "link": "https://ollama.com/library/minicpm-v4.6",
     "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-    "pullCount": "14.1K",
+    "pullCount": "14.6K",
     "updated": "1 month ago",
     "size": [
       "1b"
@@ -3146,7 +3146,7 @@
     "name": "minicpm-v4.5",
     "link": "https://ollama.com/library/minicpm-v4.5",
     "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-    "pullCount": "10.2K",
+    "pullCount": "10.6K",
     "updated": "1 month ago",
     "size": [
       "8b"
@@ -3159,7 +3159,7 @@
     "name": "granite4.1-guardian",
     "link": "https://ollama.com/library/granite4.1-guardian",
     "description": "Granite Guardian 4.1 is a specialized safety and judging model from IBM Research that evaluates whether LLM prompts and responses meet specified harm criteria.",
-    "pullCount": "3,225",
+    "pullCount": "3,379",
     "updated": "1 month ago",
     "size": [
       "8b"
