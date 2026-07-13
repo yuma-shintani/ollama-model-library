@@ -3,7 +3,7 @@
     "name": "llama3.1",
     "link": "https://ollama.com/library/llama3.1",
     "description": "Llama 3.1 is a new state-of-the-art model from Meta available in 8B, 70B and 405B parameter sizes.",
-    "pullCount": "117M",
+    "pullCount": "117.1M",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -18,7 +18,7 @@
     "name": "deepseek-r1",
     "link": "https://ollama.com/library/deepseek-r1",
     "description": "DeepSeek-R1 is a family of open reasoning models with performance approaching that of leading models, such as O3 and Gemini 2.5 Pro.",
-    "pullCount": "89.5M",
+    "pullCount": "89.6M",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -37,7 +37,7 @@
     "name": "nomic-embed-text",
     "link": "https://ollama.com/library/nomic-embed-text",
     "description": "A high-performing open embedding model with a large token context window.",
-    "pullCount": "78M",
+    "pullCount": "78.1M",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "embedding",
@@ -48,7 +48,7 @@
     "name": "llama3.2",
     "link": "https://ollama.com/library/llama3.2",
     "description": "Meta's Llama 3.2 goes small with 1B and 3B models.",
-    "pullCount": "76.1M",
+    "pullCount": "76.2M",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -118,7 +118,7 @@
     "link": "https://ollama.com/library/mistral",
     "description": "The 7B model released by Mistral AI, updated to version 0.3.",
     "pullCount": "31M",
-    "updated": "12 months ago",
+    "updated": "1 year ago",
     "size": [
       "7b"
     ],
@@ -130,7 +130,7 @@
     "name": "gemma2",
     "link": "https://ollama.com/library/gemma2",
     "description": "Google Gemma 2 is a high-performing and efficient model available in three sizes: 2B, 9B, and 27B.",
-    "pullCount": "27.5M",
+    "pullCount": "27.6M",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -191,7 +191,7 @@
     "name": "gemma4",
     "link": "https://ollama.com/library/gemma4",
     "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
-    "pullCount": "17.7M",
+    "pullCount": "17.8M",
     "updated": "1 week ago",
     "size": [
       "e2b",
@@ -208,7 +208,7 @@
     "name": "qwen3.5",
     "link": "https://ollama.com/library/qwen3.5",
     "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-    "pullCount": "15.3M",
+    "pullCount": "15.4M",
     "updated": "1 month ago",
     "size": [
       "0.8b",
@@ -242,7 +242,7 @@
     "name": "mxbai-embed-large",
     "link": "https://ollama.com/library/mxbai-embed-large",
     "description": "State-of-the-art large embedding model from mixedbread.ai",
-    "pullCount": "12.4M",
+    "pullCount": "12.5M",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "embedding",
@@ -253,7 +253,7 @@
     "name": "gpt-oss",
     "link": "https://ollama.com/library/gpt-oss",
     "description": "OpenAI’s open-weight models designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
-    "pullCount": "10.8M",
+    "pullCount": "10.9M",
     "updated": "9 months ago",
     "size": [
       "20b",
@@ -277,20 +277,6 @@
     "tags": []
   },
   {
-    "name": "gemma",
-    "link": "https://ollama.com/library/gemma",
-    "description": "Gemma is a family of lightweight, state-of-the-art open models built by Google DeepMind. Updated to version 1.1",
-    "pullCount": "7.2M",
-    "updated": "2 years ago",
-    "size": [
-      "2b",
-      "7b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\n![](https://github.com/ollama/ollama/assets/251292/01333db3-c27b-4044-88b3-9b2ffbe06415)\n\n> Note: this model requires Ollama 0.1.26 or later. [Download it here](https://ollama.com/download).\n\nGemma is a new open model developed by Google and its DeepMind team. It’s inspired by Gemini models at Google.\n\nGemma is available in both `2b` and `7b` parameter sizes:\n\n* `ollama run gemma:2b`\n* `ollama run gemma:7b` (default)\n\nThe models undergo training on a diverse dataset of web documents to expose them to a wide range of linguistic styles, topics, and vocabularies. This includes code to learn syntax and patterns of programming languages, as well as mathematical text to grasp logical reasoning.\n\nTo ensure the safety of the model, the team employed various data cleaning and filtering techniques, including rigorous filtering for CSAM (child sexual abuse material), sensitive data filtering, and filtering based on content quality in compliance with Google’s policies.\n\n# Reference\n\n[Google Gemma](https://ai.google.dev/gemma/docs/model%5Fcard)\n\nWrite Preview \n\n<img src=\"https://github.com/ollama/ollama/assets/251292/01333db3-c27b-4044-88b3-9b2ffbe06415\"/> > Note: this model requires Ollama 0.1.26 or later. \\[Download it here\\](https://ollama.com/download). Gemma is a new open model developed by Google and its DeepMind team. It’s inspired by Gemini models at Google. Gemma is available in both \\`2b\\` and \\`7b\\` parameter sizes: \\* \\`ollama run gemma:2b\\` \\* \\`ollama run gemma:7b\\` (default) The models undergo training on a diverse dataset of web documents to expose them to a wide range of linguistic styles, topics, and vocabularies. This includes code to learn syntax and patterns of programming languages, as well as mathematical text to grasp logical reasoning. To ensure the safety of the model, the team employed various data cleaning and filtering techniques, including rigorous filtering for CSAM (child sexual abuse material), sensitive data filtering, and filtering based on content quality in compliance with Google’s policies. # Reference \\[Google Gemma\\](https://ai.google.dev/gemma/docs/model\\_card) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "qwen",
     "link": "https://ollama.com/library/qwen",
     "description": "Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters",
@@ -311,18 +297,17 @@
     "tags": []
   },
   {
-    "name": "llama2",
-    "link": "https://ollama.com/library/llama2",
-    "description": "Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.",
+    "name": "gemma",
+    "link": "https://ollama.com/library/gemma",
+    "description": "Gemma is a family of lightweight, state-of-the-art open models built by Google DeepMind. Updated to version 1.1",
     "pullCount": "7.2M",
     "updated": "2 years ago",
     "size": [
-      "7b",
-      "13b",
-      "70b"
+      "2b",
+      "7b"
     ],
     "capabilities": "",
-    "readme": "## Readme\n\n![](https://github.com/jmorganca/ollama/assets/3325447/286e4e13-0b2b-43a4-9b07-23a50d3a3d33)\n\nLlama 2 is released by Meta Platforms, Inc. This model is trained on 2 trillion tokens, and by default supports a context length of 4096\\. Llama 2 Chat models are fine-tuned on over 1 million human annotations, and are made for chat.\n\n### CLI\n\nOpen the terminal and run `ollama run llama2`\n\n### API\n\nExample using curl:\n\n```\ncurl -X POST http://localhost:11434/api/generate -d '{\n  \"model\": \"llama2\",\n  \"prompt\":\"Why is the sky blue?\"\n }'\n\n```\n\n[API documentation](https://github.com/jmorganca/ollama/blob/main/docs/api.md)\n\n## Memory requirements\n\n* 7b models generally require at least 8GB of RAM\n* 13b models generally require at least 16GB of RAM\n* 70b models generally require at least 64GB of RAM\n\nIf you run into issues with higher quantization levels, try using the q4 model or shut down any other programs that are using a lot of memory.\n\n## Model variants\n\n**Chat** is fine-tuned for chat/dialogue use cases. These are the default in Ollama, and for models tagged with -chat in the tags tab.\n\n_Example: `ollama run llama2`_\n\n**Pre-trained** is without the chat fine-tuning. This is tagged as -text in the tags tab.\n\n_Example: `ollama run llama2:text`_\n\nBy default, Ollama uses 4-bit quantization. To try other quantization levels, please try the other tags. The number after the q represents the number of bits used for quantization (i.e. q4 means 4-bit quantization). The higher the number, the more accurate the model is, but the slower it runs, and the more memory it requires.\n\n## References\n\n[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288)\n\n[Meta’s Hugging Face repo](https://huggingface.co/meta-llama)\n\nWrite Preview \n\n<img src=\"https://github.com/jmorganca/ollama/assets/3325447/286e4e13-0b2b-43a4-9b07-23a50d3a3d33\" width=\"360\" /> Llama 2 is released by Meta Platforms, Inc. This model is trained on 2 trillion tokens, and by default supports a context length of 4096\\. Llama 2 Chat models are fine-tuned on over 1 million human annotations, and are made for chat. ### CLI Open the terminal and run \\`ollama run llama2\\` ### API Example using curl: \\`\\`\\`bash curl -X POST http://localhost:11434/api/generate -d '{ \"model\": \"llama2\", \"prompt\":\"Why is the sky blue?\" }' \\`\\`\\` \\[API documentation\\](https://github.com/jmorganca/ollama/blob/main/docs/api.md) ## Memory requirements - 7b models generally require at least 8GB of RAM - 13b models generally require at least 16GB of RAM - 70b models generally require at least 64GB of RAM If you run into issues with higher quantization levels, try using the q4 model or shut down any other programs that are using a lot of memory. ## Model variants \\*\\*Chat\\*\\* is fine-tuned for chat/dialogue use cases. These are the default in Ollama, and for models tagged with -chat in the tags tab. \\*Example: \\`ollama run llama2\\`\\* \\*\\*Pre-trained\\*\\* is without the chat fine-tuning. This is tagged as -text in the tags tab. \\*Example: \\`ollama run llama2:text\\`\\* By default, Ollama uses 4-bit quantization. To try other quantization levels, please try the other tags. The number after the q represents the number of bits used for quantization (i.e. q4 means 4-bit quantization). The higher the number, the more accurate the model is, but the slower it runs, and the more memory it requires. ## References \\[Llama 2: Open Foundation and Fine-Tuned Chat Models\\](https://arxiv.org/abs/2307.09288) \\[Meta's Hugging Face repo\\](https://huggingface.co/meta-llama) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "readme": "## Readme\n\n![](https://github.com/ollama/ollama/assets/251292/01333db3-c27b-4044-88b3-9b2ffbe06415)\n\n> Note: this model requires Ollama 0.1.26 or later. [Download it here](https://ollama.com/download).\n\nGemma is a new open model developed by Google and its DeepMind team. It’s inspired by Gemini models at Google.\n\nGemma is available in both `2b` and `7b` parameter sizes:\n\n* `ollama run gemma:2b`\n* `ollama run gemma:7b` (default)\n\nThe models undergo training on a diverse dataset of web documents to expose them to a wide range of linguistic styles, topics, and vocabularies. This includes code to learn syntax and patterns of programming languages, as well as mathematical text to grasp logical reasoning.\n\nTo ensure the safety of the model, the team employed various data cleaning and filtering techniques, including rigorous filtering for CSAM (child sexual abuse material), sensitive data filtering, and filtering based on content quality in compliance with Google’s policies.\n\n# Reference\n\n[Google Gemma](https://ai.google.dev/gemma/docs/model%5Fcard)\n\nWrite Preview \n\n<img src=\"https://github.com/ollama/ollama/assets/251292/01333db3-c27b-4044-88b3-9b2ffbe06415\"/> > Note: this model requires Ollama 0.1.26 or later. \\[Download it here\\](https://ollama.com/download). Gemma is a new open model developed by Google and its DeepMind team. It’s inspired by Gemini models at Google. Gemma is available in both \\`2b\\` and \\`7b\\` parameter sizes: \\* \\`ollama run gemma:2b\\` \\* \\`ollama run gemma:7b\\` (default) The models undergo training on a diverse dataset of web documents to expose them to a wide range of linguistic styles, topics, and vocabularies. This includes code to learn syntax and patterns of programming languages, as well as mathematical text to grasp logical reasoning. To ensure the safety of the model, the team employed various data cleaning and filtering techniques, including rigorous filtering for CSAM (child sexual abuse material), sensitive data filtering, and filtering based on content quality in compliance with Google’s policies. # Reference \\[Google Gemma\\](https://ai.google.dev/gemma/docs/model\\_card) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -337,6 +322,21 @@
     ],
     "capabilities": "tools",
     "readme": "## Readme\n\n![Qwen 3 logo](/assets/library/qwen3/a5541098-87ba-4184-a5af-2b63312c2522) **Qwen3-Coder** is the most agentic code model to date in the Qwen series.\n\n### Get started\n\n**480B**\n\nCloud\n\n```\nollama run qwen3-coder:480b-cloud\n\n```\n\nLocal\n\n```\nollama run qwen3-coder:480b\n\n```\n\nRunning locally requires a minimum of 250GB of memory or unified memory.\n\n**30B**\n\n```\nollama run qwen3-coder:30b\n\n```\n\n### Overview\n\n`qwen3-coder:30b` offers 30B total parameters with only 3.3B activated, delivering strong performance while maintaining efficiency.\n\n* Exceptional agentic capabilities for real-world software engineering tasks through advanced long-horizon reinforcement learning on SWE-Bench and similar benchmarks.\n* Long context support with 256K tokens natively and up to 1M tokens using extrapolation methods, optimized for repository-scale understanding.\n* Scaled pretraining on 7.5T tokens (70% code ratio) while preserving strong general and mathematical abilities.\n* Execution-driven reinforcement learning that significantly boosts code execution success rates across diverse real-world coding tasks.\n\n![image.png](/assets/library/qwen3-coder/52070971-5a66-4947-90a0-5e983a5809e7)\n\n### Reference\n\n* [Blog](https://qwenlm.github.io/blog/qwen3-coder/)\n\nWrite Preview \n\n!\\[Qwen 3 logo\\](/assets/library/qwen3/a5541098-87ba-4184-a5af-2b63312c2522) \\*\\*Qwen3-Coder\\*\\* is the most agentic code model to date in the Qwen series. ### Get started \\*\\*480B\\*\\* Cloud \\`\\`\\` ollama run qwen3-coder:480b-cloud \\`\\`\\` Local \\`\\`\\` ollama run qwen3-coder:480b \\`\\`\\` Running locally requires a minimum of 250GB of memory or unified memory. \\*\\*30B\\*\\* \\`\\`\\` ollama run qwen3-coder:30b \\`\\`\\` ### Overview \\`qwen3-coder:30b\\` offers 30B total parameters with only 3.3B activated, delivering strong performance while maintaining efficiency. - Exceptional agentic capabilities for real-world software engineering tasks through advanced long-horizon reinforcement learning on SWE-Bench and similar benchmarks. - Long context support with 256K tokens natively and up to 1M tokens using extrapolation methods, optimized for repository-scale understanding. - Scaled pretraining on 7.5T tokens (70% code ratio) while preserving strong general and mathematical abilities. - Execution-driven reinforcement learning that significantly boosts code execution success rates across diverse real-world coding tasks. !\\[image.png\\](/assets/library/qwen3-coder/52070971-5a66-4947-90a0-5e983a5809e7) ### Reference - \\[Blog\\](https://qwenlm.github.io/blog/qwen3-coder/) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
+    "name": "llama2",
+    "link": "https://ollama.com/library/llama2",
+    "description": "Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.",
+    "pullCount": "7.2M",
+    "updated": "2 years ago",
+    "size": [
+      "7b",
+      "13b",
+      "70b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\n![](https://github.com/jmorganca/ollama/assets/3325447/286e4e13-0b2b-43a4-9b07-23a50d3a3d33)\n\nLlama 2 is released by Meta Platforms, Inc. This model is trained on 2 trillion tokens, and by default supports a context length of 4096\\. Llama 2 Chat models are fine-tuned on over 1 million human annotations, and are made for chat.\n\n### CLI\n\nOpen the terminal and run `ollama run llama2`\n\n### API\n\nExample using curl:\n\n```\ncurl -X POST http://localhost:11434/api/generate -d '{\n  \"model\": \"llama2\",\n  \"prompt\":\"Why is the sky blue?\"\n }'\n\n```\n\n[API documentation](https://github.com/jmorganca/ollama/blob/main/docs/api.md)\n\n## Memory requirements\n\n* 7b models generally require at least 8GB of RAM\n* 13b models generally require at least 16GB of RAM\n* 70b models generally require at least 64GB of RAM\n\nIf you run into issues with higher quantization levels, try using the q4 model or shut down any other programs that are using a lot of memory.\n\n## Model variants\n\n**Chat** is fine-tuned for chat/dialogue use cases. These are the default in Ollama, and for models tagged with -chat in the tags tab.\n\n_Example: `ollama run llama2`_\n\n**Pre-trained** is without the chat fine-tuning. This is tagged as -text in the tags tab.\n\n_Example: `ollama run llama2:text`_\n\nBy default, Ollama uses 4-bit quantization. To try other quantization levels, please try the other tags. The number after the q represents the number of bits used for quantization (i.e. q4 means 4-bit quantization). The higher the number, the more accurate the model is, but the slower it runs, and the more memory it requires.\n\n## References\n\n[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288)\n\n[Meta’s Hugging Face repo](https://huggingface.co/meta-llama)\n\nWrite Preview \n\n<img src=\"https://github.com/jmorganca/ollama/assets/3325447/286e4e13-0b2b-43a4-9b07-23a50d3a3d33\" width=\"360\" /> Llama 2 is released by Meta Platforms, Inc. This model is trained on 2 trillion tokens, and by default supports a context length of 4096\\. Llama 2 Chat models are fine-tuned on over 1 million human annotations, and are made for chat. ### CLI Open the terminal and run \\`ollama run llama2\\` ### API Example using curl: \\`\\`\\`bash curl -X POST http://localhost:11434/api/generate -d '{ \"model\": \"llama2\", \"prompt\":\"Why is the sky blue?\" }' \\`\\`\\` \\[API documentation\\](https://github.com/jmorganca/ollama/blob/main/docs/api.md) ## Memory requirements - 7b models generally require at least 8GB of RAM - 13b models generally require at least 16GB of RAM - 70b models generally require at least 64GB of RAM If you run into issues with higher quantization levels, try using the q4 model or shut down any other programs that are using a lot of memory. ## Model variants \\*\\*Chat\\*\\* is fine-tuned for chat/dialogue use cases. These are the default in Ollama, and for models tagged with -chat in the tags tab. \\*Example: \\`ollama run llama2\\`\\* \\*\\*Pre-trained\\*\\* is without the chat fine-tuning. This is tagged as -text in the tags tab. \\*Example: \\`ollama run llama2:text\\`\\* By default, Ollama uses 4-bit quantization. To try other quantization levels, please try the other tags. The number after the q represents the number of bits used for quantization (i.e. q4 means 4-bit quantization). The higher the number, the more accurate the model is, but the slower it runs, and the more memory it requires. ## References \\[Llama 2: Open Foundation and Fine-Tuned Chat Models\\](https://arxiv.org/abs/2307.09288) \\[Meta's Hugging Face repo\\](https://huggingface.co/meta-llama) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -506,6 +506,20 @@
     "tags": []
   },
   {
+    "name": "qwen3.6",
+    "link": "https://ollama.com/library/qwen3.6",
+    "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+    "pullCount": "3.9M",
+    "updated": "1 month ago",
+    "size": [
+      "27b",
+      "35b"
+    ],
+    "capabilities": "visiontoolsthinking",
+    "readme": "## Readme\n\n![](/assets/library/qwen3.6/a4dafb1d-29c1-46bc-81ca-a8a6db6b55b3)\n\nFollowing the February release of the Qwen3.5 series, we’re pleased to share the first open-weight variant of Qwen3.6\\. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience.\n\n### Qwen3.6 Highlights\n\nThis release delivers substantial upgrades, particularly in\n\n* Agentic Coding: the model now handles frontend workflows and repository-level reasoning with greater fluency and precision.\n* Thinking Preservation: we’ve introduced a new option to retain reasoning context from historical messages, streamlining iterative development and reducing overhead.\n\n![qwen3.6_35b_a3b_score.png](/assets/library/qwen3.6/4d333c77-e6ad-4047-8724-f38c68cc5b28)\n\nWrite Preview \n\n<img src=\"/assets/library/qwen3.6/a4dafb1d-29c1-46bc-81ca-a8a6db6b55b3\" width=\"360\" /> Following the February release of the Qwen3.5 series, we're pleased to share the first open-weight variant of Qwen3.6\\. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience. ### Qwen3.6 Highlights This release delivers substantial upgrades, particularly in - Agentic Coding: the model now handles frontend workflows and repository-level reasoning with greater fluency and precision. - Thinking Preservation: we've introduced a new option to retain reasoning context from historical messages, streamlining iterative development and reducing overhead. !\\[qwen3.6\\_35b\\_a3b\\_score.png\\](/assets/library/qwen3.6/4d333c77-e6ad-4047-8724-f38c68cc5b28) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "deepseek-v3",
     "link": "https://ollama.com/library/deepseek-v3",
     "description": "A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.",
@@ -516,20 +530,6 @@
     ],
     "capabilities": "",
     "readme": "## Readme\n\n> Note: this model requires [Ollama 0.5.5](https://github.com/ollama/ollama/releases/tag/v0.5.5) or later.\n\n![](/assets/library/deepseek-v3/069ccc94-63b0-41e6-b2b3-e8e56068ab1a)\n\nDeepSeek-V3 achieves a significant breakthrough in inference speed over previous models. It tops the leaderboard among open-source models and rivals the most advanced closed-source models globally.\n\n## References\n\n[GitHub](https://github.com/deepseek-ai/DeepSeek-V3)\n\n[Paper](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek%5FV3.pdf)\n\nWrite Preview \n\n\\> Note: this model requires \\[Ollama 0.5.5\\](https://github.com/ollama/ollama/releases/tag/v0.5.5) or later. <img src=\"/assets/library/deepseek-v3/069ccc94-63b0-41e6-b2b3-e8e56068ab1a\" width=\"320\" /> DeepSeek-V3 achieves a significant breakthrough in inference speed over previous models. It tops the leaderboard among open-source models and rivals the most advanced closed-source models globally. ## References \\[GitHub\\](https://github.com/deepseek-ai/DeepSeek-V3) \\[Paper\\](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek\\_V3.pdf) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
-    "name": "qwen3.6",
-    "link": "https://ollama.com/library/qwen3.6",
-    "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
-    "pullCount": "3.8M",
-    "updated": "1 month ago",
-    "size": [
-      "27b",
-      "35b"
-    ],
-    "capabilities": "visiontoolsthinking",
-    "readme": "## Readme\n\n![](/assets/library/qwen3.6/a4dafb1d-29c1-46bc-81ca-a8a6db6b55b3)\n\nFollowing the February release of the Qwen3.5 series, we’re pleased to share the first open-weight variant of Qwen3.6\\. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience.\n\n### Qwen3.6 Highlights\n\nThis release delivers substantial upgrades, particularly in\n\n* Agentic Coding: the model now handles frontend workflows and repository-level reasoning with greater fluency and precision.\n* Thinking Preservation: we’ve introduced a new option to retain reasoning context from historical messages, streamlining iterative development and reducing overhead.\n\n![qwen3.6_35b_a3b_score.png](/assets/library/qwen3.6/4d333c77-e6ad-4047-8724-f38c68cc5b28)\n\nWrite Preview \n\n<img src=\"/assets/library/qwen3.6/a4dafb1d-29c1-46bc-81ca-a8a6db6b55b3\" width=\"360\" /> Following the February release of the Qwen3.5 series, we're pleased to share the first open-weight variant of Qwen3.6\\. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience. ### Qwen3.6 Highlights This release delivers substantial upgrades, particularly in - Agentic Coding: the model now handles frontend workflows and repository-level reasoning with greater fluency and precision. - Thinking Preservation: we've introduced a new option to retain reasoning context from historical messages, streamlining iterative development and reducing overhead. !\\[qwen3.6\\_35b\\_a3b\\_score.png\\](/assets/library/qwen3.6/4d333c77-e6ad-4047-8724-f38c68cc5b28) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -757,17 +757,6 @@
     "tags": []
   },
   {
-    "name": "glm-5",
-    "link": "https://ollama.com/library/glm-5",
-    "description": "A strong reasoning and agentic model from Z.ai with 744B total parameters (40B active), built for complex systems engineering and long-horizon tasks.",
-    "pullCount": "2.3M",
-    "updated": "5 months ago",
-    "size": null,
-    "capabilities": "toolsthinking",
-    "readme": "## Readme\n\n![](/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a)\n\nGLM-5 is a mixture-of-experts model from [Z.ai](https://z.ai) with 744B total parameters and 40B active parameters. It scales up from GLM-4.5’s 355B parameters and is designed for complex reasoning, coding, and agentic tasks.\n\nThe model uses DeepSeek Sparse Attention (DSA) to reduce deployment costs while preserving long-context capacity, and was post-trained using a novel asynchronous RL infrastructure for improved training efficiency.\n\n### Key capabilities\n\n* **Reasoning and math:** Scores 92.7% on AIME 2026 I and 86.0% on GPQA-Diamond\n* **Coding:** Achieves 77.8% on SWE-bench Verified and 73.3% on SWE-bench Multilingual\n* **Agentic tasks:** 62.0 on BrowseComp and 56.2 on Terminal-Bench 2.0\n* **Long context:** Supports up to 128K+ context through DSA optimization\n* **Multilingual:** Supports English and Chinese\n\n### Benchmarks\n\n![](/assets/library/glm-5/b0e27be4-2f36-4ca3-a7fc-78e965c385bb)\n\n### Footnote\n\n* **Humanity’s Last Exam (HLE) & other reasoning tasks**: We evaluate with a maximum generation length of 131,072 tokens (`temperature=1.0, top_p=0.95, max_new_tokens=131072`). By default, we report the text-only subset; results marked with \\* are from the full set. We use GPT-5.2 (medium) as the judge model. For HLE-with-tools, we use a maximum context length of 202,752 tokens.\n* **SWE-bench & SWE-bench Multilingual**: We run the SWE-bench suite with OpenHands using a tailored instruction prompt. Settings: `temperature=0.7, top_p=0.95, max_new_tokens=16384`, with a 200K context window.\n* **BrowserComp**: Without context management, we retain details from the most recent 5 turns. With context management, we use the same discard-all strategy as DeepSeek-v3.2 and Kimi K2.5.\n* **Terminal-Bench 2.0 (Terminus 2)**: We evaluate with the Terminus framework using `timeout=2h, temperature=0.7, top_p=1.0, max_new_tokens=8192`, with a 128K context window. Resource limits are capped at 16 CPUs and 32 GB RAM.\n* **Terminal-Bench 2.0 (Claude Code)**: We evaluate in Claude Code 2.1.14 (think mode, default effort) with `temperature=1.0, top_p=0.95, max_new_tokens=65536`. We remove wall-clock time limits due to generation speed, while preserving per-task CPU and memory constraints. Scores are averaged over 5 runs. We fix environment issues introduced by Claude Code and also report results on a verified Terminal-Bench 2.0 dataset that resolves ambiguous instructions (see: <https://huggingface.co/datasets/zai-org/terminal-bench-2-verified>).\n* **CyberGym**: We evaluate in Claude Code 2.1.18 (think mode, no web tools) with (`temperature=1.0, top_p=1.0, max_new_tokens=32000`) and a 250-minute timeout per task. Results are single-run Pass@1 over 1,507 tasks.\n* **MCP-Atlas**: All models are evaluated in think mode on the 500-task public subset with a 10-minute timeout per task. We use Gemini 3 Pro as the judge model.\n* **τ²-bench**: We add a small prompt adjustment in Retail and Telecom to avoid failures caused by premature user termination. For Airline, we apply the domain fixes proposed in the Claude Opus 4.5 system card.\n* **Vending Bench 2**: Runs are conducted independently by [Andon Labs](https://andonlabs.com/evals/vending-bench-2).\n\n### Supported languages\n\n* English\n* Chinese\n\n### License\n\n[MIT](https://opensource.org/licenses/MIT)\n\n### Reference\n\n* [Z.ai Technical Blog](https://z.ai/blog/glm-5)\n* [GLM-5 on Hugging Face](https://huggingface.co/zai-org/GLM-5)\n\nWrite Preview \n\n<img src=\"/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a\" width=\"128\" /> GLM-5 is a mixture-of-experts model from \\[Z.ai\\](https://z.ai) with 744B total parameters and 40B active parameters. It scales up from GLM-4.5's 355B parameters and is designed for complex reasoning, coding, and agentic tasks. The model uses DeepSeek Sparse Attention (DSA) to reduce deployment costs while preserving long-context capacity, and was post-trained using a novel asynchronous RL infrastructure for improved training efficiency. ### Key capabilities \\* \\*\\*Reasoning and math:\\*\\* Scores 92.7% on AIME 2026 I and 86.0% on GPQA-Diamond \\* \\*\\*Coding:\\*\\* Achieves 77.8% on SWE-bench Verified and 73.3% on SWE-bench Multilingual \\* \\*\\*Agentic tasks:\\*\\* 62.0 on BrowseComp and 56.2 on Terminal-Bench 2.0 \\* \\*\\*Long context:\\*\\* Supports up to 128K+ context through DSA optimization \\* \\*\\*Multilingual:\\*\\* Supports English and Chinese ### Benchmarks !\\[Ollama screenshot 2026-02-11 at 14.37.11@2x.png\\](/assets/library/glm-5/b0e27be4-2f36-4ca3-a7fc-78e965c385bb) ### Footnote \\* \\*\\*Humanity’s Last Exam (HLE) & other reasoning tasks\\*\\*: We evaluate with a maximum generation length of 131,072 tokens (\\`temperature=1.0, top\\_p=0.95, max\\_new\\_tokens=131072\\`). By default, we report the text-only subset; results marked with \\* are from the full set. We use GPT-5.2 (medium) as the judge model. For HLE-with-tools, we use a maximum context length of 202,752 tokens. \\* \\*\\*SWE-bench & SWE-bench Multilingual\\*\\*: We run the SWE-bench suite with OpenHands using a tailored instruction prompt. Settings: \\`temperature=0.7, top\\_p=0.95, max\\_new\\_tokens=16384\\`, with a 200K context window. \\* \\*\\*BrowserComp\\*\\*: Without context management, we retain details from the most recent 5 turns. With context management, we use the same discard-all strategy as DeepSeek-v3.2 and Kimi K2.5\\. \\* \\*\\*Terminal-Bench 2.0 (Terminus 2)\\*\\*: We evaluate with the Terminus framework using \\`timeout=2h, temperature=0.7, top\\_p=1.0, max\\_new\\_tokens=8192\\`, with a 128K context window. Resource limits are capped at 16 CPUs and 32 GB RAM. \\* \\*\\*Terminal-Bench 2.0 (Claude Code)\\*\\*: We evaluate in Claude Code 2.1.14 (think mode, default effort) with \\`temperature=1.0, top\\_p=0.95, max\\_new\\_tokens=65536\\`. We remove wall-clock time limits due to generation speed, while preserving per-task CPU and memory constraints. Scores are averaged over 5 runs. We fix environment issues introduced by Claude Code and also report results on a verified Terminal-Bench 2.0 dataset that resolves ambiguous instructions (see: \\[https://huggingface.co/datasets/zai-org/terminal-bench-2-verified\\](https://huggingface.co/datasets/zai-org/terminal-bench-2-verified)). \\* \\*\\*CyberGym\\*\\*: We evaluate in Claude Code 2.1.18 (think mode, no web tools) with (\\`temperature=1.0, top\\_p=1.0, max\\_new\\_tokens=32000\\`) and a 250-minute timeout per task. Results are single-run Pass@1 over 1,507 tasks. \\* \\*\\*MCP-Atlas\\*\\*: All models are evaluated in think mode on the 500-task public subset with a 10-minute timeout per task. We use Gemini 3 Pro as the judge model. \\* \\*\\*τ²-bench\\*\\*: We add a small prompt adjustment in Retail and Telecom to avoid failures caused by premature user termination. For Airline, we apply the domain fixes proposed in the Claude Opus 4.5 system card. \\* \\*\\*Vending Bench 2\\*\\*: Runs are conducted independently by \\[Andon Labs\\](https://andonlabs.com/evals/vending-bench-2). ### Supported languages \\* English \\* Chinese ### License \\[MIT\\](https://opensource.org/licenses/MIT) ### Reference \\* \\[Z.ai Technical Blog\\](https://z.ai/blog/glm-5) \\* \\[GLM-5 on Hugging Face\\](https://huggingface.co/zai-org/GLM-5) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "minimax-m2.7",
     "link": "https://ollama.com/library/minimax-m2.7",
     "description": "MiniMax's M2-series model for coding, agentic workflows, and professional productivity.",
@@ -779,11 +768,22 @@
     "tags": []
   },
   {
+    "name": "glm-5",
+    "link": "https://ollama.com/library/glm-5",
+    "description": "A strong reasoning and agentic model from Z.ai with 744B total parameters (40B active), built for complex systems engineering and long-horizon tasks.",
+    "pullCount": "2.3M",
+    "updated": "5 months ago",
+    "size": null,
+    "capabilities": "toolsthinking",
+    "readme": "## Readme\n\n![](/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a)\n\nGLM-5 is a mixture-of-experts model from [Z.ai](https://z.ai) with 744B total parameters and 40B active parameters. It scales up from GLM-4.5’s 355B parameters and is designed for complex reasoning, coding, and agentic tasks.\n\nThe model uses DeepSeek Sparse Attention (DSA) to reduce deployment costs while preserving long-context capacity, and was post-trained using a novel asynchronous RL infrastructure for improved training efficiency.\n\n### Key capabilities\n\n* **Reasoning and math:** Scores 92.7% on AIME 2026 I and 86.0% on GPQA-Diamond\n* **Coding:** Achieves 77.8% on SWE-bench Verified and 73.3% on SWE-bench Multilingual\n* **Agentic tasks:** 62.0 on BrowseComp and 56.2 on Terminal-Bench 2.0\n* **Long context:** Supports up to 128K+ context through DSA optimization\n* **Multilingual:** Supports English and Chinese\n\n### Benchmarks\n\n![](/assets/library/glm-5/b0e27be4-2f36-4ca3-a7fc-78e965c385bb)\n\n### Footnote\n\n* **Humanity’s Last Exam (HLE) & other reasoning tasks**: We evaluate with a maximum generation length of 131,072 tokens (`temperature=1.0, top_p=0.95, max_new_tokens=131072`). By default, we report the text-only subset; results marked with \\* are from the full set. We use GPT-5.2 (medium) as the judge model. For HLE-with-tools, we use a maximum context length of 202,752 tokens.\n* **SWE-bench & SWE-bench Multilingual**: We run the SWE-bench suite with OpenHands using a tailored instruction prompt. Settings: `temperature=0.7, top_p=0.95, max_new_tokens=16384`, with a 200K context window.\n* **BrowserComp**: Without context management, we retain details from the most recent 5 turns. With context management, we use the same discard-all strategy as DeepSeek-v3.2 and Kimi K2.5.\n* **Terminal-Bench 2.0 (Terminus 2)**: We evaluate with the Terminus framework using `timeout=2h, temperature=0.7, top_p=1.0, max_new_tokens=8192`, with a 128K context window. Resource limits are capped at 16 CPUs and 32 GB RAM.\n* **Terminal-Bench 2.0 (Claude Code)**: We evaluate in Claude Code 2.1.14 (think mode, default effort) with `temperature=1.0, top_p=0.95, max_new_tokens=65536`. We remove wall-clock time limits due to generation speed, while preserving per-task CPU and memory constraints. Scores are averaged over 5 runs. We fix environment issues introduced by Claude Code and also report results on a verified Terminal-Bench 2.0 dataset that resolves ambiguous instructions (see: <https://huggingface.co/datasets/zai-org/terminal-bench-2-verified>).\n* **CyberGym**: We evaluate in Claude Code 2.1.18 (think mode, no web tools) with (`temperature=1.0, top_p=1.0, max_new_tokens=32000`) and a 250-minute timeout per task. Results are single-run Pass@1 over 1,507 tasks.\n* **MCP-Atlas**: All models are evaluated in think mode on the 500-task public subset with a 10-minute timeout per task. We use Gemini 3 Pro as the judge model.\n* **τ²-bench**: We add a small prompt adjustment in Retail and Telecom to avoid failures caused by premature user termination. For Airline, we apply the domain fixes proposed in the Claude Opus 4.5 system card.\n* **Vending Bench 2**: Runs are conducted independently by [Andon Labs](https://andonlabs.com/evals/vending-bench-2).\n\n### Supported languages\n\n* English\n* Chinese\n\n### License\n\n[MIT](https://opensource.org/licenses/MIT)\n\n### Reference\n\n* [Z.ai Technical Blog](https://z.ai/blog/glm-5)\n* [GLM-5 on Hugging Face](https://huggingface.co/zai-org/GLM-5)\n\nWrite Preview \n\n<img src=\"/assets/library/glm-4.7-flash/8e1f3c2e-cfb1-4516-a57c-312b7daac14a\" width=\"128\" /> GLM-5 is a mixture-of-experts model from \\[Z.ai\\](https://z.ai) with 744B total parameters and 40B active parameters. It scales up from GLM-4.5's 355B parameters and is designed for complex reasoning, coding, and agentic tasks. The model uses DeepSeek Sparse Attention (DSA) to reduce deployment costs while preserving long-context capacity, and was post-trained using a novel asynchronous RL infrastructure for improved training efficiency. ### Key capabilities \\* \\*\\*Reasoning and math:\\*\\* Scores 92.7% on AIME 2026 I and 86.0% on GPQA-Diamond \\* \\*\\*Coding:\\*\\* Achieves 77.8% on SWE-bench Verified and 73.3% on SWE-bench Multilingual \\* \\*\\*Agentic tasks:\\*\\* 62.0 on BrowseComp and 56.2 on Terminal-Bench 2.0 \\* \\*\\*Long context:\\*\\* Supports up to 128K+ context through DSA optimization \\* \\*\\*Multilingual:\\*\\* Supports English and Chinese ### Benchmarks !\\[Ollama screenshot 2026-02-11 at 14.37.11@2x.png\\](/assets/library/glm-5/b0e27be4-2f36-4ca3-a7fc-78e965c385bb) ### Footnote \\* \\*\\*Humanity’s Last Exam (HLE) & other reasoning tasks\\*\\*: We evaluate with a maximum generation length of 131,072 tokens (\\`temperature=1.0, top\\_p=0.95, max\\_new\\_tokens=131072\\`). By default, we report the text-only subset; results marked with \\* are from the full set. We use GPT-5.2 (medium) as the judge model. For HLE-with-tools, we use a maximum context length of 202,752 tokens. \\* \\*\\*SWE-bench & SWE-bench Multilingual\\*\\*: We run the SWE-bench suite with OpenHands using a tailored instruction prompt. Settings: \\`temperature=0.7, top\\_p=0.95, max\\_new\\_tokens=16384\\`, with a 200K context window. \\* \\*\\*BrowserComp\\*\\*: Without context management, we retain details from the most recent 5 turns. With context management, we use the same discard-all strategy as DeepSeek-v3.2 and Kimi K2.5\\. \\* \\*\\*Terminal-Bench 2.0 (Terminus 2)\\*\\*: We evaluate with the Terminus framework using \\`timeout=2h, temperature=0.7, top\\_p=1.0, max\\_new\\_tokens=8192\\`, with a 128K context window. Resource limits are capped at 16 CPUs and 32 GB RAM. \\* \\*\\*Terminal-Bench 2.0 (Claude Code)\\*\\*: We evaluate in Claude Code 2.1.14 (think mode, default effort) with \\`temperature=1.0, top\\_p=0.95, max\\_new\\_tokens=65536\\`. We remove wall-clock time limits due to generation speed, while preserving per-task CPU and memory constraints. Scores are averaged over 5 runs. We fix environment issues introduced by Claude Code and also report results on a verified Terminal-Bench 2.0 dataset that resolves ambiguous instructions (see: \\[https://huggingface.co/datasets/zai-org/terminal-bench-2-verified\\](https://huggingface.co/datasets/zai-org/terminal-bench-2-verified)). \\* \\*\\*CyberGym\\*\\*: We evaluate in Claude Code 2.1.18 (think mode, no web tools) with (\\`temperature=1.0, top\\_p=1.0, max\\_new\\_tokens=32000\\`) and a 250-minute timeout per task. Results are single-run Pass@1 over 1,507 tasks. \\* \\*\\*MCP-Atlas\\*\\*: All models are evaluated in think mode on the 500-task public subset with a 10-minute timeout per task. We use Gemini 3 Pro as the judge model. \\* \\*\\*τ²-bench\\*\\*: We add a small prompt adjustment in Retail and Telecom to avoid failures caused by premature user termination. For Airline, we apply the domain fixes proposed in the Claude Opus 4.5 system card. \\* \\*\\*Vending Bench 2\\*\\*: Runs are conducted independently by \\[Andon Labs\\](https://andonlabs.com/evals/vending-bench-2). ### Supported languages \\* English \\* Chinese ### License \\[MIT\\](https://opensource.org/licenses/MIT) ### Reference \\* \\[Z.ai Technical Blog\\](https://z.ai/blog/glm-5) \\* \\[GLM-5 on Hugging Face\\](https://huggingface.co/zai-org/GLM-5) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "minimax-m2.5",
     "link": "https://ollama.com/library/minimax-m2.5",
     "description": "MiniMax-M2.5 is a state-of-the-art large language model designed for real-world productivity and coding tasks.",
     "pullCount": "2.3M",
-    "updated": "4 months ago",
+    "updated": "5 months ago",
     "size": null,
     "capabilities": "toolsthinking",
     "readme": "## Readme\n\n![logo](/assets/library/minimax-m2.5/7bf8b4e2-abdc-4f35-af56-ac075749d26c)\n\nMiniMax M2.5 is the fastest-improving model series for coding and agentic workflows, trained with large-scale reinforcement learning across hundreds of thousands of real-world environments.\n\n### Highlights\n\n* **Coding**. Trained on large-scale RL across 10+ languages (Python, Go, C, C++, TypeScript, Rust, Kotlin, Java, JavaScript, PHP, Lua, Dart, Ruby) and hundreds of thousands of real environments, M2.5 develops native “spec behavior”—planning architecture, structure, and design before writing code. It handles the full development lifecycle: system design from zero, environment setup, feature iteration, code review, and testing across Web, Android, iOS, Windows, and Mac.\n* **Leading agent performance**. M2.5 achieves 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp—reaching a level comparable to the Claude Opus series on coding tasks. In search and tool-use tasks, the model demonstrates higher decision maturity—solving problems in fewer rounds with better token efficiency, saving roughly 20% in tool-call rounds compared to M2.1.\n* **37% faster task completion**. Through improved task decomposition and more efficient chain-of-thought reasoning, M2.5 completes complex agentic tasks significantly faster. On SWE-Bench Verified, end-to-end runtime dropped from 31.3 minutes (M2.1) to 22.8 minutes—on par with Claude Opus 4.6’s 22.9 minutes—while also consuming fewer tokens per task (3.52M vs 3.72M).\n\n![m2.5 benchmark](/assets/library/minimax-m2.5/d0fc55de-dbe8-4a30-8bb7-545cd0d9da04)\n\n### Benchmarks\n\n**Coding**\n\nM2.5 represents a significant step up from M2.1, reaching performance comparable to the Claude Opus series on core software engineering tasks.\n\n![image.png](/assets/library/minimax-m2.5/65275c3b-5ed8-4d1f-940a-407b65bbdd78)\n\nMiniMax tested performance on the SWE-Bench Verified evaluation set using different coding agent harnesses.\n\nOn Droid: 79.7(M2.5) > 78.9(Opus 4.6)\n\nOn OpenCode: 76.1(M2.5) > 75.9(Opus 4.6)\n\n**Search and tool calling**\n\n![image.png](/assets/library/minimax-m2.5/38ae04b3-e0c8-4643-9c16-7b1d9d30b03c)\n\n### Office & Productivity\n\nM2.5 was trained in collaboration with domain experts in finance, law, and social sciences to produce genuinely deliverable outputs. In evaluations on advanced office tasks—including Word documents, PowerPoint presentations, and Excel financial modeling—M2.5 achieved a 59.0% average win rate against mainstream models using pairwise comparison (GDPval-MM framework).\n\nAdditional internal benchmarks include MEWC (based on Microsoft Excel World Championship problems, 2021–2026) and Finance Modeling (expert-constructed financial modeling tasks scored via rubrics). Detailed scores for these benchmarks are available as charts in the [original blog post](https://www.minimax.io/news/minimax-m25).\n\n### Reference\n\n* [MiniMax M2.5 announcement](https://www.minimax.io/news/minimax-m25)\n\nWrite Preview \n\n!\\[logo\\](/assets/library/minimax-m2.5/7bf8b4e2-abdc-4f35-af56-ac075749d26c) MiniMax M2.5 is the fastest-improving model series for coding and agentic workflows, trained with large-scale reinforcement learning across hundreds of thousands of real-world environments. ### Highlights - \\*\\*Coding\\*\\*. Trained on large-scale RL across 10+ languages (Python, Go, C, C++, TypeScript, Rust, Kotlin, Java, JavaScript, PHP, Lua, Dart, Ruby) and hundreds of thousands of real environments, M2.5 develops native \"spec behavior\"—planning architecture, structure, and design before writing code. It handles the full development lifecycle: system design from zero, environment setup, feature iteration, code review, and testing across Web, Android, iOS, Windows, and Mac. - \\*\\*Leading agent performance\\*\\*. M2.5 achieves 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp—reaching a level comparable to the Claude Opus series on coding tasks. In search and tool-use tasks, the model demonstrates higher decision maturity—solving problems in fewer rounds with better token efficiency, saving roughly 20% in tool-call rounds compared to M2.1\\. - \\*\\*37% faster task completion\\*\\*. Through improved task decomposition and more efficient chain-of-thought reasoning, M2.5 completes complex agentic tasks significantly faster. On SWE-Bench Verified, end-to-end runtime dropped from 31.3 minutes (M2.1) to 22.8 minutes—on par with Claude Opus 4.6's 22.9 minutes—while also consuming fewer tokens per task (3.52M vs 3.72M). !\\[m2.5 benchmark\\](/assets/library/minimax-m2.5/d0fc55de-dbe8-4a30-8bb7-545cd0d9da04) ### Benchmarks \\*\\*Coding\\*\\* M2.5 represents a significant step up from M2.1, reaching performance comparable to the Claude Opus series on core software engineering tasks. !\\[image.png\\](/assets/library/minimax-m2.5/65275c3b-5ed8-4d1f-940a-407b65bbdd78) MiniMax tested performance on the SWE-Bench Verified evaluation set using different coding agent harnesses. On Droid: 79.7(M2.5) > 78.9(Opus 4.6) On OpenCode: 76.1(M2.5) > 75.9(Opus 4.6) \\*\\*Search and tool calling\\*\\* !\\[image.png\\](/assets/library/minimax-m2.5/38ae04b3-e0c8-4643-9c16-7b1d9d30b03c) ### Office & Productivity M2.5 was trained in collaboration with domain experts in finance, law, and social sciences to produce genuinely deliverable outputs. In evaluations on advanced office tasks—including Word documents, PowerPoint presentations, and Excel financial modeling—M2.5 achieved a 59.0% average win rate against mainstream models using pairwise comparison (GDPval-MM framework). Additional internal benchmarks include MEWC (based on Microsoft Excel World Championship problems, 2021–2026) and Finance Modeling (expert-constructed financial modeling tasks scored via rubrics). Detailed scores for these benchmarks are available as charts in the \\[original blog post\\](https://www.minimax.io/news/minimax-m25). ### Reference \\* \\[MiniMax M2.5 announcement\\](https://www.minimax.io/news/minimax-m25) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
@@ -1251,20 +1251,6 @@
     "tags": []
   },
   {
-    "name": "zephyr",
-    "link": "https://ollama.com/library/zephyr",
-    "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
-    "pullCount": "1.2M",
-    "updated": "2 years ago",
-    "size": [
-      "7b",
-      "141b"
-    ],
-    "capabilities": "",
-    "readme": "## Readme\n\n![](https://github.com/jmorganca/ollama/assets/251292/8dab1157-909a-455b-a5c4-f7c31e9bcf0e)\n\nZephyr is a series of language models that are trained to act as helpful assistants. Zephyr 141B-A35B is the latest model in the series, and is a fine-tuned version of [Mixtral 8x22b](https://ollama.com/library/mixtral:8x22b).\n\n## Sizes\n\n* `zephyr:141b`: A Mixture of Experts (MoE) model with 141B total parameters and 35B active parameters.\n* `zephyr:7b`: The original Zephyr model\n\n## Source:\n\n* [HuggingFace](https://huggingface.co/HuggingFaceH4)\n\nWrite Preview \n\n<img src=\"https://github.com/jmorganca/ollama/assets/251292/8dab1157-909a-455b-a5c4-f7c31e9bcf0e\" width=\"400\" /> Zephyr is a series of language models that are trained to act as helpful assistants. Zephyr 141B-A35B is the latest model in the series, and is a fine-tuned version of \\[Mixtral 8x22b\\](https://ollama.com/library/mixtral:8x22b). ## Sizes \\* \\`zephyr:141b\\`: A Mixture of Experts (MoE) model with 141B total parameters and 35B active parameters. \\* \\`zephyr:7b\\`: The original Zephyr model ## Source: \\* \\[HuggingFace\\](https://huggingface.co/HuggingFaceH4) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "wizard-vicuna-uncensored",
     "link": "https://ollama.com/library/wizard-vicuna-uncensored",
     "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
@@ -1277,6 +1263,20 @@
     ],
     "capabilities": "",
     "readme": "## Readme\n\nWizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford. The models were trained against LLaMA-7B with a subset of the dataset, responses that contained alignment / moralizing were removed.\n\n## Get started with Wizard Vicuna Uncensored\n\nThe model used in the example below is the Wizard Vicuna Uncensored model, with 7b parameters, which is a general-use model.\n\n### API\n\n1. Start Ollama server (Run `ollama serve`)\n2. Run the model\n\n```\ncurl -X POST http://localhost:11434/api/generate -d '{\n  \"model\": \"wizard-vicuna-uncensored\",\n  \"prompt\":\"Who made Rose promise that she would never let go?\"\n }'\n\n```\n\n### CLI\n\n1. Install Ollama\n2. Open the terminal and run `ollama run wizard-vicuna-uncensored`\n\nNote: The `ollama run` command performs an `ollama pull` if the model is not already downloaded. To download the model without running it, use `ollama pull wizard-vicuna-uncensored`\n\n## Memory requirements\n\n* 7b models generally require at least 8GB of RAM\n* 13b models generally require at least 16GB of RAM\n* 30b models generally require at least 32GB of RAM\n\nIf you run into issues with higher quantization levels, try using the q4 model or shut down any other programs that are using a lot of memory.\n\n## Model variants\n\nBy default, Ollama uses 4-bit quantization. To try other quantization levels, please try the other tags. The number after the q represents the number of bits used for quantization (i.e. q4 means 4-bit quantization). The higher the number, the more accurate the model is, but the slower it runs, and the more memory it requires.\n\n| **Aliases**          |\n| -------------------- |\n| latest, 7b, 7b-q4\\_0 |\n| 13b, 13b-q4\\_0       |\n| 30b, 30b-q4\\_0       |\n\n## Model source\n\n**Wizard Vicuna Uncensored source on Ollama**\n\n7b parameters original source:[Eric Hartford](https://huggingface.co/ehartford/Wizard-Vicuna-7B-Uncensored)\n\n13b parameters original source:[Eric Hartford](https://huggingface.co/ehartford/Wizard-Vicuna-13B-Uncensored)\n\n30b parameters original source:[Eric Hartford](https://huggingface.co/ehartford/Wizard-Vicuna-30B-Uncensored)\n\nWrite Preview \n\nWizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford. The models were trained against LLaMA-7B with a subset of the dataset, responses that contained alignment / moralizing were removed. ## Get started with Wizard Vicuna Uncensored The model used in the example below is the Wizard Vicuna Uncensored model, with 7b parameters, which is a general-use model. ### API 1\\. Start Ollama server (Run \\`ollama serve\\`) 2\\. Run the model \\`\\`\\`bash curl -X POST http://localhost:11434/api/generate -d '{ \"model\": \"wizard-vicuna-uncensored\", \"prompt\":\"Who made Rose promise that she would never let go?\" }' \\`\\`\\` ### CLI 1\\. Install Ollama 2\\. Open the terminal and run \\`ollama run wizard-vicuna-uncensored\\` Note: The \\`ollama run\\` command performs an \\`ollama pull\\` if the model is not already downloaded. To download the model without running it, use \\`ollama pull wizard-vicuna-uncensored\\` ## Memory requirements - 7b models generally require at least 8GB of RAM - 13b models generally require at least 16GB of RAM - 30b models generally require at least 32GB of RAM If you run into issues with higher quantization levels, try using the q4 model or shut down any other programs that are using a lot of memory. ## Model variants By default, Ollama uses 4-bit quantization. To try other quantization levels, please try the other tags. The number after the q represents the number of bits used for quantization (i.e. q4 means 4-bit quantization). The higher the number, the more accurate the model is, but the slower it runs, and the more memory it requires. | \\*\\*Aliases\\*\\* | | --- | | latest, 7b, 7b-q4\\_0 | | 13b, 13b-q4\\_0 | | 30b, 30b-q4\\_0 | ## Model source \\*\\*Wizard Vicuna Uncensored source on Ollama\\*\\* 7b parameters original source: \\[Eric Hartford\\](https://huggingface.co/ehartford/Wizard-Vicuna-7B-Uncensored) 13b parameters original source: \\[Eric Hartford\\](https://huggingface.co/ehartford/Wizard-Vicuna-13B-Uncensored) 30b parameters original source: \\[Eric Hartford\\](https://huggingface.co/ehartford/Wizard-Vicuna-30B-Uncensored) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
+    "name": "zephyr",
+    "link": "https://ollama.com/library/zephyr",
+    "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
+    "pullCount": "1.2M",
+    "updated": "2 years ago",
+    "size": [
+      "7b",
+      "141b"
+    ],
+    "capabilities": "",
+    "readme": "## Readme\n\n![](https://github.com/jmorganca/ollama/assets/251292/8dab1157-909a-455b-a5c4-f7c31e9bcf0e)\n\nZephyr is a series of language models that are trained to act as helpful assistants. Zephyr 141B-A35B is the latest model in the series, and is a fine-tuned version of [Mixtral 8x22b](https://ollama.com/library/mixtral:8x22b).\n\n## Sizes\n\n* `zephyr:141b`: A Mixture of Experts (MoE) model with 141B total parameters and 35B active parameters.\n* `zephyr:7b`: The original Zephyr model\n\n## Source:\n\n* [HuggingFace](https://huggingface.co/HuggingFaceH4)\n\nWrite Preview \n\n<img src=\"https://github.com/jmorganca/ollama/assets/251292/8dab1157-909a-455b-a5c4-f7c31e9bcf0e\" width=\"400\" /> Zephyr is a series of language models that are trained to act as helpful assistants. Zephyr 141B-A35B is the latest model in the series, and is a fine-tuned version of \\[Mixtral 8x22b\\](https://ollama.com/library/mixtral:8x22b). ## Sizes \\* \\`zephyr:141b\\`: A Mixture of Experts (MoE) model with 141B total parameters and 35B active parameters. \\* \\`zephyr:7b\\`: The original Zephyr model ## Source: \\* \\[HuggingFace\\](https://huggingface.co/HuggingFaceH4) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -1599,7 +1599,7 @@
     "name": "stablelm2",
     "link": "https://ollama.com/library/stablelm2",
     "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
-    "pullCount": "998.7K",
+    "pullCount": "999.8K",
     "updated": "2 years ago",
     "size": [
       "1.6b",
@@ -1613,7 +1613,7 @@
     "name": "granite3-dense",
     "link": "https://ollama.com/library/granite3-dense",
     "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
-    "pullCount": "984.8K",
+    "pullCount": "985.3K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -1627,7 +1627,7 @@
     "name": "llama3-chatqa",
     "link": "https://ollama.com/library/llama3-chatqa",
     "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
-    "pullCount": "984.6K",
+    "pullCount": "985.2K",
     "updated": "2 years ago",
     "size": [
       "8b",
@@ -1641,7 +1641,7 @@
     "name": "granite3.1-dense",
     "link": "https://ollama.com/library/granite3.1-dense",
     "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
-    "pullCount": "982.5K",
+    "pullCount": "983.1K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -1655,7 +1655,7 @@
     "name": "llama-guard3",
     "link": "https://ollama.com/library/llama-guard3",
     "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
-    "pullCount": "980.4K",
+    "pullCount": "981.2K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -1669,7 +1669,7 @@
     "name": "devstral",
     "link": "https://ollama.com/library/devstral",
     "description": "Devstral: the best open source model for coding agents",
-    "pullCount": "978.7K",
+    "pullCount": "979.2K",
     "updated": "1 year ago",
     "size": [
       "24b"
@@ -1682,7 +1682,7 @@
     "name": "phi3.5",
     "link": "https://ollama.com/library/phi3.5",
     "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-    "pullCount": "978.4K",
+    "pullCount": "979.1K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -1695,7 +1695,7 @@
     "name": "wizard-math",
     "link": "https://ollama.com/library/wizard-math",
     "description": "Model focused on math and logic problems",
-    "pullCount": "970.1K",
+    "pullCount": "971.1K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1710,7 +1710,7 @@
     "name": "dolphincoder",
     "link": "https://ollama.com/library/dolphincoder",
     "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-    "pullCount": "969.9K",
+    "pullCount": "970.5K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1724,7 +1724,7 @@
     "name": "llama3-gradient",
     "link": "https://ollama.com/library/llama3-gradient",
     "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
-    "pullCount": "962.4K",
+    "pullCount": "963K",
     "updated": "2 years ago",
     "size": [
       "8b",
@@ -1738,7 +1738,7 @@
     "name": "aya-expanse",
     "link": "https://ollama.com/library/aya-expanse",
     "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
-    "pullCount": "960.8K",
+    "pullCount": "961.6K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -1752,7 +1752,7 @@
     "name": "samantha-mistral",
     "link": "https://ollama.com/library/samantha-mistral",
     "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
-    "pullCount": "959.3K",
+    "pullCount": "960.1K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -1765,7 +1765,7 @@
     "name": "internlm2",
     "link": "https://ollama.com/library/internlm2",
     "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
-    "pullCount": "958K",
+    "pullCount": "958.9K",
     "updated": "1 year ago",
     "size": [
       "1m1.8b",
@@ -1780,7 +1780,7 @@
     "name": "llama3-groq-tool-use",
     "link": "https://ollama.com/library/llama3-groq-tool-use",
     "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
-    "pullCount": "956K",
+    "pullCount": "956.5K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -1794,7 +1794,7 @@
     "name": "granite3.2-vision",
     "link": "https://ollama.com/library/granite3.2-vision",
     "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
-    "pullCount": "940.6K",
+    "pullCount": "941.1K",
     "updated": "1 year ago",
     "size": [
       "2b"
@@ -1807,7 +1807,7 @@
     "name": "starling-lm",
     "link": "https://ollama.com/library/starling-lm",
     "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
-    "pullCount": "936.3K",
+    "pullCount": "936.8K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -1820,7 +1820,7 @@
     "name": "xwinlm",
     "link": "https://ollama.com/library/xwinlm",
     "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
-    "pullCount": "933.2K",
+    "pullCount": "934.2K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1834,7 +1834,7 @@
     "name": "phind-codellama",
     "link": "https://ollama.com/library/phind-codellama",
     "description": "Code generation model based on Code Llama.",
-    "pullCount": "932.1K",
+    "pullCount": "932.7K",
     "updated": "2 years ago",
     "size": [
       "34b"
@@ -1847,7 +1847,7 @@
     "name": "solar",
     "link": "https://ollama.com/library/solar",
     "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
-    "pullCount": "931.9K",
+    "pullCount": "932.4K",
     "updated": "2 years ago",
     "size": [
       "10.7b"
@@ -1860,7 +1860,7 @@
     "name": "yarn-llama2",
     "link": "https://ollama.com/library/yarn-llama2",
     "description": "An extension of Llama 2 that supports a context of up to 128k tokens.",
-    "pullCount": "921.3K",
+    "pullCount": "922.1K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1874,7 +1874,7 @@
     "name": "granite3-moe",
     "link": "https://ollama.com/library/granite3-moe",
     "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
-    "pullCount": "917.9K",
+    "pullCount": "918.3K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -1888,7 +1888,7 @@
     "name": "paraphrase-multilingual",
     "link": "https://ollama.com/library/paraphrase-multilingual",
     "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
-    "pullCount": "916.4K",
+    "pullCount": "918.1K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -1899,7 +1899,7 @@
     "name": "devstral-small-2",
     "link": "https://ollama.com/library/devstral-small-2",
     "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-    "pullCount": "902.3K",
+    "pullCount": "903.3K",
     "updated": "7 months ago",
     "size": [
       "24b"
@@ -1912,7 +1912,7 @@
     "name": "orca2",
     "link": "https://ollama.com/library/orca2",
     "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
-    "pullCount": "901.1K",
+    "pullCount": "901.5K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1926,7 +1926,7 @@
     "name": "stable-beluga",
     "link": "https://ollama.com/library/stable-beluga",
     "description": "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.",
-    "pullCount": "895.7K",
+    "pullCount": "896.3K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -1941,7 +1941,7 @@
     "name": "reader-lm",
     "link": "https://ollama.com/library/reader-lm",
     "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
-    "pullCount": "891.8K",
+    "pullCount": "892.2K",
     "updated": "1 year ago",
     "size": [
       "0.5b",
@@ -1955,7 +1955,7 @@
     "name": "shieldgemma",
     "link": "https://ollama.com/library/shieldgemma",
     "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
-    "pullCount": "889.6K",
+    "pullCount": "890.1K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -1970,7 +1970,7 @@
     "name": "deepcoder",
     "link": "https://ollama.com/library/deepcoder",
     "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
-    "pullCount": "884.3K",
+    "pullCount": "884.6K",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -1984,7 +1984,7 @@
     "name": "llama-pro",
     "link": "https://ollama.com/library/llama-pro",
     "description": "An expansion of Llama 2 that specializes in integrating both general language understanding and domain-specific knowledge, particularly in programming and mathematics.",
-    "pullCount": "876.5K",
+    "pullCount": "876.9K",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "",
@@ -1995,7 +1995,7 @@
     "name": "yarn-mistral",
     "link": "https://ollama.com/library/yarn-mistral",
     "description": "An extension of Mistral to support context windows of 64K or 128K.",
-    "pullCount": "870K",
+    "pullCount": "870.4K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2008,7 +2008,7 @@
     "name": "nexusraven",
     "link": "https://ollama.com/library/nexusraven",
     "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
-    "pullCount": "865.8K",
+    "pullCount": "866.2K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2021,7 +2021,7 @@
     "name": "bakllava",
     "link": "https://ollama.com/library/bakllava",
     "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
-    "pullCount": "861.2K",
+    "pullCount": "861.5K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2034,7 +2034,7 @@
     "name": "wizardlm",
     "link": "https://ollama.com/library/wizardlm",
     "description": "General use model based on Llama 2.",
-    "pullCount": "853.2K",
+    "pullCount": "854K",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "",
@@ -2045,7 +2045,7 @@
     "name": "command-r-plus",
     "link": "https://ollama.com/library/command-r-plus",
     "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
-    "pullCount": "775.6K",
+    "pullCount": "775.9K",
     "updated": "1 year ago",
     "size": [
       "104b"
@@ -2058,7 +2058,7 @@
     "name": "mistral-small3.1",
     "link": "https://ollama.com/library/mistral-small3.1",
     "description": "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance.",
-    "pullCount": "760.6K",
+    "pullCount": "760.9K",
     "updated": "1 year ago",
     "size": [
       "24b"
@@ -2071,7 +2071,7 @@
     "name": "meditron",
     "link": "https://ollama.com/library/meditron",
     "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
-    "pullCount": "753.9K",
+    "pullCount": "755.7K",
     "updated": "2 years ago",
     "size": [
       "7b",
@@ -2085,7 +2085,7 @@
     "name": "exaone-deep",
     "link": "https://ollama.com/library/exaone-deep",
     "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
-    "pullCount": "747.1K",
+    "pullCount": "747.2K",
     "updated": "1 year ago",
     "size": [
       "2.4b",
@@ -2100,7 +2100,7 @@
     "name": "deepseek-v3.1",
     "link": "https://ollama.com/library/deepseek-v3.1",
     "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
-    "pullCount": "706K",
+    "pullCount": "706.2K",
     "updated": "7 months ago",
     "size": [
       "671b"
@@ -2113,7 +2113,7 @@
     "name": "tinydolphin",
     "link": "https://ollama.com/library/tinydolphin",
     "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-    "pullCount": "702.3K",
+    "pullCount": "702.6K",
     "updated": "2 years ago",
     "size": [
       "1.1b"
@@ -2126,7 +2126,7 @@
     "name": "nemotron-mini",
     "link": "https://ollama.com/library/nemotron-mini",
     "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
-    "pullCount": "684.3K",
+    "pullCount": "684.6K",
     "updated": "1 year ago",
     "size": [
       "4b"
@@ -2139,7 +2139,7 @@
     "name": "codegeex4",
     "link": "https://ollama.com/library/codegeex4",
     "description": "A versatile model for AI software development scenarios, including code completion.",
-    "pullCount": "666.8K",
+    "pullCount": "667K",
     "updated": "2 years ago",
     "size": [
       "9b"
@@ -2152,7 +2152,7 @@
     "name": "mistral-openorca",
     "link": "https://ollama.com/library/mistral-openorca",
     "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
-    "pullCount": "661.3K",
+    "pullCount": "661.5K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2165,7 +2165,7 @@
     "name": "wizardlm-uncensored",
     "link": "https://ollama.com/library/wizardlm-uncensored",
     "description": "Uncensored version of Wizard LM model",
-    "pullCount": "623.8K",
+    "pullCount": "624.1K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2178,7 +2178,7 @@
     "name": "nemotron3",
     "link": "https://ollama.com/library/nemotron3",
     "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-    "pullCount": "616.1K",
+    "pullCount": "616.5K",
     "updated": "2 months ago",
     "size": [
       "33b"
@@ -2191,7 +2191,7 @@
     "name": "opencoder",
     "link": "https://ollama.com/library/opencoder",
     "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-    "pullCount": "607.2K",
+    "pullCount": "607.4K",
     "updated": "1 year ago",
     "size": [
       "1.5b",
@@ -2205,7 +2205,7 @@
     "name": "reflection",
     "link": "https://ollama.com/library/reflection",
     "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
-    "pullCount": "597.8K",
+    "pullCount": "598.1K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -2218,7 +2218,7 @@
     "name": "medllama2",
     "link": "https://ollama.com/library/medllama2",
     "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
-    "pullCount": "595.5K",
+    "pullCount": "597.1K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2231,7 +2231,7 @@
     "name": "nemotron",
     "link": "https://ollama.com/library/nemotron",
     "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
-    "pullCount": "592.9K",
+    "pullCount": "593.2K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -2244,7 +2244,7 @@
     "name": "nemotron-3-nano",
     "link": "https://ollama.com/library/nemotron-3-nano",
     "description": "Nemotron-3-Nano is a new Standard for Efficient, Open, and Intelligent Agentic Models, now updated with a 4B parameter count model.",
-    "pullCount": "581K",
+    "pullCount": "582.3K",
     "updated": "3 months ago",
     "size": [
       "4b",
@@ -2255,23 +2255,10 @@
     "tags": []
   },
   {
-    "name": "qwen3-next",
-    "link": "https://ollama.com/library/qwen3-next",
-    "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
-    "pullCount": "572.1K",
-    "updated": "7 months ago",
-    "size": [
-      "80b"
-    ],
-    "capabilities": "toolsthinking",
-    "readme": "## Readme\n\n![image.png](/assets/library/qwen3-next/5e94256e-8c4a-42bb-a335-34b61221360e)\n\nQwen3-Next-80B-A3B is the first installment in the Qwen3-Next series and features the following key enhancements:\n\n* **Hybrid Attention**: Replaces standard attention with the combination of Gated DeltaNet and Gated Attention, enabling efficient context modeling for ultra-long context length.\n* **High-Sparsity Mixture-of-Experts (MoE)**: Achieves an extreme low activation ratio in MoE layers, drastically reducing FLOPs per token while preserving model capacity.\n* **Stability Optimizations**: Includes techniques such as zero-centered and weight-decayed layernorm, and other stabilizing enhancements for robust pre-training and post-training.\n* **Multi-Token Prediction (MTP)**: Boosts pretraining model performance and accelerates inference.\n\nWrite Preview \n\n!\\[image.png\\](/assets/library/qwen3-next/5e94256e-8c4a-42bb-a335-34b61221360e) Qwen3-Next-80B-A3B is the first installment in the Qwen3-Next series and features the following key enhancements: \\* \\*\\*Hybrid Attention\\*\\*: Replaces standard attention with the combination of Gated DeltaNet and Gated Attention, enabling efficient context modeling for ultra-long context length. \\* \\*\\*High-Sparsity Mixture-of-Experts (MoE)\\*\\*: Achieves an extreme low activation ratio in MoE layers, drastically reducing FLOPs per token while preserving model capacity. \\* \\*\\*Stability Optimizations\\*\\*: Includes techniques such as zero-centered and weight-decayed layernorm, and other stabilizing enhancements for robust pre-training and post-training. \\* \\*\\*Multi-Token Prediction (MTP)\\*\\*: Boosts pretraining model performance and accelerates inference. \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "nous-hermes2-mixtral",
     "link": "https://ollama.com/library/nous-hermes2-mixtral",
     "description": "The Nous Hermes 2 model from Nous Research, now trained over Mixtral.",
-    "pullCount": "572.1K",
+    "pullCount": "572.3K",
     "updated": "1 year ago",
     "size": [
       "8x7b"
@@ -2281,10 +2268,23 @@
     "tags": []
   },
   {
+    "name": "qwen3-next",
+    "link": "https://ollama.com/library/qwen3-next",
+    "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
+    "pullCount": "572.3K",
+    "updated": "7 months ago",
+    "size": [
+      "80b"
+    ],
+    "capabilities": "toolsthinking",
+    "readme": "## Readme\n\n![image.png](/assets/library/qwen3-next/5e94256e-8c4a-42bb-a335-34b61221360e)\n\nQwen3-Next-80B-A3B is the first installment in the Qwen3-Next series and features the following key enhancements:\n\n* **Hybrid Attention**: Replaces standard attention with the combination of Gated DeltaNet and Gated Attention, enabling efficient context modeling for ultra-long context length.\n* **High-Sparsity Mixture-of-Experts (MoE)**: Achieves an extreme low activation ratio in MoE layers, drastically reducing FLOPs per token while preserving model capacity.\n* **Stability Optimizations**: Includes techniques such as zero-centered and weight-decayed layernorm, and other stabilizing enhancements for robust pre-training and post-training.\n* **Multi-Token Prediction (MTP)**: Boosts pretraining model performance and accelerates inference.\n\nWrite Preview \n\n!\\[image.png\\](/assets/library/qwen3-next/5e94256e-8c4a-42bb-a335-34b61221360e) Qwen3-Next-80B-A3B is the first installment in the Qwen3-Next series and features the following key enhancements: \\* \\*\\*Hybrid Attention\\*\\*: Replaces standard attention with the combination of Gated DeltaNet and Gated Attention, enabling efficient context modeling for ultra-long context length. \\* \\*\\*High-Sparsity Mixture-of-Experts (MoE)\\*\\*: Achieves an extreme low activation ratio in MoE layers, drastically reducing FLOPs per token while preserving model capacity. \\* \\*\\*Stability Optimizations\\*\\*: Includes techniques such as zero-centered and weight-decayed layernorm, and other stabilizing enhancements for robust pre-training and post-training. \\* \\*\\*Multi-Token Prediction (MTP)\\*\\*: Boosts pretraining model performance and accelerates inference. \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "codeup",
     "link": "https://ollama.com/library/codeup",
     "description": "Great code generation model based on Llama2.",
-    "pullCount": "571.7K",
+    "pullCount": "571.9K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2297,7 +2297,7 @@
     "name": "athene-v2",
     "link": "https://ollama.com/library/athene-v2",
     "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
-    "pullCount": "571.2K",
+    "pullCount": "571.4K",
     "updated": "1 year ago",
     "size": [
       "72b"
@@ -2310,7 +2310,7 @@
     "name": "megadolphin",
     "link": "https://ollama.com/library/megadolphin",
     "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
-    "pullCount": "550.3K",
+    "pullCount": "550.5K",
     "updated": "2 years ago",
     "size": [
       "120b"
@@ -2323,7 +2323,7 @@
     "name": "everythinglm",
     "link": "https://ollama.com/library/everythinglm",
     "description": "Uncensored Llama2 based model with support for a 16K context window.",
-    "pullCount": "547K",
+    "pullCount": "547.2K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2336,7 +2336,7 @@
     "name": "solar-pro",
     "link": "https://ollama.com/library/solar-pro",
     "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
-    "pullCount": "539.6K",
+    "pullCount": "539.8K",
     "updated": "1 year ago",
     "size": [
       "22b"
@@ -2349,7 +2349,7 @@
     "name": "magicoder",
     "link": "https://ollama.com/library/magicoder",
     "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
-    "pullCount": "537.5K",
+    "pullCount": "537.7K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2362,7 +2362,7 @@
     "name": "mathstral",
     "link": "https://ollama.com/library/mathstral",
     "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
-    "pullCount": "529.9K",
+    "pullCount": "530.1K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -2375,7 +2375,7 @@
     "name": "exaone3.5",
     "link": "https://ollama.com/library/exaone3.5",
     "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
-    "pullCount": "522.7K",
+    "pullCount": "523.1K",
     "updated": "1 year ago",
     "size": [
       "2.4b",
@@ -2390,7 +2390,7 @@
     "name": "falcon2",
     "link": "https://ollama.com/library/falcon2",
     "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
-    "pullCount": "521.3K",
+    "pullCount": "521.5K",
     "updated": "2 years ago",
     "size": [
       "11b"
@@ -2403,7 +2403,7 @@
     "name": "notus",
     "link": "https://ollama.com/library/notus",
     "description": "A 7B chat model fine-tuned with high-quality data and based on Zephyr.",
-    "pullCount": "521.2K",
+    "pullCount": "521.4K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2416,7 +2416,7 @@
     "name": "notux",
     "link": "https://ollama.com/library/notux",
     "description": "A top-performing mixture of experts model, fine-tuned with high-quality data.",
-    "pullCount": "520.4K",
+    "pullCount": "520.6K",
     "updated": "2 years ago",
     "size": [
       "8x7b"
@@ -2429,7 +2429,7 @@
     "name": "stablelm-zephyr",
     "link": "https://ollama.com/library/stablelm-zephyr",
     "description": "A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware.",
-    "pullCount": "515.1K",
+    "pullCount": "515.3K",
     "updated": "2 years ago",
     "size": [
       "3b"
@@ -2442,7 +2442,7 @@
     "name": "nuextract",
     "link": "https://ollama.com/library/nuextract",
     "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
-    "pullCount": "514.4K",
+    "pullCount": "514.6K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -2455,7 +2455,7 @@
     "name": "bespoke-minicheck",
     "link": "https://ollama.com/library/bespoke-minicheck",
     "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
-    "pullCount": "510K",
+    "pullCount": "510.2K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -2468,7 +2468,7 @@
     "name": "duckdb-nsql",
     "link": "https://ollama.com/library/duckdb-nsql",
     "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
-    "pullCount": "509.7K",
+    "pullCount": "509.9K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2481,7 +2481,7 @@
     "name": "mistrallite",
     "link": "https://ollama.com/library/mistrallite",
     "description": "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.",
-    "pullCount": "506.5K",
+    "pullCount": "506.7K",
     "updated": "2 years ago",
     "size": [
       "7b"
@@ -2494,7 +2494,7 @@
     "name": "firefunction-v2",
     "link": "https://ollama.com/library/firefunction-v2",
     "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
-    "pullCount": "504.6K",
+    "pullCount": "504.8K",
     "updated": "1 year ago",
     "size": [
       "70b"
@@ -2507,7 +2507,7 @@
     "name": "wizard-vicuna",
     "link": "https://ollama.com/library/wizard-vicuna",
     "description": "Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj.",
-    "pullCount": "500.6K",
+    "pullCount": "500.8K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2520,7 +2520,7 @@
     "name": "open-orca-platypus2",
     "link": "https://ollama.com/library/open-orca-platypus2",
     "description": "Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation.",
-    "pullCount": "492.9K",
+    "pullCount": "493K",
     "updated": "2 years ago",
     "size": [
       "13b"
@@ -2533,7 +2533,7 @@
     "name": "deepseek-ocr",
     "link": "https://ollama.com/library/deepseek-ocr",
     "description": "DeepSeek-OCR is a vision-language model that can perform token-efficient OCR.",
-    "pullCount": "487K",
+    "pullCount": "487.5K",
     "updated": "7 months ago",
     "size": [
       "3b"
@@ -2543,10 +2543,21 @@
     "tags": []
   },
   {
+    "name": "nomic-embed-text-v2-moe",
+    "link": "https://ollama.com/library/nomic-embed-text-v2-moe",
+    "description": "nomic-embed-text-v2-moe is a multilingual MoE text embedding model that excels at multilingual retrieval.",
+    "pullCount": "485.2K",
+    "updated": "7 months ago",
+    "size": null,
+    "capabilities": "embedding",
+    "readme": "## Readme\n\n`nomic-embed-text-v2-moe` is a multilingual MoE text embedding model that excels at multilingual retrieval.\n\n* **High Performance**: SoTA Multilingual performance compared to \\~300M parameter models, competitive with models 2x in size\n* **Multilinguality**: Supports \\~100 languages and trained on over 1.6B pairs\n* **Flexible Embedding Dimension**: Trained with [Matryoshka Embeddings](https://arxiv.org/abs/2205.13147) with 3x reductions in storage cost with minimal performance degradations\n* **Fully Open-Source**: Model weights, [code](https://github.com/nomic-ai/contrastors), and training data\n\n| Model                 | Params (M) | Emb Dim | BEIR      | MIRACL    | Pretrain Data | Finetune Data | Code |\n| --------------------- | ---------- | ------- | --------- | --------- | ------------- | ------------- | ---- |\n| **Nomic Embed v2**    | 305        | 768     | 52.86     | **65.80** | ✅             | ✅             | ✅    |\n| mE5 Base              | 278        | 768     | 48.88     | 62.30     | ❌             | ❌             | ❌    |\n| mGTE Base             | 305        | 768     | 51.10     | 63.40     | ❌             | ❌             | ❌    |\n| Arctic Embed v2 Base  | 305        | 768     | **55.40** | 59.90     | ❌             | ❌             | ❌    |\n| BGE M3                | 568        | 1024    | 48.80     | **69.20** | ❌             | ✅             | ❌    |\n| Arctic Embed v2 Large | 568        | 1024    | **55.65** | 66.00     | ❌             | ❌             | ❌    |\n| mE5 Large             | 560        | 1024    | 51.40     | 66.50     | ❌             | ❌             | ❌    |\n\n### Best practices\n\n* Add appropriate prefixes to your text:  \n   * For queries: “search\\_query: “  \n   * For documents: “search\\_document: “- Maximum input length is 512 tokens\n* For optimal efficiency, consider using the 256-dimension embeddings if storage/compute is a concern\n\n### Model Architecture\n\n* **Total Parameters**: 475M\n* **Active Parameters During Inference**: 305M\n* **Architecture Type**: Mixture of Experts (MoE)\n* **MoE Configuration**: 8 experts with top-2 routing\n* **Embedding Dimensions**: Supports flexible dimension from 768 to 256 through Matryoshka representation learning\n* **Maximum Sequence Length**: 512 tokens\n* **Languages**: See below for supported languages and its training pairs per different languages\n\n![image.png](/assets/library/nomic-embed-text-v2-moe/f235fb9c-f5ee-407c-aaa1-54ea35d95e0e)\n\nWrite Preview \n\n\\`nomic-embed-text-v2-moe\\` is a multilingual MoE text embedding model that excels at multilingual retrieval. - \\*\\*High Performance\\*\\*: SoTA Multilingual performance compared to \\~300M parameter models, competitive with models 2x in size - \\*\\*Multilinguality\\*\\*: Supports \\~100 languages and trained on over 1.6B pairs - \\*\\*Flexible Embedding Dimension\\*\\*: Trained with \\[Matryoshka Embeddings\\](https://arxiv.org/abs/2205.13147) with 3x reductions in storage cost with minimal performance degradations - \\*\\*Fully Open-Source\\*\\*: Model weights, \\[code\\](https://github.com/nomic-ai/contrastors), and training data | Model | Params (M) | Emb Dim | BEIR | MIRACL | Pretrain Data | Finetune Data | Code | |-------|------------|----------|------|---------|---------------|---------------|------| | \\*\\*Nomic Embed v2\\*\\* | 305 | 768 | 52.86 | \\*\\*65.80\\*\\* | ✅ | ✅ | ✅ | | mE5 Base | 278 | 768 | 48.88 | 62.30 | ❌ | ❌ | ❌ | | mGTE Base | 305 | 768 | 51.10 | 63.40 | ❌ | ❌ | ❌ | | Arctic Embed v2 Base | 305 | 768 | \\*\\*55.40\\*\\* | 59.90 | ❌ | ❌ | ❌ | | | | BGE M3 | 568 | 1024 | 48.80 | \\*\\*69.20\\*\\* | ❌ | ✅ | ❌ | | Arctic Embed v2 Large | 568 | 1024 | \\*\\*55.65\\*\\* | 66.00 | ❌ | ❌ | ❌ | | mE5 Large | 560 | 1024 | 51.40 | 66.50 | ❌ | ❌ | ❌ | ### Best practices - Add appropriate prefixes to your text: - For queries: \"search\\_query: \" - For documents: \"search\\_document: \"- Maximum input length is 512 tokens - For optimal efficiency, consider using the 256-dimension embeddings if storage/compute is a concern ### Model Architecture - \\*\\*Total Parameters\\*\\*: 475M - \\*\\*Active Parameters During Inference\\*\\*: 305M - \\*\\*Architecture Type\\*\\*: Mixture of Experts (MoE) - \\*\\*MoE Configuration\\*\\*: 8 experts with top-2 routing - \\*\\*Embedding Dimensions\\*\\*: Supports flexible dimension from 768 to 256 through Matryoshka representation learning - \\*\\*Maximum Sequence Length\\*\\*: 512 tokens - \\*\\*Languages\\*\\*: See below for supported languages and its training pairs per different languages !\\[image.png\\](/assets/library/nomic-embed-text-v2-moe/f235fb9c-f5ee-407c-aaa1-54ea35d95e0e) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "rnj-1",
     "link": "https://ollama.com/library/rnj-1",
     "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
-    "pullCount": "484.8K",
+    "pullCount": "484.9K",
     "updated": "7 months ago",
     "size": [
       "8b"
@@ -2559,7 +2570,7 @@
     "name": "codebooga",
     "link": "https://ollama.com/library/codebooga",
     "description": "A high-performing code instruct model created by merging two existing code models.",
-    "pullCount": "480.3K",
+    "pullCount": "480.5K",
     "updated": "2 years ago",
     "size": [
       "34b"
@@ -2569,21 +2580,10 @@
     "tags": []
   },
   {
-    "name": "nomic-embed-text-v2-moe",
-    "link": "https://ollama.com/library/nomic-embed-text-v2-moe",
-    "description": "nomic-embed-text-v2-moe is a multilingual MoE text embedding model that excels at multilingual retrieval.",
-    "pullCount": "479.1K",
-    "updated": "7 months ago",
-    "size": null,
-    "capabilities": "embedding",
-    "readme": "## Readme\n\n`nomic-embed-text-v2-moe` is a multilingual MoE text embedding model that excels at multilingual retrieval.\n\n* **High Performance**: SoTA Multilingual performance compared to \\~300M parameter models, competitive with models 2x in size\n* **Multilinguality**: Supports \\~100 languages and trained on over 1.6B pairs\n* **Flexible Embedding Dimension**: Trained with [Matryoshka Embeddings](https://arxiv.org/abs/2205.13147) with 3x reductions in storage cost with minimal performance degradations\n* **Fully Open-Source**: Model weights, [code](https://github.com/nomic-ai/contrastors), and training data\n\n| Model                 | Params (M) | Emb Dim | BEIR      | MIRACL    | Pretrain Data | Finetune Data | Code |\n| --------------------- | ---------- | ------- | --------- | --------- | ------------- | ------------- | ---- |\n| **Nomic Embed v2**    | 305        | 768     | 52.86     | **65.80** | ✅             | ✅             | ✅    |\n| mE5 Base              | 278        | 768     | 48.88     | 62.30     | ❌             | ❌             | ❌    |\n| mGTE Base             | 305        | 768     | 51.10     | 63.40     | ❌             | ❌             | ❌    |\n| Arctic Embed v2 Base  | 305        | 768     | **55.40** | 59.90     | ❌             | ❌             | ❌    |\n| BGE M3                | 568        | 1024    | 48.80     | **69.20** | ❌             | ✅             | ❌    |\n| Arctic Embed v2 Large | 568        | 1024    | **55.65** | 66.00     | ❌             | ❌             | ❌    |\n| mE5 Large             | 560        | 1024    | 51.40     | 66.50     | ❌             | ❌             | ❌    |\n\n### Best practices\n\n* Add appropriate prefixes to your text:  \n   * For queries: “search\\_query: “  \n   * For documents: “search\\_document: “- Maximum input length is 512 tokens\n* For optimal efficiency, consider using the 256-dimension embeddings if storage/compute is a concern\n\n### Model Architecture\n\n* **Total Parameters**: 475M\n* **Active Parameters During Inference**: 305M\n* **Architecture Type**: Mixture of Experts (MoE)\n* **MoE Configuration**: 8 experts with top-2 routing\n* **Embedding Dimensions**: Supports flexible dimension from 768 to 256 through Matryoshka representation learning\n* **Maximum Sequence Length**: 512 tokens\n* **Languages**: See below for supported languages and its training pairs per different languages\n\n![image.png](/assets/library/nomic-embed-text-v2-moe/f235fb9c-f5ee-407c-aaa1-54ea35d95e0e)\n\nWrite Preview \n\n\\`nomic-embed-text-v2-moe\\` is a multilingual MoE text embedding model that excels at multilingual retrieval. - \\*\\*High Performance\\*\\*: SoTA Multilingual performance compared to \\~300M parameter models, competitive with models 2x in size - \\*\\*Multilinguality\\*\\*: Supports \\~100 languages and trained on over 1.6B pairs - \\*\\*Flexible Embedding Dimension\\*\\*: Trained with \\[Matryoshka Embeddings\\](https://arxiv.org/abs/2205.13147) with 3x reductions in storage cost with minimal performance degradations - \\*\\*Fully Open-Source\\*\\*: Model weights, \\[code\\](https://github.com/nomic-ai/contrastors), and training data | Model | Params (M) | Emb Dim | BEIR | MIRACL | Pretrain Data | Finetune Data | Code | |-------|------------|----------|------|---------|---------------|---------------|------| | \\*\\*Nomic Embed v2\\*\\* | 305 | 768 | 52.86 | \\*\\*65.80\\*\\* | ✅ | ✅ | ✅ | | mE5 Base | 278 | 768 | 48.88 | 62.30 | ❌ | ❌ | ❌ | | mGTE Base | 305 | 768 | 51.10 | 63.40 | ❌ | ❌ | ❌ | | Arctic Embed v2 Base | 305 | 768 | \\*\\*55.40\\*\\* | 59.90 | ❌ | ❌ | ❌ | | | | BGE M3 | 568 | 1024 | 48.80 | \\*\\*69.20\\*\\* | ❌ | ✅ | ❌ | | Arctic Embed v2 Large | 568 | 1024 | \\*\\*55.65\\*\\* | 66.00 | ❌ | ❌ | ❌ | | mE5 Large | 560 | 1024 | 51.40 | 66.50 | ❌ | ❌ | ❌ | ### Best practices - Add appropriate prefixes to your text: - For queries: \"search\\_query: \" - For documents: \"search\\_document: \"- Maximum input length is 512 tokens - For optimal efficiency, consider using the 256-dimension embeddings if storage/compute is a concern ### Model Architecture - \\*\\*Total Parameters\\*\\*: 475M - \\*\\*Active Parameters During Inference\\*\\*: 305M - \\*\\*Architecture Type\\*\\*: Mixture of Experts (MoE) - \\*\\*MoE Configuration\\*\\*: 8 experts with top-2 routing - \\*\\*Embedding Dimensions\\*\\*: Supports flexible dimension from 768 to 256 through Matryoshka representation learning - \\*\\*Maximum Sequence Length\\*\\*: 512 tokens - \\*\\*Languages\\*\\*: See below for supported languages and its training pairs per different languages !\\[image.png\\](/assets/library/nomic-embed-text-v2-moe/f235fb9c-f5ee-407c-aaa1-54ea35d95e0e) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "goliath",
     "link": "https://ollama.com/library/goliath",
     "description": "A language model created by combining two fine-tuned Llama 2 70B models into one.",
-    "pullCount": "463.9K",
+    "pullCount": "464.1K",
     "updated": "2 years ago",
     "size": null,
     "capabilities": "",
@@ -2594,7 +2594,7 @@
     "name": "granite3.2",
     "link": "https://ollama.com/library/granite3.2",
     "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
-    "pullCount": "441.6K",
+    "pullCount": "441.7K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -2608,7 +2608,7 @@
     "name": "olmo-3",
     "link": "https://ollama.com/library/olmo-3",
     "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-    "pullCount": "440.1K",
+    "pullCount": "440.3K",
     "updated": "6 months ago",
     "size": [
       "7b",
@@ -2622,7 +2622,7 @@
     "name": "snowflake-arctic-embed2",
     "link": "https://ollama.com/library/snowflake-arctic-embed2",
     "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-    "pullCount": "422.6K",
+    "pullCount": "422.7K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -2633,7 +2633,7 @@
     "name": "r1-1776",
     "link": "https://ollama.com/library/r1-1776",
     "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-    "pullCount": "408.9K",
+    "pullCount": "409K",
     "updated": "1 year ago",
     "size": [
       "70b",
@@ -2647,7 +2647,7 @@
     "name": "sailor2",
     "link": "https://ollama.com/library/sailor2",
     "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
-    "pullCount": "396.4K",
+    "pullCount": "396.6K",
     "updated": "1 year ago",
     "size": [
       "1b",
@@ -2662,7 +2662,7 @@
     "name": "kimi-k2.6",
     "link": "https://ollama.com/library/kimi-k2.6",
     "description": "Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration.",
-    "pullCount": "370.8K",
+    "pullCount": "372.6K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
@@ -2673,7 +2673,7 @@
     "name": "tulu3",
     "link": "https://ollama.com/library/tulu3",
     "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
-    "pullCount": "369.1K",
+    "pullCount": "369.2K",
     "updated": "1 year ago",
     "size": [
       "8b",
@@ -2687,7 +2687,7 @@
     "name": "kimi-k2.5",
     "link": "https://ollama.com/library/kimi-k2.5",
     "description": "Kimi K2.5 is an open-source, native multimodal agentic model that seamlessly integrates vision and language understanding with advanced agentic capabilities, instant and thinking modes, as well as conversational and agentic paradigms.",
-    "pullCount": "354.4K",
+    "pullCount": "355.3K",
     "updated": "5 months ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
@@ -2698,7 +2698,7 @@
     "name": "granite-embedding",
     "link": "https://ollama.com/library/granite-embedding",
     "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
-    "pullCount": "337.7K",
+    "pullCount": "337.9K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -2709,7 +2709,7 @@
     "name": "granite3-guardian",
     "link": "https://ollama.com/library/granite3-guardian",
     "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
-    "pullCount": "322.5K",
+    "pullCount": "322.6K",
     "updated": "1 year ago",
     "size": [
       "2b",
@@ -2723,7 +2723,7 @@
     "name": "dbrx",
     "link": "https://ollama.com/library/dbrx",
     "description": "DBRX is an open, general-purpose LLM created by Databricks.",
-    "pullCount": "313.3K",
+    "pullCount": "313.4K",
     "updated": "2 years ago",
     "size": [
       "132b"
@@ -2736,7 +2736,7 @@
     "name": "llava-phi3",
     "link": "https://ollama.com/library/llava-phi3",
     "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
-    "pullCount": "293.5K",
+    "pullCount": "293.7K",
     "updated": "2 years ago",
     "size": [
       "3.8b"
@@ -2749,7 +2749,7 @@
     "name": "phi4-mini-reasoning",
     "link": "https://ollama.com/library/phi4-mini-reasoning",
     "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
-    "pullCount": "280.1K",
+    "pullCount": "280.3K",
     "updated": "1 year ago",
     "size": [
       "3.8b"
@@ -2775,7 +2775,7 @@
     "name": "deepseek-v2.5",
     "link": "https://ollama.com/library/deepseek-v2.5",
     "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
-    "pullCount": "279.7K",
+    "pullCount": "279.8K",
     "updated": "1 year ago",
     "size": [
       "236b"
@@ -2788,7 +2788,7 @@
     "name": "command-r7b",
     "link": "https://ollama.com/library/command-r7b",
     "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
-    "pullCount": "276.9K",
+    "pullCount": "277.3K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -2801,7 +2801,7 @@
     "name": "bge-large",
     "link": "https://ollama.com/library/bge-large",
     "description": "Embedding model from BAAI mapping texts to vectors.",
-    "pullCount": "274.3K",
+    "pullCount": "274.4K",
     "updated": "1 year ago",
     "size": null,
     "capabilities": "embedding",
@@ -2812,7 +2812,7 @@
     "name": "devstral-2",
     "link": "https://ollama.com/library/devstral-2",
     "description": "123B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-    "pullCount": "253K",
+    "pullCount": "253.5K",
     "updated": "7 months ago",
     "size": [
       "123b"
@@ -2825,7 +2825,7 @@
     "name": "smallthinker",
     "link": "https://ollama.com/library/smallthinker",
     "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-    "pullCount": "250.5K",
+    "pullCount": "250.6K",
     "updated": "1 year ago",
     "size": [
       "3b"
@@ -2838,7 +2838,7 @@
     "name": "granite4.1",
     "link": "https://ollama.com/library/granite4.1",
     "description": "IBM Granite Models are a family of enterprise-ready, open foundation models that support multilingual capabilities, coding, retrieval-augmented generation (RAG), tool use, and structured JSON output. Released under Apache 2.0 license.",
-    "pullCount": "239.9K",
+    "pullCount": "242.4K",
     "updated": "1 month ago",
     "size": [
       "3b",
@@ -2853,7 +2853,7 @@
     "name": "ornith",
     "link": "https://ollama.com/library/ornith",
     "description": "A self-improving family of open-source models for agentic coding",
-    "pullCount": "233.5K",
+    "pullCount": "237.5K",
     "updated": "2 weeks ago",
     "size": [
       "9b",
@@ -2867,7 +2867,7 @@
     "name": "alfred",
     "link": "https://ollama.com/library/alfred",
     "description": "A robust conversational model designed to be used for both chat and instruct use cases.",
-    "pullCount": "232.2K",
+    "pullCount": "232.3K",
     "updated": "2 years ago",
     "size": [
       "40b"
@@ -2880,7 +2880,7 @@
     "name": "minimax-m3",
     "link": "https://ollama.com/library/minimax-m3",
     "description": "MiniMax M3: Coding & Agentic Frontier. 1M context window. Native Multimodality.",
-    "pullCount": "222.9K",
+    "pullCount": "229.4K",
     "updated": "1 month ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
@@ -2891,7 +2891,7 @@
     "name": "deepseek-v4-flash",
     "link": "https://ollama.com/library/deepseek-v4-flash",
     "description": "DeepSeek-V4-Flash is a preview of the DeepSeek-V4 series, a Mixture-of-Experts model with 284B total parameters and 13B activated, built for efficient reasoning across a 1M-token context window.",
-    "pullCount": "220.8K",
+    "pullCount": "224.3K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -2899,27 +2899,27 @@
     "tags": []
   },
   {
+    "name": "deepseek-v4-pro",
+    "link": "https://ollama.com/library/deepseek-v4-pro",
+    "description": "DeepSeek-V4-Pro is a frontier Mixture-of-Experts model with a large context window and three reasoning modes.",
+    "pullCount": "221.1K",
+    "updated": "2 months ago",
+    "size": null,
+    "capabilities": "toolsthinking",
+    "readme": "## Readme\n\n![](/assets/library/deepseek-v3/069ccc94-63b0-41e6-b2b3-e8e56068ab1a)\n\n**DeepSeek-V4-Pro** is the flagship model in the DeepSeek-V4 series — a Mixture-of-Experts model with 1.6T total parameters and 49B activated, built for frontier-level reasoning across a 1M-token context window.\n\n3 Thinking modes:\n\n* No thinking: used for fast, intuitive answers\n* Thinking: used for careful logical analysis\n* Max thinking: maximum reasoning effort on the hardest problems![benchmark](/assets/library/deepseek-v4-flash/3252e416-59e1-4e1f-9a8d-4345b58ac28f)\n\n| Benchmark (Metric)          | V4-Flash Non-Think | V4-Flash High | V4-Flash Max | V4-Pro Non-Think | V4-Pro High | V4-Pro Max |\n| --------------------------- | ------------------ | ------------- | ------------ | ---------------- | ----------- | ---------- |\n| **Knowledge & Reasoning**   |                    |               |              |                  |             |            |\n| MMLU-Pro (EM)               | 83.0               | 86.4          | 86.2         | 82.9             | 87.1        | **87.5**   |\n| SimpleQA-Verified (Pass@1)  | 23.1               | 28.9          | 34.1         | 45.0             | 46.2        | **57.9**   |\n| Chinese-SimpleQA (Pass@1)   | 71.5               | 73.2          | 78.9         | 75.8             | 77.7        | **84.4**   |\n| GPQA Diamond (Pass@1)       | 71.2               | 87.4          | 88.1         | 72.9             | 89.1        | **90.1**   |\n| HLE (Pass@1)                | 8.1                | 29.4          | 34.8         | 7.7              | 34.5        | **37.7**   |\n| LiveCodeBench (Pass@1)      | 55.2               | 88.4          | 91.6         | 56.8             | 89.8        | **93.5**   |\n| Codeforces (Rating)         | \\-                 | 2816          | 3052         | \\-               | 2919        | **3206**   |\n| HMMT 2026 Feb (Pass@1)      | 40.8               | 91.9          | 94.8         | 31.7             | 94.0        | **95.2**   |\n| IMOAnswerBench (Pass@1)     | 41.9               | 85.1          | 88.4         | 35.3             | 88.0        | **89.8**   |\n| Apex (Pass@1)               | 1.0                | 19.1          | 33.0         | 0.4              | 27.4        | **38.3**   |\n| Apex Shortlist (Pass@1)     | 9.3                | 72.1          | 85.7         | 9.2              | 85.5        | **90.2**   |\n| **Long Context**            |                    |               |              |                  |             |            |\n| MRCR 1M (MMR)               | 37.5               | 76.9          | 78.7         | 44.7             | 83.3        | **83.5**   |\n| CorpusQA 1M (ACC)           | 15.5               | 59.3          | 60.5         | 35.6             | 56.5        | **62.0**   |\n| **Agentic**                 |                    |               |              |                  |             |            |\n| Terminal Bench 2.0 (Acc)    | 49.1               | 56.6          | 56.9         | 59.1             | 63.3        | **67.9**   |\n| SWE Verified (Resolved)     | 73.7               | 78.6          | 79.0         | 73.6             | 79.4        | **80.6**   |\n| SWE Pro (Resolved)          | 49.1               | 52.3          | 52.6         | 52.1             | 54.4        | **55.4**   |\n| SWE Multilingual (Resolved) | 69.7               | 70.2          | 73.3         | 69.8             | 74.1        | **76.2**   |\n| BrowseComp (Pass@1)         | \\-                 | 53.5          | 73.2         | \\-               | 80.4        | **83.4**   |\n| HLE w/ tools (Pass@1)       | \\-                 | 40.3          | 45.1         | \\-               | 44.7        | **48.2**   |\n| MCPAtlas (Pass@1)           | 64.0               | 67.4          | 69.0         | 69.4             | **74.2**    | 73.6       |\n| GDPval-AA (Elo)             | \\-                 | \\-            | 1395         | \\-               | \\-          | **1554**   |\n| Toolathlon (Pass@1)         | 40.7               | 43.5          | 47.8         | 46.3             | 49.0        | **51.8**   |\n\n### Reference\n\n[DeepSeek-V4 technical report](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash/blob/main/DeepSeek%5FV4.pdf)\n\nWrite Preview \n\n<img src=\"/assets/library/deepseek-v3/069ccc94-63b0-41e6-b2b3-e8e56068ab1a\" width=\"320\" /> \\*\\*DeepSeek-V4-Pro\\*\\* is the flagship model in the DeepSeek-V4 series — a Mixture-of-Experts model with 1.6T total parameters and 49B activated, built for frontier-level reasoning across a 1M-token context window. 3 Thinking modes: - No thinking: used for fast, intuitive answers - Thinking: used for careful logical analysis - Max thinking: maximum reasoning effort on the hardest problems !\\[benchmark\\](/assets/library/deepseek-v4-flash/3252e416-59e1-4e1f-9a8d-4345b58ac28f) | Benchmark (Metric) | V4-Flash Non-Think | V4-Flash High | V4-Flash Max | V4-Pro Non-Think | V4-Pro High | V4-Pro Max | | :--- | :---: | :---: | :---: | :---: | :---: | :---: | | \\*\\*Knowledge & Reasoning\\*\\* | | | | | | | | MMLU-Pro (EM) | 83.0 | 86.4 | 86.2 | 82.9 | 87.1 | \\*\\*87.5\\*\\* | | SimpleQA-Verified (Pass@1) | 23.1 | 28.9 | 34.1 | 45.0 | 46.2 | \\*\\*57.9\\*\\* | | Chinese-SimpleQA (Pass@1) | 71.5 | 73.2 | 78.9 | 75.8 | 77.7 | \\*\\*84.4\\*\\* | | GPQA Diamond (Pass@1) | 71.2 | 87.4 | 88.1 | 72.9 | 89.1 | \\*\\*90.1\\*\\* | | HLE (Pass@1) | 8.1 | 29.4 | 34.8 | 7.7 | 34.5 | \\*\\*37.7\\*\\* | | LiveCodeBench (Pass@1) | 55.2 | 88.4 | 91.6 | 56.8 | 89.8 | \\*\\*93.5\\*\\* | | Codeforces (Rating) | - | 2816 | 3052 | - | 2919 | \\*\\*3206\\*\\* | | HMMT 2026 Feb (Pass@1) | 40.8 | 91.9 | 94.8 | 31.7 | 94.0 | \\*\\*95.2\\*\\* | | IMOAnswerBench (Pass@1) | 41.9 | 85.1 | 88.4 | 35.3 | 88.0 | \\*\\*89.8\\*\\* | | Apex (Pass@1) | 1.0 | 19.1 | 33.0 | 0.4 | 27.4 | \\*\\*38.3\\*\\* | | Apex Shortlist (Pass@1) | 9.3 | 72.1 | 85.7 | 9.2 | 85.5 | \\*\\*90.2\\*\\* | | \\*\\*Long Context\\*\\* | | | | | | | | MRCR 1M (MMR) | 37.5 | 76.9 | 78.7 | 44.7 | 83.3 | \\*\\*83.5\\*\\* | | CorpusQA 1M (ACC) | 15.5 | 59.3 | 60.5 | 35.6 | 56.5 | \\*\\*62.0\\*\\* | | \\*\\*Agentic\\*\\* | | | | | | | | Terminal Bench 2.0 (Acc) | 49.1 | 56.6 | 56.9 | 59.1 | 63.3 | \\*\\*67.9\\*\\* | | SWE Verified (Resolved) | 73.7 | 78.6 | 79.0 | 73.6 | 79.4 | \\*\\*80.6\\*\\* | | SWE Pro (Resolved) | 49.1 | 52.3 | 52.6 | 52.1 | 54.4 | \\*\\*55.4\\*\\* | | SWE Multilingual (Resolved) | 69.7 | 70.2 | 73.3 | 69.8 | 74.1 | \\*\\*76.2\\*\\* | | BrowseComp (Pass@1) | - | 53.5 | 73.2 | - | 80.4 | \\*\\*83.4\\*\\* | | HLE w/ tools (Pass@1) | - | 40.3 | 45.1 | - | 44.7 | \\*\\*48.2\\*\\* | | MCPAtlas (Pass@1) | 64.0 | 67.4 | 69.0 | 69.4 | \\*\\*74.2\\*\\* | 73.6 | | GDPval-AA (Elo) | - | - | 1395 | - | - | \\*\\*1554\\*\\* | | Toolathlon (Pass@1) | 40.7 | 43.5 | 47.8 | 46.3 | 49.0 | \\*\\*51.8\\*\\* | ### Reference \\[DeepSeek-V4 technical report\\](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash/blob/main/DeepSeek\\_V4.pdf) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "command-a",
     "link": "https://ollama.com/library/command-a",
     "description": "111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI",
-    "pullCount": "219.8K",
+    "pullCount": "219.9K",
     "updated": "1 year ago",
     "size": [
       "111b"
     ],
     "capabilities": "tools",
     "readme": "## Readme\n\n![Hero-Image.webp](/assets/library/command-a/5849b9b2-34cd-4827-92d4-97613dc8a5e5)\n\nCommand A is an open weights research release of a 111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI. Compared to other leading proprietary and open-weights models Command A delivers maximum performance with minimum hardware costs, excelling on business-critical agentic and multilingual tasks while‬ being deployable on just two GPUs.\n\n**Languages covered:** The model has been trained on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Arabic, Chinese, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, and Persian.\n\n**Context Window:** Up to 256K.\n\n### Use cases\n\nCommand A is designed with the following capabilities.\n\n#### Chat\n\nBy default, Command A is configured as a conversational model. A preamble conditions the model on interactive behaviour, meaning it is expected to reply in a conversational fashion, provides introductory statements and follow-up questions, and uses Markdown as well as LaTeX where appropriate. This is desired for interactive experiences, such as chatbots, where the model engages in dialogue.\n\n#### Retrieval augmented generation (RAG)\n\nCommand A has been trained specifically for tasks like the final step of Retrieval Augmented Generation (RAG).\n\n#### Tool Support\n\nCommand A has been specifically trained with conversational tool use capabilities. This allows the model to interact with external tools like APIs, databases, or search engines.\n\n#### Code\n\nCommand A has meaningfully improved on code capabilities. In addition to academic code benchmarks, we have evaluated it on enterprise-relevant scenarios, including SQL generation and code translation, where it outperforms other models of similar size. Try these out by requesting code snippets, code explanations, or code rewrites. For better performance, we also recommend using a low temperature (and even greedy decoding) for code-generation related instructions.\n\nWrite Preview \n\n!\\[Hero-Image.webp\\](/assets/library/command-a/5849b9b2-34cd-4827-92d4-97613dc8a5e5) Command A is an open weights research release of a 111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI. Compared to other leading proprietary and open-weights models Command A delivers maximum performance with minimum hardware costs, excelling on business-critical agentic and multilingual tasks while‬ being deployable on just two GPUs. \\*\\*Languages covered:\\*\\* The model has been trained on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Arabic, Chinese, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, and Persian. \\*\\*Context Window:\\*\\* Up to 256K. ### Use cases Command A is designed with the following capabilities. #### Chat By default, Command A is configured as a conversational model. A preamble conditions the model on interactive behaviour, meaning it is expected to reply in a conversational fashion, provides introductory statements and follow-up questions, and uses Markdown as well as LaTeX where appropriate. This is desired for interactive experiences, such as chatbots, where the model engages in dialogue. #### Retrieval augmented generation (RAG) Command A has been trained specifically for tasks like the final step of Retrieval Augmented Generation (RAG). #### Tool Support Command A has been specifically trained with conversational tool use capabilities. This allows the model to interact with external tools like APIs, databases, or search engines. #### Code Command A has meaningfully improved on code capabilities. In addition to academic code benchmarks, we have evaluated it on enterprise-relevant scenarios, including SQL generation and code translation, where it outperforms other models of similar size. Try these out by requesting code snippets, code explanations, or code rewrites. For better performance, we also recommend using a low temperature (and even greedy decoding) for code-generation related instructions. \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
-    "name": "deepseek-v4-pro",
-    "link": "https://ollama.com/library/deepseek-v4-pro",
-    "description": "DeepSeek-V4-Pro is a frontier Mixture-of-Experts model with a large context window and three reasoning modes.",
-    "pullCount": "217K",
-    "updated": "2 months ago",
-    "size": null,
-    "capabilities": "toolsthinking",
-    "readme": "## Readme\n\n![](/assets/library/deepseek-v3/069ccc94-63b0-41e6-b2b3-e8e56068ab1a)\n\n**DeepSeek-V4-Pro** is the flagship model in the DeepSeek-V4 series — a Mixture-of-Experts model with 1.6T total parameters and 49B activated, built for frontier-level reasoning across a 1M-token context window.\n\n3 Thinking modes:\n\n* No thinking: used for fast, intuitive answers\n* Thinking: used for careful logical analysis\n* Max thinking: maximum reasoning effort on the hardest problems![benchmark](/assets/library/deepseek-v4-flash/3252e416-59e1-4e1f-9a8d-4345b58ac28f)\n\n| Benchmark (Metric)          | V4-Flash Non-Think | V4-Flash High | V4-Flash Max | V4-Pro Non-Think | V4-Pro High | V4-Pro Max |\n| --------------------------- | ------------------ | ------------- | ------------ | ---------------- | ----------- | ---------- |\n| **Knowledge & Reasoning**   |                    |               |              |                  |             |            |\n| MMLU-Pro (EM)               | 83.0               | 86.4          | 86.2         | 82.9             | 87.1        | **87.5**   |\n| SimpleQA-Verified (Pass@1)  | 23.1               | 28.9          | 34.1         | 45.0             | 46.2        | **57.9**   |\n| Chinese-SimpleQA (Pass@1)   | 71.5               | 73.2          | 78.9         | 75.8             | 77.7        | **84.4**   |\n| GPQA Diamond (Pass@1)       | 71.2               | 87.4          | 88.1         | 72.9             | 89.1        | **90.1**   |\n| HLE (Pass@1)                | 8.1                | 29.4          | 34.8         | 7.7              | 34.5        | **37.7**   |\n| LiveCodeBench (Pass@1)      | 55.2               | 88.4          | 91.6         | 56.8             | 89.8        | **93.5**   |\n| Codeforces (Rating)         | \\-                 | 2816          | 3052         | \\-               | 2919        | **3206**   |\n| HMMT 2026 Feb (Pass@1)      | 40.8               | 91.9          | 94.8         | 31.7             | 94.0        | **95.2**   |\n| IMOAnswerBench (Pass@1)     | 41.9               | 85.1          | 88.4         | 35.3             | 88.0        | **89.8**   |\n| Apex (Pass@1)               | 1.0                | 19.1          | 33.0         | 0.4              | 27.4        | **38.3**   |\n| Apex Shortlist (Pass@1)     | 9.3                | 72.1          | 85.7         | 9.2              | 85.5        | **90.2**   |\n| **Long Context**            |                    |               |              |                  |             |            |\n| MRCR 1M (MMR)               | 37.5               | 76.9          | 78.7         | 44.7             | 83.3        | **83.5**   |\n| CorpusQA 1M (ACC)           | 15.5               | 59.3          | 60.5         | 35.6             | 56.5        | **62.0**   |\n| **Agentic**                 |                    |               |              |                  |             |            |\n| Terminal Bench 2.0 (Acc)    | 49.1               | 56.6          | 56.9         | 59.1             | 63.3        | **67.9**   |\n| SWE Verified (Resolved)     | 73.7               | 78.6          | 79.0         | 73.6             | 79.4        | **80.6**   |\n| SWE Pro (Resolved)          | 49.1               | 52.3          | 52.6         | 52.1             | 54.4        | **55.4**   |\n| SWE Multilingual (Resolved) | 69.7               | 70.2          | 73.3         | 69.8             | 74.1        | **76.2**   |\n| BrowseComp (Pass@1)         | \\-                 | 53.5          | 73.2         | \\-               | 80.4        | **83.4**   |\n| HLE w/ tools (Pass@1)       | \\-                 | 40.3          | 45.1         | \\-               | 44.7        | **48.2**   |\n| MCPAtlas (Pass@1)           | 64.0               | 67.4          | 69.0         | 69.4             | **74.2**    | 73.6       |\n| GDPval-AA (Elo)             | \\-                 | \\-            | 1395         | \\-               | \\-          | **1554**   |\n| Toolathlon (Pass@1)         | 40.7               | 43.5          | 47.8         | 46.3             | 49.0        | **51.8**   |\n\n### Reference\n\n[DeepSeek-V4 technical report](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash/blob/main/DeepSeek%5FV4.pdf)\n\nWrite Preview \n\n<img src=\"/assets/library/deepseek-v3/069ccc94-63b0-41e6-b2b3-e8e56068ab1a\" width=\"320\" /> \\*\\*DeepSeek-V4-Pro\\*\\* is the flagship model in the DeepSeek-V4 series — a Mixture-of-Experts model with 1.6T total parameters and 49B activated, built for frontier-level reasoning across a 1M-token context window. 3 Thinking modes: - No thinking: used for fast, intuitive answers - Thinking: used for careful logical analysis - Max thinking: maximum reasoning effort on the hardest problems !\\[benchmark\\](/assets/library/deepseek-v4-flash/3252e416-59e1-4e1f-9a8d-4345b58ac28f) | Benchmark (Metric) | V4-Flash Non-Think | V4-Flash High | V4-Flash Max | V4-Pro Non-Think | V4-Pro High | V4-Pro Max | | :--- | :---: | :---: | :---: | :---: | :---: | :---: | | \\*\\*Knowledge & Reasoning\\*\\* | | | | | | | | MMLU-Pro (EM) | 83.0 | 86.4 | 86.2 | 82.9 | 87.1 | \\*\\*87.5\\*\\* | | SimpleQA-Verified (Pass@1) | 23.1 | 28.9 | 34.1 | 45.0 | 46.2 | \\*\\*57.9\\*\\* | | Chinese-SimpleQA (Pass@1) | 71.5 | 73.2 | 78.9 | 75.8 | 77.7 | \\*\\*84.4\\*\\* | | GPQA Diamond (Pass@1) | 71.2 | 87.4 | 88.1 | 72.9 | 89.1 | \\*\\*90.1\\*\\* | | HLE (Pass@1) | 8.1 | 29.4 | 34.8 | 7.7 | 34.5 | \\*\\*37.7\\*\\* | | LiveCodeBench (Pass@1) | 55.2 | 88.4 | 91.6 | 56.8 | 89.8 | \\*\\*93.5\\*\\* | | Codeforces (Rating) | - | 2816 | 3052 | - | 2919 | \\*\\*3206\\*\\* | | HMMT 2026 Feb (Pass@1) | 40.8 | 91.9 | 94.8 | 31.7 | 94.0 | \\*\\*95.2\\*\\* | | IMOAnswerBench (Pass@1) | 41.9 | 85.1 | 88.4 | 35.3 | 88.0 | \\*\\*89.8\\*\\* | | Apex (Pass@1) | 1.0 | 19.1 | 33.0 | 0.4 | 27.4 | \\*\\*38.3\\*\\* | | Apex Shortlist (Pass@1) | 9.3 | 72.1 | 85.7 | 9.2 | 85.5 | \\*\\*90.2\\*\\* | | \\*\\*Long Context\\*\\* | | | | | | | | MRCR 1M (MMR) | 37.5 | 76.9 | 78.7 | 44.7 | 83.3 | \\*\\*83.5\\*\\* | | CorpusQA 1M (ACC) | 15.5 | 59.3 | 60.5 | 35.6 | 56.5 | \\*\\*62.0\\*\\* | | \\*\\*Agentic\\*\\* | | | | | | | | Terminal Bench 2.0 (Acc) | 49.1 | 56.6 | 56.9 | 59.1 | 63.3 | \\*\\*67.9\\*\\* | | SWE Verified (Resolved) | 73.7 | 78.6 | 79.0 | 73.6 | 79.4 | \\*\\*80.6\\*\\* | | SWE Pro (Resolved) | 49.1 | 52.3 | 52.6 | 52.1 | 54.4 | \\*\\*55.4\\*\\* | | SWE Multilingual (Resolved) | 69.7 | 70.2 | 73.3 | 69.8 | 74.1 | \\*\\*76.2\\*\\* | | BrowseComp (Pass@1) | - | 53.5 | 73.2 | - | 80.4 | \\*\\*83.4\\*\\* | | HLE w/ tools (Pass@1) | - | 40.3 | 45.1 | - | 44.7 | \\*\\*48.2\\*\\* | | MCPAtlas (Pass@1) | 64.0 | 67.4 | 69.0 | 69.4 | \\*\\*74.2\\*\\* | 73.6 | | GDPval-AA (Elo) | - | - | 1395 | - | - | \\*\\*1554\\*\\* | | Toolathlon (Pass@1) | 40.7 | 43.5 | 47.8 | 46.3 | 49.0 | \\*\\*51.8\\*\\* | ### Reference \\[DeepSeek-V4 technical report\\](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash/blob/main/DeepSeek\\_V4.pdf) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
@@ -2939,7 +2939,7 @@
     "name": "glm-5.2",
     "link": "https://ollama.com/library/glm-5.2",
     "description": "GLM-5.2 is Z.ai’s flagship model for the era of long-horizon tasks.",
-    "pullCount": "202K",
+    "pullCount": "206.1K",
     "updated": "3 weeks ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -2963,7 +2963,7 @@
     "name": "command-r7b-arabic",
     "link": "https://ollama.com/library/command-r7b-arabic",
     "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
-    "pullCount": "196.4K",
+    "pullCount": "196.5K",
     "updated": "1 year ago",
     "size": [
       "7b"
@@ -2976,7 +2976,7 @@
     "name": "functiongemma",
     "link": "https://ollama.com/library/functiongemma",
     "description": "FunctionGemma is a specialized version of Google's Gemma 3 270M model fine-tuned explicitly for function calling.",
-    "pullCount": "171.5K",
+    "pullCount": "171.6K",
     "updated": "6 months ago",
     "size": null,
     "capabilities": "tools",
@@ -2987,7 +2987,7 @@
     "name": "mistral-medium-3.5",
     "link": "https://ollama.com/library/mistral-medium-3.5",
     "description": "Mistral Medium 3.5 is the first flagship model of Mistral AI that merged instruction-following, reasoning, and coding in a single set of 128B weights.",
-    "pullCount": "163.3K",
+    "pullCount": "166.8K",
     "updated": "2 months ago",
     "size": [
       "128b"
@@ -3000,7 +3000,7 @@
     "name": "medgemma",
     "link": "https://ollama.com/library/medgemma",
     "description": "MedGemma is a collection of Gemma 3 variants that are trained for performance on medical text and image comprehension.",
-    "pullCount": "152.4K",
+    "pullCount": "156K",
     "updated": "2 months ago",
     "size": [
       "4b",
@@ -3014,7 +3014,7 @@
     "name": "gpt-oss-safeguard",
     "link": "https://ollama.com/library/gpt-oss-safeguard",
     "description": "gpt-oss-safeguard-20b and gpt-oss-safeguard-120b are safety reasoning models built-upon gpt-oss",
-    "pullCount": "147.2K",
+    "pullCount": "147.3K",
     "updated": "8 months ago",
     "size": [
       "20b",
@@ -3028,7 +3028,7 @@
     "name": "nemotron-cascade-2",
     "link": "https://ollama.com/library/nemotron-cascade-2",
     "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
-    "pullCount": "131.7K",
+    "pullCount": "132K",
     "updated": "3 months ago",
     "size": [
       "30b"
@@ -3041,29 +3041,18 @@
     "name": "kimi-k2.7-code",
     "link": "https://ollama.com/library/kimi-k2.7-code",
     "description": "Kimi K2.7 Code is Moonshot AI's coding-focused agentic model built upon Kimi K2.6, with substantial improvements on real-world long-horizon coding tasks and roughly 30% lower thinking-token usage.",
-    "pullCount": "111K",
-    "updated": "4 weeks ago",
+    "pullCount": "116.1K",
+    "updated": "1 month ago",
     "size": null,
     "capabilities": "visiontoolsthinking",
     "readme": "## Readme\n\n![](/assets/library/kimi-k2.5/3e4026fd-dc73-4a59-9322-7f015a92925e)\n\nKimi K2.7 Code is a coding-focused agentic model built upon Kimi K2.6\\. With substantial improvements on real-world long-horizon coding tasks, it strengthens end-to-end task completion across complex software engineering workflows while improving token efficiency, reducing thinking-token usage by approximately 30% compared with Kimi K2.6.\n\n### Key Features\n\n* **Long-horizon coding**: Substantial gains on realistic, end-to-end software engineering tasks across 10+ programming languages and a full production tech stack, spanning backend services, infrastructure, performance engineering, systems programming, security, frontend, and ML/data engineering.\n* **Improved token efficiency**: Reduces thinking-token usage by approximately 30% compared with Kimi K2.6, while improving task completion on complex workflows.\n* **Stronger agentic tool use**: Improved performance on multi-step tool calling and MCP-based environments, with interleaved thinking preserved across turns (`preserve_thinking`) for coherent multi-step coding sessions.\n* **Native multimodal**: Supports image and video input via the MoonViT vision encoder, with a 256K token context window.\n\n### Benchmarks\n\n| Benchmark            | Kimi K2.6 | Kimi K2.7 Code | GPT-5.5 | Claude Opus 4.8 |\n| -------------------- | --------- | -------------- | ------- | --------------- |\n| **Coding**           |           |                |         |                 |\n| Kimi Code Bench v2   | 50.9      | 62.0           | 69.0    | 67.4            |\n| Program Bench        | 48.3      | 53.6           | 69.1    | 63.8            |\n| MLS Bench Lite       | 26.7      | 35.1           | 35.5    | 42.8            |\n| **Agentic**          |           |                |         |                 |\n| Kimi Claw 24⁄7 Bench | 42.9      | 46.9           | 52.8    | 50.4            |\n| MCP Atlas            | 69.4      | 76.0           | 79.4    | 81.3            |\n| MCP Mark Verified    | 72.8      | 81.1           | 92.9    | 76.4            |\n\n### Reference\n\n* [Hugging Face](https://huggingface.co/moonshotai/Kimi-K2.7-Code)\n\nWrite Preview \n\n<img src=\"/assets/library/kimi-k2.5/3e4026fd-dc73-4a59-9322-7f015a92925e\" width=\"180\" /> Kimi K2.7 Code is a coding-focused agentic model built upon Kimi K2.6\\. With substantial improvements on real-world long-horizon coding tasks, it strengthens end-to-end task completion across complex software engineering workflows while improving token efficiency, reducing thinking-token usage by approximately 30% compared with Kimi K2.6\\. ### Key Features - \\*\\*Long-horizon coding\\*\\*: Substantial gains on realistic, end-to-end software engineering tasks across 10+ programming languages and a full production tech stack, spanning backend services, infrastructure, performance engineering, systems programming, security, frontend, and ML/data engineering. - \\*\\*Improved token efficiency\\*\\*: Reduces thinking-token usage by approximately 30% compared with Kimi K2.6, while improving task completion on complex workflows. - \\*\\*Stronger agentic tool use\\*\\*: Improved performance on multi-step tool calling and MCP-based environments, with interleaved thinking preserved across turns (\\`preserve\\_thinking\\`) for coherent multi-step coding sessions. - \\*\\*Native multimodal\\*\\*: Supports image and video input via the MoonViT vision encoder, with a 256K token context window. ### Benchmarks | Benchmark | Kimi K2.6 | Kimi K2.7 Code | GPT-5.5 | Claude Opus 4.8 | | -------------------- | --------- | -------------- | ------- | --------------- | | \\*\\*Coding\\*\\* | | | | | | Kimi Code Bench v2 | 50.9 | 62.0 | 69.0 | 67.4 | | Program Bench | 48.3 | 53.6 | 69.1 | 63.8 | | MLS Bench Lite | 26.7 | 35.1 | 35.5 | 42.8 | | \\*\\*Agentic\\*\\* | | | | | | Kimi Claw 24/7 Bench | 42.9 | 46.9 | 52.8 | 50.4 | | MCP Atlas | 69.4 | 76.0 | 79.4 | 81.3 | | MCP Mark Verified | 72.8 | 81.1 | 92.9 | 76.4 | ### Reference - \\[Hugging Face\\](https://huggingface.co/moonshotai/Kimi-K2.7-Code) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
     "tags": []
   },
   {
-    "name": "mistral-large-3",
-    "link": "https://ollama.com/library/mistral-large-3",
-    "description": "A general-purpose multimodal mixture-of-experts model for production-grade tasks and enterprise workloads.",
-    "pullCount": "73.5K",
-    "updated": "7 months ago",
-    "size": null,
-    "capabilities": "visiontools",
-    "readme": "## Readme\n\n![](/assets/library/ministral-3/83fa3859-d87f-492c-bd81-596cfbceeccb)\n\nMistral Large 3 is a state-of-the-art general-purpose Multimodal Mixture-of-Experts model, designed for production-grade tasks and enterprise workloads.\n\nThe Mistral Large 3 model offers the following capabilities:\n\n* **Vision**: Enables the model to analyze images and provide insights based on visual content, in addition to text.\n* **Multilingual**: Supports dozens of languages, including English, French, Spanish, German, Italian, Portuguese, Dutch, Chinese, Japanese, Korean, Arabic.\n* **System Prompt**: Maintains strong adherence and support for system prompts.\n* **Agentic**: Offers best-in-class agentic capabilities with native function calling and JSON outputting.\n* **Frontier**: Delivers best-in-class performance for the most demanding tasks.\n* **Apache 2.0 License**: Open-source license allowing usage and modification for both commercial and non-commercial purposes.\n* **Large Context Window**: Supports a 256k context window.\n\n![benchmarks](/assets/library/mistral-large-3/46298ae1-b1c6-4298-b825-8aae46123d63)\n\nWrite Preview \n\n<img src=\"/assets/library/ministral-3/83fa3859-d87f-492c-bd81-596cfbceeccb\" width=\"120\" /> Mistral Large 3 is a state-of-the-art general-purpose Multimodal Mixture-of-Experts model, designed for production-grade tasks and enterprise workloads. The Mistral Large 3 model offers the following capabilities: \\* \\*\\*Vision\\*\\*: Enables the model to analyze images and provide insights based on visual content, in addition to text. \\* \\*\\*Multilingual\\*\\*: Supports dozens of languages, including English, French, Spanish, German, Italian, Portuguese, Dutch, Chinese, Japanese, Korean, Arabic. \\* \\*\\*System Prompt\\*\\*: Maintains strong adherence and support for system prompts. \\* \\*\\*Agentic\\*\\*: Offers best-in-class agentic capabilities with native function calling and JSON outputting. \\* \\*\\*Frontier\\*\\*: Delivers best-in-class performance for the most demanding tasks. \\* \\*\\*Apache 2.0 License\\*\\*: Open-source license allowing usage and modification for both commercial and non-commercial purposes. \\* \\*\\*Large Context Window\\*\\*: Supports a 256k context window. !\\[benchmarks\\](/assets/library/mistral-large-3/46298ae1-b1c6-4298-b825-8aae46123d63) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
-    "tags": []
-  },
-  {
     "name": "medgemma1.5",
     "link": "https://ollama.com/library/medgemma1.5",
     "description": "MedGemma 1.5 4B is an updated version of the MedGemma 4B model.",
-    "pullCount": "72.9K",
+    "pullCount": "74.5K",
     "updated": "2 months ago",
     "size": [
       "4b"
@@ -3073,10 +3062,21 @@
     "tags": []
   },
   {
+    "name": "mistral-large-3",
+    "link": "https://ollama.com/library/mistral-large-3",
+    "description": "A general-purpose multimodal mixture-of-experts model for production-grade tasks and enterprise workloads.",
+    "pullCount": "73.9K",
+    "updated": "7 months ago",
+    "size": null,
+    "capabilities": "visiontools",
+    "readme": "## Readme\n\n![](/assets/library/ministral-3/83fa3859-d87f-492c-bd81-596cfbceeccb)\n\nMistral Large 3 is a state-of-the-art general-purpose Multimodal Mixture-of-Experts model, designed for production-grade tasks and enterprise workloads.\n\nThe Mistral Large 3 model offers the following capabilities:\n\n* **Vision**: Enables the model to analyze images and provide insights based on visual content, in addition to text.\n* **Multilingual**: Supports dozens of languages, including English, French, Spanish, German, Italian, Portuguese, Dutch, Chinese, Japanese, Korean, Arabic.\n* **System Prompt**: Maintains strong adherence and support for system prompts.\n* **Agentic**: Offers best-in-class agentic capabilities with native function calling and JSON outputting.\n* **Frontier**: Delivers best-in-class performance for the most demanding tasks.\n* **Apache 2.0 License**: Open-source license allowing usage and modification for both commercial and non-commercial purposes.\n* **Large Context Window**: Supports a 256k context window.\n\n![benchmarks](/assets/library/mistral-large-3/46298ae1-b1c6-4298-b825-8aae46123d63)\n\nWrite Preview \n\n<img src=\"/assets/library/ministral-3/83fa3859-d87f-492c-bd81-596cfbceeccb\" width=\"120\" /> Mistral Large 3 is a state-of-the-art general-purpose Multimodal Mixture-of-Experts model, designed for production-grade tasks and enterprise workloads. The Mistral Large 3 model offers the following capabilities: \\* \\*\\*Vision\\*\\*: Enables the model to analyze images and provide insights based on visual content, in addition to text. \\* \\*\\*Multilingual\\*\\*: Supports dozens of languages, including English, French, Spanish, German, Italian, Portuguese, Dutch, Chinese, Japanese, Korean, Arabic. \\* \\*\\*System Prompt\\*\\*: Maintains strong adherence and support for system prompts. \\* \\*\\*Agentic\\*\\*: Offers best-in-class agentic capabilities with native function calling and JSON outputting. \\* \\*\\*Frontier\\*\\*: Delivers best-in-class performance for the most demanding tasks. \\* \\*\\*Apache 2.0 License\\*\\*: Open-source license allowing usage and modification for both commercial and non-commercial purposes. \\* \\*\\*Large Context Window\\*\\*: Supports a 256k context window. !\\[benchmarks\\](/assets/library/mistral-large-3/46298ae1-b1c6-4298-b825-8aae46123d63) \n\n Paste, drop or click to upload images (.png, .jpeg, .jpg, .svg, .gif) ",
+    "tags": []
+  },
+  {
     "name": "lfm2.5",
     "link": "https://ollama.com/library/lfm2.5",
     "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
-    "pullCount": "47K",
+    "pullCount": "47.6K",
     "updated": "1 month ago",
     "size": [
       "8b"
@@ -3089,7 +3089,7 @@
     "name": "laguna-xs-2.1",
     "link": "https://ollama.com/library/laguna-xs-2.1",
     "description": "Laguna XS 2.1 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine.",
-    "pullCount": "23.7K",
+    "pullCount": "27.5K",
     "updated": "1 week ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -3100,7 +3100,7 @@
     "name": "nemotron-3-ultra",
     "link": "https://ollama.com/library/nemotron-3-ultra",
     "description": "NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.",
-    "pullCount": "23.4K",
+    "pullCount": "23.7K",
     "updated": "1 month ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -3111,7 +3111,7 @@
     "name": "north-mini-code-1.0",
     "link": "https://ollama.com/library/north-mini-code-1.0",
     "description": "North Mini Code is Cohere's first model for developers — a 30B Mixture-of-Experts model with 3B active parameters, built for agentic software engineering.",
-    "pullCount": "22.7K",
+    "pullCount": "23.3K",
     "updated": "3 weeks ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -3122,7 +3122,7 @@
     "name": "laguna-xs.2",
     "link": "https://ollama.com/library/laguna-xs.2",
     "description": "Laguna XS.2 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine.",
-    "pullCount": "20.6K",
+    "pullCount": "20.7K",
     "updated": "2 months ago",
     "size": null,
     "capabilities": "toolsthinking",
@@ -3133,7 +3133,7 @@
     "name": "minicpm-v4.6",
     "link": "https://ollama.com/library/minicpm-v4.6",
     "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-    "pullCount": "14.6K",
+    "pullCount": "15K",
     "updated": "1 month ago",
     "size": [
       "1b"
@@ -3146,7 +3146,7 @@
     "name": "minicpm-v4.5",
     "link": "https://ollama.com/library/minicpm-v4.5",
     "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-    "pullCount": "10.6K",
+    "pullCount": "10.9K",
     "updated": "1 month ago",
     "size": [
       "8b"
@@ -3159,7 +3159,7 @@
     "name": "granite4.1-guardian",
     "link": "https://ollama.com/library/granite4.1-guardian",
     "description": "Granite Guardian 4.1 is a specialized safety and judging model from IBM Research that evaluates whether LLM prompts and responses meet specified harm criteria.",
-    "pullCount": "3,379",
+    "pullCount": "3,554",
     "updated": "1 month ago",
     "size": [
       "8b"
