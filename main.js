@@ -56,7 +56,7 @@ async function getModelDetails(modelName) {
 
   // Extract additional details
   details.pullCount = $("span[x-test-pull-count]").text().trim();
-  details.updated = $("span[x-test-updated]").text().trim();
+  details.updated = $('span').filter(function() { return $(this).html() === 'Updated&nbsp;'; }).parent().attr('title');
   details.size = $("span[x-test-size]")
     .text()
     .trim()
