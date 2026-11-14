@@ -1,3 +1,4 @@
+
 name: Update Ollama Models
 
 on:
@@ -7,14 +8,33 @@ on:
 
   workflow_dispatch: # 手動実行も可能にする
 
+permissions:
+  contents: read
+
+concurrency:
+  group: update-ollama-models
+  cancel-in-progress: false
+
 jobs:
   update-model-json:
     runs-on: ubuntu-latest
 
     steps:
-      # リポジトリをクローン
+      # GitHub Appのアクセストークンを生成
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      # リポジトリをクローン（GitHub Appのトークンを使用）
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+          token: ${{ steps.app-token.outputs.token }}
+          persist-credentials: true
 
       # Node.js をセットアップ
       - name: Setup Node.js
@@ -32,10 +52,21 @@ jobs:
 
       # 変更があればコミット＆プッシュ
       - name: Commit and push changes
+        env:
+          APP_SLUG: ${{ steps.app-token.outputs.app-slug }}
+          APP_USER_ID: ${{ steps.app-token.outputs.app-user-id }}
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "${APP_SLUG}[bot]"
+          git config user.email \
+            "${APP_USER_ID}+${APP_SLUG}[bot]@users.noreply.github.com"
+
           git add docs/model.json
           git status
-          git commit -m "Update model.json for GitHub Pages" || echo "No changes to commit"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update model.json for GitHub Pages"
+          git push origin HEAD:main
